@@ -1,0 +1,35 @@
+title = "Transfer Learning to adapt 5G AI-based Fingerprint Localization across Environments"
+authors = ["Maximilian Stahlke", "Tobias Feigl", "Mario H Castañeda García", "Richard A Stirling-Gallacher", "Jochen Seitz", "Christopher Mutschler"]
+date = "2022-01-01"
+venue = "2022 IEEE 95th Vehicular Technology Conference: (VTC2022-Spring)"
+detail_url = "/publication/transfer-learning-to-adapt-5g-ai-based-fingerprint-localization-across-environments/"
+profiles = ["christopher-mutschler"]
+doi = "https://doi.org/10.1109/VTC2022-Spring54318.2022.9860906"
+abstract = "We propose a transfer learning (TL) method that exploits realistic synthetic Channel State Information (CSI) obtained with the Quasi Deterministic Radio channel Generator (QuaDRiGa), used to pre-train the CNN-based fingerprint model so that it can be adapted to any real (NLoS) propagation scenario with a low number of real training samples. Our experiments show that the positioning accuracy using fine-tuning improves by 37% in changed and by 19% in new environments."
+bibtex = '''
+@INPROCEEDINGS{9860906,
+  author={Stahlke, Maximilian and Feigl, Tobias and García, Mario H. Castañeda and Stirling-Gallacher, Richard A. and Seitz, Jochen and Mutschler, Christopher},
+  booktitle={2022 IEEE 95th Vehicular Technology Conference: (VTC2022-Spring)}, 
+  title={Transfer Learning to adapt 5G AI-based Fingerprint Localization across Environments}, 
+  year={2022},
+  volume={},
+  number={},
+  pages={1-5},
+  keywords={Training;Vehicular and wireless technologies;5G mobile communication;Transfer learning;Data acquisition;Training data;Fingerprint recognition;CSI;QuaDRiGa;Transfer Learning;CNN},
+  doi={10.1109/VTC2022-Spring54318.2022.9860906}}'''
+
+[links]
+Website = "https://ieeexplore.ieee.org/abstract/document/9860906/"
+
+[image]
+src = "/wp-content/uploads/2026/09/stahl2-PID2022000173-large-300x105.gif"
+alt = ""
+width = 300
+height = 105
+sizes = "(max-width: 300px) 100vw, 300px"
+class = "attachment-medium size-medium"
+
+[image.sources]
+300w = "/wp-content/uploads/2026/09/stahl2-PID2022000173-large-300x105.gif"
+768w = "/wp-content/uploads/2026/09/stahl2-PID2022000173-large-768x270.gif"
+820w = "/wp-content/uploads/2026/09/stahl2-PID2022000173-large.gif"

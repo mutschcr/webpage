@@ -1,0 +1,22 @@
+title = "SCIM MILQ: An HPC Quantum Scheduler"
+authors = ["Philipp Seitz", "Manuel Geiger", "Christian Ufrecht", "Axel Plinge", "Christopher Mutschler", "Daniel D Scherer", "Christian B Mendl"]
+date = "2024-01-01"
+venue = "2024 IEEE International Conference on Quantum Computing and Engineering (QCE)"
+detail_url = "/publication/scim-milq-an-hpc-quantum-scheduler/"
+profiles = ["christopher-mutschler"]
+doi = "https://doi.org/10.1109/QCE60285.2024.10294"
+abstract = "SCIM MILQ is a scheduler for quantum tasks in HPC infrastructure. It combines well-established scheduling techniques with methods unique to quantum computing, such as circuit cutting. SCIM MILQ can schedule tasks while minimizing the makespan, i.e., the time that elapses from the start of work to the end, improving on average by 25 %. Additionally, it reduces the noise in the circuit by up to 10 %, increasing the outcome's reliability. We compare it against an existing baseline and show its viability in an HPC environment."
+bibtex = '''
+@INPROCEEDINGS{10821104,
+  author={Seitz, Philipp and Geiger, Manuel and Ufrecht, Christian and Plinge, Axel and Mutschler, Christopher and Scherer, Daniel D. and Mendl, Christian B.},
+  booktitle={2024 IEEE International Conference on Quantum Computing and Engineering (QCE)}, 
+  title={SCIM MILQ: An HPC Quantum Scheduler}, 
+  year={2024},
+  volume={02},
+  number={},
+  pages={292-298},
+  keywords={Measurement;Schedules;Quantum computing;Processor scheduling;Computational modeling;High performance computing;Noise;Integrated circuit modeling;Integrated circuit reliability;Optimization;Quantum Computing;High Performance Computing;Scheduling},
+  doi={10.1109/QCE60285.2024.10294}}'''
+
+[links]
+Website = "https://ieeexplore.ieee.org/abstract/document/10821104"

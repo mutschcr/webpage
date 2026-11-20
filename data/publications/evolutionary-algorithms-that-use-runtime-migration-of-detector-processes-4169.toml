@@ -1,0 +1,34 @@
+title = "Evolutionary Algorithms that use Runtime Migration of Detector Processes to reduce Latency in Event-based Systems"
+authors = ["Christoffer Löffler", "Christopher Mutschler", "Michael Philippsen"]
+date = "2013-01-01"
+venue = "2013 NASA/ESA Conference on Adaptive Hardware and Systems (AHS)"
+detail_url = "/publication/evolutionary-algorithms-that-use-runtime-migration-of-detector-processes-to-reduce-latency-in-event-based-systems/"
+profiles = ["christopher-mutschler"]
+pdf_url = "https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=6604223"
+doi = "https://doi.org/10.1109/AHS.2013.6604223"
+bibtex = '''
+@INPROCEEDINGS{6604223,
+  author={Löffler, Christoffer and Mutschler, Christopher and Philippsen, Michael},
+  booktitle={2013 NASA/ESA Conference on Adaptive Hardware and Systems (AHS-2013)}, 
+  title={Evolutionary algorithms that use runtime migration of detector processes to reduce latency in event-based systems}, 
+  year={2013},
+  volume={},
+  number={},
+  pages={31-38},
+  keywords={Detectors;Resource management;Runtime;Optimization;Birds;Robot sensing systems;Middleware;Heuristics;Evolutionary Algorithms;Particle Swarm Optimization;Publish/Subscribe;Distributed Computing},
+  doi={10.1109/AHS.2013.6604223}}'''
+
+[links]
+Website = "https://ieeexplore.ieee.org/abstract/document/6604223/"
+
+[image]
+src = "/wp-content/uploads/2026/10/Bildschirmfoto-2026-10-15-um-21.29.13-300x148.png"
+alt = ""
+width = 300
+height = 148
+sizes = "(max-width: 300px) 100vw, 300px"
+class = "attachment-medium size-medium"
+
+[image.sources]
+300w = "/wp-content/uploads/2026/10/Bildschirmfoto-2026-10-15-um-21.29.13-300x148.png"
+304w = "/wp-content/uploads/2026/10/Bildschirmfoto-2026-10-15-um-21.29.13.png"

@@ -1,0 +1,36 @@
+title = "Constrained Reinforcement Learning Using Successor Representations"
+authors = ["Michael Girstl", "Alexander Mattick", "Christopher Mutschler"]
+date = "2026-01-01"
+venue = "Transactions on Machine Learning Research (TMLR)"
+detail_url = "/publication/3713/"
+profiles = ["alexander-mattick", "christopher-mutschler"]
+pdf_url = "https://openreview.net/pdf?id=6zUq7knzwA"
+abstract = "We propose the Safe Deep Successor Representation (SafeDSR), a novel method that allows quick retraining of policies towards new cost structures. SafeDSR extends the Deep Successor Representation to Constrained Reinforcement Learning by introducing a single learnable weight matrix to decouple the learned value function across dynamics, rewards, and costs."
+bibtex = '''
+@article{
+girstl2026constrained,
+title={Constrained Reinforcement Learning Using Successor Representations},
+author={Michael Girstl and Alexander Mattick and Christopher Mutschler},
+journal={Transactions on Machine Learning Research},
+issn={2835-8856},
+year={2026},
+url={https://openreview.net/forum?id=6zUq7knzwA},
+note={}
+}'''
+
+[links]
+Website = "https://openreview.net/forum?id=6zUq7knzwA"
+Code = "https://github.com/mgirstl/safedsr"
+
+[image]
+src = "/wp-content/uploads/2026/09/2026_TMLR-girstl-300x203.png"
+alt = ""
+width = 300
+height = 203
+sizes = "(max-width: 300px) 100vw, 300px"
+class = "attachment-medium size-medium"
+
+[image.sources]
+300w = "/wp-content/uploads/2026/09/2026_TMLR-girstl-300x203.png"
+768w = "/wp-content/uploads/2026/09/2026_TMLR-girstl-768x520.png"
+899w = "/wp-content/uploads/2026/09/2026_TMLR-girstl.png"

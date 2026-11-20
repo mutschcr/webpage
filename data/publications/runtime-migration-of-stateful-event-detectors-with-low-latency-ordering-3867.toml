@@ -1,0 +1,22 @@
+title = "Runtime Migration of Stateful Event Detectors with Low-Latency Ordering Constraints"
+authors = ["Christopher Mutschler", "Michael Philippsen"]
+date = "2013-01-01"
+venue = "2013 IEEE International Conference on Pervasive Computing and Communications Workshops (PERCOM Workshops)"
+detail_url = "/publication/runtime-migration-of-stateful-event-detectors-with-low-latency-ordering-constraints/"
+profiles = ["christopher-mutschler"]
+doi = "https://doi.org/10.1109/PerComW.2013.6529567"
+abstract = "This paper presents a safe runtime migration of stateful event detectors that respects low-latency time-constraints and seamlessly orders input events correctly on the migrated host. Event streams are only forwarded until timing delays are properly calibrated, the migrated event detector immediately stops processing after its state is transferred, and the processing overhead is negligible. On a Realtime Locating System (RTLS) we show that we can efficiently migrate event detectors at runtime between servers where other techniques would fail."
+bibtex = '''
+@INPROCEEDINGS{6529567,
+  author={Mutschler, Christopher and Philippsen, Michael},
+  booktitle={2013 IEEE International Conference on Pervasive Computing and Communications Workshops (PERCOM Workshops)}, 
+  title={Runtime migration of stateful event detectors with low-latency ordering constraints}, 
+  year={2013},
+  volume={},
+  number={},
+  pages={609-614},
+  keywords={Delays;Runtime;Out of order;Handover;Detectors;Middleware},
+  doi={10.1109/PerComW.2013.6529567}}'''
+
+[links]
+Website = "https://ieeexplore.ieee.org/abstract/document/6529567"

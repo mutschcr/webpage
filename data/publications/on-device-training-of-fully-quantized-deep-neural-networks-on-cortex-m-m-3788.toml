@@ -1,0 +1,34 @@
+title = "On-Device Training of Fully Quantized Deep Neural Networks on Cortex-M Microcontrollers"
+authors = ["Mark Deutel", "Frank Hannig", "Christopher Mutschler", "Jürgen Teich"]
+date = "2024-01-01"
+venue = "IEEE Transactions on Computer-Aided Design of Integrated Circuits and Systems (TCAD)"
+detail_url = "/publication/on-device-training-of-fully-quantized-deep-neural-networks-on-cortex-m-microcontrollers/"
+profiles = ["christopher-mutschler", "mark-deutel"]
+doi = "https://doi.org/10.1109/TCAD.2024.3484354"
+abstract = "We present a method that enables efficient training of DNNs completely in place on the MCU using fully quantized training (FQT) and dynamic partial gradient updates. We demonstrate the feasibility of our approach on multiple vision and time-series datasets and provide insights into the tradeoff between training accuracy, memory overhead, energy, and latency on real hardware. The results show that compared to related work, our approach requires 34.8% less memory and has a 49.0% lower latency per training sample, with dynamic partial gradient updates allowing a speedup of up to 8.7 compared to fully updating all weights."
+bibtex = '''
+@ARTICLE{10726519,
+  author={Deutel, Mark and Hannig, Frank and Mutschler, Christopher and Teich, Jürgen},
+  journal={IEEE Transactions on Computer-Aided Design of Integrated Circuits and Systems}, 
+  title={On-Device Training of Fully Quantized Deep Neural Networks on Cortex-M Microcontrollers}, 
+  year={2025},
+  volume={44},
+  number={4},
+  pages={1250-1261},
+  keywords={Memory management;Tensors;Artificial neural networks;Random access memory;Quantization (signal);Design automation;Servers;Microcontrollers;Inference algorithms;Efficient AI;embedded machine learning;microcontrollers;on-device training;TinyML},
+  doi={10.1109/TCAD.2024.3484354}}'''
+
+[links]
+Website = "https://ieeexplore.ieee.org/abstract/document/10726519"
+
+[image]
+src = "/wp-content/uploads/2026/09/deute1-3484354-large-256x300.gif"
+alt = ""
+width = 256
+height = 300
+sizes = "(max-width: 256px) 100vw, 256px"
+class = "attachment-medium size-medium"
+
+[image.sources]
+256w = "/wp-content/uploads/2026/09/deute1-3484354-large-256x300.gif"
+699w = "/wp-content/uploads/2026/09/deute1-3484354-large.gif"

@@ -1,0 +1,194 @@
+<!doctype html>
+<html lang="en-US">
+<head>
+<meta charset="utf-8">
+<title>Stephan Geisler: Designing and training foundation models for positioning applications (FAU Erlangen-Nürnberg, 2024) – Machine Learning and Positioning Systems</title>
+<meta name="robots" content="max-image-preview:large">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="../assets/css/wp-img-auto-sizes-contain-0356978c0eb0.css">
+<link rel="stylesheet" href="../assets/css/wp-emoji-styles-f1b2bed85457.css">
+<link rel="stylesheet" href="../assets/css/wp-block-library-9077cbb97de5.css">
+<link rel="stylesheet" href="../assets/css/wp-block-heading-187c2a0a016f.css">
+<link rel="stylesheet" href="../assets/css/wp-block-list-942b2302016e.css">
+<link rel="stylesheet" href="../assets/css/wp-block-paragraph-622f970d1229.css">
+<link rel="stylesheet" href="../assets/css/classic-theme-styles-dcd9f488bd62.css">
+<link rel="stylesheet" href="../assets/css/global-styles-ad322089e4f0.css">
+<link rel="stylesheet" href="../assets/theme/wp-content/plugins/show-hidecollapse-expand/assets/css/genericons/genericons.css" media="all">
+<link rel="stylesheet" href="../assets/theme/wp-content/plugins/show-hidecollapse-expand/assets/css/bg-show-hide.css" media="all">
+<link rel="stylesheet" href="../assets/theme/wp-content/plugins/wp-show-more/wpsm-style.css" media="all">
+<link rel="stylesheet" href="../assets/theme/wp-content/themes/sinatra/assets/css/style.min.css" media="all">
+<link rel="stylesheet" href="../assets/theme/wp-content/uploads/sinatra/dynamic-styles.css" media="all">
+<link rel="stylesheet" href="../assets/theme/wp-content/plugins/simple-social-icons/css/style.css" media="all">
+<link rel="stylesheet" href="../assets/theme/wp-content/plugins/a3-lazy-load/assets/css/jquery.lazyloadxt.spinner.css" media="all">
+<meta name="theme-color" content="#1df900">
+<link rel="icon" href="../wp-content/uploads/2026/06/cropped-cropped-mlps-logo_utn-scaled-1-32x32.png" sizes="32x32">
+<link rel="icon" href="../wp-content/uploads/2026/06/cropped-cropped-mlps-logo_utn-scaled-1-192x192.png" sizes="192x192">
+<link rel="apple-touch-icon" href="../wp-content/uploads/2026/06/cropped-cropped-mlps-logo_utn-scaled-1-180x180.png">
+<meta name="msapplication-TileImage" content="../wp-content/uploads/2026/06/cropped-cropped-mlps-logo_utn-scaled-1-270x270.png">
+<link rel="stylesheet" href="../assets/theme/wp-content/plugins/inline-text-popup/src/style.css" media="all">
+<link rel="canonical" href="https://mlps-lab.de/stephan-geisler-designing-and-training-foundation-models-for-positioning-applications-fau-erlangen-nurnberg-2024/">
+<link rel="stylesheet" href="../assets/site.css">
+<script src="../assets/site.js" defer></script>
+</head>
+<body class="wp-singular post-template-default single single-post postid-2990 single-format-standard wp-custom-logo wp-embed-responsive wp-theme-sinatra sinatra-topbar__separators-regular sinatra-layout__fw-contained sinatra-header-layout-1 sinatra-menu-animation-underline sinatra-header__separators-none si-single-title-in-content narrow-content si-page-title-align-left sinatra-no-sidebar entry-media-hover-style-1 si-input-supported validate-comment-form si-menu-accessibility si-sticky-header">
+
+<div id="page" class="hfeed site">
+	<a class="skip-link screen-reader-text" href="#content">Skip to content</a>
+
+	<header id="masthead" class="site-header" role="banner" itemtype="https://schema.org/WPHeader" itemscope="itemscope">
+		<div id="sinatra-header">
+		<div id="sinatra-header-inner">
+	
+<div class="si-container si-header-container">
+
+<div class="sinatra-logo si-header-element" itemtype="https://schema.org/Organization" itemscope="itemscope">
+	<div class="logo-inner"><a href="../" rel="home" class="" itemprop="url">
+					<img src="../wp-content/uploads/2026/07/mlps-logo_utn.png" alt="Machine Learning and Positioning Systems" width="1642" height="230" srcset="../wp-content/uploads/2026/07/mlps-logo_utn.png 1x, ../wp-content/uploads/2026/07/mlps-logo_utn.png 2x" itemprop="logo">
+				</a></div>
+</div>
+<nav class="site-navigation main-navigation sinatra-primary-nav sinatra-nav si-header-element" role="navigation" itemtype="https://schema.org/SiteNavigationElement" itemscope="itemscope" aria-label="Site Navigation" aria-haspopup="true">
+<ul id="sinatra-primary-nav" class="menu">
+<li id="menu-item-3303" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-home menu-item-3303"><a href="../"><span>Home</span></a></li>
+<li id="menu-item-3074" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-3074"><a href="../team/"><span>Team</span></a></li>
+<li id="menu-item-2970" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2970"><a href="../publications/"><span>Publications</span></a></li>
+<li id="menu-item-4103" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-4103" aria-haspopup="true">
+<a href="../research/"><span>Research</span><svg class="si-icon" xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewbox="0 0 32 32"><path d="M24.958 10.483c-0.534-0.534-1.335-0.534-1.868 0l-7.074 7.074-7.074-7.074c-0.534-0.534-1.335-0.534-1.868 0s-0.534 1.335 0 1.868l8.008 8.008c0.267 0.267 0.667 0.4 0.934 0.4s0.667-0.133 0.934-0.4l8.008-8.008c0.534-0.534 0.534-1.335 0-1.868z"></path></svg></a>
+<ul class="sub-menu">
+	<li id="menu-item-3499" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-3499"><a href="../research-projects/"><span>Research Projects</span></a></li>
+	<li id="menu-item-3472" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-3472"><a href="../datasets/"><span>Datasets</span></a></li>
+</ul>
+</li>
+<li id="menu-item-4281" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-4281"><a href="../teaching/"><span>Teaching</span></a></li>
+<li id="menu-item-4298" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-4298"><a href="../theses/"><span>Theses &amp; Projects</span></a></li>
+</ul></nav><div class="si-header-widgets si-header-element sinatra-widget-location-right"></div>
+<span class="si-header-element si-mobile-nav">
+				<button class="si-hamburger hamburger--spin si-hamburger-sinatra-primary-nav" aria-label="Menu" aria-controls="sinatra-primary-nav" type="button">
+
+			<span class="hamburger-box">
+				<span class="hamburger-inner"></span>
+			</span>
+
+		</button>
+			</span>
+
+</div>
+</div>
+<div id="si-sticky-placeholder"></div>
+</div></header><div id="main" class="site-main">
+
+<div class="si-container">
+
+	<div id="primary" class="content-area">
+
+		<main id="content" class="site-content" role="main" itemscope="" itemtype="http://schema.org/Blog">
+
+<article id="post-2990" class="sinatra-article post-2990 post type-post status-publish format-standard hentry category-finished category-master-thesis category-student-projects" itemscope="" itemtype="https://schema.org/CreativeWork">
+
+<div class="post-category">
+
+	<span class="cat-links"><span class="screen-reader-text">Posted in</span><span><a href="../category/student-projects/status/finished/" rel="category tag">Finished</a> <a href="../category/student-projects/project-type/master-thesis/" rel="category tag">Master Thesis</a> <a href="../category/student-projects/" rel="category tag">Student-Projects</a></span></span>
+</div>
+
+<header class="entry-header">
+
+	<h1 class="entry-title" itemprop="headline">
+		Stephan Geisler: Designing and training foundation models for positioning applications (FAU Erlangen-Nürnberg, 2024)	</h1>
+
+</header>
+
+<div class="entry-content si-entry" itemprop="text">
+	
+<p class="wp-block-paragraph">Foundation models (like OpenAI’s GPT-4/ChatGPT [1] or Meta’s Llama 2 [2]) have been a disruptive technology that within just few months has started to transform the modus operandi of several industries. There have been already notable applications on tax/legal [3], public health [4] and computer code generation [5] domains, among others.</p>
+
+<p class="wp-block-paragraph">Despite their undeniable success, these models – even after being fine-tuned – are not a “one size fits them all” solution, as there are use cases (such as the positioning applications addressed in this Thesis [6]) that require a different line of thought. Here, an ideal solution/algorithm would inherently support multiple tasks during deployment, without the necessity of specialized fine-tuning:</p>
+
+<ol class="wp-block-list">
+<li>predict the current position of a user equipment (UE, e.g., a cell phone)</li>
+
+<li>given the current UE track, generate potential future positions (i.e., generate plausible future UE tracks)</li>
+
+<li>given a sequence of positions, generate the expected measurements (pure generative model)</li>
+
+<li>Given a UE track with measurements but with missing ground truth labels (true positions), infer the most probable sequence of positions for the missing parts</li>
+
+<li>given measurements and position predictions from positioning system X, provide an estimate on the achieved positioning accuracy of the system. </li>
+</ol>
+
+<p class="wp-block-paragraph">Even though notable efforts in the direction of semi-supervised learning/generative modeling for positioning systems exist [7], [8], a unified approach that can address all the above points is yet to be reported. </p>
+
+<p class="wp-block-paragraph">In the present Thesis, we take a radical approach and formulate the given positioning problem as an offline reinforcement learning (RL) setting that falls under the partially observable Markov decision process (POMDP) class [9]. Interestingly, in this setting, we can utilize novel approaches that suggest utilization of foundation models for the robust training of multi-task, offline RL agents [10], as a starting point. Here, the state space of the POMDP contains relevant information and measurements (e.g., LOS/NLOS conditions, coarse initial position, (compressed) channel input response (CIR) information, movement type, etc.) while actions and rewards are the predicted positions and the positioning error of the system respectively.</p>
+
+<p class="wp-block-paragraph">Our main hypothesis, that needs to be verified by the Thesis, is that by moving further from the “passive” positioning approach that relies on estimation theory towards a more “active” approach that treats the problem as a sequential decision making one, we can devise an algorithm (or a family of algorithms) that enables multi-task-aware training and addresses all five points/tasks of the ideal solution defined above.</p>
+
+<p class="wp-block-paragraph">For the training and evaluation of the algorithm, data from a specific area under different static (geometry) and dynamic (e.g., reflection properties, movement of UEs and obstacles, etc.) will be generated using QuaDRiGa [11]. The successful completion of the Thesis would demonstrate the efficiency of the developed algorithm in all different tasks defined above, under various UE/obstacle movement patterns and environment geometries. </p>
+
+<p class="wp-block-paragraph">The proposed work consists of the following parts:</p>
+
+<ul class="wp-block-list">
+<li>Literature review on sequence-based offline RL algorithms (1 month)</li>
+
+<li>Selection of proper/meaningful inputs for the model/algorithm and definition of training/test scenarios for all tasks to be addressed (1 month)</li>
+
+<li>Data generation for the training/evaluations and implementation of the equivalent OpenAI Gym/Gymnasium environments (0.5 months)</li>
+
+<li>Design of an experimental protocol for evaluating the effect of the different model parameters/properties (0.5 months)</li>
+
+<li>Experimental evaluation (2 months)</li>
+
+<li>Writing of thesis (1 month)</li>
+</ul>
+
+<p class="wp-block-paragraph">The thesis must contain a detailed description of all developed and used algorithms as well as a profound result evaluation and discussion. The implemented code must be documented and provided. </p>
+
+<p class="wp-block-paragraph"><strong>Advisors:</strong>       Dr.-Ing Christopher Mutschler (Fraunhofer IIS), Alexander Mattick (Fraunhofer IIS), Prof. Dr. Björn Eskofier (FAU)</p>
+
+<p class="wp-block-paragraph"><strong>Student:</strong>         Stephan Geisler</p>
+
+<p class="wp-block-paragraph"><strong>Start—End:</strong>    01.05.2024 – 31.10.2024</p>
+
+<h1 class="wp-block-heading">References<a></a>
+</h1>
+
+<ul class="wp-block-list">
+<li>
+<a>OpenAI (2023).</a> GPT-4 Technical Report. arXiv preprint arXiv: 2303.08774</li>
+
+<li><a>Touvron, H., Martin, L., Stone, K., Albert, P., Almahairi, A., Babaei, Y., … &amp; Scialom, T. (2023). Llama 2: Open foundation and fine-tuned chat models. arXiv preprint arXiv:2307.09288.</a></li>
+
+<li><a>Nay, J. J., Karamardian, D., Lawsky, S. B., Tao, W., Bhat, M., Jain, R., … &amp; Kasai, J. (2023). Large Language Models as Tax Attorneys: A Case Study in Legal Capabilities Emergence. arXiv preprint arXiv:2306.07075.</a></li>
+
+<li><a>Biswas, S. S. (2023). Role of chat gpt in public health. Annals of biomedical engineering, 51(5), 868-869.</a></li>
+
+<li><a>Rozière, B., Gehring, J., Gloeckle, F., Sootla, S., Gat, I., Tan, X. E., … &amp; Synnaeve, G. (2023). Code Llama: Open Foundation Models for Code. arXiv preprint arXiv:2308.12950.</a></li>
+
+<li><a>Corici, M. et al. (2022) Next-generation positioning within 6G: A Fraunhofer 6G white paper</a></li>
+
+<li><a>Studer, C., Medjkouh, S., Gonultaş, E., Goldstein, T., &amp; Tirkkonen, O. (2018). Channel charting: Locating users within the radio environment using channel state information. IEEE Access, 6, 47682-47698.</a></li>
+
+<li><a>Stahlke, M., Yammine, G., Feigl, T., Eskofier, B. M., &amp; Mutschler, C. (2023). Indoor localization with robust global channel charting: A time-distance-based approach. IEEE Transactions on Machine Learning in Communications and Networking.</a></li>
+
+<li><a>Kaelbling, L. P., Littman, M. L., &amp; Cassandra, A. R. (1998). Planning and acting in partially observable stochastic domains. Artificial intelligence, 101(1-2), 99-134.</a></li>
+</ul>
+
+<ul class="wp-block-list">
+<li>
+<a>Chen, L., Lu, K., Rajeswaran, A., Lee, K., Grover, A., Laskin, M., … </a>&amp; Mordatch, I. (2021). Decision transformer: Reinforcement learning via sequence modeling. Advances in neural information processing systems, 34, 15084-15097.</li>
+
+<li><a>Jaeckel, S., Raschkowski, L., Börner, K., &amp; Thiele, L. (2014). QuaDRiGa: A 3-D multi-cell channel model with time evolution for enabling virtual field trials. IEEE transactions on antennas and propagation, 62(6), 3242-3256.</a></li>
+</ul>
+</div>
+
+</article></main>
+</div>
+</div>
+</div>
+</div>
+<a href="#" id="si-scroll-top" class="si-smooth-scroll" title="Scroll to Top">
+	<span class="si-scroll-icon" aria-hidden="true">
+		<svg class="si-icon top-icon" xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewbox="0 0 32 32"><path d="M24.958 18.491l-8.008-8.008c-0.534-0.534-1.335-0.534-1.868 0l-8.008 8.008c-0.534 0.534-0.534 1.335 0 1.868s1.335 0.534 1.868 0l7.074-7.074 7.074 7.074c0.267 0.267 0.667 0.4 0.934 0.4s0.667-0.133 0.934-0.4c0.534-0.534 0.534-1.335 0-1.868z"></path></svg>		<svg class="si-icon" xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewbox="0 0 32 32"><path d="M24.958 18.491l-8.008-8.008c-0.534-0.534-1.335-0.534-1.868 0l-8.008 8.008c-0.534 0.534-0.534 1.335 0 1.868s1.335 0.534 1.868 0l7.074-7.074 7.074 7.074c0.267 0.267 0.667 0.4 0.934 0.4s0.667-0.133 0.934-0.4c0.534-0.534 0.534-1.335 0-1.868z"></path></svg>	</span>
+	<span class="screen-reader-text">Scroll to Top</span>
+</a>
+
+</body>
+</html>
+

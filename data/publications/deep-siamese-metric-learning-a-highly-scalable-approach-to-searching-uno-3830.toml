@@ -1,0 +1,43 @@
+title = "Deep Siamese Metric Learning: A Highly Scalable Approach to Searching Unordered Sets of Trajectories"
+authors = ["Christtofer Löffler", "Luca Reeb", "Daniel Dzibela", "Nicolas Marzilger", "Robert", "Witt", "Björn M. Eskofier", "Christopher Mutschler"]
+date = "2021-01-01"
+venue = "ACM Transactions on Intelligent Systems and Technology"
+detail_url = "/publication/deep-siamese-metric-learning-a-highly-scalable-approach-to-searching-unordered-sets-of-trajectories/"
+profiles = ["christopher-mutschler"]
+doi = "https://doi.org/10.1145/3465057"
+abstract = "We present a novel representation learning approach using Siamese Metric Learning that approximates a distance preserving low-dimensional representation and that learns to estimate reasonable solutions to the assignment problem. To this end, we employ a Temporal Convolutional Network architecture that we extend with a gating mechanism to enable learning from sparse data, leading to solutions to the assignment problem exhibiting varying degrees of sparsity."
+bibtex = '''
+@article{10.1145/3465057,
+author = {L{\"o}ffler, Christoffer and Reeb, Luca and Dzibela, Daniel and Marzilger, Robert and Witt, Nicolas and Eskofier, Bj{\"o}rn M. and Mutschler, Christopher},
+title = {Deep Siamese Metric Learning: A Highly Scalable Approach to Searching Unordered Sets of Trajectories},
+year = {2021},
+issue_date = {February 2022},
+publisher = {Association for Computing Machinery},
+address = {New York, NY, USA},
+volume = {13},
+number = {1},
+issn = {2157-6904},
+url = {https://doi.org/10.1145/3465057},
+doi = {10.1145/3465057},
+abstract = {This work proposes metric learning for fast similarity-based scene retrieval of unstructured ensembles of trajectory data from large databases. We present a novel representation learning approach using Siamese Metric Learning that approximates a distance preserving low-dimensional representation and that learns to estimate reasonable solutions to the assignment problem. To this end, we employ a Temporal Convolutional Network architecture that we extend with a gating mechanism to enable learning from sparse data, leading to solutions to the assignment problem exhibiting varying degrees of sparsity.Our experimental results on professional soccer tracking data provides insights on learned features and embeddings, as well as on generalization, sensitivity, and network architectural considerations. Our low approximation errors for learned representations and the interactive performance with retrieval times several magnitudes smaller shows that we outperform previous state of the art.},
+journal = {ACM Trans. Intell. Syst. Technol.},
+month = nov,
+articleno = {6},
+numpages = {23},
+keywords = {Siamese neural networks, assignment problem, metric learning}
+}'''
+
+[links]
+Website = "https://dl.acm.org/doi/full/10.1145/3465057"
+
+[image]
+src = "/wp-content/uploads/2026/09/tist1301-06-f10-300x82.jpg"
+alt = ""
+width = 300
+height = 82
+sizes = "(max-width: 300px) 100vw, 300px"
+class = "attachment-medium size-medium"
+
+[image.sources]
+300w = "/wp-content/uploads/2026/09/tist1301-06-f10-300x82.jpg"
+640w = "/wp-content/uploads/2026/09/tist1301-06-f10.jpg"

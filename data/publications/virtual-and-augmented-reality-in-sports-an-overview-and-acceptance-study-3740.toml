@@ -1,0 +1,41 @@
+title = "Virtual and Augmented Reality in Sports: An Overview and Acceptance Study"
+authors = ["Stefan Gradl", "Bjoern M Eskofier", "Dominic Eskofier", "Christopher Mutschler", "Stephan Otto"]
+date = "2016-01-01"
+venue = "ACM International Joint Conference on Pervasive and Ubiquitous Computing"
+detail_url = "/publication/virtual-and-augmented-reality-in-sports-an-overview-and-acceptance-study/"
+profiles = ["christopher-mutschler"]
+doi = "https://doi.org/10.1145/2968219.2968572"
+abstract = "We conducted an online survey among 227 athletes about the acceptance of virtual reality headsets for training in different kind of sport disciplines."
+bibtex = '''
+@inproceedings{10.1145/2968219.2968572,
+author = {Gradl, Stefan and Eskofier, Bjoern M. and Eskofier, Dominic and Mutschler, Christopher and Otto, Stephan},
+title = {Virtual and augmented reality in sports: an overview and acceptance study},
+year = {2016},
+isbn = {9781450344623},
+publisher = {Association for Computing Machinery},
+address = {New York, NY, USA},
+url = {https://doi.org/10.1145/2968219.2968572},
+doi = {10.1145/2968219.2968572},
+abstract = {The interest in virtual and augmented reality exploded during the last two years. We propose the use of these systems in the field of sports by combining this technology with a local area radio-based localization technology. This allows for novel application scenarios using virtual environments in team-based sports, which are outlined in this work. We conducted an online survey among 227 athletes about the acceptance of virtual reality headsets for training in different kind of sport disciplines.},
+booktitle = {Proceedings of the 2016 ACM International Joint Conference on Pervasive and Ubiquitous Computing: Adjunct},
+pages = {885–888},
+numpages = {4},
+keywords = {augmented reality, head-mounted displays, radio-based localization, sport, virtual reality, wearable devices},
+location = {Heidelberg, Germany},
+series = {UbiComp '16}
+}'''
+
+[links]
+Website = "https://dl.acm.org/doi/abs/10.1145/2968219.2968572"
+
+[image]
+src = "/wp-content/uploads/2026/09/2016_VR-300x254.png"
+alt = ""
+width = 300
+height = 254
+sizes = "(max-width: 300px) 100vw, 300px"
+class = "attachment-medium size-medium"
+
+[image.sources]
+300w = "/wp-content/uploads/2026/09/2016_VR-300x254.png"
+408w = "/wp-content/uploads/2026/09/2016_VR.png"

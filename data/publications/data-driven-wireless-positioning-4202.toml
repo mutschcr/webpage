@@ -1,0 +1,47 @@
+title = "Data-driven Wireless Positioning"
+authors = ["Maximilian Stahlke", "Tobias Feigl", "Sebastian Kram", "Jonathan Ott", "Jochen Seitz", "Christopher Mutschler"]
+date = "2024-01-01"
+venue = "Unlocking Artificial Intelligence: From Theory to Applications, Springer Nature"
+detail_url = "/publication/data-driven-wireless-positioning/"
+profiles = ["christopher-mutschler", "jonathan-ott"]
+pdf_url = "https://link.springer.com/content/pdf/10.1007/978-3-031-64832-8_10.pdf"
+doi = "https://doi.org/10.1007/978-3-031-64832-8_10"
+bibtex = '''
+@Inbook{Stahlke2024,
+author="Stahlke, Maximilian
+and Feigl, Tobias
+and Kram, Sebastian
+and Ott, Jonathan
+and Seitz, Jochen
+and Mutschler, Christopher",
+editor="Mutschler, Christopher
+and M{\"u}nzenmayer, Christian
+and Uhlmann, Norman
+and Martin, Alexander",
+title="Data-driven Wireless Positioning",
+bookTitle="Unlocking Artificial Intelligence: From Theory to Applications",
+year="2024",
+publisher="Springer Nature Switzerland",
+address="Cham",
+pages="199--213",
+abstract="Radio-based indoor localization is a crucial enabler for various tasks like robot navigation or quality assurance in industrial assembly. However, especially industrial environments often present challenging propagation conditions, with reflections, diffraction obstruction, and blockage. While traditional, lateration-based positioning algorithms can provide high accuracies in line-of-sight (LOS) conditions, signal blockages cause non-line-of-sight (NLOS) propagation and degrade the performance dramatically. To overcome this problems, recently artificial intelligence (AI)-driven localization algorithms have shown promising results and can provide robust and high localization performance in such challenging environments. In this chapter, we evaluate the performance of AI-models trained on radio fingerprints in various challenging industrial environments. We evaluate the accuracy and the effect of environmental changes on the localization performance and robustness. Our results show that environmental changes significantly degrade the performance, which leads to a high effort in maintenance, i.e., keeping the models up-to-date. We show how to combine classical lateration-based algorithms with data-driven models employing uncertainty estimation to reduce the the effort for initial deployment and maintenance for a more robust localization solution.",
+isbn="978-3-031-64832-8",
+doi="10.1007/978-3-031-64832-8_10",
+url="https://doi.org/10.1007/978-3-031-64832-8_10"
+}'''
+
+[links]
+Website = "https://link.springer.com/chapter/10.1007/978-3-031-64832-8_10#citeas"
+
+[image]
+src = "/wp-content/uploads/2026/10/Bildschirmfoto-2026-10-15-um-22.01.27-300x140.png"
+alt = ""
+width = 300
+height = 140
+sizes = "(max-width: 300px) 100vw, 300px"
+class = "attachment-medium size-medium"
+
+[image.sources]
+300w = "/wp-content/uploads/2026/10/Bildschirmfoto-2026-10-15-um-22.01.27-300x140.png"
+768w = "/wp-content/uploads/2026/10/Bildschirmfoto-2026-10-15-um-22.01.27-768x359.png"
+791w = "/wp-content/uploads/2026/10/Bildschirmfoto-2026-10-15-um-22.01.27.png"

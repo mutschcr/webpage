@@ -1,0 +1,52 @@
+title = "SafeMPO: Constrained Reinforcement Learning with Probabilistic Incremental Improvement"
+authors = ["Alexander Mattick", "Dominik Seuß", "Christopher Mutschler"]
+date = "2026-09-19"
+venue = "14th International Conference on Learning Representations (ICLR)"
+detail_url = "/publication/safempo-constrained-reinforcement-learning-with-probabilistic-incremental-improvement/"
+profiles = ["alexander-mattick", "christopher-mutschler"]
+pdf_url = "https://proceedings.iclr.cc/paper_files/paper/2026/file/1fa0c4e5a7e189729230d018b229abc7-Paper-Conference.pdf"
+abstract = "We propose SafeMPO, a constrained reinforcement learning framework that incorporates safety constraints directly into the policy optimization process through safety-aware policy updates. By jointly optimizing task performance and constraint satisfaction, SafeMPO improves policy learning while reducing safety violations and maintaining strong overall performance."
+bibtex = '''
+@inproceedings{ICLR2026_1fa0c4e5,
+  author = {Mattick, Alexander and Seu\ss , Dominik and Mutschler, Christopher},
+  booktitle = {International Conference on Learning Representations},
+  editor = {C. Vondrick and B. Hariharan and C. Raffel and L. Pinto and D. Yang and A. Faust},
+  pages = {18551--18566},
+  title = {SafeMPO: Constrained Reinforcement Learning with Probabilistic Incremental Improvement},
+  url = {https://proceedings.iclr.cc/paper_files/paper/2026/file/1fa0c4e5a7e189729230d018b229abc7-Paper-Conference.pdf},
+  volume = {2026},
+  year = {2026}
+}'''
+
+[links]
+Website = "https://proceedings.iclr.cc/paper_files/paper/2026/hash/1fa0c4e5a7e189729230d018b229abc7-Abstract-Conference.html"
+
+[image]
+src = "/wp-content/uploads/2026/03/rmlps-obot_throwing_task_illustration_v1-300x201.webp"
+alt = ""
+width = 300
+height = 201
+sizes = "(max-width: 300px) 100vw, 300px"
+class = "attachment-medium size-medium"
+
+[image.sources]
+300w = "/wp-content/uploads/2026/03/rmlps-obot_throwing_task_illustration_v1-300x201.webp"
+768w = "/wp-content/uploads/2026/03/rmlps-obot_throwing_task_illustration_v1-768x515.webp"
+800w = "/wp-content/uploads/2026/03/rmlps-obot_throwing_task_illustration_v1.webp"
+
+[highlight]
+position = 1
+citation = "ICLR 2026"
+
+[highlight.image]
+src = "/wp-content/uploads/2026/03/rmlps-obot_throwing_task_illustration_v1.webp"
+alt = ""
+width = 800
+height = 536
+sizes = "(max-width: 800px) 100vw, 800px"
+class = "wp-image-3118"
+
+[highlight.image.sources]
+300w = "/wp-content/uploads/2026/03/rmlps-obot_throwing_task_illustration_v1-300x201.webp"
+768w = "/wp-content/uploads/2026/03/rmlps-obot_throwing_task_illustration_v1-768x515.webp"
+800w = "/wp-content/uploads/2026/03/rmlps-obot_throwing_task_illustration_v1.webp"

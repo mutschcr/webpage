@@ -1,0 +1,35 @@
+title = "Delay Estimation in Dense Multipath Environments using Time Series Segmentation"
+authors = ["Sebastian Kram", "Christopher Kraus", "Maximilian Stahlke", "Tobias Feigl", "Jörn Thielecke", "Christopher Mutschler"]
+date = "2022-01-01"
+venue = "IEEE Wireless Communications and Networking Conference"
+detail_url = "/publication/delay-estimation-in-dense-multipath-environments-using-time-series-segmentation/"
+profiles = ["christopher-mutschler"]
+doi = "https://doi.org/10.1109/WCNC51071.2022.9771875"
+abstract = "We propose a pipeline built upon the U-Net convolutional neural network architecture. Unlike the state of the art our pipeline extracts an arbitrary number of delays without prior knowledge, includes a threshold for weighting between detection rate and false alarms, and does not rely on computationally demanding operations such as eigenvalue decomposition. We evaluate the presented method with synthetic data of different noise configurations and signal bandwidths and a publicly available dataset, achieving considerable performance gains w.r.t. detection performance and tracking accuracy. Furthermore, we show that the proposed method is far less computationally demanding in inference."
+bibtex = '''
+@INPROCEEDINGS{9771875,
+  author={Kram, Sebastian and Kraus, Christopher and Stahlke, Maximilian and Feigl, Tobias and Thielecke, Jörn and Mutschler, Christopher},
+  booktitle={2022 IEEE Wireless Communications and Networking Conference (WCNC)}, 
+  title={Delay Estimation in Dense Multipath Environments using Time Series Segmentation}, 
+  year={2022},
+  volume={},
+  number={},
+  pages={1671-1676},
+  keywords={Training;Time series analysis;Pipelines;Bandwidth;Position measurement;Time measurement;Delays;Delay estimation;U-Net;deep learning},
+  doi={10.1109/WCNC51071.2022.9771875}}'''
+
+[links]
+Website = "https://ieeexplore.ieee.org/abstract/document/9771875"
+
+[image]
+src = "/wp-content/uploads/2026/09/kram3-p6-kram-large-300x96.gif"
+alt = ""
+width = 300
+height = 96
+sizes = "(max-width: 300px) 100vw, 300px"
+class = "attachment-medium size-medium"
+
+[image.sources]
+300w = "/wp-content/uploads/2026/09/kram3-p6-kram-large-300x96.gif"
+768w = "/wp-content/uploads/2026/09/kram3-p6-kram-large-768x245.gif"
+820w = "/wp-content/uploads/2026/09/kram3-p6-kram-large.gif"

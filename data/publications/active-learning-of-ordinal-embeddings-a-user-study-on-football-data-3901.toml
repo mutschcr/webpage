@@ -1,0 +1,35 @@
+title = "Active Learning of Ordinal Embeddings: A User Study on Football Data"
+authors = ["Christoffer Löffler", "Kion Fallah", "Stefano Fenu", "Dario Zanca", "Bjoern Eskofier", "Christopher John Rozell", "Christopher Mutschler"]
+date = "2023-01-01"
+venue = "Transactions on Machine Learning Research (TMLR)"
+detail_url = "/publication/active-learning-of-ordinal-embeddings-a-user-study-on-football-data/"
+profiles = ["christopher-mutschler"]
+abstract = '''
+We adapt an entropy-based active learning method with recent work from triplet mining to collect easy-to-answer but still informative annotations from human participants and use them to train a deep convolutional network that generalizes to unseen samples. 
+Our user study shows that our approach improves the quality of the information retrieval compared to a previous deep metric learning approach that relies on a Siamese network. Specifically, we shed light on the strengths and weaknesses of passive sampling heuristics and active learners alike by analyzing the participants' response efficacy. To this end, we collect accuracy, algorithmic time complexity, the participants' fatigue and time-to-response, qualitative self-assessment and statements, as well as the effects of mixed-expertise annotators and their consistency on model performance and transfer-learning.'''
+bibtex = '''
+@article{
+l{\"o}ffler2023active,
+title={Active Learning of Ordinal Embeddings: A User Study on Football Data},
+author={Christoffer L{\"o}ffler and Kion Fallah and Stefano Fenu and Dario Zanca and Bjoern Eskofier and Christopher John Rozell and Christopher Mutschler},
+journal={Transactions on Machine Learning Research},
+issn={2835-8856},
+year={2023},
+url={https://openreview.net/forum?id=oq3tx5kinu},
+note={}
+}'''
+
+[links]
+Website = "https://openreview.net/forum?id=oq3tx5kinu"
+
+[image]
+src = "/wp-content/uploads/2026/09/Bildschirmfoto-2026-09-22-um-18.11.31-300x221.png"
+alt = ""
+width = 300
+height = 221
+sizes = "(max-width: 300px) 100vw, 300px"
+class = "attachment-medium size-medium"
+
+[image.sources]
+300w = "/wp-content/uploads/2026/09/Bildschirmfoto-2026-09-22-um-18.11.31-300x221.png"
+613w = "/wp-content/uploads/2026/09/Bildschirmfoto-2026-09-22-um-18.11.31.png"

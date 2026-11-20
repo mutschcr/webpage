@@ -1,0 +1,35 @@
+title = "Evaluating ML Robustness in GNSS Interference Classification, Characterization & Localization"
+authors = ["Lucas Heublein", "Tobias Feigl", "Thorsten Nowak", "Alexander Rügamer", "Christopher Mutschler", "Felix Ott"]
+date = "2025-01-01"
+venue = "International Conference on Localization and GNSS (ICL-GNSS)"
+detail_url = "/publication/evaluating-ml-robustness-in-gnss-interference-classification-characterization-localization/"
+profiles = ["christopher-mutschler"]
+doi = "https://doi.org/10.1109/ICL-GNSS65520.2025.11046126"
+abstract = "We introduce an extensive dataset comprising snapshots obtained from a low-frequency antenna that capture various generated interferences within a large-scale environment, including controlled multipath effects. Our objective is to assess the resilience of machine learning (ML) models against environmental changes, such as multipath effects, variations in interference attributes, such as interference class, bandwidth, and signal power, the accuracy of jamming device localization, and the constraints imposed by snapshot input lengths. Furthermore, we evaluate the performance of a diverse set of 129 distinct vision encoder models across all tasks."
+bibtex = '''
+@INPROCEEDINGS{11046126,
+  author={Heublein, Lucas and Feigl, Tobias and Nowak, Thorsten and Rügamer, Alexander and Mutschler, Christopher and Ott, Felix},
+  booktitle={2025 International Conference on Localization and GNSS (ICL-GNSS)}, 
+  title={Evaluating ML Robustness in GNSS Interference Classification, Characterization & Localization}, 
+  year={2025},
+  volume={},
+  number={},
+  pages={1-7},
+  keywords={Location awareness;Global navigation satellite system;Analytical models;Uncertainty;Computational modeling;Interference;Bandwidth;Robustness;Jamming;Resilience;Global Navigation Satellite System;Interference Characterization;Interference Localization;Machine Learning;Robustness;Uncertainty Estimation;Multipath Effects},
+  doi={10.1109/ICL-GNSS65520.2025.11046126}}'''
+
+[links]
+Website = "https://ieeexplore.ieee.org/abstract/document/11046126"
+
+[image]
+src = "/wp-content/uploads/2026/09/11046126-fig-1-source-large-300x100.gif"
+alt = ""
+width = 300
+height = 100
+sizes = "(max-width: 300px) 100vw, 300px"
+class = "attachment-medium size-medium"
+
+[image.sources]
+300w = "/wp-content/uploads/2026/09/11046126-fig-1-source-large-300x100.gif"
+768w = "/wp-content/uploads/2026/09/11046126-fig-1-source-large-768x256.gif"
+820w = "/wp-content/uploads/2026/09/11046126-fig-1-source-large.gif"

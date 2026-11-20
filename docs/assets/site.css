@@ -1,0 +1,205 @@
+/* Small additions to the original Sinatra, block and MLPS stylesheets. */
+html {
+  scroll-padding-top: calc(var(--mlps-header-height, 61px) + 0.5rem);
+}
+
+.mlps-submenu-toggle {
+  display: none;
+}
+
+@media screen and (min-width: 961px) {
+  /* Keep the dropdown open while keyboard focus moves to its children. */
+  .sinatra-nav .menu-item-has-children:focus-within > .sub-menu {
+    visibility: visible;
+    opacity: 1;
+    transform: translateY(0);
+    pointer-events: auto;
+  }
+
+  .sinatra-nav .menu-item-has-children.mlps-menu-dismissed > .sub-menu {
+    visibility: hidden;
+    opacity: 0;
+    pointer-events: none;
+  }
+}
+
+@media screen and (max-width: 960px) {
+  .is-mobile-menu-active #sinatra-header-inner .site-navigation {
+    display: block;
+    max-height: calc(100vh - var(--mlps-header-height, 61px));
+    max-height: calc(100dvh - var(--mlps-header-height, 61px));
+    overflow-y: auto;
+    overscroll-behavior: contain;
+  }
+
+  #sinatra-header-inner .site-navigation > ul .si-open > .sub-menu {
+    display: block;
+  }
+
+  #sinatra-header-inner .site-navigation .menu-item-has-children {
+    position: relative;
+  }
+
+  #sinatra-header-inner .site-navigation .mlps-submenu-toggle {
+    position: absolute;
+    display: grid;
+    place-items: center;
+    inset: 0 0 auto auto;
+    width: 50px;
+    height: calc(1.4em + 20px);
+    padding: 0;
+    color: inherit;
+    font: inherit;
+    background: transparent;
+    border: 0;
+    cursor: pointer;
+  }
+
+  .mlps-js #sinatra-header-inner .site-navigation .menu-item-has-children > a > .si-icon {
+    visibility: hidden;
+  }
+
+  .mlps-submenu-toggle .si-icon {
+    width: 1em;
+    height: 1em;
+  }
+
+  .mlps-submenu-toggle:empty::after {
+    content: "";
+    width: 0.45em;
+    height: 0.45em;
+    border-right: 1px solid;
+    border-bottom: 1px solid;
+    transform: rotate(45deg);
+  }
+
+  .mlps-submenu-toggle[aria-expanded="true"] .si-icon {
+    transform: rotate(180deg);
+  }
+
+  .mlps-submenu-toggle[aria-expanded="true"]:empty::after {
+    transform: rotate(225deg);
+  }
+
+  /* With scripts disabled the navigation remains an ordinary list of links. */
+  html:not(.mlps-js) #sinatra-header-inner .site-navigation,
+  html:not(.mlps-js) #sinatra-header-inner .site-navigation > ul .sub-menu {
+    position: static;
+    display: block;
+  }
+
+  html:not(.mlps-js) #sinatra-header-inner {
+    position: static;
+  }
+
+  html:not(.mlps-js) #sinatra-header-inner .si-header-container {
+    flex-wrap: wrap;
+  }
+
+  html:not(.mlps-js) .si-mobile-nav,
+  html:not(.mlps-js) #si-sticky-placeholder {
+    display: none;
+  }
+}
+
+.mlps-submenu-toggle:focus-visible,
+.si-hamburger:focus-visible,
+.wp-block-accordion-heading__toggle:focus-visible,
+.mlps-legacy-collapse summary:focus-visible {
+  outline: 2px solid currentColor;
+  outline-offset: -2px;
+}
+
+#si-scroll-top:not(.si-visible) {
+  pointer-events: none;
+}
+
+.publication-links textarea.mlps-bibtex-fallback:not([hidden]) {
+  order: 1;
+  display: block;
+  width: 100%;
+  min-height: 9em;
+  padding: 0.65em;
+  font: 0.875rem/1.4 monospace;
+  resize: vertical;
+}
+
+.mlps-legacy-collapse summary {
+  cursor: pointer;
+  color: #4a4949;
+}
+
+.mlps-legacy-collapse:not([open]) > summary .when-open,
+.mlps-legacy-collapse[open] > summary .when-closed {
+  display: none;
+}
+
+/* The archived tables of contents retain their labels, section IDs and links. */
+#ez-toc-container {
+  display: table;
+  max-width: 100%;
+  margin: 0 0 1em;
+  padding: 10px 15px;
+  overflow-wrap: break-word;
+  color: #444;
+  background: #f9f9f9;
+  border: 1px solid #aaa;
+  border-radius: 4px;
+}
+
+#ez-toc-container .ez-toc-title,
+#ez-toc-container .ez-toc-cssicon-toggle-label {
+  display: inline-block;
+  margin: 0;
+  vertical-align: middle;
+}
+
+#ez-toc-container .ez-toc-cssicon-toggle-label {
+  margin-inline-start: 0.5em;
+  padding: 1px 4px;
+  background: #f7f7f7;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+  line-height: 1;
+  cursor: pointer;
+}
+
+#ez-toc-container .ez-toc-icon-toggle-span {
+  display: inline-flex;
+  align-items: center;
+}
+
+#ez-toc-container > input[type="checkbox"] {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  padding: 0;
+  overflow: hidden;
+  clip-path: inset(50%);
+  white-space: nowrap;
+}
+
+#ez-toc-container:has(> input:focus-visible) .ez-toc-cssicon-toggle-label {
+  outline: 2px solid currentColor;
+  outline-offset: 2px;
+}
+
+#ez-toc-container > input:not(:checked) ~ nav {
+  display: none;
+}
+
+#ez-toc-container nav {
+  margin-top: 0.5em;
+}
+
+#ez-toc-container nav ul,
+#ez-toc-container nav li {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+#ez-toc-container nav ul ul {
+  margin-inline-start: 1.5em;
+}

@@ -1,0 +1,36 @@
+title = "A Location-Based VR Museum"
+authors = ["Jean-Luc Lugrin", "Florian Kern", "Ruben Schmidt", "Constantin Kleinbeck", "Daniel Roth", "Christian Daxer", "Tobias Feigl", "Christopher Mutschler", "Marc Erich Latoschik"]
+date = "2018-01-01"
+venue = "10th IEEE International Conference on Virtual Worlds for Serious Applications (VS-Games)"
+detail_url = "/publication/a-location-based-vr-museum/"
+profiles = ["christopher-mutschler"]
+doi = "https://doi.ieeecomputersociety.org/10.1109/VS-Games.2018.8493404"
+abstract = "This poster presents a novel type of Virtual Reality (VR) application for education and culture: a location-based VR Museum, which is a large-room scale multi-user multi-zone virtual museum. This VR museum was designed to support over 100 simultaneous users, walking in a large tracking system (600 m2) and sharing a ten times bigger virtual space (7000 m2) containing indoor and outdoor dinosaur exhibitions. This poster is giving an overview of the system and its main features as well as discussing its potential benefits and future evaluation."
+bibtex = '''
+@INPROCEEDINGS {8493404,
+author = { Lugrin, Jean-Luc and Kern, Florian and Schmidt, Ruben and Kleinbeck, Constantin and Roth, Daniel and Daxer, Christian and Feigl, Tobias and Mutschler, Christopher and Latoschik, Marc Erich },
+booktitle = { 2018 10th International Conference on Virtual Worlds and Games for Serious Applications (VS-Games) },
+title = {{ A Location-Based VR Museum }},
+year = {2018},
+volume = {},
+ISSN = {},
+pages = {1-2},
+abstract = { This poster presents a novel type of Virtual Reality (VR) application for education and culture: a location-based VR Museum, which is a large-room scale multi-user multi-zone virtual museum. This VR museum was designed to support over 100 simultaneous users, walking in a large tracking system (600 m2) and sharing a ten times bigger virtual space (7000 m2) containing indoor and outdoor dinosaur exhibitions. This poster is giving an overview of the system and its main features as well as discussing its potential benefits and future evaluation. },
+keywords = {Dinosaurs;Avatars;Three-dimensional displays;Electronic mail;Solid modeling;Floors},
+doi = {10.1109/VS-Games.2018.8493404},
+url = {https://doi.ieeecomputersociety.org/10.1109/VS-Games.2018.8493404},
+publisher = {IEEE Computer Society},
+address = {Los Alamitos, CA, USA},
+month =sep}'''
+
+[image]
+src = "/wp-content/uploads/2020/06/framework_vr-300x168.png"
+alt = ""
+width = 300
+height = 168
+sizes = "(max-width: 300px) 100vw, 300px"
+class = "attachment-medium size-medium"
+
+[image.sources]
+300w = "/wp-content/uploads/2020/06/framework_vr-300x168.png"
+701w = "/wp-content/uploads/2020/06/framework_vr.png"

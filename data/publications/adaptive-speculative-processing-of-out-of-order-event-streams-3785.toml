@@ -1,0 +1,43 @@
+title = "Adaptive Speculative Processing of Out-of-Order Event Streams"
+authors = ["Christopher Mutschler", "Michael Philippsen"]
+date = "2014-01-01"
+venue = "ACM Transactions on Internet Technology (TOIT)"
+detail_url = "/publication/adaptive-speculative-processing-of-out-of-order-event-streams/"
+profiles = ["christopher-mutschler"]
+doi = "https://doi.org/10.1145/2633686"
+abstract = "We present an adaptive speculative processing technique for out-of-order event streams that enhances typical buffering approaches. Our novel technique encapsulates the event detector, uses the buffering technique to delay events but also speculatively processes a portion of it, and adapts the degree of speculation at runtime to fit the available system resources so that detection latency becomes minimal. Our technique outperforms known approaches on both synthetical data and real sensor data from a realtime locating system (RTLS) with several thousands of out-of-order sensor events per second. Speculative buffering exploits system resources and reduces latency by 40% on average."
+bibtex = '''
+@article{10.1145/2633686,
+author = {Mutschler, Christopher and Philippsen, Michael},
+title = {Adaptive Speculative Processing of Out-of-Order Event Streams},
+year = {2014},
+issue_date = {July 2014},
+publisher = {Association for Computing Machinery},
+address = {New York, NY, USA},
+volume = {14},
+number = {1},
+issn = {1533-5399},
+url = {https://doi.org/10.1145/2633686},
+doi = {10.1145/2633686},
+abstract = {Distributed event-based systems are used to detect meaningful events with low latency in high data-rate event streams that occur in surveillance, sports, finances, etc. However, both known approaches to dealing with the predominant out-of-order event arrival at the distributed detectors have their shortcomings: buffering approaches introduce latencies for event ordering, and stream revision approaches may result in system overloads due to unbounded retraction cascades.This article presents an adaptive speculative processing technique for out-of-order event streams that enhances typical buffering approaches. In contrast to other stream revision approaches developed so far, our novel technique encapsulates the event detector, uses the buffering technique to delay events but also speculatively processes a portion of it, and adapts the degree of speculation at runtime to fit the available system resources so that detection latency becomes minimal.Our technique outperforms known approaches on both synthetical data and real sensor data from a realtime locating system (RTLS) with several thousands of out-of-order sensor events per second. Speculative buffering exploits system resources and reduces latency by 40\% on average.},
+journal = {ACM Trans. Internet Technol.},
+month = aug,
+articleno = {4},
+numpages = {24},
+keywords = {speculative processing, publish/subscribe, out-of-order event processing, message-oriented middleware, low latency, Distributed event processing}
+}'''
+
+[links]
+Website = "https://dl.acm.org/doi/abs/10.1145/2633686"
+
+[image]
+src = "/wp-content/uploads/2026/09/2014_TOIT-300x229.png"
+alt = ""
+width = 300
+height = 229
+sizes = "(max-width: 300px) 100vw, 300px"
+class = "attachment-medium size-medium"
+
+[image.sources]
+300w = "/wp-content/uploads/2026/09/2014_TOIT-300x229.png"
+597w = "/wp-content/uploads/2026/09/2014_TOIT.png"

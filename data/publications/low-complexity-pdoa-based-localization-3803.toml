@@ -1,0 +1,35 @@
+title = "Low-Complexity PDoA-based Localization"
+authors = ["Benjamin Sackenreuter", "Niels Hadaschik", "Marc Fassbinder", "Christopher Mutschler"]
+date = "2016-01-01"
+venue = "7th International Conference on Indoor Positioning and Indoor Navigation (IPIN)"
+detail_url = "/publication/low-complexity-pdoa-based-localization/"
+profiles = ["christopher-mutschler"]
+doi = "https://doi.org/10.1109/IPIN.2016.7743692"
+abstract = "We present a concept for energy-efficient low-complexity localization based on Phase Difference of Arrival (PDoA). Besides a novel method for reference transmitter selection we propose a waveform, well-suited for PDoA measurements, and evaluate its ranging performance. We compare multiple signal classification (MUSIC), linear fitting, and mean phase difference and compare their estimation variance to the Cramer Rao Lower Bound (CRLB). Our system concept allows for the mitigation of near-far effects for reference and tag signals at the receiver nodes, and an efficient implementation of a wideband frequency hopping scheme."
+bibtex = '''
+@INPROCEEDINGS{7743692,
+  author={Sackenreuter, Benjamin and Hadaschik, Niels and Faßbinder, Marc and Mutschler, Christopher},
+  booktitle={2016 International Conference on Indoor Positioning and Indoor Navigation (IPIN)}, 
+  title={Low-complexity PDoA-based localization}, 
+  year={2016},
+  volume={},
+  number={},
+  pages={1-6},
+  keywords={Signal to noise ratio;Logic gates;Transmitters;Distance measurement;Position measurement;Phase locked loops},
+  doi={10.1109/IPIN.2016.7743692}}'''
+
+[links]
+Website = "https://ieeexplore.ieee.org/abstract/document/7743692"
+
+[image]
+src = "/wp-content/uploads/2026/09/7743692-fig-1-source-large-300x190.gif"
+alt = ""
+width = 300
+height = 190
+sizes = "(max-width: 300px) 100vw, 300px"
+class = "attachment-medium size-medium"
+
+[image.sources]
+300w = "/wp-content/uploads/2026/09/7743692-fig-1-source-large-300x190.gif"
+768w = "/wp-content/uploads/2026/09/7743692-fig-1-source-large-768x486.gif"
+820w = "/wp-content/uploads/2026/09/7743692-fig-1-source-large.gif"

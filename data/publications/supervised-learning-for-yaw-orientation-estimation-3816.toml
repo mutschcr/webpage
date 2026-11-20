@@ -1,0 +1,35 @@
+title = "Supervised Learning for Yaw Orientation Estimation"
+authors = ["Tobias Feigl", "Christopher Mutschler", "Michael Philippsen"]
+date = "2018-01-01"
+venue = "9th International Conference on Indoor Positioning and Indoor Navigation (IPIN)"
+detail_url = "/publication/supervised-learning-for-yaw-orientation-estimation/"
+profiles = ["christopher-mutschler"]
+doi = "https://doi.org/10.1109/IPIN.2018.8533811"
+abstract = "Our novel yaw orientation estimation combines a single inertial sensor located at the human's head with inaccurate positional tracking. We exploit that humans tend to walk in their viewing direction and that they also tolerate some orientation drift. We classify head and body motion and estimate heading drift to enable low-cost long-time stable head orientation in NP tracking on 100 m×100 m. Our evaluation shows that we estimate heading reasonably well."
+bibtex = '''
+@INPROCEEDINGS{8533811,
+  author={Feigl, Tobias and Mutschler, Christopher and Philippsen, Michael},
+  booktitle={2018 International Conference on Indoor Positioning and Indoor Navigation (IPIN)}, 
+  title={Supervised Learning for Yaw Orientation Estimation}, 
+  year={2018},
+  volume={},
+  number={},
+  pages={206-212},
+  keywords={Magnetic heads;Feature extraction;Acceleration;Tracking;Head;Accelerometers;Estimation},
+  doi={10.1109/IPIN.2018.8533811}}'''
+
+[links]
+Website = "https://ieeexplore.ieee.org/abstract/document/8533811"
+
+[image]
+src = "/wp-content/uploads/2020/04/Bildschirmfoto-2020-04-12-um-11.26.40-300x174.png"
+alt = ""
+width = 300
+height = 174
+sizes = "(max-width: 300px) 100vw, 300px"
+class = "attachment-medium size-medium"
+
+[image.sources]
+300w = "/wp-content/uploads/2020/04/Bildschirmfoto-2020-04-12-um-11.26.40-300x174.png"
+768w = "/wp-content/uploads/2020/04/Bildschirmfoto-2020-04-12-um-11.26.40-768x445.png"
+804w = "/wp-content/uploads/2020/04/Bildschirmfoto-2020-04-12-um-11.26.40.png"

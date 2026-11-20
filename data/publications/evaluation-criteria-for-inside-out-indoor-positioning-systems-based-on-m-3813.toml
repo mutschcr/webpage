@@ -1,0 +1,29 @@
+title = "Evaluation Criteria for Inside-Out Indoor Positioning Systems based on Machine Learning"
+authors = ["Christoffer Löffler", "Sascha Riechel", "Janina Fischer", "Christopher Mutschler"]
+date = "2018-01-01"
+venue = "9th International Conference on Indoor Positioning and Indoor Navigation (IPIN)"
+detail_url = "/publication/evaluation-criteria-for-inside-out-indoor-positioning-systems-based-on-machine-learning/"
+profiles = ["christopher-mutschler"]
+doi = "http://INPROCEEDINGS{8533862,   author={Löffler, Christoffer and Riechel, Sascha and Fischer, Janina and Mutschler, Christopher},   booktitle={2018 International Conference on Indoor Positioning and Indoor Navigation (IPIN)},    title={Evaluation Criteria"
+abstract = "This paper proposes evaluation criteria that consider algorithmic properties of ML-based positioning schemes and introduces a dataset from an indoor warehouse scenario to evaluate for them. Our dataset consists of images labeled with millimeter precise positions that allows for a better development and performance evaluation of learning algorithms. This allows an evaluation of machine learning algorithms for monocular optical positioning in a realistic indoor position application for the first time. We also show the feasibility of ML-based positioning schemes for an industrial deployment."
+bibtex = '''
+@INPROCEEDINGS{8533862,
+  author={Löffler, Christoffer and Riechel, Sascha and Fischer, Janina and Mutschler, Christopher},
+  booktitle={2018 International Conference on Indoor Positioning and Indoor Navigation (IPIN)}, 
+  title={Evaluation Criteria for Inside-Out Indoor Positioning Systems Based on Machine Learning}, 
+  year={2018},
+  volume={},
+  number={},
+  pages={1-8},
+  keywords={Performance evaluation;Optical filters;Machine learning algorithms;Neural networks;Machine learning;Optical imaging;Real-time systems;Optimization;Long short term memory;Logistics},
+  doi={10.1109/IPIN.2018.8533862}}'''
+
+[links]
+Website = "https://ieeexplore.ieee.org/abstract/document/8533862"
+
+[image]
+src = "/wp-content/uploads/2020/04/highracks.jpg"
+alt = ""
+width = 210
+height = 158
+class = "attachment-medium size-medium"

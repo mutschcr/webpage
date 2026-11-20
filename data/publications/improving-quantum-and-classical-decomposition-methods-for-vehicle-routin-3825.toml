@@ -1,0 +1,32 @@
+title = "Improving quantum and classical decomposition methods for vehicle routing"
+authors = ["Laura S Herzog", "Friedrich Wagner", "Christian Ufrecht", "Lilly Palackal", "Axel Plinge", "Christopher Mutschler", "Daniel D Scherer"]
+date = "2024-01-01"
+venue = "arXiv"
+detail_url = "/publication/improving-quantum-and-classical-decomposition-methods-for-vehicle-routing/"
+profiles = ["christopher-mutschler"]
+abstract = "We demonstrate the utility of our novel shrinking method by successfully applying it to the archetypical traveling salesperson problem (TSP) which often occurs as a sub-problem in practically relevant vehicle routing applications. For a TSP with seven cities, we are able to retrieve an optimum solution by consecutively running two 7-qubit QAOA circuits. Without decomposition methods, we would require five times as many qubits. Our results offer insights into the performance of algorithms for combinatorial optimization problems within the constraints of current quantum technology."
+bibtex = '''
+@misc{herzog2024improvingquantumclassicaldecomposition,
+      title={Improving Quantum and Classical Decomposition Methods for Vehicle Routing}, 
+      author={Laura S. Herzog and Friedrich Wagner and Christian Ufrecht and Lilly Palackal and Axel Plinge and Christopher Mutschler and Daniel D. Scherer},
+      year={2024},
+      eprint={2404.05551},
+      archivePrefix={arXiv},
+      primaryClass={quant-ph},
+      url={https://arxiv.org/abs/2404.05551}, 
+}'''
+
+[links]
+Website = "https://arxiv.org/abs/2404.05551"
+
+[image]
+src = "/wp-content/uploads/2026/09/2024_vehicle-routing-300x121.png"
+alt = ""
+width = 300
+height = 121
+sizes = "(max-width: 300px) 100vw, 300px"
+class = "attachment-medium size-medium"
+
+[image.sources]
+300w = "/wp-content/uploads/2026/09/2024_vehicle-routing-300x121.png"
+745w = "/wp-content/uploads/2026/09/2024_vehicle-routing.png"

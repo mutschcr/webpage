@@ -1,0 +1,34 @@
+title = "Estimating TOA Reliability with Variational Autoencoders"
+authors = ["Maximilian Stahlke", "Sebastian Kram", "Felix Ott", "Tobias Feigl", "Christopher Mutschler"]
+date = "2021-01-01"
+venue = "IEEE Sensors Journal"
+detail_url = "/publication/estimating-toa-reliability-with-variational-autoencoders/"
+profiles = ["christopher-mutschler"]
+doi = "https://doi.org/10.1109/JSEN.2021.3101933"
+abstract = "We propose to use generative deep learning models for out-of-distribution detection based on channel impulse responses (CIRs). We use a Variational Autoencoder (VAE) to predict an anomaly score for the channel of a TOF-based Ultra-wideband (UWB) system. Our experiments show that a VAE trained only on line-of-sight (LOS) training data generalizes well to new environments and detects non-line-of-sight CIRs with an accuracy of 85%. We also show that integrating our anomaly score into a TOF-based extended Kalman filter (EKF) improves tracking performance by over 25%."
+bibtex = '''
+@ARTICLE{9503384,
+  author={Stahlke, Maximilian and Kram, Sebastian and Ott, Felix and Feigl, Tobias and Mutschler, Christopher},
+  journal={IEEE Sensors Journal}, 
+  title={Estimating TOA Reliability With Variational Autoencoders}, 
+  year={2022},
+  volume={22},
+  number={6},
+  pages={5133-5140},
+  keywords={Feature extraction;Location awareness;Sensors;Reliability;Training;Support vector machines;Receivers;NLOS identification;NLOS mitigation;channel quality estimation;CIR;UWB;deep learning;VAE},
+  doi={10.1109/JSEN.2021.3101933}}'''
+
+[links]
+Website = "https://ieeexplore.ieee.org/abstract/document/9503384"
+
+[image]
+src = "/wp-content/uploads/2021/08/Variational_autoencoder_6_2-300x140.png"
+alt = ""
+width = 300
+height = 140
+sizes = "(max-width: 300px) 100vw, 300px"
+class = "attachment-medium size-medium"
+
+[image.sources]
+300w = "/wp-content/uploads/2021/08/Variational_autoencoder_6_2-300x140.png"
+612w = "/wp-content/uploads/2021/08/Variational_autoencoder_6_2.png"

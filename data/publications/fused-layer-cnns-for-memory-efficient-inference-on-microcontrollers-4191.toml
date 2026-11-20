@@ -1,0 +1,33 @@
+title = "Fused-Layer CNNs for Memory-Efficient Inference on Microcontrollers"
+authors = ["Mark Deutel", "Frank Hannig", "Christopher Mutschler", "Jürgen Teich"]
+date = "2024-01-01"
+venue = "Workshop on Machine Learning and Compression @NeurIPS 2024"
+detail_url = "/publication/fused-layer-cnns-for-memory-efficient-inference-on-microcontrollers/"
+profiles = ["christopher-mutschler"]
+pdf_url = "https://openreview.net/pdf?id=2O8qbyxH6X"
+bibtex = '''
+@inproceedings{
+deutel2024fusedlayer,
+title={Fused-Layer {CNN}s for Memory-Efficient Inference on Microcontrollers},
+author={Mark Deutel and Frank Hannig and Christopher Mutschler and J{\"u}rgen Teich},
+booktitle={Workshop on Machine Learning and Compression, NeurIPS 2024},
+year={2024},
+url={https://openreview.net/forum?id=2O8qbyxH6X}
+}'''
+
+[links]
+Website = "https://openreview.net/forum?id=2O8qbyxH6X"
+
+[image]
+src = "/wp-content/uploads/2026/10/Bildschirmfoto-2026-10-15-um-21.50.47-300x71.png"
+alt = ""
+width = 300
+height = 71
+sizes = "(max-width: 300px) 100vw, 300px"
+class = "attachment-medium size-medium"
+
+[image.sources]
+300w = "/wp-content/uploads/2026/10/Bildschirmfoto-2026-10-15-um-21.50.47-300x71.png"
+768w = "/wp-content/uploads/2026/10/Bildschirmfoto-2026-10-15-um-21.50.47-768x182.png"
+1024w = "/wp-content/uploads/2026/10/Bildschirmfoto-2026-10-15-um-21.50.47-1024x242.png"
+1145w = "/wp-content/uploads/2026/10/Bildschirmfoto-2026-10-15-um-21.50.47.png"

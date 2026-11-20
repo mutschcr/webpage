@@ -1,0 +1,22 @@
+title = "Quantum Wasserstein Compilation: Unitary Compilation using the Quantum Earth Mover's Distance"
+authors = ["Marvin Richter", "Abhishek Y Dubey", "Axel Plinge", "Christopher Mutschler", "Daniel D Scherer", "Michael J Hartmann"]
+date = "2024-01-01"
+venue = "Machine Learning and the Physical Sciences Workshop @NeurIPS2024"
+detail_url = "/publication/quantum-wasserstein-compilation-unitary-compilation-using-the-quantum-earth-movers-distance/"
+profiles = []
+pdf_url = "https://arxiv.org/pdf/2409.05849"
+
+[links]
+Website = "https://arxiv.org/abs/2409.05849"
+
+[image]
+src = "/wp-content/uploads/2026/10/Bildschirmfoto-2026-10-15-um-21.57.41-300x123.png"
+alt = ""
+width = 300
+height = 123
+sizes = "(max-width: 300px) 100vw, 300px"
+class = "attachment-medium size-medium"
+
+[image.sources]
+300w = "/wp-content/uploads/2026/10/Bildschirmfoto-2026-10-15-um-21.57.41-300x123.png"
+334w = "/wp-content/uploads/2026/10/Bildschirmfoto-2026-10-15-um-21.57.41.png"

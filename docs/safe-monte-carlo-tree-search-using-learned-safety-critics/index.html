@@ -1,0 +1,188 @@
+<!doctype html>
+<html lang="en-US">
+<head>
+<meta charset="utf-8">
+<title>Dinesh Parthasarathy: Safe Monte Carlo Tree Search using Learned Safety Critics (FAU Erlangen-Nürnberg, 2022) – Machine Learning and Positioning Systems</title>
+<meta name="robots" content="max-image-preview:large">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="../assets/css/wp-img-auto-sizes-contain-0356978c0eb0.css">
+<link rel="stylesheet" href="../assets/css/wp-emoji-styles-f1b2bed85457.css">
+<link rel="stylesheet" href="../assets/css/wp-block-library-9077cbb97de5.css">
+<link rel="stylesheet" href="../assets/css/wp-block-heading-187c2a0a016f.css">
+<link rel="stylesheet" href="../assets/css/wp-block-image-9f7b39031856.css">
+<link rel="stylesheet" href="../assets/css/wp-block-paragraph-622f970d1229.css">
+<link rel="stylesheet" href="../assets/css/wp-block-columns-a86fcda3eac5.css">
+<link rel="stylesheet" href="../assets/css/classic-theme-styles-dcd9f488bd62.css">
+<link rel="stylesheet" href="../assets/css/global-styles-cdfcce2b9c0f.css">
+<link rel="stylesheet" href="../assets/theme/wp-content/plugins/show-hidecollapse-expand/assets/css/genericons/genericons.css" media="all">
+<link rel="stylesheet" href="../assets/theme/wp-content/plugins/show-hidecollapse-expand/assets/css/bg-show-hide.css" media="all">
+<link rel="stylesheet" href="../assets/theme/wp-content/plugins/wp-show-more/wpsm-style.css" media="all">
+<link rel="stylesheet" href="../assets/theme/wp-content/themes/sinatra/assets/css/style.min.css" media="all">
+<link rel="stylesheet" href="../assets/theme/wp-content/uploads/sinatra/dynamic-styles.css" media="all">
+<link rel="stylesheet" href="../assets/theme/wp-content/plugins/simple-social-icons/css/style.css" media="all">
+<link rel="stylesheet" href="../assets/theme/wp-content/plugins/a3-lazy-load/assets/css/jquery.lazyloadxt.spinner.css" media="all">
+<meta name="theme-color" content="#1df900">
+<link rel="icon" href="../wp-content/uploads/2026/06/cropped-cropped-mlps-logo_utn-scaled-1-32x32.png" sizes="32x32">
+<link rel="icon" href="../wp-content/uploads/2026/06/cropped-cropped-mlps-logo_utn-scaled-1-192x192.png" sizes="192x192">
+<link rel="apple-touch-icon" href="../wp-content/uploads/2026/06/cropped-cropped-mlps-logo_utn-scaled-1-180x180.png">
+<meta name="msapplication-TileImage" content="../wp-content/uploads/2026/06/cropped-cropped-mlps-logo_utn-scaled-1-270x270.png">
+<link rel="stylesheet" href="../assets/css/core-block-supports-723694465a90.css">
+<link rel="stylesheet" href="../assets/theme/wp-content/plugins/inline-text-popup/src/style.css" media="all">
+<link rel="canonical" href="https://mlps-lab.de/safe-monte-carlo-tree-search-using-learned-safety-critics/">
+<link rel="stylesheet" href="../assets/site.css">
+<script src="../assets/site.js" defer></script>
+</head>
+<body class="wp-singular post-template-default single single-post postid-2518 single-format-standard wp-custom-logo wp-embed-responsive wp-theme-sinatra sinatra-topbar__separators-regular sinatra-layout__fw-contained sinatra-header-layout-1 sinatra-menu-animation-underline sinatra-header__separators-none si-single-title-in-content narrow-content si-page-title-align-left sinatra-no-sidebar entry-media-hover-style-1 si-input-supported validate-comment-form si-menu-accessibility si-sticky-header">
+
+<div id="page" class="hfeed site">
+	<a class="skip-link screen-reader-text" href="#content">Skip to content</a>
+
+	<header id="masthead" class="site-header" role="banner" itemtype="https://schema.org/WPHeader" itemscope="itemscope">
+		<div id="sinatra-header">
+		<div id="sinatra-header-inner">
+	
+<div class="si-container si-header-container">
+
+<div class="sinatra-logo si-header-element" itemtype="https://schema.org/Organization" itemscope="itemscope">
+	<div class="logo-inner"><a href="../" rel="home" class="" itemprop="url">
+					<img src="../wp-content/uploads/2026/07/mlps-logo_utn.png" alt="Machine Learning and Positioning Systems" width="1642" height="230" srcset="../wp-content/uploads/2026/07/mlps-logo_utn.png 1x, ../wp-content/uploads/2026/07/mlps-logo_utn.png 2x" itemprop="logo">
+				</a></div>
+</div>
+<nav class="site-navigation main-navigation sinatra-primary-nav sinatra-nav si-header-element" role="navigation" itemtype="https://schema.org/SiteNavigationElement" itemscope="itemscope" aria-label="Site Navigation" aria-haspopup="true">
+<ul id="sinatra-primary-nav" class="menu">
+<li id="menu-item-3303" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-home menu-item-3303"><a href="../"><span>Home</span></a></li>
+<li id="menu-item-3074" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-3074"><a href="../team/"><span>Team</span></a></li>
+<li id="menu-item-2970" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2970"><a href="../publications/"><span>Publications</span></a></li>
+<li id="menu-item-4103" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-4103" aria-haspopup="true">
+<a href="../research/"><span>Research</span><svg class="si-icon" xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewbox="0 0 32 32"><path d="M24.958 10.483c-0.534-0.534-1.335-0.534-1.868 0l-7.074 7.074-7.074-7.074c-0.534-0.534-1.335-0.534-1.868 0s-0.534 1.335 0 1.868l8.008 8.008c0.267 0.267 0.667 0.4 0.934 0.4s0.667-0.133 0.934-0.4l8.008-8.008c0.534-0.534 0.534-1.335 0-1.868z"></path></svg></a>
+<ul class="sub-menu">
+	<li id="menu-item-3499" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-3499"><a href="../research-projects/"><span>Research Projects</span></a></li>
+	<li id="menu-item-3472" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-3472"><a href="../datasets/"><span>Datasets</span></a></li>
+</ul>
+</li>
+<li id="menu-item-4281" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-4281"><a href="../teaching/"><span>Teaching</span></a></li>
+<li id="menu-item-4298" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-4298"><a href="../theses/"><span>Theses &amp; Projects</span></a></li>
+</ul></nav><div class="si-header-widgets si-header-element sinatra-widget-location-right"></div>
+<span class="si-header-element si-mobile-nav">
+				<button class="si-hamburger hamburger--spin si-hamburger-sinatra-primary-nav" aria-label="Menu" aria-controls="sinatra-primary-nav" type="button">
+
+			<span class="hamburger-box">
+				<span class="hamburger-inner"></span>
+			</span>
+
+		</button>
+			</span>
+
+</div>
+</div>
+<div id="si-sticky-placeholder"></div>
+</div></header><div id="main" class="site-main">
+
+<div class="si-container">
+
+	<div id="primary" class="content-area">
+
+		<main id="content" class="site-content" role="main" itemscope="" itemtype="http://schema.org/Blog">
+
+<article id="post-2518" class="sinatra-article post-2518 post type-post status-publish format-standard hentry category-finished category-master-thesis category-student-projects" itemscope="" itemtype="https://schema.org/CreativeWork">
+
+<div class="post-category">
+
+	<span class="cat-links"><span class="screen-reader-text">Posted in</span><span><a href="../category/student-projects/status/finished/" rel="category tag">Finished</a> <a href="../category/student-projects/project-type/master-thesis/" rel="category tag">Master Thesis</a> <a href="../category/student-projects/" rel="category tag">Student-Projects</a></span></span>
+</div>
+
+<header class="entry-header">
+
+	<h1 class="entry-title" itemprop="headline">
+		Dinesh Parthasarathy: Safe Monte Carlo Tree Search using Learned Safety Critics (FAU Erlangen-Nürnberg, 2022)	</h1>
+
+</header>
+
+<div class="entry-content si-entry" itemprop="text">
+	
+<p class="wp-block-paragraph">Thesis available for download here: <a href="https://download.cmutschler.de/thesis/2022-Parthasarathy.pdf">Dinesh Parthsarathy: Safe Monte Carlo Tree Search using Learned Safety Critics</a></p>
+
+<h4 class="wp-block-heading">Background</h4>
+
+<div style="text-align: justify;"><span style="font-size: revert;">Reinforcement Learning and planning are two research fields that have shown great success in sequential decision making [1]. It is common to model the decision-making task as a partially observable Markov decision process (POMDP). Monte Carlo Tree Search (MCTS) algorithms are effective at solving POMDP problems defined over large state spaces [2]. MCTS is a decision-making algorithm that searches across large combinatorial spaces represented by trees. The vanilla MCTS fails to deliver satisfactory results for problems having a high combinatorial complexity. Many modifications and enhancements have been proposed to the classical MCTS algorithm to reduce the complexity of such problems [3]. With the advent of deep learning, using neural networks as heuristics has proven to be very effective at reducing the search space. This has been the backbone of the approach used by DeepMind to solve the game of Go [4], considered to be one of the major breakthroughs in Artificial Intelligence(AI).</span></div>
+<div>
+<p style="text-align: justify;"><span lang="EN-US">In many real-world environments, like autonomous vehicles, autonomous agents can only explore and learn under strict safety constraints. This setting is known as safe exploration, and has attracted multiple solutions both in model-free [12, 14] and model-based settings [5, 8, 9]. In general, model-based methods have the benefit of higher sample efficiency, which reduces the number of environment interactions (and constraint violations) required during training. This thesis hypothesizes that existing safety mechanisms for MCTS are inadequate, and proposes a different solution. </span></p>
+</div>
+
+<h4 class="wp-block-heading">Problem</h4>
+
+<p style="font-weight: 400; text-align: justify;">MCTS uses a forward model during rollouts. When exploring in real systems, these forward models experience a large error that increases with the lookahead horizon. This compounding error means that MCTS cannot by itself provide safety guarantees., which makes the approach unsuitable for the safe exploration setting.</p>
+<p style="font-weight: 400; text-align: justify;">To ensure safe decision-making, previous approaches in safety-critical systems rely on expert knowledge or rules to mask unsafe actions [5], [6], [7]. Other model-free reinforcement algorithms fall back on MCTS in risky states for safe action searching. The safe exploration module based on MCTS relies on expert knowledge to identify risky states and returns negative rewards during backpropagation so that these states are less favoured during planning [8]. Overall, these approaches rely on a forward prediction model to determine a risky state or an unsafe action. This model cannot be used for all scenarios and needs to be adapted for each environment. Also, the predictions only consider one-step transitions and do not account for long-term dependencies. Alternate ways to incorporate safety is using an MCTS that solves Cost-Constrained (CC) POMDPs [9]. But, additional steps in this algorithm to optimize the Linear Program (LP) induced parameters, and not being able to prune unsafe trajectories due to inaccurate Monte Carlo cost estimates lead to high computational complexity [10].  </p>
+
+<h4 class="wp-block-heading">Approach</h4>
+
+<div class="wp-block-columns is-layout-flex wp-container-core-columns-is-layout-8f761849 wp-block-columns-is-layout-flex">
+<div class="wp-block-column is-layout-flow wp-block-column-is-layout-flow">
+<figure class="wp-block-image size-full"><img fetchpriority="high" decoding="async" width="763" height="314" src="../wp-content/uploads/2022/05/mcts1.png" alt="" class="wp-image-2532" srcset="../wp-content/uploads/2022/05/mcts1.png 763w" sizes="(max-width: 763px) 100vw, 763px"><figcaption class="wp-element-caption">Fig. 1: Safe AlphaZero approach additionally collects constraint violation from the real world as part of the (s,a,r,c) tuple. This is used to train the Policy Network, Value Network, and the Safety Critic Network.</figcaption></figure>
+</div>
+
+<div class="wp-block-column is-layout-flow wp-block-column-is-layout-flow">
+<figure class="wp-block-image size-full is-resized"><img decoding="async" src="../wp-content/uploads/2022/05/mcts2.png" alt="" class="wp-image-2533" style="width:210px;height:210px" width="210" height="210" srcset="../wp-content/uploads/2022/05/mcts2.png 210w" sizes="(max-width: 210px) 100vw, 210px"><figcaption class="wp-element-caption">Fig. 2: Safety critic identifies branches within the search tree that are unsafe which are pruned.</figcaption></figure>
+</div>
+</div>
+
+<p style="font-weight: 400; text-align: justify;">To overcome these issues, we learn a safety critic which determines whether a state, action pair would lead to unsafe behaviour [11], [12]. We use this critic as an additional constraint within the MCTS algorithm to prune unsafe trajectories [Figure 2]. This would not only ensure that the planner returns a safe policy, but also improve the efficiency of planning as the search space is reduced. A possible way to initially avoid overestimating the safety critic which might result in excessive pruning is to use the Conservative Q-learning Framework [13]. We test this algorithm by first measuring its performance in a simple grid world environment. Then, we consider a real-world task, as a use case to record our final results. The planning system for this application mimics the AlphaZero pipeline. Combining planning and learning this way, and using Neural Networks as heuristics would further narrow down the search tree. Unlike the game of Go, we have a scenario that has a continuous state space and self-play cannot be used. These deviations from the original AlphaZero algorithm are incorporated. We integrate our safety layer into this pipeline, which learns safety and hence, ensures safe-decision making [Figure 1]. As an outcome, we expect to devise a planner that has greater efficiency and better safety compared to previous approaches. We use MCTS for CC-POMDPs [9] and model-free safe reinforcement learning methods [11], [13] as baselines to compare our results. </p>
+
+<h4 class="wp-block-heading">Workplan</h4>
+
+<p style="font-weight: 400; text-align: justify;">The milestones of the thesis are as follows:</p>
+<ul style="text-align: justify;">
+<li style="font-weight: 400;"><span style="font-size: 1rem;">Literature and algorithm review (1 month)</span></li>
+<li style="font-weight: 400;">Implementation (2.5 months)
+<ul>
+<li style="font-weight: 400;">Implement a model to simulate the environment and for planning. (1.5 weeks)</li>
+<li style="font-weight: 400;">Implement an MCTS planner with the AlphaZero pipeline (1.5 weeks)</li>
+<li style="font-weight: 400;"><span style="font-size: revert;">Implement different approaches to learn safety and incorporate them into the decision-making pipeline. (7 weeks)</span></li>
+</ul>
+</li>
+<li style="font-weight: 400;">Evaluation (1 month)
+<ul>
+<li style="font-weight: 400;"><span style="font-size: revert;">Evaluate the baseline method(s).</span></li>
+<li style="font-weight: 400;">Evaluate each of the implemented methods. </li>
+<li style="font-weight: 400;">Compare the different approaches w.r.t baseline method and create suitable plots.</li>
+</ul>
+</li>
+<li style="font-weight: 400;">Writing (1.5 months)</li>
+</ul>
+<p style="font-weight: 400; text-align: justify;"><strong>Supervisor:</strong> <a href="mailto:christopher.mutschler@iis.fraunhofer.de">Christopher Mutschler</a></p>
+
+<h4 class="wp-block-heading">References</h4>
+
+<ol>
+<li style="font-weight: 400; text-align: justify;">T. M. Moerland, J. Broekens, and C. M. Jonker, “A Framework for Reinforcement Learning and Planning,” CoRR, vol. abs/2006.15009, 2020, [Online]. Available: https://arxiv.org/abs/2006.15009</li>
+<li style="font-weight: 400; text-align: justify;"><span style="font-size: revert;">Nordmark, A., &amp; Sundell, O. (2018). Tactical Decision-Making for Highway Driving.</span></li>
+<li style="font-weight: 400; text-align: justify;"><span style="font-size: revert;">M. Świechowski, K. Godlewski, B. Sawicki, and J. Mańdziuk, Monte Carlo Tree Search: A Review of Recent Modifications and Applications. 2021.</span></li>
+<li style="font-weight: 400; text-align: justify;"><span style="font-size: revert;">Silver, D., Schrittwieser, J., Simonyan, K. et al. Mastering the game of Go without human knowledge. Nature 550, 354–359 (2017). https://doi.org/10.1038/nature24270</span></li>
+<li style="font-weight: 400; text-align: justify;">C. Hoel, K. Driggs-Campbell, K. Wolff, L. Laine and M. J. Kochenderfer, “Combining Planning and Deep Reinforcement Learning in Tactical Decision Making for Autonomous Driving,” in IEEE Transactions on Intelligent Vehicles, vol. 5, no. 2, pp. 294-305, June 2020, doi: 10.1109/TIV.2019.2955905.</li>
+<li style="font-weight: 400; text-align: justify;">Mohammadhasani, H. Mehrivash, A. Lynch, and Z. Shu, Reinforcement Learning Based Safe Decision Making for Highway Autonomous Driving. 2021.</li>
+<li style="font-weight: 400; text-align: justify;"><span style="font-size: revert;">Mirchevska, C. Pek, M. Werling, M. Althoff, and J. Boedecker, “High-level Decision Making for Safe and Reasonable Autonomous Lane Changing using Reinforcement Learning,” Sep. 2018. doi: 10.1109/ITSC.2018.8569448.</span></li>
+<li style="font-weight: 400; text-align: justify;">S. Mo, X. Pei and C. Wu, “Safe Reinforcement Learning for Autonomous Vehicle Using Monte Carlo Tree Search,” in IEEE Transactions on Intelligent Transportation Systems, doi: 10.1109/TITS.2021.3061627.</li>
+<li style="font-weight: 400; text-align: justify;">Lee, J., Kim, G.-H., Poupart, P., &amp; Kim, K.-E. (2018). Monte-Carlo tree search for constrained POMDPs. Advances in Neural Information Processing Systems, 31.</li>
+<li style="font-weight: 400; text-align: justify;">Bernhard, J., &amp; Knoll, A. (2021). Risk-Constrained Interactive Safety under Behavior Uncertainty for Autonomous Driving.</li>
+<li style="font-weight: 400; text-align: justify;">K. P. Srinivasan, B. Eysenbach, S. Ha, J. Tan, and C. Finn, “Learning to be Safe: Deep RL with a Safety Critic,” ArXiv, vol. abs/2010.14603, 2020.</li>
+<li style="font-weight: 400; text-align: justify;">H. Bharadhwaj, A. Kumar, N. Rhinehart, S. Levine, F. Shkurti, and A. Garg, “Conservative Safety Critics for Exploration,” 2021. [Online]. Available: <a href="https://openreview.net/forum?id=iaO86DUuKi">https://openreview.net/forum?id=iaO86DUuKi</a>
+</li>
+<li style="font-weight: 400; text-align: justify;">Kumar, A., Zhou, A., Tucker, G., &amp; Levine, S. (2020). Conservative Q-Learning for Offline Reinforcement Learning.</li>
+<li style="font-weight: 400; text-align: justify;">Thananjeyan, B., Balakrishna, A., Nair, S., Luo, M., Srinivasan, K., Hwang, M., Gonzalez, J. E., Ibarz, J., Finn, C., &amp; Goldberg, K. (2021). Recovery RL: Safe Reinforcement Learning with Learned Recovery Zones.</li>
+</ol>
+</div>
+
+</article></main>
+</div>
+</div>
+</div>
+</div>
+<a href="#" id="si-scroll-top" class="si-smooth-scroll" title="Scroll to Top">
+	<span class="si-scroll-icon" aria-hidden="true">
+		<svg class="si-icon top-icon" xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewbox="0 0 32 32"><path d="M24.958 18.491l-8.008-8.008c-0.534-0.534-1.335-0.534-1.868 0l-8.008 8.008c-0.534 0.534-0.534 1.335 0 1.868s1.335 0.534 1.868 0l7.074-7.074 7.074 7.074c0.267 0.267 0.667 0.4 0.934 0.4s0.667-0.133 0.934-0.4c0.534-0.534 0.534-1.335 0-1.868z"></path></svg>		<svg class="si-icon" xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewbox="0 0 32 32"><path d="M24.958 18.491l-8.008-8.008c-0.534-0.534-1.335-0.534-1.868 0l-8.008 8.008c-0.534 0.534-0.534 1.335 0 1.868s1.335 0.534 1.868 0l7.074-7.074 7.074 7.074c0.267 0.267 0.667 0.4 0.934 0.4s0.667-0.133 0.934-0.4c0.534-0.534 0.534-1.335 0-1.868z"></path></svg>	</span>
+	<span class="screen-reader-text">Scroll to Top</span>
+</a>
+
+</body>
+</html>
+

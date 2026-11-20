@@ -1,0 +1,177 @@
+<!doctype html>
+<html lang="en-US">
+<head>
+<meta charset="utf-8">
+<title>Abhinav Singh: Safe Imitation Learning for Beam Tracking – Machine Learning and Positioning Systems</title>
+<meta name="robots" content="max-image-preview:large">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="../assets/css/wp-img-auto-sizes-contain-0356978c0eb0.css">
+<link rel="stylesheet" href="../assets/css/wp-emoji-styles-f1b2bed85457.css">
+<link rel="stylesheet" href="../assets/css/wp-block-library-9077cbb97de5.css">
+<link rel="stylesheet" href="../assets/css/wp-block-heading-187c2a0a016f.css">
+<link rel="stylesheet" href="../assets/css/classic-theme-styles-dcd9f488bd62.css">
+<link rel="stylesheet" href="../assets/css/global-styles-ad322089e4f0.css">
+<link rel="stylesheet" href="../assets/theme/wp-content/plugins/show-hidecollapse-expand/assets/css/genericons/genericons.css" media="all">
+<link rel="stylesheet" href="../assets/theme/wp-content/plugins/show-hidecollapse-expand/assets/css/bg-show-hide.css" media="all">
+<link rel="stylesheet" href="../assets/theme/wp-content/plugins/wp-show-more/wpsm-style.css" media="all">
+<link rel="stylesheet" href="../assets/theme/wp-content/themes/sinatra/assets/css/style.min.css" media="all">
+<link rel="stylesheet" href="../assets/theme/wp-content/uploads/sinatra/dynamic-styles.css" media="all">
+<link rel="stylesheet" href="../assets/theme/wp-content/plugins/simple-social-icons/css/style.css" media="all">
+<link rel="stylesheet" href="../assets/theme/wp-content/plugins/a3-lazy-load/assets/css/jquery.lazyloadxt.spinner.css" media="all">
+<meta name="theme-color" content="#1df900">
+<link rel="icon" href="../wp-content/uploads/2026/06/cropped-cropped-mlps-logo_utn-scaled-1-32x32.png" sizes="32x32">
+<link rel="icon" href="../wp-content/uploads/2026/06/cropped-cropped-mlps-logo_utn-scaled-1-192x192.png" sizes="192x192">
+<link rel="apple-touch-icon" href="../wp-content/uploads/2026/06/cropped-cropped-mlps-logo_utn-scaled-1-180x180.png">
+<meta name="msapplication-TileImage" content="../wp-content/uploads/2026/06/cropped-cropped-mlps-logo_utn-scaled-1-270x270.png">
+<link rel="stylesheet" href="../assets/theme/wp-content/plugins/inline-text-popup/src/style.css" media="all">
+<link rel="canonical" href="https://mlps-lab.de/abhinav-singh-safe-imitation-learning-for-beam-tracking/">
+<link rel="stylesheet" href="../assets/site.css">
+<script src="../assets/site.js" defer></script>
+</head>
+<body class="wp-singular post-template-default single single-post postid-2650 single-format-standard wp-custom-logo wp-embed-responsive wp-theme-sinatra sinatra-topbar__separators-regular sinatra-layout__fw-contained sinatra-header-layout-1 sinatra-menu-animation-underline sinatra-header__separators-none si-single-title-in-content narrow-content si-page-title-align-left sinatra-no-sidebar entry-media-hover-style-1 si-input-supported validate-comment-form si-menu-accessibility si-sticky-header">
+
+<div id="page" class="hfeed site">
+	<a class="skip-link screen-reader-text" href="#content">Skip to content</a>
+
+	<header id="masthead" class="site-header" role="banner" itemtype="https://schema.org/WPHeader" itemscope="itemscope">
+		<div id="sinatra-header">
+		<div id="sinatra-header-inner">
+	
+<div class="si-container si-header-container">
+
+<div class="sinatra-logo si-header-element" itemtype="https://schema.org/Organization" itemscope="itemscope">
+	<div class="logo-inner"><a href="../" rel="home" class="" itemprop="url">
+					<img src="../wp-content/uploads/2026/07/mlps-logo_utn.png" alt="Machine Learning and Positioning Systems" width="1642" height="230" srcset="../wp-content/uploads/2026/07/mlps-logo_utn.png 1x, ../wp-content/uploads/2026/07/mlps-logo_utn.png 2x" itemprop="logo">
+				</a></div>
+</div>
+<nav class="site-navigation main-navigation sinatra-primary-nav sinatra-nav si-header-element" role="navigation" itemtype="https://schema.org/SiteNavigationElement" itemscope="itemscope" aria-label="Site Navigation" aria-haspopup="true">
+<ul id="sinatra-primary-nav" class="menu">
+<li id="menu-item-3303" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-home menu-item-3303"><a href="../"><span>Home</span></a></li>
+<li id="menu-item-3074" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-3074"><a href="../team/"><span>Team</span></a></li>
+<li id="menu-item-2970" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2970"><a href="../publications/"><span>Publications</span></a></li>
+<li id="menu-item-4103" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-4103" aria-haspopup="true">
+<a href="../research/"><span>Research</span><svg class="si-icon" xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewbox="0 0 32 32"><path d="M24.958 10.483c-0.534-0.534-1.335-0.534-1.868 0l-7.074 7.074-7.074-7.074c-0.534-0.534-1.335-0.534-1.868 0s-0.534 1.335 0 1.868l8.008 8.008c0.267 0.267 0.667 0.4 0.934 0.4s0.667-0.133 0.934-0.4l8.008-8.008c0.534-0.534 0.534-1.335 0-1.868z"></path></svg></a>
+<ul class="sub-menu">
+	<li id="menu-item-3499" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-3499"><a href="../research-projects/"><span>Research Projects</span></a></li>
+	<li id="menu-item-3472" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-3472"><a href="../datasets/"><span>Datasets</span></a></li>
+</ul>
+</li>
+<li id="menu-item-4281" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-4281"><a href="../teaching/"><span>Teaching</span></a></li>
+<li id="menu-item-4298" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-4298"><a href="../theses/"><span>Theses &amp; Projects</span></a></li>
+</ul></nav><div class="si-header-widgets si-header-element sinatra-widget-location-right"></div>
+<span class="si-header-element si-mobile-nav">
+				<button class="si-hamburger hamburger--spin si-hamburger-sinatra-primary-nav" aria-label="Menu" aria-controls="sinatra-primary-nav" type="button">
+
+			<span class="hamburger-box">
+				<span class="hamburger-inner"></span>
+			</span>
+
+		</button>
+			</span>
+
+</div>
+</div>
+<div id="si-sticky-placeholder"></div>
+</div></header><div id="main" class="site-main">
+
+<div class="si-container">
+
+	<div id="primary" class="content-area">
+
+		<main id="content" class="site-content" role="main" itemscope="" itemtype="http://schema.org/Blog">
+
+<article id="post-2650" class="post-2650 post type-post status-publish hentry" itemscope="" itemtype="https://schema.org/CreativeWork">
+
+<div class="post-category"><span class="cat-links">Finished, Project, Student-Projects, Uncategorized</span></div>
+<header class="entry-header">
+
+	<h1 class="entry-title" itemprop="headline">Abhinav Singh: Safe Imitation Learning for Beam Tracking</h1>
+
+</header>
+
+<div class="entry-content si-entry" itemprop="text">
+<p>The envisioned transition to 5G and 6G technologies have started to transform the properties of established communication networks. In the core of this transformation lies the capability of Base Stations (BSs) to utilize directional beams for transmission towards User Equipment (UE) served by the network. Here, a (large) library of pre-determined directional beams (called the codebook) is available, and the question is which beam needs to serve a specific UE at any point in time.</p>
+
+<p>Of course, this problem becomes more complicated when the UEs are moving in given trajectories, in which case the BS needs to decide in real-time which beam needs to be used for tracking the UE – a problem called Beam Tracking [1]. Several approaches have been proposed, but among the most promising ones is Imitation Learning (IL) [2]. Here, we assume that an expert (i.e., a module that can determine the best serving beam by utilizing additional information) is available, but invoking it is expensive. Our goal is to distill the decision strategy of the expert in a student module (usually a neural network called a controller or a policy) that has low inference complexity.</p>
+
+<p>This teacher-student training setup facilitates the student to make serval mistakes that the expert can retrospectively correct, in an algorithm first referred to as Dagger in literature [2]. This implies though that there is a performance loss until the student network starts to approximate the expert performance, which could be detrimental for the network performance. To alleviate this problem, a plethora of safe imitation learning approaches have been proposed [3-6].</p>
+
+<p>The Masters Project will consist of implementing a modular and extendable library of safe imitation learning algorithms and evaluating them on a Beam Tracking scenario defined within 6G SENTINEL research project.</p>
+
+<p><strong>Main contact at the department: </strong><a href="mailto:christopher.mutschler@iis.fraunhofer.de">Dr.-Ing. Christopher Mutschler</a></p>
+
+<p><strong>External point of contact: </strong><a href="mailto:georgios.kontes@iis.fraunhofer.de">Dr. Georgios Kontes</a> (Self-Learning Systems Group, Fraunhofer IIS, Nuremberg)</p>
+
+<p><strong>References</strong></p>
+
+<ol type="1">
+<li>Giordani, M., Polese, M., Roy, A., Castor, D., &amp; Zorzi, M. (2018). A tutorial on beam management for 3GPP NR at mmWave frequencies. IEEE Communications Surveys &amp; Tutorials, 21(1), 173-196.</li>
+<li>Ross, S., Gordon, G., &amp; Bagnell, D. (2011, June). A reduction of imitation learning and structured prediction to no-regret online learning. In Proceedings of the fourteenth international conference on artificial intelligence and statistics (pp. 627-635). JMLR Workshop and Conference Proceedings.</li>
+<li>Zhang, J., &amp; Cho, K. (2016). Query-efficient imitation learning for end-to-end autonomous driving. arXiv preprint arXiv:1605.06450.</li>
+<li>J. Menda, K., Driggs-Campbell, K., &amp; Kochenderfer, M. J. (2019, November). Ensembledagger: A bayesian approach to safe imitation learning. In 2019 IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS) (pp. 5041-5048). IEEE.</li>
+<li>Menda, K., Driggs-Campbell, K., &amp; Kochenderfer, M. J. (2017). Dropoutdagger: A bayesian approach to safe imitation learning. arXiv preprint arXiv:1709.06166.</li>
+<li>Cronrath, C., Jorge, E., Moberg, J., Jirstrand, M., &amp; Lennartson, B. (2018). BAgger: A Bayesian algorithm for safe and query-efficient imitation learning. In Machine Learning in Robot Motion Planning–IROS 2018 Workshop.</li>
+<li>Raffin, A., Hill, A., Ernestus, M., Gleave, A., Kanervisto, A., &amp; Dormann, N. (2019). Stable baselines3.</li>
+</ol>
+
+<p><strong>Work Packages</strong></p>
+
+<figure class="wp-block-table"><table><tbody>
+<tr>
+<td>
+<strong>WP</strong><strong></strong>
+</td>
+<td>
+<strong>Description</strong><strong></strong>
+</td>
+</tr>
+<tr>
+<td><strong>WP1</strong></td>
+<td>
+<strong>IL Basics: </strong>In the beginning of the Thesis, familiarization with DAgger-like safe imitation learning algorithms takes place.</td>
+</tr>
+<tr>
+<td><strong>WP2</strong></td>
+<td>
+<strong>Safe IL Algorithms Implementation:</strong> An implementation of the basic Dagger algorithm [2], as well as the most common safety-enabled extensions [3-6] is provided in pytorch. The resulting library:should be modular;should include helper functions for the generation of training datasets from any type of expert (defined as a function);should support both discrete and continuous actions; should support FFN, CNN and LSTM architectures for the policies; andshould provide functionality to use the learned policy within the stable-baselines-3 framework [7]</td>
+</tr>
+<tr>
+<td><strong>WP3</strong></td>
+<td>
+<strong>Safe IL for Beam Tracking: </strong>Application of the defined algorithms for the Beam Tracking problem. Here, the simulator and already available OpenAI Gym environment from 6G SENTINEL project will be utilized. The most suitable policy type (FFN or CNN with or without frame stacking vs LSTM) will be determined and a comprehensive hyper-parameter search/tuning process will be performed to ensure the final performance of the available algorithms.</td>
+</tr>
+<tr>
+<td><strong>WP4</strong></td>
+<td>
+<strong>Evaluation: </strong>The tuned algorithms will be evaluated in different UE trajectories and under different values of the safety threshold. A systematic analysis will indicate the best combinations of policy types and safe IL algorithms for different types of UE movements. </td>
+</tr>
+<tr>
+<td><strong>WP5</strong></td>
+<td>
+<strong>Documentation: </strong>The implementation details and assumptions will be clearly documented alongside the delivered pytorch code. A comprehensive usage manual should also accompany the code. Finally, a documentation of the entire work in a paper-style report, as well as in a final presentation will be delivered.</td>
+</tr>
+</tbody></table></figure>
+
+<p><strong>Formal Criteria</strong></p>
+
+<ul>
+<li>Code (including documentation)</li>
+<li>Report in the form of a paper</li>
+<li>Final presentation</li>
+</ul>
+</div>
+
+</article></main>
+</div>
+</div>
+</div>
+</div>
+<a href="#" id="si-scroll-top" class="si-smooth-scroll" title="Scroll to Top">
+	<span class="si-scroll-icon" aria-hidden="true">
+		<svg class="si-icon top-icon" xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewbox="0 0 32 32"><path d="M24.958 18.491l-8.008-8.008c-0.534-0.534-1.335-0.534-1.868 0l-8.008 8.008c-0.534 0.534-0.534 1.335 0 1.868s1.335 0.534 1.868 0l7.074-7.074 7.074 7.074c0.267 0.267 0.667 0.4 0.934 0.4s0.667-0.133 0.934-0.4c0.534-0.534 0.534-1.335 0-1.868z"></path></svg>		<svg class="si-icon" xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewbox="0 0 32 32"><path d="M24.958 18.491l-8.008-8.008c-0.534-0.534-1.335-0.534-1.868 0l-8.008 8.008c-0.534 0.534-0.534 1.335 0 1.868s1.335 0.534 1.868 0l7.074-7.074 7.074 7.074c0.267 0.267 0.667 0.4 0.934 0.4s0.667-0.133 0.934-0.4c0.534-0.534 0.534-1.335 0-1.868z"></path></svg>	</span>
+	<span class="screen-reader-text">Scroll to Top</span>
+</a>
+
+</body>
+</html>
+

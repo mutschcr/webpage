@@ -1,0 +1,41 @@
+title = "Simulation-based Evaluation and Optimization of Control Strategies in Buildings"
+authors = ["Georgios D Kontes", "Georgios I Giannakis", "Víctor Sánchez", "De Agustin-Camacho", "Ander Romero-Amorrortu", "Natalia Panagiotidou", "Dimitrios V Rovas", "Simone Steiger", "Christopher Mutschler", "Gunnar Gruen"]
+date = "2018-01-01"
+venue = "Energies"
+detail_url = "/publication/simulation-based-evaluation-and-optimization-of-control-strategies-in-buildings/"
+profiles = ["christopher-mutschler"]
+doi = "https://doi.org/10.3390/en11123376"
+abstract = "We propose a methodology for building control. A central part of our methodology is the control improvement (or optimisation) module, facilitating two simulation-based control improvement methodologies: one based in multi-criteria decision analysis methods and the other based on state-space identification of dynamical systems using Gaussian process models and reinforcement learning. We evaluate the proposed methodology in a set of simulation-based experiments using the thermal simulation model of a real building located in Portugal."
+bibtex = '''
+@Article{en11123376,
+AUTHOR = {Kontes, Georgios D. and Giannakis, Georgios I. and Sánchez, Víctor and De Agustin-Camacho, Pablo and Romero-Amorrortu, Ander and Panagiotidou, Natalia and Rovas, Dimitrios V. and Steiger, Simone and Mutschler, Christopher and Gruen, Gunnar},
+TITLE = {Simulation-Based Evaluation and Optimization of Control Strategies in Buildings},
+JOURNAL = {Energies},
+VOLUME = {11},
+YEAR = {2018},
+NUMBER = {12},
+ARTICLE-NUMBER = {3376},
+URL = {https://www.mdpi.com/1996-1073/11/12/3376},
+ISSN = {1996-1073},
+ABSTRACT = {Over the last several years, a great amount of research work has been focused on the development of model predictive control techniques for the indoor climate control of buildings, but, despite the promising results, this technology is still not adopted by the industry. One of the main reasons for this is the increased cost associated with the development and calibration (or identification) of mathematical models of special structure used for predicting future states of the building. We propose a methodology to overcome this obstacle by replacing these hand-engineered mathematical models with a thermal simulation model of the building developed using detailed thermal simulation engines such as EnergyPlus. As designing better controllers requires interacting with the simulation model, a central part of our methodology is the control improvement (or optimisation) module, facilitating two simulation-based control improvement methodologies: one based in multi-criteria decision analysis methods and the other based on state-space identification of dynamical systems using Gaussian process models and reinforcement learning. We evaluate the proposed methodology in a set of simulation-based experiments using the thermal simulation model of a real building located in Portugal. Our results indicate that the proposed methodology could be a viable alternative to model predictive control-based supervisory control in buildings.},
+DOI = {10.3390/en11123376}
+}'''
+
+[links]
+Website = "https://www.mdpi.com/1996-1073/11/12/3376"
+
+[image]
+src = "/wp-content/uploads/2026/09/energies-11-03376-g005-297x300.png"
+alt = ""
+width = 297
+height = 300
+sizes = "(max-width: 297px) 100vw, 297px"
+class = "attachment-medium size-medium"
+
+[image.sources]
+1521w = "/wp-content/uploads/2026/09/energies-11-03376-g005-1521x1536.png"
+2028w = "/wp-content/uploads/2026/09/energies-11-03376-g005-2028x2048.png"
+297w = "/wp-content/uploads/2026/09/energies-11-03376-g005-297x300.png"
+768w = "/wp-content/uploads/2026/09/energies-11-03376-g005-768x776.png"
+1014w = "/wp-content/uploads/2026/09/energies-11-03376-g005-1014x1024.png"
+2535w = "/wp-content/uploads/2026/09/energies-11-03376-g005-scaled.png"

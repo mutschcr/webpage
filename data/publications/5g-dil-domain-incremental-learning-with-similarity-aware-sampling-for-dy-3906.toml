@@ -1,0 +1,39 @@
+title = "5G-DIL: Domain Incremental Learning with Similarity-Aware Sampling for Dynamic 5G Indoor Localization"
+authors = ["Nisha Lakshmana Raichur", "Lucas Heublein", "Christopher Mutschler", "Felix Ott"]
+date = "2025-01-01"
+venue = "International Conference on Localization and GNSS (ICL-GNSS)"
+detail_url = "/publication/5g-dil-domain-incremental-learning-with-similarity-aware-sampling-for-dynamic-5g-indoor-localization/"
+profiles = ["christopher-mutschler"]
+doi = "https://doi.org/10.1109/ICL-GNSS65520.2025.11046094"
+abstract = '''
+This paper introduces a domain incremental learning (DIL) approach for dynamic 5G indoor localization, called 5GDIL, enabling rapid adaptation to environmental changes. We present a novel similarity-aware sampling technique based on the Chebyshev distance, designed to efficiently select specific exemplars from the previous environment while training only on the modified regions of the new environment. This avoids the need to train on the entire region, significantly reducing the time and resources required for adaptation without compromising localization accuracy. This approach requires as few as 50 exemplars from adaptation domains, significantly reducing training time while maintaining high positioning accuracy in previous environments. Comparative evaluations against state-of-the-art DIL techniques on a challenging real-world indoor dataset demonstrate the effectiveness of the proposed sample selection method. Our approach is adaptable to real-world non-line-ofsight propagation scenarios and achieves an MAE positioning error of 0.261 meters, even under dynamic environmental conditions.
+
+Code: https://gitlab.cc-asp.fraunhofer.de/5g-pos/5g-dil'''
+bibtex = '''
+@INPROCEEDINGS{11046094,
+  author={Raichur, Nisha L. and Heublein, Lucas and Mutschler, Christopher and Ott, Felix},
+  booktitle={2025 International Conference on Localization and GNSS (ICL-GNSS)}, 
+  title={5G-DIL: Domain Incremental Learning with Similarity-Aware Sampling for Dynamic 5G Indoor Localization}, 
+  year={2025},
+  volume={},
+  number={},
+  pages={1-7},
+  keywords={Location awareness;Training;Meters;Learning systems;Incremental learning;Accuracy;5G mobile communication;Scalability;Training data;Electronics packaging;5G Indoor Localization;Incremental Learning;Environmental Dynamics;Sample Selection;Similarity Search},
+  doi={10.1109/ICL-GNSS65520.2025.11046094}}'''
+
+[links]
+Website = "https://ieeexplore.ieee.org/abstract/document/11046094"
+Code = "https://gitlab.cc-asp.fraunhofer.de/5g-pos/5g-dil"
+
+[image]
+src = "/wp-content/uploads/2026/09/11046094-fig-1-source-large-300x100.gif"
+alt = ""
+width = 300
+height = 100
+sizes = "(max-width: 300px) 100vw, 300px"
+class = "attachment-medium size-medium"
+
+[image.sources]
+300w = "/wp-content/uploads/2026/09/11046094-fig-1-source-large-300x100.gif"
+768w = "/wp-content/uploads/2026/09/11046094-fig-1-source-large-768x256.gif"
+820w = "/wp-content/uploads/2026/09/11046094-fig-1-source-large.gif"

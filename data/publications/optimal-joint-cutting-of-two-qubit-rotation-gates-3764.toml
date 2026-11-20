@@ -1,0 +1,38 @@
+title = "Optimal Joint Cutting of Two-qubit Rotation Gates"
+authors = ["Christian Ufrecht", "Laura S Herzog", "Daniel D Scherer", "Maniraman Periyasamy", "Sebastian Rietsch", "Axel Plinge", "Christopher Mutschler"]
+date = "2024-01-01"
+venue = "Physical Review A"
+detail_url = "/publication/optimal-joint-cutting-of-two-qubit-rotation-gates/"
+profiles = ["christopher-mutschler"]
+doi = "https://doi.org/10.1103/PhysRevA.109.052440"
+abstract = "Circuit cutting, the partitioning of quantum circuits into smaller independent fragments, has become a promising avenue for scaling up current quantum-computing experiments. Here, we introduce a scheme for joint cutting of two-qubit rotation gates based on a virtual gate-teleportation protocol. With that, we significantly lower the previous upper bounds on the sampling overhead and prove the optimality of the scheme. Furthermore, we show that no classical communication between the circuit partitions is required. For parallel two-qubit rotation gates we derive an optimal ancilla-free decomposition, which includes cnot gates as a special case."
+bibtex = '''
+@article{PhysRevA.109.052440,
+  title = {Optimal joint cutting of two-qubit rotation gates},
+  author = {Ufrecht, Christian and Herzog, Laura S. and Scherer, Daniel D. and Periyasamy, Maniraman and Rietsch, Sebastian and Plinge, Axel and Mutschler, Christopher},
+  journal = {Phys. Rev. A},
+  volume = {109},
+  issue = {5},
+  pages = {052440},
+  numpages = {9},
+  year = {2024},
+  month = {May},
+  publisher = {American Physical Society},
+  doi = {10.1103/PhysRevA.109.052440},
+  url = {https://link.aps.org/doi/10.1103/PhysRevA.109.052440}
+}'''
+
+[links]
+Website = "https://journals.aps.org/pra/abstract/10.1103/PhysRevA.109.052440"
+
+[image]
+src = "/wp-content/uploads/2026/09/2024-cutting-300x114.png"
+alt = ""
+width = 300
+height = 114
+sizes = "(max-width: 300px) 100vw, 300px"
+class = "attachment-medium size-medium"
+
+[image.sources]
+300w = "/wp-content/uploads/2026/09/2024-cutting-300x114.png"
+591w = "/wp-content/uploads/2026/09/2024-cutting.png"

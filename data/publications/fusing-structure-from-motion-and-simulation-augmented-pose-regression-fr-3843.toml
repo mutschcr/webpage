@@ -1,0 +1,37 @@
+title = "Fusing Structure from Motion and Simulation-augmented Pose Regression from Optical Flow for Challenging Indoor Environments"
+authors = ["Felix Ott", "Lucas Heublein", "David Rügamer", "Bernd Bischl", "Christopher Mutschler"]
+date = "2024-01-01"
+venue = "Journal of Visual Communication and Image Representation"
+detail_url = "/publication/fusing-structure-from-motion-and-simulation-augmented-pose-regression-from-optical-flow-for-challenging-indoor-environments/"
+profiles = ["christopher-mutschler"]
+doi = "https://doi.org/10.1016/j.jvcir.2024.104256"
+abstract = "We enhance the performance of SfM and PoseNet in retrieving absolute poses, evaluate PGO to optimize the absolute pose and conduct a benchmark of 25 convolutional, recurrent, and Transformer networks in absolute and relative pose fusion."
+bibtex = '''
+@article{OTT2024104256,
+title = {Fusing structure from motion and simulation-augmented pose regression from optical flow for challenging indoor environments},
+journal = {Journal of Visual Communication and Image Representation},
+volume = {103},
+pages = {104256},
+year = {2024},
+issn = {1047-3203},
+doi = {https://doi.org/10.1016/j.jvcir.2024.104256},
+url = {https://www.sciencedirect.com/science/article/pii/S1047320324002128},
+author = {Felix Ott and Lucas Heublein and David Rügamer and Bernd Bischl and Christopher Mutschler},
+keywords = {Visual self-localization, Structure from motion, Pose regression, Optical flow, Pose graph optimization, Recurrent pose fusion, Synthetic transfer learning, Challenging environment},
+abstract = {The localization of objects is essential in many applications, such as robotics, virtual and augmented reality, and warehouse logistics. Recent advancements in deep learning have enabled localization using monocular cameras. Traditionally, structure from motion (SfM) techniques predict an object’s absolute position from a point cloud, while absolute pose regression (APR) methods use neural networks to understand the environment semantically. However, both approaches face challenges from environmental factors like motion blur, lighting changes, repetitive patterns, and featureless areas. This study addresses these challenges by incorporating additional information and refining absolute pose estimates with relative pose regression (RPR) methods. RPR also struggles with issues like motion blur. To overcome this, we compute the optical flow between consecutive images using the Lucas–Kanade algorithm and use a small recurrent convolutional network to predict relative poses. Combining absolute and relative poses is difficult due to differences between global and local coordinate systems. Current methods use pose graph optimization (PGO) to align these poses. In this work, we propose recurrent fusion networks to better integrate absolute and relative pose predictions, enhancing the accuracy of absolute pose estimates. We evaluate eight different recurrent units and create a simulation environment to pre-train the APR and RPR networks for improved generalization. Additionally, we record a large dataset of various scenarios in a challenging indoor environment resembling a warehouse with transportation robots. Through hyperparameter searches and experiments, we demonstrate that our recurrent fusion method outperforms PGO in effectiveness.}
+}'''
+
+[links]
+Website = "https://www.sciencedirect.com/science/article/pii/S1047320324002128"
+
+[image]
+src = "/wp-content/uploads/2026/09/1-s2.0-S1047320324002128-gr1-300x137.jpg"
+alt = ""
+width = 300
+height = 137
+sizes = "(max-width: 300px) 100vw, 300px"
+class = "attachment-medium size-medium"
+
+[image.sources]
+300w = "/wp-content/uploads/2026/09/1-s2.0-S1047320324002128-gr1-300x137.jpg"
+697w = "/wp-content/uploads/2026/09/1-s2.0-S1047320324002128-gr1.jpg"

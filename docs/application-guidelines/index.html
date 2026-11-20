@@ -1,0 +1,571 @@
+<!doctype html>
+<html lang="en-US">
+<head>
+<meta charset="utf-8">
+<title>Application Guidelines – Machine Learning and Positioning Systems</title>
+<meta name="robots" content="max-image-preview:large">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="../assets/css/wp-img-auto-sizes-contain-0356978c0eb0.css">
+<link rel="stylesheet" href="../assets/css/wp-emoji-styles-f1b2bed85457.css">
+<link rel="stylesheet" href="../assets/css/wp-block-library-9077cbb97de5.css">
+<link rel="stylesheet" href="../assets/css/wp-block-accordion-40f0c19e711a.css">
+<link rel="stylesheet" href="../assets/css/wp-block-accordion-item-7cd741776a64.css">
+<link rel="stylesheet" href="../assets/css/wp-block-details-b725e3774697.css">
+<link rel="stylesheet" href="../assets/css/wp-block-heading-187c2a0a016f.css">
+<link rel="stylesheet" href="../assets/css/wp-block-list-942b2302016e.css">
+<link rel="stylesheet" href="../assets/css/wp-block-paragraph-622f970d1229.css">
+<link rel="stylesheet" href="../assets/css/wp-block-accordion-heading-8dc20377e424.css">
+<link rel="stylesheet" href="../assets/css/wp-block-accordion-panel-eb9611724df2.css">
+<link rel="stylesheet" href="../assets/css/classic-theme-styles-dcd9f488bd62.css">
+<link rel="stylesheet" href="../assets/css/global-styles-ad322089e4f0.css">
+<link rel="stylesheet" href="../assets/theme/wp-content/plugins/show-hidecollapse-expand/assets/css/genericons/genericons.css" media="all">
+<link rel="stylesheet" href="../assets/theme/wp-content/plugins/show-hidecollapse-expand/assets/css/bg-show-hide.css" media="all">
+<link rel="stylesheet" href="../assets/theme/wp-content/plugins/wp-show-more/wpsm-style.css" media="all">
+<link rel="stylesheet" href="../assets/theme/wp-content/themes/sinatra/assets/css/style.min.css" media="all">
+<link rel="stylesheet" href="../assets/theme/wp-content/uploads/sinatra/dynamic-styles.css" media="all">
+<link rel="stylesheet" href="../assets/theme/wp-content/plugins/simple-social-icons/css/style.css" media="all">
+<link rel="stylesheet" href="../assets/theme/wp-content/plugins/a3-lazy-load/assets/css/jquery.lazyloadxt.spinner.css" media="all">
+<meta name="theme-color" content="#1df900">
+<link rel="icon" href="../wp-content/uploads/2026/06/cropped-cropped-mlps-logo_utn-scaled-1-32x32.png" sizes="32x32">
+<link rel="icon" href="../wp-content/uploads/2026/06/cropped-cropped-mlps-logo_utn-scaled-1-192x192.png" sizes="192x192">
+<link rel="apple-touch-icon" href="../wp-content/uploads/2026/06/cropped-cropped-mlps-logo_utn-scaled-1-180x180.png">
+<meta name="msapplication-TileImage" content="../wp-content/uploads/2026/06/cropped-cropped-mlps-logo_utn-scaled-1-270x270.png">
+<link rel="stylesheet" href="../assets/theme/wp-content/plugins/inline-text-popup/src/style.css" media="all">
+<link rel="canonical" href="https://mlps-lab.de/application-guidelines/">
+<link rel="stylesheet" href="../assets/site.css">
+<script src="../assets/site.js" defer></script>
+</head>
+<body class="wp-singular page-template-default page page-id-3195 wp-custom-logo wp-embed-responsive wp-theme-sinatra sinatra-topbar__separators-regular sinatra-layout__fw-contained sinatra-header-layout-1 sinatra-menu-animation-underline sinatra-header__separators-none si-page-title-align-left sinatra-no-sidebar entry-media-hover-style-1 si-input-supported validate-comment-form si-menu-accessibility si-sticky-header">
+
+<div id="page" class="hfeed site">
+	<a class="skip-link screen-reader-text" href="#content">Skip to content</a>
+
+	<header id="masthead" class="site-header" role="banner" itemtype="https://schema.org/WPHeader" itemscope="itemscope">
+		<div id="sinatra-header">
+		<div id="sinatra-header-inner">
+	
+<div class="si-container si-header-container">
+
+<div class="sinatra-logo si-header-element" itemtype="https://schema.org/Organization" itemscope="itemscope">
+	<div class="logo-inner"><a href="../" rel="home" class="" itemprop="url">
+					<img src="../wp-content/uploads/2026/07/mlps-logo_utn.png" alt="Machine Learning and Positioning Systems" width="1642" height="230" srcset="../wp-content/uploads/2026/07/mlps-logo_utn.png 1x, ../wp-content/uploads/2026/07/mlps-logo_utn.png 2x" itemprop="logo">
+				</a></div>
+</div>
+<nav class="site-navigation main-navigation sinatra-primary-nav sinatra-nav si-header-element" role="navigation" itemtype="https://schema.org/SiteNavigationElement" itemscope="itemscope" aria-label="Site Navigation" aria-haspopup="true">
+<ul id="sinatra-primary-nav" class="menu">
+<li id="menu-item-3303" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-home menu-item-3303"><a href="../"><span>Home</span></a></li>
+<li id="menu-item-3074" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-3074"><a href="../team/"><span>Team</span></a></li>
+<li id="menu-item-2970" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2970"><a href="../publications/"><span>Publications</span></a></li>
+<li id="menu-item-4103" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-4103" aria-haspopup="true">
+<a href="../research/"><span>Research</span><svg class="si-icon" xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewbox="0 0 32 32"><path d="M24.958 10.483c-0.534-0.534-1.335-0.534-1.868 0l-7.074 7.074-7.074-7.074c-0.534-0.534-1.335-0.534-1.868 0s-0.534 1.335 0 1.868l8.008 8.008c0.267 0.267 0.667 0.4 0.934 0.4s0.667-0.133 0.934-0.4l8.008-8.008c0.534-0.534 0.534-1.335 0-1.868z"></path></svg></a>
+<ul class="sub-menu">
+	<li id="menu-item-3499" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-3499"><a href="../research-projects/"><span>Research Projects</span></a></li>
+	<li id="menu-item-3472" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-3472"><a href="../datasets/"><span>Datasets</span></a></li>
+</ul>
+</li>
+<li id="menu-item-4281" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-4281"><a href="../teaching/"><span>Teaching</span></a></li>
+<li id="menu-item-4298" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-4298"><a href="../theses/"><span>Theses &amp; Projects</span></a></li>
+</ul></nav><div class="si-header-widgets si-header-element sinatra-widget-location-right"></div>
+<span class="si-header-element si-mobile-nav">
+				<button class="si-hamburger hamburger--spin si-hamburger-sinatra-primary-nav" aria-label="Menu" aria-controls="sinatra-primary-nav" type="button">
+
+			<span class="hamburger-box">
+				<span class="hamburger-inner"></span>
+			</span>
+
+		</button>
+			</span>
+
+</div>
+</div>
+<div id="si-sticky-placeholder"></div>
+</div>
+<div class="page-header si-has-page-title">
+	<div class="si-container">
+
+		<div class="si-page-header-wrapper">
+
+			<div class="si-page-header-title">
+				<h1 class="page-title" itemprop="headline">Application Guidelines</h1>			</div>
+
+					</div>
+
+	</div>
+</div>
+	</header><div id="main" class="site-main">
+
+<div class="si-container">
+
+	<div id="primary" class="content-area">
+
+		<main id="content" class="site-content" role="main" itemtype="http://schema.org/WebPageElement" itemprop="mainContentOfPage">
+
+<article id="post-3195" class="post-3195 page type-page status-publish hentry" itemscope="" itemtype="https://schema.org/CreativeWork">
+
+<div class="entry-content si-entry">
+	
+<h2 class="wp-block-heading">Join the Machine Learning and Positioning Systems Lab at UTN</h2>
+
+<p class="wp-block-paragraph">We are looking for motivated candidates who want to work on machine learning, localization, sensing, and autonomous systems — with a strong focus on reliable, resource-efficient, and real-world AI. Our core research areas are:</p>
+
+<ul class="wp-block-list">
+<li>Localization &amp; sensor fusion (radio, inertial, vision)</li>
+
+<li>Edge AI &amp; efficient learning systems</li>
+
+<li>Trustworthy &amp; reliable reinforcement learning</li>
+</ul>
+
+<p class="wp-block-paragraph">We are looking for people who are excited by rigorous research, strong implementation, and working on problems that matter beyond the lab. If you are unsure whether your background fits perfectly, but you are strongly aligned with our research and can show evidence of ability, you are still encouraged to apply. </p>
+
+<p class="wp-block-paragraph">Strong applications are not necessarily the ones with the longest CV. They are the ones that show the clearest combination of fit, depth, initiative, and research potential.</p>
+
+<div role="group" class="wp-block-accordion is-layout-flow wp-block-accordion-is-layout-flow">
+<div class="wp-block-accordion-item is-layout-flow wp-block-accordion-item-is-layout-flow">
+<h3 class="wp-block-accordion-heading has-icon has-icon-right"><button aria-expanded="false" aria-controls="accordion-item-1-panel" id="accordion-item-1" type="button" class="wp-block-accordion-heading__toggle"><span class="wp-block-accordion-heading__toggle-title">Before You Apply: Please Check Your Fit</span><span class="wp-block-accordion-heading__toggle-icon" aria-hidden="true">+</span></button></h3>
+
+<div aria-labelledby="accordion-item-1" id="accordion-item-1-panel" role="region" class="wp-block-accordion-panel is-layout-flow wp-block-accordion-panel-is-layout-flow" hidden="until-found">
+<p>The strongest applications are those that show a <span style="text-decoration: underline;"><strong>clear and specific overlap</strong></span> with our research. Before applying, please do the following:</p>
+
+<ol class="wp-block-list">
+<li>Review our recent research topics and publications.</li>
+
+<li>Identify one or two themes that genuinely match your interests and background.</li>
+
+<li>Explain in your application why you are a good fit for this lab in particular.</li>
+</ol>
+
+<p>A generic application to “anything in AI” is usually not competitive. A focused application that clearly connects your background to our research is much more convincing. <span style="text-decoration: underline;"><strong>Show why this lab fits you and why you fit this lab</strong></span>. We value applicants who can demonstrate:</p>
+
+<ul class="wp-block-list">
+<li>strong analytical and mathematical thinking</li>
+
+<li>solid programming ability</li>
+
+<li>curiosity and research drive</li>
+
+<li>evidence of real work (projects, code, thesis, papers)</li>
+
+<li>independence and reliability</li>
+
+<li>clear written and spoken English</li>
+
+<li>willingness to work carefully and reproducibly</li>
+</ul>
+</div>
+</div>
+</div>
+
+<div role="group" class="wp-block-accordion is-layout-flow wp-block-accordion-is-layout-flow">
+<div class="wp-block-accordion-item is-layout-flow wp-block-accordion-item-is-layout-flow">
+<h3 class="wp-block-accordion-heading has-icon has-icon-right"><button aria-expanded="false" aria-controls="accordion-item-2-panel" id="accordion-item-2" type="button" class="wp-block-accordion-heading__toggle"><span class="wp-block-accordion-heading__toggle-title">Position-Specific Expectations</span><span class="wp-block-accordion-heading__toggle-icon" aria-hidden="true">+</span></button></h3>
+
+<div aria-labelledby="accordion-item-2" id="accordion-item-2-panel" role="region" class="wp-block-accordion-panel is-layout-flow wp-block-accordion-panel-is-layout-flow" hidden="until-found">
+<p class="wp-block-paragraph">Expectations for candidates vary depending on their level of experience</p>
+
+<details class="wp-block-details is-layout-flow wp-block-details-is-layout-flow"><summary><strong>Student Assistants</strong></summary>
+<p class="wp-block-paragraph">Student assistants typically support ongoing research, software development, experiments, data processing, or benchmarking. A strong application usually includes:</p>
+
+<ul class="wp-block-list">
+<li>current enrollment in computer science, AI, robotics, electrical engineering, mathematics, physics, or a related field</li>
+
+<li>solid programming skills, especially in <strong>Python</strong>
+</li>
+
+<li>willingness to work in a structured and reliable way</li>
+
+<li>interest in machine learning, sensing, localization, embedded systems, or reinforcement learning</li>
+</ul>
+
+<p class="wp-block-paragraph">Helpful but not strictly required:</p>
+
+<ul class="wp-block-list">
+<li>experience with PyTorch or similar frameworks</li>
+
+<li>familiarity with Linux, Git, Docker, or scientific Python tooling</li>
+
+<li>experience with signal processing, sensor data, robotics, or wireless systems</li>
+</ul>
+
+<p class="wp-block-paragraph">We especially appreciate applicants who can show code, project work, or prior research-oriented work.</p>
+</details>
+
+<details class="wp-block-details is-layout-flow wp-block-details-is-layout-flow"><summary><strong>Bachelor’s / Master’s Thesis Students</strong></summary>
+<p class="wp-block-paragraph">We supervise thesis projects for students whose interests strongly align with the lab.</p>
+
+<p class="wp-block-paragraph">Requirements:</p>
+
+<ul class="wp-block-list">
+<li>excellent or very good academic performance in relevant coursework</li>
+
+<li>prior exposure to machine learning, statistics, optimization, signal processing, robotics, or related areas</li>
+
+<li>the ability to work independently and systematically</li>
+
+<li>interest in reading scientific literature and implementing reproducible experiments</li>
+</ul>
+
+<p class="wp-block-paragraph">For thesis applications, it is very helpful if you include:</p>
+
+<ul class="wp-block-list">
+<li>a short indication of which topic area interests you most</li>
+
+<li>relevant coursework and grades</li>
+
+<li>one or two relevant projects</li>
+
+<li>your availability and intended thesis timeline</li>
+</ul>
+
+<p class="wp-block-paragraph">A thesis in our lab is expected to go beyond implementation only. We value careful experimentation, clear problem formulation, and scientific writing.</p>
+</details>
+
+<details class="wp-block-details is-layout-flow wp-block-details-is-layout-flow"><summary><strong>PhD Candidates</strong></summary>
+<p class="wp-block-paragraph">We are looking for PhD candidates who want to conduct ambitious research in machine learning with a focus on positioning systems (but not exclusively!).</p>
+
+<p class="wp-block-paragraph">General requirements:</p>
+
+<ul class="wp-block-list">
+<li>an excellent Master’s degree in computer science, AI, mathematics, electrical engineering, robotics, physics, or related disciplines</li>
+
+<li>strong foundations in at least some of the following: machine learning / deep learning / reinforcement learning, probability and statistics, strong implementation skills, evidence that they can work independently on difficult technical problems</li>
+</ul>
+
+<p class="wp-block-paragraph">What we look for in your application:</p>
+
+<ul class="wp-block-list">
+<li>an outstanding Master’s thesis</li>
+
+<li>publications, preprints, or strong research projects</li>
+
+<li>open-source contributions or substantial code artifacts</li>
+
+<li>internships in relevant research environments</li>
+
+<li>clear motivation for research rather than only engineering</li>
+</ul>
+
+<p class="wp-block-paragraph">PhD candidates should be excited about pushing beyond established solutions, formulating precise research questions, and producing work that can stand up to serious scientific scrutiny. </p>
+</details>
+
+<details class="wp-block-details is-layout-flow wp-block-details-is-layout-flow"><summary><strong>Postdoctoral Researchers</strong></summary>
+<p class="wp-block-paragraph">We welcome applications from postdoctoral researchers who want to help build a strong and internationally visible research program in the lab.</p>
+
+<p class="wp-block-paragraph">Requirements:</p>
+
+<ul class="wp-block-list">
+<li>a PhD in a relevant field</li>
+
+<li>a strong publication record in respected venues</li>
+
+<li>the ability to initiate and drive research projects independently</li>
+
+<li>experience mentoring students or junior researchers</li>
+
+<li>excellent communication skills and scientific judgment</li>
+</ul>
+
+<p class="wp-block-paragraph">Particularly valuable are applicants who can contribute to one or more of the following:</p>
+
+<ul>
+<li>strengthening the lab’s visibility through publications, mentoring, and academic community engagement </li>
+<li>advancing a core methodological area of the lab </li>
+<li>building bridges to adjacent fields or application domains </li>
+<li>helping shape larger collaborative or externally funded research efforts</li>
+</ul>
+</details>
+</div>
+</div>
+</div>
+
+<div role="group" class="wp-block-accordion is-layout-flow wp-block-accordion-is-layout-flow">
+<div class="wp-block-accordion-item is-layout-flow wp-block-accordion-item-is-layout-flow">
+<h3 class="wp-block-accordion-heading has-icon has-icon-right"><button aria-expanded="false" aria-controls="accordion-item-3-panel" id="accordion-item-3" type="button" class="wp-block-accordion-heading__toggle"><span class="wp-block-accordion-heading__toggle-title">What to Submit</span><span class="wp-block-accordion-heading__toggle-icon" aria-hidden="true">+</span></button></h3>
+
+<div aria-labelledby="accordion-item-3" id="accordion-item-3-panel" role="region" class="wp-block-accordion-panel is-layout-flow wp-block-accordion-panel-is-layout-flow" hidden="until-found">
+<p class="wp-block-paragraph">Please send your application as <strong>one single PDF</strong>.</p>
+
+<p class="wp-block-paragraph">Your application should include the following:</p>
+
+<h3 class="wp-block-heading">1. Motivation Letter or Statement of Interest (maximum 1 page)</h3>
+
+<p class="wp-block-paragraph">Please address:</p>
+
+<ul class="wp-block-list">
+<li>why you want to join the Machine Learning and Positioning Systems lab</li>
+
+<li>which of our research directions are most relevant to you</li>
+
+<li>what you have done so far that prepares you for this position</li>
+
+<li>what kind of research or project questions you would like to work on</li>
+
+<li>In case of PhD candidates: please explain why you want to conduct a PhD thesis. What do you expect?</li>
+</ul>
+
+<p class="wp-block-paragraph">This should be specific and concrete. Please avoid generic statements.</p>
+
+<h3 class="wp-block-heading">2. Curriculum Vitae</h3>
+
+<p class="wp-block-paragraph">Please include:</p>
+
+<ul class="wp-block-list">
+<li>education</li>
+
+<li>research experience</li>
+
+<li>work experience, if applicable</li>
+
+<li>technical skills</li>
+
+<li>programming languages and tools</li>
+
+<li>publications, if applicable</li>
+
+<li>awards, scholarships, or distinctions, if applicable</li>
+</ul>
+
+<h3 class="wp-block-heading">3. Transcripts and Certificates</h3>
+
+<p class="wp-block-paragraph">Please include the most relevant academic records, for example:</p>
+
+<ul class="wp-block-list">
+<li>Bachelor’s transcript</li>
+
+<li>Master’s transcript</li>
+
+<li>degree certificates, if already available</li>
+</ul>
+
+<p class="wp-block-paragraph">If you are still finishing a degree, unofficial transcripts are fine.</p>
+
+<h3 class="wp-block-heading">4. Evidence of Technical or Research Work</h3>
+
+<p class="wp-block-paragraph">Please include at least one of the following if available:</p>
+
+<ul class="wp-block-list">
+<li>Master’s thesis abstract or summary</li>
+
+<li>thesis manuscript</li>
+
+<li>seminar paper</li>
+
+<li>publication or preprint</li>
+
+<li>project report</li>
+
+<li>GitHub profile or code sample</li>
+
+<li>technical portfolio</li>
+</ul>
+
+<p class="wp-block-paragraph">For research-oriented roles, evidence of how you think and work technically is often more informative than a long list of buzzwords.</p>
+
+<h3 class="wp-block-heading">5. Optional Supporting Information</h3>
+
+<p class="wp-block-paragraph">This may include:</p>
+
+<ul class="wp-block-list">
+<li>names of references</li>
+
+<li>recommendation letters</li>
+
+<li>links to talks, posters, repositories, or demos</li>
+
+<li>a short research idea or topic suggestion</li>
+
+<li>your earliest possible start date</li>
+
+<li>whether you are applying for a funded position, thesis supervision, or a student assistant role</li>
+</ul>
+</div>
+</div>
+</div>
+
+<div role="group" class="wp-block-accordion is-layout-flow wp-block-accordion-is-layout-flow">
+<div class="wp-block-accordion-item is-layout-flow wp-block-accordion-item-is-layout-flow">
+<h3 class="wp-block-accordion-heading has-icon has-icon-right"><button aria-expanded="false" aria-controls="accordion-item-4-panel" id="accordion-item-4" type="button" class="wp-block-accordion-heading__toggle"><span class="wp-block-accordion-heading__toggle-title">How to Apply</span><span class="wp-block-accordion-heading__toggle-icon" aria-hidden="true">+</span></button></h3>
+
+<div aria-labelledby="accordion-item-4" id="accordion-item-4-panel" role="region" class="wp-block-accordion-panel is-layout-flow wp-block-accordion-panel-is-layout-flow" hidden="until-found">
+<p class="wp-block-paragraph">Please send your application by email with a clear subject line:</p>
+
+<p class="wp-block-paragraph"><strong>Application – [Position] – [Your Name]</strong></p>
+
+<p class="wp-block-paragraph">Examples:</p>
+
+<ul class="wp-block-list">
+<li>Application – Student Assistant – Jane Doe</li>
+
+<li>Application – Master Thesis – Jane Doe</li>
+
+<li>Application – PhD – Jane Doe</li>
+
+<li>Application – Postdoc – Jane Doe</li>
+</ul>
+
+<p class="wp-block-paragraph">In the body of your email, you may also include a short summary of your strongest qualifications in 3–5 bullet points.</p>
+</div>
+</div>
+</div>
+
+<div role="group" class="wp-block-accordion is-layout-flow wp-block-accordion-is-layout-flow">
+<div class="wp-block-accordion-item is-layout-flow wp-block-accordion-item-is-layout-flow">
+<h3 class="wp-block-accordion-heading has-icon has-icon-right"><button aria-expanded="false" aria-controls="accordion-item-5-panel" id="accordion-item-5" type="button" class="wp-block-accordion-heading__toggle"><span class="wp-block-accordion-heading__toggle-title">How We Evaluate Applications</span><span class="wp-block-accordion-heading__toggle-icon" aria-hidden="true">+</span></button></h3>
+
+<div aria-labelledby="accordion-item-5" id="accordion-item-5-panel" role="region" class="wp-block-accordion-panel is-layout-flow wp-block-accordion-panel-is-layout-flow" hidden="until-found">
+<p class="wp-block-paragraph">We do not evaluate applicants only by grades or formal labels. We look at the overall picture.</p>
+
+<p>Important criteria include:</p>
+<ul>
+<li>
+<strong>Research Fit:</strong> Does the application clearly match the lab’s actual research themes?</li>
+<li>
+<strong>Technical Strength:</strong> Can the applicant implement, analyze, and reason carefully about technical systems?</li>
+<li>
+<strong>Scientific Potential:</strong> Does the applicant show evidence of curiosity, independence, and the ability to formulate or investigate meaningful questions?</li>
+<li>
+<strong>Depth, Not Just Breadth:</strong> We prefer a few strong projects or one excellent thesis over a long but shallow list of topics.</li>
+<li>
+<strong>Communication:</strong> Can the applicant explain their work clearly, both verbally and in writing?</li>
+</ul>
+
+<p class="wp-block-paragraph">For research positions, we especially value candidates who can connect theory, implementation, and empirical validation.</p>
+</div>
+</div>
+</div>
+
+<div role="group" class="wp-block-accordion is-layout-flow wp-block-accordion-is-layout-flow">
+<div class="wp-block-accordion-item is-layout-flow wp-block-accordion-item-is-layout-flow">
+<h3 class="wp-block-accordion-heading has-icon has-icon-right"><button aria-expanded="false" aria-controls="accordion-item-6-panel" id="accordion-item-6" type="button" class="wp-block-accordion-heading__toggle"><span class="wp-block-accordion-heading__toggle-title">Application Process</span><span class="wp-block-accordion-heading__toggle-icon" aria-hidden="true">+</span></button></h3>
+
+<div aria-labelledby="accordion-item-6" id="accordion-item-6-panel" role="region" class="wp-block-accordion-panel is-layout-flow wp-block-accordion-panel-is-layout-flow" hidden="until-found">
+<p class="wp-block-paragraph">Below you find a rough outline of the application process. In many cases however, we might have more individual paths. Also, not every role requires every step.</p>
+
+<h4 class="wp-block-heading">Step 1: Initial Screening</h4>
+
+<p class="wp-block-paragraph">We review the submitted material for fit to current lab research, academic background, technical skills, evidence of research or project quality, clarity and seriousness of motivation. Applications that are too generic or clearly outside our research focus are unlikely to move forward.</p>
+
+<h4 class="wp-block-heading">Step 2: Shortlisting</h4>
+
+<p>Shortlisted candidates may be invited to a first conversation with one of the lab members. Depending on the role, we may ask you in advance to share (e.g., a code sample, a thesis abstract, a publication, a short topic statement, a project you would like to discuss)</p>
+
+<h4 class="wp-block-heading">Step 3: Interview</h4>
+
+<p class="wp-block-paragraph">The interview usually focuses on:</p>
+
+<ul class="wp-block-list">
+<li>your background and motivation</li>
+
+<li>one or two projects you have worked on in depth</li>
+
+<li>technical understanding</li>
+
+<li>problem-solving ability</li>
+
+<li>research fit with the lab</li>
+</ul>
+
+<p class="wp-block-paragraph">For PhD and postdoc candidates, we may also discuss:</p>
+
+<ul class="wp-block-list">
+<li>possible research directions</li>
+
+<li>how you approach open-ended questions</li>
+
+<li>your view on good scientific practice</li>
+
+<li>how you handle uncertainty, failure, and iteration in research</li>
+</ul>
+
+<h4 class="wp-block-heading">Step 4: Optional Follow-Up</h4>
+
+<p class="wp-block-paragraph">Depending on the position, we may ask for one additional step, such as:</p>
+
+<ul class="wp-block-list">
+<li>a short presentation of your thesis or a project</li>
+
+<li>a deeper technical discussion</li>
+
+<li>a conversation with future collaborators in the lab</li>
+
+<li>a small technical exercise or reading-based discussion</li>
+</ul>
+
+<h4 class="wp-block-heading">Step 5: Decision: </h4>
+
+<p class="wp-block-paragraph">After the process is complete, we will inform you of the outcome as soon as possible. We aim for a feedback within 14 days.</p>
+</div>
+</div>
+</div>
+
+<div role="group" class="wp-block-accordion is-layout-flow wp-block-accordion-is-layout-flow">
+<div class="wp-block-accordion-item is-layout-flow wp-block-accordion-item-is-layout-flow">
+<h3 class="wp-block-accordion-heading has-icon has-icon-right"><button aria-expanded="false" aria-controls="accordion-item-7-panel" id="accordion-item-7" type="button" class="wp-block-accordion-heading__toggle"><span class="wp-block-accordion-heading__toggle-title">What to Expect in the Interview</span><span class="wp-block-accordion-heading__toggle-icon" aria-hidden="true">+</span></button></h3>
+
+<div aria-labelledby="accordion-item-7" id="accordion-item-7-panel" role="region" class="wp-block-accordion-panel is-layout-flow wp-block-accordion-panel-is-layout-flow" hidden="until-found">
+<p class="wp-block-paragraph">In the interview we want to check your expertise and we want to get an impressions on how you think. Hence, interviews will be a mixture of presentation, question, and coding.</p>
+
+<p class="wp-block-paragraph">Please be prepared to explain one of your projects in depth (for PhD candidates: the Master thesis)</p>
+
+<ul class="wp-block-list">
+<li>discuss design decisions and trade-offs</li>
+
+<li>describe what worked, what failed, and what you learned</li>
+
+<li>answer questions about methodology and implementation</li>
+
+<li>reason through unfamiliar but related technical questions</li>
+</ul>
+
+<p class="wp-block-paragraph">For <strong>machine learning / reinforcement learning positions</strong>, we may discuss topics such as:</p>
+
+<ul class="wp-block-list">
+<li>model design and evaluation</li>
+
+<li>overfitting, generalization, and data quality</li>
+
+<li>optimization and loss functions</li>
+
+<li>reinforcement learning fundamentals</li>
+
+<li>reproducibility and experimental rigor</li>
+</ul>
+
+<p class="wp-block-paragraph">For <strong>localization, sensing, or embedded ML</strong> topics, we may additionally discuss:</p>
+
+<ul class="wp-block-list">
+<li>sensor modalities and fusion</li>
+
+<li>uncertainty and robustness</li>
+
+<li>principles and foundations of wireless communications</li>
+
+<li>signal properties and preprocessing</li>
+
+<li>deployment constraints</li>
+
+<li>latency, memory, and energy trade-offs</li>
+</ul>
+
+<p class="wp-block-paragraph">We are generally less interested in polished buzzwords than in whether you can think clearly and honestly about technical questions and provide a solid understanding of the underlying concepts.</p>
+</div>
+</div>
+</div>
+
+<h4 class="wp-block-heading"><strong>Equal Opportunity and Research Culture</strong></h4>
+
+<p>We aim to build a research environment that values scientific integrity, mutual respect, openness to different perspectives, reliability and responsibility, and collaborative ambition. We want people in the lab who are both technically strong and constructive to work with. </p>
+</div></article></main>
+</div>
+</div>
+</div>
+</div>
+<a href="#" id="si-scroll-top" class="si-smooth-scroll" title="Scroll to Top">
+	<span class="si-scroll-icon" aria-hidden="true">
+		<svg class="si-icon top-icon" xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewbox="0 0 32 32"><path d="M24.958 18.491l-8.008-8.008c-0.534-0.534-1.335-0.534-1.868 0l-8.008 8.008c-0.534 0.534-0.534 1.335 0 1.868s1.335 0.534 1.868 0l7.074-7.074 7.074 7.074c0.267 0.267 0.667 0.4 0.934 0.4s0.667-0.133 0.934-0.4c0.534-0.534 0.534-1.335 0-1.868z"></path></svg>		<svg class="si-icon" xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewbox="0 0 32 32"><path d="M24.958 18.491l-8.008-8.008c-0.534-0.534-1.335-0.534-1.868 0l-8.008 8.008c-0.534 0.534-0.534 1.335 0 1.868s1.335 0.534 1.868 0l7.074-7.074 7.074 7.074c0.267 0.267 0.667 0.4 0.934 0.4s0.667-0.133 0.934-0.4c0.534-0.534 0.534-1.335 0-1.868z"></path></svg>	</span>
+	<span class="screen-reader-text">Scroll to Top</span>
+</a>
+
+</body>
+</html>
+

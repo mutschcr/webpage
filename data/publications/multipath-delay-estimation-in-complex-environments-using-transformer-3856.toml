@@ -1,0 +1,35 @@
+title = "Multipath delay estimation in complex environments using transformer"
+authors = ["Jonathan Ott", "Maximilian Stahlke", "Sebastian Kram", "Tobias Feigl", "Christopher Mutschler"]
+date = "2023-01-01"
+venue = "2023 13th International Conference on Indoor Positioning and Indoor Navigation (IPIN)"
+detail_url = "/publication/multipath-delay-estimation-in-complex-environments-using-transformer/"
+profiles = ["christopher-mutschler", "jonathan-ott"]
+doi = "https://doi.org/10.1109/IPIN57070.2023.10332470"
+abstract = "We propose an MPC delay estimation pipeline based on a Transformer (TF) neural network, which implicitly estimates the number and delays of the MPCs. We achieve subsample accuracy without using computational expensive super-resolution techniques. Our approach outperforms state-of-the art on detection and delay estimation of MPCs on different bandwidths. We also show that our approach can easily be fine-tuned on real world data with very few labeled data samples, making it a well-suited candidate for real world deployments."
+bibtex = '''
+@INPROCEEDINGS{10332470,
+  author={Ott, Jonathan and Stahlke, Maximilian and Kram, Sebastian and Feigl, Tobias and Mutschler, Christopher},
+  booktitle={2023 13th International Conference on Indoor Positioning and Indoor Navigation (IPIN)}, 
+  title={Multipath Delay Estimation in Complex Environments using Transformer}, 
+  year={2023},
+  volume={},
+  number={},
+  pages={1-6},
+  keywords={Indoor navigation;Superresolution;Pipelines;Neural networks;Delay estimation;Bandwidth;Transformers;Multipath Delay Estimation;Machine Learning;Deep Learning;Transformer;Attention Mechanism;5G;UWB},
+  doi={10.1109/IPIN57070.2023.10332470}}'''
+
+[links]
+Website = "https://ieeexplore.ieee.org/abstract/document/10332470"
+
+[image]
+src = "/wp-content/uploads/2026/09/ott2-121_RP-large-300x100.gif"
+alt = ""
+width = 300
+height = 100
+sizes = "(max-width: 300px) 100vw, 300px"
+class = "attachment-medium size-medium"
+
+[image.sources]
+300w = "/wp-content/uploads/2026/09/ott2-121_RP-large-300x100.gif"
+768w = "/wp-content/uploads/2026/09/ott2-121_RP-large-768x255.gif"
+820w = "/wp-content/uploads/2026/09/ott2-121_RP-large.gif"

@@ -1,0 +1,34 @@
+title = "Beyond Replication: Augmenting Social Behaviors in Multi-User Virtual Realities"
+authors = ["Daniel Roth", "Constantin Kleinbeck", "Tobias Feigl", "Christopher Mutschler", "Marc Erich Latoschik"]
+date = "2018-01-01"
+venue = "IEEE Conference on Virtual Reality and 3D User Interfaces (VR)"
+detail_url = "/publication/beyond-replication-augmenting-social-behaviors-in-multi-user-virtual-realities/"
+profiles = ["christopher-mutschler"]
+doi = "https://doi.org/10.1109/VR.2018.8447550"
+abstract = "This paper presents a novel approach for the augmentation of social behaviors in virtual reality (VR) and designed three visual transformations for behavioral phenomena crucial to everyday social interactions: eye contact, joint attention, and grouping. We show that our results indicate that our approach can significantly increase social presence in multi-user environments and that the augmented experience appears more thought-provoking."
+bibtex = '''
+@INPROCEEDINGS{8447550,
+  author={Roth, Daniel and Klelnbeck, Constantin and Feigl, Tobias and Mutschler, Christopher and Latoschik, Marc Erich},
+  booktitle={2018 IEEE Conference on Virtual Reality and 3D User Interfaces (VR)}, 
+  title={Beyond Replication: Augmenting Social Behaviors in Multi-User Virtual Realities}, 
+  year={2018},
+  volume={},
+  number={},
+  pages={215-222},
+  keywords={Avatars;Visualization;Electronic mail;Color;Human computer interaction;Computing methodologies-Computer graphics-Graphics systems and interfaces-Virtual reality},
+  doi={10.1109/VR.2018.8447550}}'''
+
+[links]
+Website = "https://ieeexplore.ieee.org/abstract/document/8447550"
+
+[image]
+src = "/wp-content/uploads/2020/04/dino-300x158.png"
+alt = ""
+width = 300
+height = 158
+sizes = "(max-width: 300px) 100vw, 300px"
+class = "attachment-medium size-medium"
+
+[image.sources]
+300w = "/wp-content/uploads/2020/04/dino-300x158.png"
+497w = "/wp-content/uploads/2020/04/dino.png"

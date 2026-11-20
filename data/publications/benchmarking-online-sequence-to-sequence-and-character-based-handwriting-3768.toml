@@ -1,0 +1,38 @@
+title = "Benchmarking Online Sequence-to-Sequence and Character-based Handwriting Recognition from IMU-enhanced Pens"
+authors = ["Felix Ott", "David Rügamer", "Lucas Heublein", "Tim Hamann", "Jens Barth", "Bernd Bischl", "Christopher Mutschler"]
+date = "2022-01-01"
+venue = "International Journal on Document Analysis and Recognition (IJDAR)"
+detail_url = "/publication/benchmarking-online-sequence-to-sequence-and-character-based-handwriting-recognition-from-imu-enhanced-pens/"
+profiles = ["christopher-mutschler"]
+doi = "https://link.springer.com/article/10.1007/s10032-022-00415-6"
+abstract = "We present data and benchmark models . We propose a variety of datasets including equations and words for both the writer-dependent and writer-independent real-time sequence-to-sequence (seq2seq) learning and single character-based recognition. We provide an evaluation benchmark for the seq2seq and single character-based HWR using recurrent and temporal convolutional networks and Transformers combined with a connectionist temporal classification (CTC) loss. Our methods do not resort to language or lexicon models."
+bibtex = '''
+@article{ott_benchmarking_2022,
+	title = {Benchmarking online sequence-to-sequence and character-based handwriting recognition from {IMU}-enhanced pens},
+	volume = {25},
+	issn = {1433-2825},
+	url = {https://doi.org/10.1007/s10032-022-00415-6},
+	doi = {10.1007/s10032-022-00415-6},
+	abstract = {Handwriting is one of the most frequently occurring patterns in everyday life and with it comes challenging applications such as handwriting recognition, writer identification and signature verification. In contrast to offline HWR that only uses spatial information (i.e., images), online HWR uses richer spatio-temporal information (i.e., trajectory data or inertial data). While there exist many offline HWR datasets, there are only little data available for the development of OnHWR methods on paper as it requires hardware-integrated pens. This paper presents data and benchmark models for real-time sequence-to-sequence learning and single character-based recognition. Our data are recorded by a sensor-enhanced ballpoint pen, yielding sensor data streams from triaxial accelerometers, a gyroscope, a magnetometer and a force sensor at 100 Hz. We propose a variety of datasets including equations and words for both the writer-dependent and writer-independent tasks. Our datasets allow a comparison between classical OnHWR on tablets and on paper with sensor-enhanced pens. We provide an evaluation benchmark for seq2seq and single character-based HWR using recurrent and temporal convolutional networks and transformers combined with a connectionist temporal classification (CTC) loss and cross-entropy (CE) losses. Our convolutional network combined with BiLSTMs outperforms transformer-based architectures, is on par with InceptionTime for sequence-based classification tasks and yields better results compared to 28 state-of-the-art techniques. Time-series augmentation methods improve the sequence-based task, and we show that CE variants can improve the single classification task. Our implementations together with the large benchmark of state-of-the-art techniques of novel OnHWR datasets serve as a baseline for future research in the area of OnHWR on paper.},
+	number = {4},
+	journal = {International Journal on Document Analysis and Recognition (IJDAR)},
+	author = {Ott, Felix and Rügamer, David and Heublein, Lucas and Hamann, Tim and Barth, Jens and Bischl, Bernd and Mutschler, Christopher},
+	month = dec,
+	year = {2022},
+	pages = {385--414},
+}'''
+
+[links]
+Website = "https://link.springer.com/article/10.1007/s10032-022-00415-6"
+
+[image]
+src = "/wp-content/uploads/2022/01/Bildschirmfoto-2022-01-11-um-11.02.58-1-300x160.png"
+alt = ""
+width = 300
+height = 160
+sizes = "(max-width: 300px) 100vw, 300px"
+class = "attachment-medium size-medium"
+
+[image.sources]
+300w = "/wp-content/uploads/2022/01/Bildschirmfoto-2022-01-11-um-11.02.58-1-300x160.png"
+487w = "/wp-content/uploads/2022/01/Bildschirmfoto-2022-01-11-um-11.02.58-1.png"

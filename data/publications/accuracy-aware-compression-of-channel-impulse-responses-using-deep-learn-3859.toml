@@ -1,0 +1,34 @@
+title = "Accuracy-Aware Compression of Channel Impulse Responses using Deep Learning"
+authors = ["Thomas Altstidl", "Sebastian Kram", "Oskar Herrmann", "Maximilian Stahlke", "Tobias Feigl", "Christopher Mutschler"]
+date = "2021-01-01"
+venue = "11th International Conference on Indoor Positioning and Indoor Navigation (IPIN)"
+detail_url = "/publication/accuracy-aware-compression-of-channel-impulse-responses-using-deep-learning/"
+profiles = ["christopher-mutschler"]
+doi = "https://doi.org/10.1109/IPIN51156.2021.9662545"
+abstract = "We evaluate multiple neural network architectures containing encoding (compressing) and decoding (reconstructing) components and compare them to the state-of-the-art compression techniques Discrete Cosine Transform (DCT) and Discrete Wavelet Transform (DWT). We show that fully connected autoencoders achieve the lowest error, outperforming both DCT and DWT. Further experiments prove that the reconstructed CSI can be used for positioning with only mild performance deterioration at a compression of >97% and even when trained on a different environment."
+bibtex = '''
+@INPROCEEDINGS{9662545,
+  author={Altstidl, Thomas and Kram, Sebastian and Herrmann, Oskar and Stahlke, Maximilian and Feigl, Tobias and Mutschler, Christopher},
+  booktitle={2021 International Conference on Indoor Positioning and Indoor Navigation (IPIN)}, 
+  title={Accuracy-Aware Compression of Channel Impulse Responses using Deep Learning}, 
+  year={2021},
+  volume={},
+  number={},
+  pages={1-8},
+  keywords={Training;Neural networks;Scattering;Transforms;Reflection;Discrete wavelet transforms;Decoding;Compression;Channel Impulse Response;Channel State Information;DCT;DWT;(Variational) Autoencoder},
+  doi={10.1109/IPIN51156.2021.9662545}}'''
+
+[links]
+Website = "https://ieeexplore.ieee.org/abstract/document/9662545"
+
+[image]
+src = "/wp-content/uploads/2026/09/altst2-p8-altst-large-300x223.gif"
+alt = ""
+width = 300
+height = 223
+sizes = "(max-width: 300px) 100vw, 300px"
+class = "attachment-medium size-medium"
+
+[image.sources]
+300w = "/wp-content/uploads/2026/09/altst2-p8-altst-large-300x223.gif"
+701w = "/wp-content/uploads/2026/09/altst2-p8-altst-large.gif"

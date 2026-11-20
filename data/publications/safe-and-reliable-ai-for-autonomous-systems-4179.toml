@@ -1,0 +1,44 @@
+title = "Safe and reliable AI for autonomous systems"
+authors = ["Axel Plinge", "Georgios Kontes", "Sebastian Rietsch", "Christopher Mutschler"]
+date = "2024-01-01"
+venue = "Unlocking Artificial Intelligence: From Theory to Applications, Springer Nature"
+detail_url = "/publication/safe-and-reliable-ai-for-autonomous-systems/"
+profiles = ["christopher-mutschler"]
+pdf_url = "https://link.springer.com/content/pdf/10.1007/978-3-031-64832-8.pdf"
+doi = "https://doi.org/10.1007/978-3-031-64832-8_13"
+bibtex = '''
+@Inbook{Plinge2024,
+author="Plinge, Axel
+and Kontes, Georgios
+and Rietsch, Sebastian
+and Mutschler, Christopher",
+editor="Mutschler, Christopher
+and M{\"u}nzenmayer, Christian
+and Uhlmann, Norman
+and Martin, Alexander",
+title="Safe and Reliable AI for Autonomous Systems",
+bookTitle="Unlocking Artificial Intelligence: From Theory to Applications",
+year="2024",
+publisher="Springer Nature Switzerland",
+address="Cham",
+pages="251--268",
+abstract="A big challenge in implementing autonomous systems using reinforcement learning in a way to be used in the real world is to make them dependable, i.e., explainable and reliable. Automated and autonomous driving poses one of the biggest challenges to the development of artificial intelligence (AI), as it is technically demanding to solve the tasks involved in order to make a car act autonomously in real-world situations. However, unless autonomous systems become truly safe and dependable, they cannot be deployed in a real-world setup. Operating autonomous vehicles not only efficiently but also safely and reliably is even more challenging. This chapter explains several unique and innovative methods to illustrate dependable reinforcement learning in autonomous vehicles.",
+isbn="978-3-031-64832-8",
+doi="10.1007/978-3-031-64832-8_13",
+url="https://doi.org/10.1007/978-3-031-64832-8_13"
+}'''
+
+[links]
+Website = "https://link.springer.com/chapter/10.1007/978-3-031-64832-8_13"
+
+[image]
+src = "/wp-content/uploads/2026/10/Bildschirmfoto-2026-10-15-um-21.40.19-300x131.png"
+alt = ""
+width = 300
+height = 131
+sizes = "(max-width: 300px) 100vw, 300px"
+class = "attachment-medium size-medium"
+
+[image.sources]
+300w = "/wp-content/uploads/2026/10/Bildschirmfoto-2026-10-15-um-21.40.19-300x131.png"
+473w = "/wp-content/uploads/2026/10/Bildschirmfoto-2026-10-15-um-21.40.19.png"

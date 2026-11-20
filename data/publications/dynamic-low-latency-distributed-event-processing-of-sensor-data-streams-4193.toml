@@ -1,0 +1,37 @@
+title = "Dynamic Low-Latency Distributed Event Processing of Sensor Data Streams"
+authors = ["Christopher Mutschler", "Michael Philippsen"]
+date = "2013-01-01"
+venue = "25th Workshop on Parallel Systems and Algorithms (PARS 2015)"
+detail_url = "/publication/dynamic-low-latency-distributed-event-processing-of-sensor-data-streams/"
+profiles = ["christopher-mutschler"]
+pdf_url = "https://dl.gi.de/items/424e0819-7156-4d06-9a0b-82d181478dcf"
+doi = "https://doi.org/10.1007/BF03354233"
+bibtex = '''
+@article{article,
+author = "Mutschler, Christopher and Philippsen, Michael",
+title = "Dynamic Low-Latency Distributed Event Processing of Sensor Data Streams",
+year = 2013,
+doi = "10.1007/BF03354233",
+journal = "PARS: Parallel-Algorithmen, -Rechnerstrukturen und -Systemsoftware",
+journal = "PARS: Parallel-Algorithmen, -Rechnerstrukturen und -Systemsoftware",
+volume = "30”,
+number = "1",
+publisher = "Gesellschaft für Informatik e.V.",
+pissn = "0177-0454",
+pages = "5--14",
+}'''
+
+[links]
+Website = "https://dl.gi.de/items/424e0819-7156-4d06-9a0b-82d181478dcf"
+
+[image]
+src = "/wp-content/uploads/2026/10/Bildschirmfoto-2026-10-15-um-21.52.41-300x115.png"
+alt = ""
+width = 300
+height = 115
+sizes = "(max-width: 300px) 100vw, 300px"
+class = "attachment-medium size-medium"
+
+[image.sources]
+300w = "/wp-content/uploads/2026/10/Bildschirmfoto-2026-10-15-um-21.52.41-300x115.png"
+482w = "/wp-content/uploads/2026/10/Bildschirmfoto-2026-10-15-um-21.52.41.png"

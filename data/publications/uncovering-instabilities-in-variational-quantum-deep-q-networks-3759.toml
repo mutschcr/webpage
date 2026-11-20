@@ -1,0 +1,37 @@
+title = "Uncovering Instabilities in Variational-Quantum Deep Q-Networks"
+authors = ["Maja Franz", "Lucas Wolf", "Maniraman Periyasamy", "Christian Ufrecht", "Daniel D Scherer", "Axel Plinge", "Christopher Mutschler", "Wolfgang Mauerer"]
+date = "2022-01-01"
+venue = "Journal of the Franklin Institute"
+detail_url = "/publication/uncovering-instabilities-in-variational-quantum-deep-q-networks/"
+profiles = ["christopher-mutschler"]
+doi = "https://doi.org/10.1016/j.jfranklin.2022.08.021"
+abstract = "We show that VQ-DQN approaches are subject to instabilities that cause the learned policy to diverge, study the extent to which this afflicts reproducibility of established results based on classical simulation, and perform systematic experiments to identify potential explanations for the observed instabilities. Additionally, we execute RL algorithms on an actual quantum processing unit (an IBM Quantum Device) and investigate differences in behaviour between simulated and physical quantum systems that suffer from implementation deficiencies. Our experiments show that it cannot be conclusively decided if known quantum approaches, even if simulated without physical imperfections, can provide an advantage as compared to classical approaches."
+bibtex = '''
+@article{FRANZ202313822,
+title = {Uncovering instabilities in variational-quantum deep Q-networks},
+journal = {Journal of the Franklin Institute},
+volume = {360},
+number = {17},
+pages = {13822-13844},
+year = {2023},
+issn = {0016-0032},
+doi = {https://doi.org/10.1016/j.jfranklin.2022.08.021},
+url = {https://www.sciencedirect.com/science/article/pii/S0016003222005725},
+author = {Maja Franz and Lucas Wolf and Maniraman Periyasamy and Christian Ufrecht and Daniel D. Scherer and Axel Plinge and Christopher Mutschler and Wolfgang Mauerer},
+abstract = {Deep Reinforcement Learning (RL) has considerably advanced over the past decade. At the same time, state-of-the-art RL algorithms require a large computational budget in terms of training time to converge. Recent work has started to approach this problem through the lens of quantum computing, which promises theoretical speed-ups for several traditionally hard tasks. In this work, we examine a class of hybrid quantum-classical RL algorithms that we collectively refer to as variational quantum deep Q-networks (VQ-DQN). We show that VQ-DQN approaches are subject to instabilities that cause the learned policy to diverge, study the extent to which this afflicts reproducibility of established results based on classical simulation, and perform systematic experiments to identify potential explanations for the observed instabilities. Additionally, and in contrast to most existing work on quantum reinforcement learning, we execute RL algorithms on an actual quantum processing unit (an IBM Quantum Device) and investigate differences in behaviour between simulated and physical quantum systems that suffer from implementation deficiencies. Our experiments show that, contrary to opposite claims in the literature, it cannot be conclusively decided if known quantum approaches, even if simulated without physical imperfections, can provide an advantage as compared to classical approaches. Finally, we provide a robust, universal and well-tested implementation of VQ-DQN as a reproducible testbed for future experiments.}
+}'''
+
+[links]
+Website = "https://www.sciencedirect.com/science/article/pii/S0016003222005725"
+
+[image]
+src = "/wp-content/uploads/2026/09/1-s2.0-S0016003222005725-gr1-300x290.jpg"
+alt = ""
+width = 300
+height = 290
+sizes = "(max-width: 300px) 100vw, 300px"
+class = "attachment-medium size-medium"
+
+[image.sources]
+300w = "/wp-content/uploads/2026/09/1-s2.0-S0016003222005725-gr1-300x290.jpg"
+339w = "/wp-content/uploads/2026/09/1-s2.0-S0016003222005725-gr1.jpg"

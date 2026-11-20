@@ -1,0 +1,9 @@
+.simple-social-icons svg[class^="social-"], .simple-social-icons svg[class*=" social-"] { display: inline-block; width: 1em; height: 1em; stroke-width: 0; stroke: currentcolor; fill: currentcolor; }
+.simple-social-icons { overflow: hidden; }
+.simple-social-icons ul { margin: 0px; padding: 0px; }
+.simple-social-icons ul li { float: left; background: none !important; border-width: medium !important; border-style: none !important; border-color: currentcolor !important; border-image: none !important; list-style-type: none !important; margin: 0px 6px 12px !important; padding: 0px !important; }
+.simple-social-icons ul li a { box-sizing: content-box; display: inline-block; height: 1em; line-height: 1em; text-align: center; width: 1em; border-width: medium !important; border-style: none !important; border-color: currentcolor !important; border-image: none !important; font-style: normal !important; font-variant: normal !important; font-weight: normal !important; text-decoration: none !important; text-transform: none !important; }
+.simple-social-icons ul.aligncenter { text-align: center; }
+.simple-social-icons ul.aligncenter li { display: inline-block; float: none; }
+.simple-social-icons .screen-reader-text { position: absolute; width: 1px; height: 1px; padding: 0px; margin: -1px; overflow: hidden; clip: rect(0px, 0px, 0px, 0px); border: 0px; }
+svg.social-bluesky { margin-left: -0.15em; }

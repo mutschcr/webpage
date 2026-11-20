@@ -1,0 +1,38 @@
+title = "Metric-Based Few-Shot Learning With Triplet Selection for Adaptive GNSS Interference Classification"
+authors = ["Felix Ott", "Lucas Heublein", "Tobias Feigl", "Alexander Rügamer", "Christopher Mutschler"]
+date = "2025-01-01"
+venue = "IEEE Journal of Indoor and Seamless Positioning and Navigation (J-ISPIN)"
+detail_url = "/publication/metric-based-few-shot-learning-with-triplet-selection-for-adaptive-gnss-interference-classification/"
+profiles = ["christopher-mutschler"]
+pdf_url = "https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=10969504"
+doi = "https://doi.org/10.1109/JISPIN.2025.3562140"
+bibtex = '''
+@ARTICLE{10969504,
+  author={Ott, Felix and Heublein, Lucas and Feigl, Tobias and Rügamer, Alexander and Mutschler, Christopher},
+  journal={IEEE Journal of Indoor and Seamless Positioning and Navigation}, 
+  title={Metric-Based Few-Shot Learning With Triplet Selection for Adaptive GNSS Interference Classification}, 
+  year={2025},
+  volume={3},
+  number={},
+  pages={81-104},
+  keywords={Interference;Global navigation satellite system;Jamming;Adaptation models;Road transportation;Location awareness;Integrated circuits;Navigation;Few shot learning;Pairwise error probability;Few-shot learning (FSL);global navigation satellite system (GNSS);interference characterization;interference classification;pairwise learning;quadruplet loss;snapshot data;triplet loss;uncertainty quantification (UQ)},
+  doi={10.1109/JISPIN.2025.3562140}}'''
+
+[links]
+Website = "https://ieeexplore.ieee.org/abstract/document/10969504"
+
+[image]
+src = "/wp-content/uploads/2026/10/jispin-gagraphic-3562140-300x111.jpg"
+alt = ""
+width = 300
+height = 111
+sizes = "(max-width: 300px) 100vw, 300px"
+class = "attachment-medium size-medium"
+
+[image.sources]
+1536w = "/wp-content/uploads/2026/10/jispin-gagraphic-3562140-1536x569.jpg"
+2048w = "/wp-content/uploads/2026/10/jispin-gagraphic-3562140-2048x759.jpg"
+300w = "/wp-content/uploads/2026/10/jispin-gagraphic-3562140-300x111.jpg"
+768w = "/wp-content/uploads/2026/10/jispin-gagraphic-3562140-768x285.jpg"
+1024w = "/wp-content/uploads/2026/10/jispin-gagraphic-3562140-1024x379.jpg"
+2560w = "/wp-content/uploads/2026/10/jispin-gagraphic-3562140-scaled.jpg"

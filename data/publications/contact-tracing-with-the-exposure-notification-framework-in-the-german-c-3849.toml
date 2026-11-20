@@ -1,0 +1,36 @@
+title = "Contact Tracing with the Exposure Notification Framework in the German Corona-Warn-App"
+authors = ["Steffen Meyer", "Thomas Windisch", "Adrian Perl", "Daniel Dzibela", "Robert Marzilger", "Nicolas Witt", "Justus Benzler", "Göran Kirchner", "Tobias Feigl", "Christopher Mutschler"]
+date = "2021-01-01"
+venue = "11th International Conference on Indoor Positioning and Indoor Navigation (IPIN)"
+detail_url = "/publication/contact-tracing-with-the-exposure-notification-framework-in-the-german-corona-warn-app/"
+profiles = ["christopher-mutschler"]
+doi = "https://doi.org/10.1109/IPIN51156.2021.9662591"
+abstract = "We examined the Google/Apple Exposure Notification Framework (ENF), which in combination with the front-end, i.e., the German Corona-Warn-App (CWA), enables digital CT in Germany. With centimeter accurate optical reference systems we show that optimal parameters are application-specific. However, they cause impractical high resource costs. In contrast, optimized general parameters offer an everyday compromise between energy costs, applicability, accuracy, and reliability of the ENF."
+bibtex = '''
+@INPROCEEDINGS{9662591,
+  author={Meyer, Steffen and Windisch, Thomas and Perl, Adrian and Dzibela, Daniel and Marzilger, Robert and Witt, Nicolas and Benzler, Justus and Kirchner, Göran and Feigl, Tobias and Mutschler, Christopher},
+  booktitle={2021 International Conference on Indoor Positioning and Indoor Navigation (IPIN)}, 
+  title={Contact Tracing with the Exposure Notification Framework in the German Corona-Warn-App}, 
+  year={2021},
+  volume={},
+  number={},
+  pages={1-8},
+  keywords={COVID-19;Protocols;Costs;Pandemics;Pulmonary diseases;Optical attenuators;Software;Digital Decentralized Contact Tracing;COVID-19;SARS-CoV-2;German Corona-Warn-App;CWA;ENF},
+  doi={10.1109/IPIN51156.2021.9662591}}'''
+
+[links]
+Website = "https://ieeexplore.ieee.org/abstract/document/9662591"
+
+[image]
+src = "/wp-content/uploads/2021/08/CWA-largescale-300x186.png"
+alt = ""
+width = 300
+height = 186
+sizes = "(max-width: 300px) 100vw, 300px"
+class = "attachment-medium size-medium"
+
+[image.sources]
+300w = "/wp-content/uploads/2021/08/CWA-largescale-300x186.png"
+1024w = "/wp-content/uploads/2021/08/CWA-largescale-1024x634.png"
+768w = "/wp-content/uploads/2021/08/CWA-largescale-768x475.png"
+1388w = "/wp-content/uploads/2021/08/CWA-largescale.png"

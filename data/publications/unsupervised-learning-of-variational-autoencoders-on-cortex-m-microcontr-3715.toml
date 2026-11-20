@@ -1,0 +1,35 @@
+title = "Unsupervised Learning of Variational Autoencoders on Cortex-M Microcontrollers"
+authors = ["Mark Deutel", "Axel Plinge", "Dominik Seuß", "Christopher Mutschler", "Frank Hannig", "Jürgen Teich"]
+date = "2025-09-20"
+venue = "18th IEEE International Symposium on Embedded Multicore/Many-core Systems-on-Chip (MCSoC)"
+detail_url = "/publication/unsupervised-learning-of-variational-autoencoders-on-cortex-m-microcontrollers/"
+profiles = ["mark-deutel", "christopher-mutschler"]
+doi = "https://doi.org/10.1109/MCSoC67473.2025.00079"
+abstract = "We explore variational autoencoders as a way to train unsupervised, i.e., without labels, feature extractors for image classification on a Cortex-M MCU. Using these feature extractors, we then train classification heads using small labeled representative sets of data to solve classification tasks. Our approach significantly reduces the amount of labeled data required, while enabling full DNN training from scratch on resource-constrained devices."
+bibtex = '''
+@INPROCEEDINGS{11311022,
+  author={Deutel, Mark and Plinge, Axel and Seuß, Dominik and Mutschler, Christopher and Hannig, Frank and Teich, Jürgen},
+  booktitle={2025 IEEE 18th International Symposium on Embedded Multicore/Many-core Systems-on-Chip (MCSoC)}, 
+  title={Unsupervised Learning of Variational Autoencoders on Cortex-M Microcontrollers}, 
+  year={2025},
+  volume={},
+  number={},
+  pages={469-476},
+  keywords={Training;Performance evaluation;Quantization (signal);Accuracy;Microcontrollers;Multicore processing;Autoencoders;Supervised learning;Feature extraction;Unsupervised learning;Unsupervised Learning;Microcontrollers;Variational Autoencoders;Quantization-Aware Training},
+  doi={10.1109/MCSoC67473.2025.00079}}'''
+
+[links]
+Website = "https://markdeutel.github.io/files/MCSoC25_VAEs_on_Microcontrollers_camera_ready.pdf"
+
+[image]
+src = "/wp-content/uploads/2026/09/2025_deutel-VAE-300x163.png"
+alt = ""
+width = 300
+height = 163
+sizes = "(max-width: 300px) 100vw, 300px"
+class = "attachment-medium size-medium"
+
+[image.sources]
+300w = "/wp-content/uploads/2026/09/2025_deutel-VAE-300x163.png"
+768w = "/wp-content/uploads/2026/09/2025_deutel-VAE-768x418.png"
+1025w = "/wp-content/uploads/2026/09/2025_deutel-VAE.png"

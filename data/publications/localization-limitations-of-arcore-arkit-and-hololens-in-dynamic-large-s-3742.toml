@@ -1,0 +1,36 @@
+title = "Localization Limitations of ARCore, ARKit, and Hololens in Dynamic Large-Scale Industry Environments"
+authors = ["Tobias Feigl", "Andreas Porada", "Steve Steiner", "Christoffer Löffler", "Christopher Mutschler", "Michael Philippsen"]
+date = "2020-01-01"
+venue = "15th Intl. Joint Conf. on Computer Vision, Imaging and Computer Graphics Theory and Applications"
+detail_url = "/publication/localization-limitations-of-arcore-arkit-and-hololens-in-dynamic-large-scale-industry-environments/"
+profiles = ["christopher-mutschler"]
+doi = "http://10.5220/0008989903070318"
+abstract = "We study the applicability of today’s popular AR systems (Apple ARKit, Google ARCore, and Microsoft Hololens) in an industrial context (large area of 1,600m2, long walking distances of 60m between cubicles, and dynamic environments with volatile natural features). Out of the box, these AR systems are far from useful even for normal motion behavior. They accumulate an average error of about 17m per 120m, with a scaling error of up to 14.4cm/m that is quasi-directly proportional to the path length. By adding natural features, the tracking reliability can be improved, but not enough."
+bibtex = '''
+@conference{grapp20,
+author={Tobias Feigl and Andreas Porada and Steve Steiner and Christoffer Löffler and Christopher Mutschler and Michael Philippsen},
+title={Localization Limitations of ARCore, ARKit, and Hololens in Dynamic Large-scale Industry Environments},
+booktitle={Proceedings of the 15th International Joint Conference on Computer Vision, Imaging and Computer Graphics Theory and Applications (VISIGRAPP 2020) - Volume 1: GRAPP},
+year={2020},
+pages={307-318},
+publisher={SciTePress},
+organization={INSTICC},
+doi={10.5220/0008989903070318},
+isbn={978-989-758-402-2},
+}'''
+
+[links]
+Website = "https://www.scitepress.org/Papers/2020/89899/"
+
+[image]
+src = "/wp-content/uploads/2020/04/Bildschirmfoto-2020-04-12-um-12.17.32-300x91.png"
+alt = ""
+width = 300
+height = 91
+sizes = "(max-width: 300px) 100vw, 300px"
+class = "attachment-medium size-medium"
+
+[image.sources]
+300w = "/wp-content/uploads/2020/04/Bildschirmfoto-2020-04-12-um-12.17.32-300x91.png"
+768w = "/wp-content/uploads/2020/04/Bildschirmfoto-2020-04-12-um-12.17.32-768x232.png"
+824w = "/wp-content/uploads/2020/04/Bildschirmfoto-2020-04-12-um-12.17.32.png"

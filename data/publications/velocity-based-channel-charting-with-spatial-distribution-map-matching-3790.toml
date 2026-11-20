@@ -1,0 +1,38 @@
+title = "Velocity-based Channel Charting with Spatial Distribution Map Matching"
+authors = ["Maximilian Stahlke", "George Yammine", "Tobias Feigl", "Bjoern M Eskofier", "Christopher Mutschler"]
+date = "2024-01-01"
+venue = "IEEE Journal of Indoor and Seamless Positioning and Navigation (J-ISPIN)"
+detail_url = "/publication/velocity-based-channel-charting-with-spatial-distribution-map-matching/"
+profiles = ["christopher-mutschler"]
+doi = "https://doi.org/10.1109/JISPIN.2024.3424768"
+abstract = "We propose a novel channel charting framework that does not require references and dramatically reduces life-cycle management. With velocity information, e.g., pedestrian dead reckoning or odometry, we model relative charts. And with topological map information, e.g., building floor plans, we transform them into real coordinates. In a large-scale study, we acquired two realistic datasets using 5G and single-input and multiple-output distributed radio systems with noisy velocities and coarse map information. Our experiments show that we achieve the localization accuracy of FP but without reference information."
+bibtex = '''
+@ARTICLE{10591331,
+  author={Stahlke, Maximilian and Yammine, George and Feigl, Tobias and Eskofier, Bjoern M. and Mutschler, Christopher},
+  journal={IEEE Journal of Indoor and Seamless Positioning and Navigation}, 
+  title={Velocity-Based Channel Charting With Spatial Distribution Map Matching}, 
+  year={2024},
+  volume={2},
+  number={},
+  pages={230-239},
+  keywords={Location awareness;Geometry;Accuracy;Trajectory;Channel estimation;Machine learning;Radio navigation;Line-of-sight propagation;Velocity measurement;Noise measurement;Pedestrians;Odometry;Life cycle assessment;Spatial resolution;Channel charting;fingerprinting (FP);machine learning;radio localization},
+  doi={10.1109/JISPIN.2024.3424768}}'''
+
+[links]
+Website = "https://ieeexplore.ieee.org/abstract/document/10591331"
+
+[image]
+src = "/wp-content/uploads/2026/09/jispin-gagraphic-3424768-300x270.jpg"
+alt = ""
+width = 300
+height = 270
+sizes = "(max-width: 300px) 100vw, 300px"
+class = "attachment-medium size-medium"
+
+[image.sources]
+1536w = "/wp-content/uploads/2026/09/jispin-gagraphic-3424768-1536x1382.jpg"
+2048w = "/wp-content/uploads/2026/09/jispin-gagraphic-3424768-2048x1842.jpg"
+300w = "/wp-content/uploads/2026/09/jispin-gagraphic-3424768-300x270.jpg"
+768w = "/wp-content/uploads/2026/09/jispin-gagraphic-3424768-768x691.jpg"
+1024w = "/wp-content/uploads/2026/09/jispin-gagraphic-3424768-1024x921.jpg"
+2560w = "/wp-content/uploads/2026/09/jispin-gagraphic-3424768-scaled.jpg"

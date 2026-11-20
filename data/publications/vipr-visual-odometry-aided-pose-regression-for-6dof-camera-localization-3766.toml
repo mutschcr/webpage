@@ -1,0 +1,38 @@
+title = "ViPR: Visual-Odometry-aided Pose Regression for 6DoF Camera Localization"
+authors = ["Felix Ott", "Tobias Feigl", "Christoffer Loffler", "Christopher Mutschler"]
+date = "2020-01-01"
+venue = "IEEE/CVF CVPR Workshops"
+detail_url = "/publication/vipr-visual-odometry-aided-pose-regression-for-6dof-camera-localization/"
+profiles = ["christopher-mutschler"]
+doi = "https://doi.org/10.1109/CVPRW50498.2020.00029"
+abstract = "We propose ViPR, a novel modular architecture for longterm 6DoF VO that leverages temporal information and synergies between absolute pose estimates (from PoseNet-like modules) and relative pose estimates (from FlowNet-based modules) by combining both through recurrent layers. Experiments on known datasets and on our own Industry dataset show that our modular design outperforms state of the art in long-term navigation tasks."
+bibtex = '''
+@INPROCEEDINGS{9150733,
+  author={Ott, Felix and Feigl, Tobias and Löffler, Christoffer and Mutschler, Christopher},
+  booktitle={2020 IEEE/CVF Conference on Computer Vision and Pattern Recognition Workshops (CVPRW)}, 
+  title={ViPR: Visual-Odometry-aided Pose Regression for 6DoF Camera Localization}, 
+  year={2020},
+  volume={},
+  number={},
+  pages={187-198},
+  keywords={Cameras;Task analysis;Pose estimation;Feature extraction;Navigation;Optical imaging;Sensors},
+  doi={10.1109/CVPRW50498.2020.00029}}'''
+
+[links]
+Website = "https://ieeexplore.ieee.org/abstract/document/9150733"
+
+[image]
+src = "/wp-content/uploads/2020/04/model_fusion3-1-300x144.png"
+alt = ""
+width = 300
+height = 144
+sizes = "(max-width: 300px) 100vw, 300px"
+class = "attachment-medium size-medium"
+
+[image.sources]
+300w = "/wp-content/uploads/2020/04/model_fusion3-1-300x144.png"
+1024w = "/wp-content/uploads/2020/04/model_fusion3-1-1024x490.png"
+768w = "/wp-content/uploads/2020/04/model_fusion3-1-768x367.png"
+1536w = "/wp-content/uploads/2020/04/model_fusion3-1-1536x735.png"
+2048w = "/wp-content/uploads/2020/04/model_fusion3-1-2048x980.png"
+2864w = "/wp-content/uploads/2020/04/model_fusion3-1.png"

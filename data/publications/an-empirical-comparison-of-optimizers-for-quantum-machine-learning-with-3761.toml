@@ -1,0 +1,35 @@
+title = "An Empirical Comparison of Optimizers for Quantum Machine Learning with SPSA-based Gradients"
+authors = ["Marco Wiedmann", "Marc Hölle", "Maniraman Periyasamy", "Nico Meyer", "Christian Ufrecht", "Daniel D Scherer", "Axel Plinge", "Christopher Mutschler"]
+date = "2023-01-01"
+venue = "2023 IEEE International Conference on Quantum Computing and Engineering (QCE)"
+detail_url = "/publication/an-empirical-comparison-of-optimizers-for-quantum-machine-learning-with-spsa-based-gradients/"
+profiles = ["christopher-mutschler", "nico-meyer"]
+doi = "https://doi.org/10.1109/QCE57702.2023.00058"
+abstract = "We introduce a novel approach that uses the approximated gradient from SPSA in combination with state-of-the-art gradient-based classical optimizers. We demonstrate numerically that this out-performs both standard SPSA and the parameter-shift rule in terms of convergence rate and absolute error in simple regression tasks. The improvement of our novel approach over SPSA with stochastic gradient descent (SGD) is even amplified when shot- and hardware-noise are taken into account. We also demonstrate that error mitigation does not significantly affect our results."
+bibtex = '''
+@INPROCEEDINGS{10313592,
+  author={Wiedmann, Marco and Hölle, Marc and Periyasamy, Maniraman and Meyer, Nico and Ufrecht, Christian and Scherer, Daniel D. and Plinge, Axel and Mutschler, Christopher},
+  booktitle={2023 IEEE International Conference on Quantum Computing and Engineering (QCE)}, 
+  title={An Empirical Comparison of Optimizers for Quantum Machine Learning with SPSA-Based Gradients}, 
+  year={2023},
+  volume={01},
+  number={},
+  pages={450-456},
+  keywords={Training;Perturbation methods;Stochastic processes;Machine learning;Hardware;Quantum circuit;Task analysis;variational quantum computing;quantum error mitigation;SPSA;gradient free optimization;classical optimizers;quantum regression},
+  doi={10.1109/QCE57702.2023.00058}}'''
+
+[links]
+Website = "https://ieeexplore.ieee.org/abstract/document/10313592"
+
+[image]
+src = "/wp-content/uploads/2026/09/10313592-fig-2-source-large-300x235.gif"
+alt = ""
+width = 300
+height = 235
+sizes = "(max-width: 300px) 100vw, 300px"
+class = "attachment-medium size-medium"
+
+[image.sources]
+300w = "/wp-content/uploads/2026/09/10313592-fig-2-source-large-300x235.gif"
+768w = "/wp-content/uploads/2026/09/10313592-fig-2-source-large-768x601.gif"
+816w = "/wp-content/uploads/2026/09/10313592-fig-2-source-large.gif"

@@ -1,0 +1,39 @@
+title = "Uncertainty-aware Evaluation of Time-Series Classification for Online Handwriting Recognition with Domain Shift"
+authors = ["Andreas Klaß", "Sven M Lorenz", "Martin W Lauer-Schmaltz", "David Rügamer", "Bernd Bischl", "Christopher Mutschler", "Felix Ott"]
+date = "2022-01-01"
+venue = "IJCAI-ECAI Intl. Workshop on Spatio-Temporal Reasoning and Learning (STRL)"
+detail_url = "/publication/uncertainty-aware-evaluation-of-time-series-classification-for-online-handwriting-recognition-with-domain-shift/"
+profiles = ["christopher-mutschler"]
+abstract = "In this paper, we focus on models for online handwriting recognition, one particular type of spatio-temporal data. The data is observed from a sensor-enhanced pen with the goal to classify written characters. We conduct a broad evaluation of aleatoric (data) and epistemic (model) UQ based on two prominent techniques for Bayesian inference, Stochastic Weight Averaging-Gaussian (SWAG) and Deep Ensembles. Next to a better understanding of the model, UQ techniques can detect out-of-distribution data and domain shifts when combining right-handed and left-handed writers (an underrepresented group)."
+bibtex = '''
+@ARTICLE{2022arXiv220608640K,
+       author = {{Kla{\ss}}, Andreas and {Lorenz}, Sven M. and {Lauer-Schmaltz}, Martin W. and {R{\"u}gamer}, David and {Bischl}, Bernd and {Mutschler}, Christopher and {Ott}, Felix},
+        title = "{Uncertainty-aware Evaluation of Time-Series Classification for Online Handwriting Recognition with Domain Shift}",
+      journal = {arXiv e-prints},
+     keywords = {Computer Science - Computer Vision and Pattern Recognition, Computer Science - Artificial Intelligence, 62F15, H.1.1},
+         year = 2022,
+        month = jun,
+          eid = {arXiv:2206.08640},
+        pages = {arXiv:2206.08640},
+          doi = {10.48550/arXiv.2206.08640},
+archivePrefix = {arXiv},
+       eprint = {2206.08640},
+ primaryClass = {cs.CV},
+       adsurl = {https://ui.adsabs.harvard.edu/abs/2022arXiv220608640K},
+      adsnote = {Provided by the SAO/NASA Astrophysics Data System}
+}'''
+
+[links]
+Website = "https://arxiv.org/abs/2206.08640"
+
+[image]
+src = "/wp-content/uploads/2026/09/2022IJCAI-300x203.png"
+alt = ""
+width = 300
+height = 203
+sizes = "(max-width: 300px) 100vw, 300px"
+class = "attachment-medium size-medium"
+
+[image.sources]
+300w = "/wp-content/uploads/2026/09/2022IJCAI-300x203.png"
+709w = "/wp-content/uploads/2026/09/2022IJCAI.png"

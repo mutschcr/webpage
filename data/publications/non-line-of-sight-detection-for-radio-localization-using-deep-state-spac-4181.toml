@@ -1,0 +1,29 @@
+title = "Non-Line-of-Sight Detection for Radio Localization using Deep State Space Models"
+authors = ["Leon Brasseler", "Maximilian Stahlke", "Thomas Altstidl", "Tobias Feigl", "Christopher Mutschler"]
+date = "2024-01-01"
+venue = "14th International Conference on Indoor Positioning and Indoor Navigation (IPIN)"
+detail_url = "/publication/non-line-of-sight-detection-for-radio-localization-using-deep-state-space-models/"
+profiles = []
+pdf_url = "https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=10786122"
+doi = "https://doi.org/10.1109/IPIN62893.2024.10786122"
+bibtex = '''
+@INPROCEEDINGS{10786122,
+  author={Brasseler, Leon and Stahlke, Maximilian and Altstidl, Thomas and Feigl, Tobias and Mutschler, Christopher},
+  booktitle={2024 14th International Conference on Indoor Positioning and Indoor Navigation (IPIN)}, 
+  title={Non-Line-of-Sight Detection for Radio Localization using Deep State Space Models}, 
+  year={2024},
+  volume={},
+  number={},
+  pages={1-6},
+  keywords={Location awareness;Adaptation models;Computational modeling;Training data;Transformers;Data models;Transceivers;Channel impulse response;Unsupervised learning;Ultra wideband technology;CIR;Dynamical Variational Autoencoder;NLOS detection;State Space Model;UWB},
+  doi={10.1109/IPIN62893.2024.10786122}}'''
+
+[links]
+Website = "https://ieeexplore.ieee.org/abstract/document/10786122"
+
+[image]
+src = "/wp-content/uploads/2026/10/Bildschirmfoto-2026-10-15-um-21.41.52.png"
+alt = ""
+width = 244
+height = 257
+class = "attachment-medium size-medium"

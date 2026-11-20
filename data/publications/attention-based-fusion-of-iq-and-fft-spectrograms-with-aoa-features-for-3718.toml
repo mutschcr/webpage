@@ -1,0 +1,37 @@
+title = "Attention-based Fusion of IQ and FFT Spectrograms with AoA Features for GNSS Jammer Localization"
+authors = ["Lucas Heublein", "Christian Wielenberg", "Thorsten Nowak", "Tobias Feigl", "Christopher Mutschler", "Felix Ott"]
+date = "2025-01-01"
+venue = "2025 IEEE Radar Conference (RadarConf25)"
+detail_url = "/publication/attention-based-fusion-of-iq-and-fft-spectrograms-with-aoa-features-for-gnss-jammer-localization/"
+profiles = ["christopher-mutschler", "christian-wielenberg"]
+doi = "https://doi.org/10.1109/RadarConf2559087.2025.11204959"
+abstract = '''
+We propose an approach for detecting and classifying interference while estimating the distance, azimuth, and elevation of jamming sources. We evaluate 128 vision encoder and time-series models to identify the highest-performing methods for each task and introduce an attention-based fusion framework that integrates in-phase and quadrature (IQ) samples with Fast Fourier Transform (FFT)-computed spectrograms while incorporating 22 AoA features
+to enhance localization accuracy.'''
+bibtex = '''
+@INPROCEEDINGS{11204959,
+  author={Heublein, Lucas and Wielenberg, Christian and Nowak, Thorsten and Feigl, Tobias and Mutschler, Christopher and Ott, Felix},
+  booktitle={2025 IEEE Radar Conference (RadarConf25)}, 
+  title={Attention-Based Fusion of IQ and FFT Spectrograms with AoA Features for GNSS Jammer Localization}, 
+  year={2025},
+  volume={},
+  number={},
+  pages={865-870},
+  keywords={Location awareness;Global navigation satellite system;Accuracy;Fast Fourier transforms;Azimuth;Spaceborne radar;Scattering;Interference;Jamming;Spectrogram;Global Navigation Satellite System;Jammer Localization;Angle of Arrival;Direction of Arrival;IQ Components;FFT;Machine Learning;Attention;Information Fusion;Dataset},
+  doi={10.1109/RadarConf2559087.2025.11204959}}'''
+
+[links]
+Website = "https://ieeexplore.ieee.org/abstract/document/11204959"
+
+[image]
+src = "/wp-content/uploads/2026/09/2025_radar-300x194.png"
+alt = ""
+width = 300
+height = 194
+sizes = "(max-width: 300px) 100vw, 300px"
+class = "attachment-medium size-medium"
+
+[image.sources]
+300w = "/wp-content/uploads/2026/09/2025_radar-300x194.png"
+768w = "/wp-content/uploads/2026/09/2025_radar-768x497.png"
+859w = "/wp-content/uploads/2026/09/2025_radar.png"

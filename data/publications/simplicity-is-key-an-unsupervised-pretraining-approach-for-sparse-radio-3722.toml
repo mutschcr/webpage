@@ -1,0 +1,32 @@
+title = "Simplicity is Key: An Unsupervised Pretraining Approach for Sparse Radio Channels"
+authors = ["Jonathan Ott", "Maximilian Stahlke", "Tobias Feigl", "Bjoern M Eskofier", "Christopher Mutschler"]
+date = "2025-01-01"
+venue = "ICML 2025 Workshop on Machine Learning for Wireless Communication and Networks (ML4Wireless)"
+detail_url = "/publication/simplicity-is-key-an-unsupervised-pretraining-approach-for-sparse-radio-channels/"
+profiles = ["christopher-mutschler", "jonathan-ott", "alexander-mattick"]
+abstract = "We introduce Sparse pretrained Radio Transformer (SpaRTran), a hybrid method based on the concept of compressed sensing for wireless channels. SpaRTran builds around a wireless channel model that constrains the optimization procedure to physically meaningful solutions and induces a strong inductive bias, cutting positioning error by up to 28% and increasing top-1 codebook selection accuracy for beamforming by 26 percentage points."
+bibtex = '''
+@misc{ott2026simplicitykeyunsupervisedpretraining,
+      title={Simplicity is Key: An Unsupervised Pretraining Approach for Sparse Radio Channels}, 
+      author={Jonathan Ott and Maximilian Stahlke and Tobias Feigl and Bjoern M. Eskofier and Christopher Mutschler},
+      year={2026},
+      eprint={2505.13055},
+      archivePrefix={arXiv},
+      primaryClass={eess.SP},
+      url={https://arxiv.org/abs/2505.13055}, 
+}'''
+
+[links]
+Website = "https://sites.google.com/uniroma1.it/ml4wireless/"
+
+[image]
+src = "/wp-content/uploads/2026/09/2025_spartran-300x214.png"
+alt = ""
+width = 300
+height = 214
+sizes = "(max-width: 300px) 100vw, 300px"
+class = "attachment-medium size-medium"
+
+[image.sources]
+300w = "/wp-content/uploads/2026/09/2025_spartran-300x214.png"
+708w = "/wp-content/uploads/2026/09/2025_spartran.png"

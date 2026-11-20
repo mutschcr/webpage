@@ -1,0 +1,35 @@
+title = "Uncertainty-based fingerprinting model selection for radio localization"
+authors = ["Maximilian Stahlke", "Tobias Feigl", "Sebastian Kram", "Bjoern M Eskofier", "Christopher Mutschler"]
+date = "2023-01-01"
+venue = "2023 13th International Conference on Indoor Positioning and Indoor Navigation (IPIN)"
+detail_url = "/publication/uncertainty-based-fingerprinting-model-selection-for-radio-localization/"
+profiles = ["christopher-mutschler"]
+doi = "https://doi.org/10.1109/IPIN57070.2023.10332531"
+abstract = "In this paper we propose methods for uncertainty estimation of AI-based fingerprinting to determine its validity. Our experiments show that we can implicitly switch between classic and fingerprinting-based approaches to reliably estimate accurate positions, even in NLoS-dominated radio environments. Our approach works even if the AI models are only trained on radio data in certain areas of the environment. In contrast to the state-of-the-art, our approach intrinsically identifies the spatial boundaries of the AI model, and thus does not require prior area identification."
+bibtex = '''
+@INPROCEEDINGS{10332531,
+  author={Stahlke, Maximilian and Feigl, Tobias and Kram, Sebastian and Eskofier, Bjoern M. and Mutschler, Christopher},
+  booktitle={2023 13th International Conference on Indoor Positioning and Indoor Navigation (IPIN)}, 
+  title={Uncertainty-based Fingerprinting Model Selection for Radio Localization}, 
+  year={2023},
+  volume={},
+  number={},
+  pages={1-6},
+  keywords={Location awareness;Uncertainty;Indoor radio communication;Switches;Fingerprint recognition;Maintenance engineering;Rendering (computer graphics);Hybrid localization;Fingerprinting;UWB Localization;Uncertainty Quantification},
+  doi={10.1109/IPIN57070.2023.10332531}}'''
+
+[links]
+Website = "https://ieeexplore.ieee.org/abstract/document/10332531"
+
+[image]
+src = "/wp-content/uploads/2026/09/stahl4-120_RP-large-300x255.gif"
+alt = ""
+width = 300
+height = 255
+sizes = "(max-width: 300px) 100vw, 300px"
+class = "attachment-medium size-medium"
+
+[image.sources]
+300w = "/wp-content/uploads/2026/09/stahl4-120_RP-large-300x255.gif"
+768w = "/wp-content/uploads/2026/09/stahl4-120_RP-large-768x653.gif"
+820w = "/wp-content/uploads/2026/09/stahl4-120_RP-large.gif"

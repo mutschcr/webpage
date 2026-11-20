@@ -1,0 +1,58 @@
+title = "Indoor Localization with Robust Global Channel Charting: A Time-Distance-Based Approach"
+authors = ["Maximilian Stahlke", "George Yammine", "Tobias Feigl", "Bjoern M Eskofier", "Christopher Mutschler"]
+date = "2023-01-01"
+venue = "IEEE Transactions on Machine Learning in Communications and Networking (TMLCN)"
+detail_url = "/publication/indoor-localization-with-robust-global-channel-charting-a-time-distance-based-approach/"
+profiles = ["christopher-mutschler"]
+doi = "https://doi.org/10.1109/TMLCN.2023.3256964"
+abstract = '''
+We propose a novel distance metric for CC that approaches a global linear correlation to the physical distance based on time-synchronized single-input/single-output (SISO) CSIs. This allows to learn the environment’s global geometry in a channel chart without annotations.
+
+Dataset here: https://www.iis.fraunhofer.de/en/ff/lv/dataanalytics/pos/fingerprinting-dataset-for-positioning.html'''
+bibtex = '''
+@ARTICLE{10070385,
+  author={Stahlke, Maximilian and Yammine, George and Feigl, Tobias and Eskofier, Bjoern M. and Mutschler, Christopher},
+  journal={IEEE Transactions on Machine Learning in Communications and Networking}, 
+  title={Indoor Localization With Robust Global Channel Charting: A Time-Distance-Based Approach}, 
+  year={2023},
+  volume={1},
+  number={},
+  pages={3-17},
+  keywords={Location awareness;Measurement;Base stations;Geometry;Manifolds;MIMO communication;Task analysis;Channel charting;machine learning;fingerprinting;localization;5G;UWB;time-based measurements},
+  doi={10.1109/TMLCN.2023.3256964}}'''
+
+[links]
+Website = "https://ieeexplore.ieee.org/abstract/document/10070385"
+Code = "https://github.com/mutschcr/cc_tmcn"
+
+[image]
+src = "/wp-content/uploads/2026/09/Method-300x223.png"
+alt = ""
+width = 300
+height = 223
+sizes = "(max-width: 300px) 100vw, 300px"
+class = "attachment-medium size-medium"
+
+[image.sources]
+1536w = "/wp-content/uploads/2026/09/Method-1536x1144.png"
+2048w = "/wp-content/uploads/2026/09/Method-2048x1526.png"
+300w = "/wp-content/uploads/2026/09/Method-300x223.png"
+768w = "/wp-content/uploads/2026/09/Method-768x572.png"
+1024w = "/wp-content/uploads/2026/09/Method-1024x763.png"
+2560w = "/wp-content/uploads/2026/09/Method-scaled.png"
+
+[highlight]
+position = 6
+citation = "TMLCN, 2023"
+
+[highlight.image]
+src = "/wp-content/uploads/2026/03/mlps-indoor-localization-b.gif"
+alt = ""
+width = 309
+height = 230
+sizes = "(max-width: 309px) 100vw, 309px"
+class = "wp-image-3123"
+
+[highlight.image.sources]
+300w = "/wp-content/uploads/2026/03/mlps-indoor-localization-b-300x223.gif"
+309w = "/wp-content/uploads/2026/03/mlps-indoor-localization-b.gif"

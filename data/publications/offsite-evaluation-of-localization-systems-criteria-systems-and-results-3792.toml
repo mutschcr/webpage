@@ -1,0 +1,34 @@
+title = "Offsite evaluation of localization systems: criteria, systems and results from IPIN 2021-22 competitions"
+authors = ["Francesco Potortì", "Antonino Crivello", "Soyeon Lee", "Blagovest Vladimirov", "Sangjoon Park", "Yushi Chen", "Long Wang", "Runze Chen", "Fang Zhao", "Yue Zhuge", "Haiyong Luo", "Antoni Perez-Navarro", "Antonio R Jiménez", "Han Wang", "Hengyi Liang", "Cedric De Cock", "David Plets...."]
+date = "2024-01-01"
+venue = "IEEE Journal of Indoor and Seamless Positioning and Navigation (J-ISPIN)"
+detail_url = "/publication/offsite-evaluation-of-localization-systems-criteria-systems-and-results-from-ipin-2021-22-competitions/"
+profiles = ["christopher-mutschler"]
+doi = "https://doi.org/10.1109/JISPIN.2024.3355840"
+abstract = "The main contribution of this work is to show a compilation of possible indoor positioning scenarios and different indoor positioning solutions to the same problem."
+bibtex = '''
+@ARTICLE{10404047,
+  author={Potortì, Francesco and Crivello, Antonino and Lee, Soyeon and Vladimirov, Blagovest and Park, Sangjoon and Chen, Yushi and Wang, Long and Chen, Runze and Zhao, Fang and Zhuge, Yue and Luo, Haiyong and Perez-Navarro, Antoni and Jiménez, Antonio R. and Wang, Han and Liang, Hengyi and De Cock, Cedric and Plets, David and Cui, Yan and Xiong, Zhi and Li, Xiaodong and Ding, Yiming and Franco, Fernando Javier Álvarez and Polo, Fernando Jesús Aranda and Rodríguez, Felipe Parralejo and Moreira, Adriano and Pendão, Cristiano and Silva, Ivo and Ortiz, Miguel and Zhu, Ni and Li, Ziyou and Renaudin, Valérie and Wei, Dongyan and Ji, Xinchun and Zhang, Wenchao and Wang, Yan and Ding, Longyang and Kuang, Jian and Zhang, Xiaobing and Dou, Zhi and Yang, Chaoqun and Kram, Sebastian and Stahlke, Maximilian and Mutschler, Christopher and Coene, Sander and Li, Chenglong and Venus, Alexander and Leitinger, Erik and Tertinek, Stefan and Witrisal, Klaus and Wang, Yi and Wang, Shaobo and Jin, Beihong and Zhang, Fusang and Su, Chang and Wang, Zhi and Li, Siheng and Li, Xiaodong and Li, Shitao and Pan, Mengguan and Zheng, Wang and Luo, Kai and Ma, Ziyao and Gao, Yanbiao and Chang, Jiaxing and Ren, Hailong and Guo, Wenfang and Torres-Sospedra, Joaquín},
+  journal={IEEE Journal of Indoor and Seamless Positioning and Navigation}, 
+  title={Offsite Evaluation of Localization Systems: Criteria, Systems, and Results From IPIN 2021 and 2022 Competitions}, 
+  year={2024},
+  volume={2},
+  number={},
+  pages={92-129},
+  keywords={Smart phones;Sensors;Tracking;5G mobile communication;Training;Sensor systems;Indoor navigation;Channel impulse response;Position measurement;Inertial navigation;Pedestrians;Identification of persons;Vehicle detection;Channel impulse response (CIR) positioning;evaluation;fifth-generation (5G) positioning;foot-mounted inertial measurement unit (IMU);indoor navigation;indoor positioning;pedestrian navigation;smartphone-based positioning;vehicle positioning},
+  doi={10.1109/JISPIN.2024.3355840}}'''
+
+[links]
+Website = "https://ieeexplore.ieee.org/abstract/document/10404047"
+
+[image]
+src = "/wp-content/uploads/2026/09/crive3-3355840-large-155x300.gif"
+alt = ""
+width = 155
+height = 300
+sizes = "(max-width: 155px) 100vw, 155px"
+class = "attachment-medium size-medium"
+
+[image.sources]
+155w = "/wp-content/uploads/2026/09/crive3-3355840-large-155x300.gif"
+424w = "/wp-content/uploads/2026/09/crive3-3355840-large.gif"

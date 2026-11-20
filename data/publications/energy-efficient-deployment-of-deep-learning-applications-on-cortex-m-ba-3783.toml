@@ -1,0 +1,33 @@
+title = "Energy-Efficient Deployment of Deep Learning Applications on Cortex-M based Microcontrollers using Deep Compression"
+authors = ["Mark Deutel", "Philipp Woller", "Christopher Mutschler", "Jürgen Teich"]
+date = "2023-01-01"
+venue = "26th MBMV Workshop (Methoden und Beschreibungssprachen zur Modellierung und Verifikation von Schaltungen und Systemen)"
+detail_url = "/publication/energy-efficient-deployment-of-deep-learning-applications-on-cortex-m-based-microcontrollers-using-deep-compression/"
+profiles = ["christopher-mutschler", "mark-deutel"]
+abstract = "We present a methodology for systematically exploring different DNN pruning, quantization, and deployment strategies for different microcontroller architectures, with a focus on lowpower ARM Cortex-M-based systems. The exploration allows to analyze trade-offs between key metrics such as accuracy, memory consumption, execution time, and power consumption. We discuss experimental results on three different DNN architectures and show that we can compress them to less than 10% of their original parameter count before their prediction quality degrades."
+bibtex = '''
+@INPROCEEDINGS{10173060,
+  author={Deutel, Mark and Woller, Philipp and Mutschler, Christopher and Teich, Juergen},
+  booktitle={MBMV 2023; 26th Workshop}, 
+  title={Energy-efficient Deployment of Deep Learning Applications on Cortex-M based Microcontrollers using Deep Compression}, 
+  year={2023},
+  volume={},
+  number={},
+  pages={1-12},
+  keywords={},
+  doi={}}'''
+
+[links]
+Website = "https://ieeexplore.ieee.org/abstract/document/10173060"
+
+[image]
+src = "/wp-content/uploads/2026/09/2023_-MBMV-300x294.png"
+alt = ""
+width = 300
+height = 294
+sizes = "(max-width: 300px) 100vw, 300px"
+class = "attachment-medium size-medium"
+
+[image.sources]
+300w = "/wp-content/uploads/2026/09/2023_-MBMV-300x294.png"
+575w = "/wp-content/uploads/2026/09/2023_-MBMV.png"

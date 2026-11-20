@@ -1,0 +1,186 @@
+<!doctype html>
+<html lang="en-US">
+<head>
+<meta charset="utf-8">
+<title>Alexander Mattick: Reinforcement Learning for Node Selection in Branch-and-Bound (FAU Erlangen-Nürnberg, 2023) – Machine Learning and Positioning Systems</title>
+<meta name="robots" content="max-image-preview:large">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="../assets/css/wp-img-auto-sizes-contain-0356978c0eb0.css">
+<link rel="stylesheet" href="../assets/css/wp-emoji-styles-f1b2bed85457.css">
+<link rel="stylesheet" href="../assets/css/wp-block-library-9077cbb97de5.css">
+<link rel="stylesheet" href="../assets/css/wp-block-heading-187c2a0a016f.css">
+<link rel="stylesheet" href="../assets/css/classic-theme-styles-dcd9f488bd62.css">
+<link rel="stylesheet" href="../assets/css/global-styles-ad322089e4f0.css">
+<link rel="stylesheet" href="../assets/theme/wp-content/plugins/show-hidecollapse-expand/assets/css/genericons/genericons.css" media="all">
+<link rel="stylesheet" href="../assets/theme/wp-content/plugins/show-hidecollapse-expand/assets/css/bg-show-hide.css" media="all">
+<link rel="stylesheet" href="../assets/theme/wp-content/plugins/wp-show-more/wpsm-style.css" media="all">
+<link rel="stylesheet" href="../assets/theme/wp-content/themes/sinatra/assets/css/style.min.css" media="all">
+<link rel="stylesheet" href="../assets/theme/wp-content/uploads/sinatra/dynamic-styles.css" media="all">
+<link rel="stylesheet" href="../assets/theme/wp-content/plugins/simple-social-icons/css/style.css" media="all">
+<link rel="stylesheet" href="../assets/theme/wp-content/plugins/a3-lazy-load/assets/css/jquery.lazyloadxt.spinner.css" media="all">
+<meta name="theme-color" content="#1df900">
+<link rel="icon" href="../wp-content/uploads/2026/06/cropped-cropped-mlps-logo_utn-scaled-1-32x32.png" sizes="32x32">
+<link rel="icon" href="../wp-content/uploads/2026/06/cropped-cropped-mlps-logo_utn-scaled-1-192x192.png" sizes="192x192">
+<link rel="apple-touch-icon" href="../wp-content/uploads/2026/06/cropped-cropped-mlps-logo_utn-scaled-1-180x180.png">
+<meta name="msapplication-TileImage" content="../wp-content/uploads/2026/06/cropped-cropped-mlps-logo_utn-scaled-1-270x270.png">
+<link rel="stylesheet" href="../assets/theme/wp-content/plugins/inline-text-popup/src/style.css" media="all">
+<link rel="canonical" href="https://mlps-lab.de/alexander-mattick-reinforcement-learning-for-node-selection-in-branch-and-bound/">
+<link rel="stylesheet" href="../assets/site.css">
+<script src="../assets/site.js" defer></script>
+</head>
+<body class="wp-singular post-template-default single single-post postid-2974 single-format-standard wp-custom-logo wp-embed-responsive wp-theme-sinatra sinatra-topbar__separators-regular sinatra-layout__fw-contained sinatra-header-layout-1 sinatra-menu-animation-underline sinatra-header__separators-none si-single-title-in-content narrow-content si-page-title-align-left sinatra-no-sidebar entry-media-hover-style-1 si-input-supported validate-comment-form si-menu-accessibility si-sticky-header">
+
+<div id="page" class="hfeed site">
+	<a class="skip-link screen-reader-text" href="#content">Skip to content</a>
+
+	<header id="masthead" class="site-header" role="banner" itemtype="https://schema.org/WPHeader" itemscope="itemscope">
+		<div id="sinatra-header">
+		<div id="sinatra-header-inner">
+	
+<div class="si-container si-header-container">
+
+<div class="sinatra-logo si-header-element" itemtype="https://schema.org/Organization" itemscope="itemscope">
+	<div class="logo-inner"><a href="../" rel="home" class="" itemprop="url">
+					<img src="../wp-content/uploads/2026/07/mlps-logo_utn.png" alt="Machine Learning and Positioning Systems" width="1642" height="230" srcset="../wp-content/uploads/2026/07/mlps-logo_utn.png 1x, ../wp-content/uploads/2026/07/mlps-logo_utn.png 2x" itemprop="logo">
+				</a></div>
+</div>
+<nav class="site-navigation main-navigation sinatra-primary-nav sinatra-nav si-header-element" role="navigation" itemtype="https://schema.org/SiteNavigationElement" itemscope="itemscope" aria-label="Site Navigation" aria-haspopup="true">
+<ul id="sinatra-primary-nav" class="menu">
+<li id="menu-item-3303" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-home menu-item-3303"><a href="../"><span>Home</span></a></li>
+<li id="menu-item-3074" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-3074"><a href="../team/"><span>Team</span></a></li>
+<li id="menu-item-2970" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2970"><a href="../publications/"><span>Publications</span></a></li>
+<li id="menu-item-4103" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-4103" aria-haspopup="true">
+<a href="../research/"><span>Research</span><svg class="si-icon" xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewbox="0 0 32 32"><path d="M24.958 10.483c-0.534-0.534-1.335-0.534-1.868 0l-7.074 7.074-7.074-7.074c-0.534-0.534-1.335-0.534-1.868 0s-0.534 1.335 0 1.868l8.008 8.008c0.267 0.267 0.667 0.4 0.934 0.4s0.667-0.133 0.934-0.4l8.008-8.008c0.534-0.534 0.534-1.335 0-1.868z"></path></svg></a>
+<ul class="sub-menu">
+	<li id="menu-item-3499" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-3499"><a href="../research-projects/"><span>Research Projects</span></a></li>
+	<li id="menu-item-3472" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-3472"><a href="../datasets/"><span>Datasets</span></a></li>
+</ul>
+</li>
+<li id="menu-item-4281" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-4281"><a href="../teaching/"><span>Teaching</span></a></li>
+<li id="menu-item-4298" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-4298"><a href="../theses/"><span>Theses &amp; Projects</span></a></li>
+</ul></nav><div class="si-header-widgets si-header-element sinatra-widget-location-right"></div>
+<span class="si-header-element si-mobile-nav">
+				<button class="si-hamburger hamburger--spin si-hamburger-sinatra-primary-nav" aria-label="Menu" aria-controls="sinatra-primary-nav" type="button">
+
+			<span class="hamburger-box">
+				<span class="hamburger-inner"></span>
+			</span>
+
+		</button>
+			</span>
+
+</div>
+</div>
+<div id="si-sticky-placeholder"></div>
+</div></header><div id="main" class="site-main">
+
+<div class="si-container">
+
+	<div id="primary" class="content-area">
+
+		<main id="content" class="site-content" role="main" itemscope="" itemtype="http://schema.org/Blog">
+
+<article id="post-2974" class="post-2974 post type-post status-publish hentry" itemscope="" itemtype="https://schema.org/CreativeWork">
+
+<div class="post-category"><span class="cat-links">Finished, Master Thesis, Student-Projects</span></div>
+<header class="entry-header">
+
+	<h1 class="entry-title" itemprop="headline">Alexander Mattick: Reinforcement Learning for Node Selection in Branch-and-Bound (FAU Erlangen-Nürnberg, 2023)</h1>
+
+</header>
+
+<div class="entry-content si-entry" itemprop="text">
+<h2 class="wp-block-heading">1 Introduction</h2>
+
+<p>The branch-and-bound algorithm is a fundamental solver for linear mixed integer programming problems. It is used to solve optimization problems with a combination of continuous and integer variables.</p>
+<p>The algorithm works by relaxing the integrality constraints of the problem and then recursively partitioning the search space to identify the optimal solution. The algorithm first attempts to solve the problem without integrality constraints, before identifying variables that are intended to be integral and adding inequalities constraining the value to be either the rounded up or rounded down integer. This induces two subproblems, which can then be recursively solved in the same manner until either a solution is found or the resulting polyhedron is empty.</p>
+<p> The effectiveness of the branch-and-bound algorithm lies in its ability to reduce the size of the search space by utilizing information on how optimal subproblems can possibly become. The algorithm keeps track of the best solution found so far and uses it to prune subproblems that cannot possibly contain a better solution. This technique, called bounding, reduces the size of the search space and speeds up the algorithm’s convergence. </p>
+<p>For this to be efficient, the variable to be branched on and the node of the search tree to be expanded have to be chosen carefully, as quickly finding good solutions dramatically speeds up the search by allowing for more pruning. Focusing on node selection strategies, current methods tend to rely on manually created heuristics, like depth-first search, best bound search or best estimate search [SCI]. However, recently more interest has been put into learning such heuristics automatically, which might allow for much more efficient decision making. </p>
+<p>There’s been some prior work in learning node selection strategies: [OD] considers the estimation of subproblem complexity for increasing the efficiency of parallelization. [YY21] utilizes imitation learning to directly select the proper node to explore, using a per-node set of features. [LCL] proposes the utilization of siamese graph neural networks in which each node is represented as a graph and the model imitates a diving oracle. [HIE] uses a support vector machines and imitiation learning on per-node features to produce a “hybrid” heuristic from the existing heuristics. [JLK21] uses a learned branching heuristic to verify neural networks by treating the networks themselves as graphs.</p>
+<p> All of these approaches rely on per-node features, sometimes expanded by “global” information, such as the globally optimal solution. However, this modeling is inherently limiting, as the relative quality of two nodes cannot be used to make more informed decisions on branching. [LCL] tries to solve this using metric learning in the form of siamese networks, however here we still have minimal interactions between nodes as they only communicate through the final score and a singular global embedding containing the primal and dual estimate. A further limitation of these methods is their reliance on pure imitation learning, meaning that one can easily be limited by the low performance of the existing heuristics. Expanding this with reinforcement learning methods may lead to significantly increased performance, as these methods can attempt to tactically choose nodes that are not only optimal in the short term, but instead choose nodes with the expressed goal to increase the amount of information the algorithm has at its disposal to make better decisions later on in the search. </p>
+<p>We propose to bi-simulate the branch-and-bound graph with a neural network (see fig 1). The neural network is trained to first aggregate information from its immediate children up towards the root node. This aggregation process creates an embedding for each node in the tree, which captures the relevant information about the node’s state and its children’s states. Once all embeddings are aggregated, the complete tree information can be used with a second neural network to pick nodes probabilistically. </p>
+<p style="text-align: left;">The resulting model can be trained using either imitation or reinforcement learning to maximize the probability of choosing the correct node in the branch-and-bound tree. The tree induces a policy</p>
+<p style="text-align: center;">\pi (left | current_node)</p>
+<p style="text-align: left;">and</p>
+<p style="text-align: center;">\pi (right | current_node),</p>
+<p style="text-align: left;">whose probability distribution may be treated as a Bayesian graphical model and trained using methods like Proximal Policy Optimization (PPO) to predict the discounted sum of future rewards. These rewards may be designed to e.g., minimze search tree sizes. </p>
+<p>Utilizing reinforcement learning rather than imitation learning prevents one from being limited by the existing policies’ quality. However, hybrid methods that first train an imitation policy based on the existing ones and then use reinforcement learning to further enhance the performance of the selection heuristic are also possible. </p>
+<p>One possible advantage of this approach is that it can learn to exploit the problem structure and reduce the size of the search space more efficiently than traditional branch-and-bound methods. By learning a policy that selectively explores the most promising regions of the search space, the algorithm can significantly reduce the computation time needed to find an optimal solution. </p>
+<p>Another possible advantage of this approach is its ability to generalize across different problem instances. Unlike traditional branch-and-bound methods that rely on domain-specific heuristics and rules, the learned policy can adapt to new problem instances and improve its performance with experience across domains. </p>
+<p>Furthermore, the learned policy can also incorporate prior knowledge about the problem. For example, if a particular problem instance has some known structure or characteristics, the policy can be biased towards exploring regions that are likely to contain a good solution. This prior knowledge can be encoded in the form of additional inputs to the neural network, such as problem-specific features and constraints, or in the form of probabilistic priors as the node selection is inherently modeled as a probabilistic process.</p>
+<p> The hope is that this compositional approach based on the tree structure gives strong signals than prior approaches, which, combined with the probabilistic reinforcement learning viewpoint, can outperform contemporary methods.</p>
+
+<figure class="wp-block-image size-large is-resized"><img src="../wp-content/uploads/2025/05/Bildschirmfoto-2025-05-04-um-12.40.15.png" alt="" class="wp-image-2982" style="width:642px;height:auto"><figcaption class="wp-element-caption">Construction of the policy. Upper left: The original branch and bound<br>tree. Upper right: A neural tree built in accordance to the branch-and-bound<br>structure, aggregating information upward. Bottom left: using the aggregated<br>information, predict the node-selection probabilities downward.</figcaption></figure>
+
+<h2 class="wp-block-heading">2 Details</h2>
+
+<h3 class="wp-block-heading">2.1 (Rough) Work Plan</h3>
+
+<ul>
+<li>Week 1-2: initial implementation tree model</li>
+<li>Week 2-3: SCIP integration</li>
+<li>Week 3-4: study of different graph learning algorithms </li>
+<li>Week 5-6: testing on random instances of e.g. TSP</li>
+<li>Week 7-10: evaluating different training algorithms and  evaluating different reward formulations</li>
+<li>Week 11-12: testing the generalization performance from small to large instances</li>
+<li>Week 13: testing on “official” benchmarks such as TSP</li>
+<li>Week 14-15:   different problems/testing of model generalization</li>
+<li>Week 16:  writing and additional tests (depending on prior results)</li>
+</ul>
+
+<h3 class="wp-block-heading">2.2 Evaluation and expected results</h3>
+
+<p>Objective is beating the current human expert heuristics on standard MILP benchmarks for TSP and related problems, such as e.g., TSPLIB http://comopt.ifi.uni-heidelberg.de/software/TSPLIB95/ or MIPLIB https://miplib.zib.de/. For this one can consider two orthogonal evaluations</p>
+<ul>
+<li>Time taken until solution is found</li>
+<li>given a fixed time budget, attempt to minimize the optimality gap</li>
+</ul>
+<p>Both are useful for real world problems: The former as an estimate of “absolute” performance, while the other is important for fast solution generation in large scale or time critical situations. We would consider it a success if we were able to beat the human expert heuristics in either one of these tasks, with a focus on the latter evaluation scheme due to its more fine grained evaluation options: one can use the same (hard) problems and study the behavior as the time budget is increased, therefore allowing one to study the scaling behavior of the method.</p>
+
+<p></p>
+
+<p></p>
+
+<h3 class="wp-block-heading">2.3 Tasks</h3>
+
+<ul>
+<li><span style="font-size: 16px;">implementation of tree heuristic</span></li>
+<li><span style="font-size: 16px;">integration with SCIP</span></li>
+<li><span style="font-size: 16px;">random instance generation</span></li>
+<li><span style="font-size: 16px;">training of heuristics models</span></li>
+<li><span style="font-size: revert;"><span style="font-size: 16px;">benchmarking</span><br></span></li>
+</ul>
+
+<p></p>
+
+<p></p>
+
+<h2 class="wp-block-heading">References</h2>
+
+<p>[1] He He, Hal Daume Iii, and Jason M Eisner. “Learning to Search in Branch and Bound Algorithms”. In: ().</p>
+
+<p>[2] Florian Jaeckle, Jingyue Lu, and M. Pawan Kumar. Neural Network Branch-and-Bound for Neural Network Verification. July 2021. arXiv: 2107.12855 [cs]. (Visited on 04/18/2023).</p>
+
+<p>[3] Abdel Ghani Labassi, Didier Ch´etelat, and Andrea Lodi. “Learning to Compare Nodes in Branch and Bound with Graph Neural Networks”. In: ().</p>
+
+<p>[4] Lars Otten and Rina Dechter. “A Case Study in Complexity Estimation: Towards Parallel Branch-and-Bound over Graphical Models”. In: ().</p>
+
+<p>[5] SCIP. SCIP Doxygen Documentation: Overview. https://www.scipopt.org/doc/html/index.php. (Visited on 04/18/2023).</p>
+
+<p>[6] Kaan Yilmaz and Neil Yorke-Smith. “A Study of Learning Search Approximation in Mixed Integer Branch and Bound: Node Selection in SCIP”. In: AI 2.2 (Apr. 2021), pp. 150–178. issn: 2673-2688. doi: 10 . 3390 / ai2020010. arXiv: 2007.03948 [cs, math]. (Visited on 04/18/2023).</p>
+</div>
+
+</article></main>
+</div>
+</div>
+</div>
+</div>
+<a href="#" id="si-scroll-top" class="si-smooth-scroll" title="Scroll to Top">
+	<span class="si-scroll-icon" aria-hidden="true">
+		<svg class="si-icon top-icon" xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewbox="0 0 32 32"><path d="M24.958 18.491l-8.008-8.008c-0.534-0.534-1.335-0.534-1.868 0l-8.008 8.008c-0.534 0.534-0.534 1.335 0 1.868s1.335 0.534 1.868 0l7.074-7.074 7.074 7.074c0.267 0.267 0.667 0.4 0.934 0.4s0.667-0.133 0.934-0.4c0.534-0.534 0.534-1.335 0-1.868z"></path></svg>		<svg class="si-icon" xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewbox="0 0 32 32"><path d="M24.958 18.491l-8.008-8.008c-0.534-0.534-1.335-0.534-1.868 0l-8.008 8.008c-0.534 0.534-0.534 1.335 0 1.868s1.335 0.534 1.868 0l7.074-7.074 7.074 7.074c0.267 0.267 0.667 0.4 0.934 0.4s0.667-0.133 0.934-0.4c0.534-0.534 0.534-1.335 0-1.868z"></path></svg>	</span>
+	<span class="screen-reader-text">Scroll to Top</span>
+</a>
+
+</body>
+</html>
+

@@ -1,0 +1,34 @@
+title = "Inter-Satellite Ranging in the Low Earth Orbit"
+authors = ["Mohammad Alawieh", "Niels Hadaschik", "Norbert Franke", "Christopher Mutschler"]
+date = "2016-01-01"
+venue = "10th IEEE/IET International Symposium on Communication Systems, Networks and Digital Signal Processing"
+detail_url = "/publication/inter-satellite-ranging-in-the-low-earth-orbit/"
+profiles = ["christopher-mutschler"]
+doi = "https://doi.org/10.1109/CSNDSP.2016.7573920"
+abstract = "Many satellite systems require knowledge about inter-satellite distances. Inter-satellite links provide direct connectivity between satellites and may be used for ranging, while they remove the need of dedicated hardware. This paper addresses inter-satellite ranging at the Low Earth Orbit (LEO) using S-Band signals. We take the requirements from recent missions and future applications into account and analyze the factors that limit ranging. We show how these factors affect the quality of distance estimation in terms of the Cramér-Rao Lower Bound for ranging. Two-way-ranging (TWR) provides the best accuracy and sustains the low-cost objective of small satellites. We further propose an enhanced TWR message exchange that enables on-the-fly delay calibration and sub-sample corrections. We implemented the transceiver modules on a Software-Defined Radio (SDR) platform and evaluated them with real-world data. The results show that the proposed ranging algorithm achieves an accuracy of few centimeters."
+bibtex = '''
+@INPROCEEDINGS{7573920,
+  author={Alawieh, Mohammad and Hadaschik, Niels and Franke, Norbert and Mutschler, Christopher},
+  booktitle={2016 10th International Symposium on Communication Systems, Networks and Digital Signal Processing (CSNDSP)}, 
+  title={Inter-satellite ranging in the Low Earth Orbit}, 
+  year={2016},
+  volume={},
+  number={},
+  pages={1-6},
+  keywords={Distance measurement;Satellites;Satellite broadcasting;Delays;Correlation;Clocks;Calibration;Ranging;TWR;Flying formation satellites;CubeSat},
+  doi={10.1109/CSNDSP.2016.7573920}}'''
+
+[links]
+Website = "https://ieeexplore.ieee.org/abstract/document/7573920"
+
+[image]
+src = "/wp-content/uploads/2026/09/7573920-fig-1-source-large-276x300.gif"
+alt = ""
+width = 276
+height = 300
+sizes = "(max-width: 276px) 100vw, 276px"
+class = "attachment-medium size-medium"
+
+[image.sources]
+276w = "/wp-content/uploads/2026/09/7573920-fig-1-source-large-276x300.gif"
+450w = "/wp-content/uploads/2026/09/7573920-fig-1-source-large.gif"

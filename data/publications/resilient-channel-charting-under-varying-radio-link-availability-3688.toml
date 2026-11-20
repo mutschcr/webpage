@@ -1,0 +1,30 @@
+title = "Resilient Channel Charting Under Varying Radio Link Availability"
+authors = ["Jonas Pirkl", "Jonathan Ott", "Maximilian Stahlke", "George Yammine", "Tobias Feigl", "Christopher Mutschler"]
+date = "2025-01-01"
+venue = "59th Asilomar Conference on Signals, Systems, and Computers"
+detail_url = "/publication/resilient-channel-charting-under-varying-radio-link-availability/"
+profiles = ["christopher-mutschler", "jonas-pirkl", "jonathan-ott"]
+abstract = "We show a channel charting architecture that can natively handle variable numbers of CSI measurements and arbitrary antenna subsets. Across two public real-world SISO and MIMO datasets, AdaPos maintains state-of-the-art localization accuracy under missing-antenna conditions, replaces roughly 57 configuration-specific models with a single unified model, and provides resilience to both individual antenna failures and full-array outages."
+bibtex = '''
+@INPROCEEDINGS{11443931,
+  author={Pirkl, Jonas and Ott, Jonathan and Stahlke, Maximilian and Yammine, George and Feigl, Tobias and Mutschler, Christopher},
+  booktitle={2025 59th Asilomar Conference on Signals, Systems, and Computers}, 
+  title={Resilient Channel Charting Under Varying Radio Link Availability}, 
+  year={2025},
+  volume={},
+  number={},
+  pages={886-890},
+  keywords={Antenna measurements;Training;Location awareness;Accuracy;Adaptive arrays;Computer architecture;Transformers;Radio links;Tuning;Resilience},
+  doi={10.1109/IEEECONF67917.2025.11443931}}'''
+
+[image]
+src = "/wp-content/uploads/2026/09/asilomar2025-300x248.png"
+alt = ""
+width = 300
+height = 248
+sizes = "(max-width: 300px) 100vw, 300px"
+class = "attachment-medium size-medium"
+
+[image.sources]
+300w = "/wp-content/uploads/2026/09/asilomar2025-300x248.png"
+654w = "/wp-content/uploads/2026/09/asilomar2025.png"

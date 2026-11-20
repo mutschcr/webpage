@@ -1,0 +1,34 @@
+title = "GenAI for Energy-Efficient and Interference-Aware Compressed Sensing of GNSS Signals on a Google Edge TPU"
+authors = ["Thorben Wegner", "Lucas Heublein", "Tobias Feigl", "Felix Ott", "Christopher Mutschler", "Alexander Rügamer"]
+date = "2025-01-01"
+venue = "IEEE/ION Position, Location and Navigation Symposium (PLANS)"
+detail_url = "/publication/genai-for-energy-efficient-and-interference-aware-compressed-sensing-of-gnss-signals-on-a-google-edge-tpu/"
+profiles = ["christopher-mutschler"]
+pdf_url = "https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=11028177"
+doi = "https://doi.org/10.1109/PLANS61210.2025.11028177"
+bibtex = '''
+@INPROCEEDINGS{11028177,
+  author={Wegner, Thorben and Heublein, Lucas and Feigl, Tobias and Ott, Felix and Mutschler, Christopher and Rügamer, Alexander},
+  booktitle={2025 IEEE/ION Position, Location and Navigation Symposium (PLANS)}, 
+  title={GenAI for Energy-Efficient and Interference-Aware Compressed Sensing of GNSS Signals on a Google Edge TPU}, 
+  year={2025},
+  volume={},
+  number={},
+  pages={1149-1160},
+  keywords={Global navigation satellite system;Pipelines;Interference;Receivers;Hardware;Energy efficiency;Data models;Internet;Jamming;Spectral analysis;Compression;Disentanglement;Generative AI;GNSS;Interference Detection;Classification;Jamming;Edge Computing;Energy-efficient;Latent Variables;Embeddings},
+  doi={10.1109/PLANS61210.2025.11028177}}'''
+
+[links]
+Website = "https://ieeexplore.ieee.org/abstract/document/11028177"
+
+[image]
+src = "/wp-content/uploads/2026/10/Bildschirmfoto-2026-10-15-um-21.37.51-300x81.png"
+alt = ""
+width = 300
+height = 81
+sizes = "(max-width: 300px) 100vw, 300px"
+class = "attachment-medium size-medium"
+
+[image.sources]
+300w = "/wp-content/uploads/2026/10/Bildschirmfoto-2026-10-15-um-21.37.51-300x81.png"
+730w = "/wp-content/uploads/2026/10/Bildschirmfoto-2026-10-15-um-21.37.51.png"

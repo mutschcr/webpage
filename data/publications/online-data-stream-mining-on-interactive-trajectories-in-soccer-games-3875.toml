@@ -1,0 +1,40 @@
+title = "Online Data Stream Mining on Interactive Trajectories in Soccer Games"
+authors = ["Christopher Mutschler", "Gabriella Kókai", "Thorsten Edelhäußer"]
+date = "2011-01-01"
+venue = "2nd International Conference on Positioning and Context-Awareness"
+detail_url = "/publication/online-data-stream-mining-on-interactive-trajectories-in-soccer-games/"
+profiles = ["christopher-mutschler"]
+abstract = "This paper proposes an online data mining method that is able to recognize repeating patterns of trajectory movements regardless of how they are scaled, rotated or translated. The result is an efficient data stream mining application, which provides meaningful information within the current game. The framework is designed in a modular manner in order to enhance the capabilities easily. The evaluation of the algorithms proves the efficiency of the provided concepts."
+bibtex = '''
+% Encoding: UTF-8
+
+@COMMENT{BibTeX export based on data in FAU CRIS: https://cris.fau.de/}
+@COMMENT{For any questions please write to cris-support@fau.de}
+
+@inproceedings{faucris.114028024,
+ author = {Mutschler, Christopher and Kókai, Gabriella and Edelhäußer, Thorsten},
+ booktitle = {Proceedings of the 2nd International Conference on Positioning and Context-Awareness (PoCA 2011)},
+ date = {2011-03-24/2011-03-24},
+ faupublication = {yes},
+ isbn = {978-94-90705-04-6},
+ note = {UnivIS-Import:2015-04-16:Pub.2011.tech.IMMD.IMMD2.online},
+ pages = {15-22},
+ peerreviewed = {unknown},
+ publisher = {Artesis Plantijn Hogeschool},
+ title = {{Online} {Data} {Stream} {Mining} on {Interactive} {Trajectories} in {Soccer} {Games}},
+ url = {https://cs2-gitlab.cs.fau.de/i2public/publications/-/blob/master/PoCA2011a.pdf},
+ venue = {Brussels},
+ year = {2011}
+}'''
+
+[image]
+src = "/wp-content/uploads/2026/09/Bildschirmfoto-2026-09-20-um-22.01.25-300x139.png"
+alt = ""
+width = 300
+height = 139
+sizes = "(max-width: 300px) 100vw, 300px"
+class = "attachment-medium size-medium"
+
+[image.sources]
+300w = "/wp-content/uploads/2026/09/Bildschirmfoto-2026-09-20-um-22.01.25-300x139.png"
+584w = "/wp-content/uploads/2026/09/Bildschirmfoto-2026-09-20-um-22.01.25.png"

@@ -1,0 +1,35 @@
+title = "Passive Channel Charting: Locating Passive Targets using a UWB Mesh"
+authors = ["Raffael Poeggel", "Maximilian Stahlke", "Jonas Pirkl", "Jonathan Ott", "George Yammine", "Tobias Feigl", "Christopher Mutschler"]
+date = "2025-01-01"
+venue = "15th International Conference on Indoor Positioning and Indoor Navigation (IPIN)"
+detail_url = "/publication/passive-channel-charting-locating-passive-targets-using-a-uwb-mesh/"
+profiles = ["christopher-mutschler", "jonas-pirkl", "jonathan-ott"]
+doi = "https://doi.org/10.1109/IPIN66788.2025.11213350"
+abstract = "Fingerprint-based passive localization enables high localization accuracy using low-cost UWB IoT radio sensors. However, fingerprinting demands extensive effort for data acquisition. The concept of channel charting reduces this effort by modeling and projecting the manifold of channel state information (CSI) onto a 2D coordinate space. So far, researchers have only applied this concept to active radio localization, where a mobile device intentionally and actively emits a specific signal.In this paper, we apply channel charting to passive localization. We use a pedestrian dead reckoning (PDR) system to estimate a target's velocity and derive a distance matrix from it. We then use this matrix to learn a distance-preserving embedding in 2D space, which serves as a fingerprinting model. In our experiments, we deploy six nodes in a fully connected ultra-wideband (UWB) mesh network to show that our method achieves high localization accuracy, with an average error of just 0.24 m, even when we train and test on different targets."
+bibtex = '''
+@INPROCEEDINGS{11213350,
+  author={Poeggel, Raffael and Stahlke, Maximilian and Pirkl, Jonas and Ott, Jonathan and Yammine, George and Feigl, Tobias and Mutschler, Christopher},
+  booktitle={2025 International Conference on Indoor Positioning and Indoor Navigation (IPIN)}, 
+  title={Passive Channel Charting: Locating Passive Targets using a UWB Mesh}, 
+  year={2025},
+  volume={},
+  number={},
+  pages={1-6},
+  keywords={Location awareness;Manifolds;Mesh networks;Accuracy;Pedestrians;Indoor navigation;Fingerprint recognition;Mobile handsets;Sensors;Ultra wideband technology;Device-free;UWB Mesh;Channel Impulse Response;Deep Learning;Passive Sensing;Channel Charting},
+  doi={10.1109/IPIN66788.2025.11213350}}'''
+
+[links]
+Website = "https://ieeexplore.ieee.org/abstract/document/11213350"
+
+[image]
+src = "/wp-content/uploads/2026/09/poegg1-p6-poegg-large-300x52.gif"
+alt = ""
+width = 300
+height = 52
+sizes = "(max-width: 300px) 100vw, 300px"
+class = "attachment-medium size-medium"
+
+[image.sources]
+300w = "/wp-content/uploads/2026/09/poegg1-p6-poegg-large-300x52.gif"
+768w = "/wp-content/uploads/2026/09/poegg1-p6-poegg-large-768x134.gif"
+820w = "/wp-content/uploads/2026/09/poegg1-p6-poegg-large.gif"

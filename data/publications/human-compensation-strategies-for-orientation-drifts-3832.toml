@@ -1,0 +1,35 @@
+title = "Human Compensation Strategies for Orientation Drifts"
+authors = ["Tobias Feigl", "Christopher Mutschler", "Michael Philippsen"]
+date = "2018-01-01"
+venue = "25th IEEE Conference on Virtual Reality and 3D User Interfaces"
+detail_url = "/publication/human-compensation-strategies-for-orientation-drifts/"
+profiles = ["christopher-mutschler"]
+doi = "https://doi.org/10.1109/VR.2018.8446300"
+abstract = "This paper studies the effects of head orientation drift around the yaw axis on the user's absolute head and body orientations when walking naturally in the VR. We study how much drift accumulates over time, how a user experiences and tolerates it, and how a user applies strategies to compensate for larger drifts."
+bibtex = '''
+@INPROCEEDINGS{8446300,
+  author={Feigl, Tobias and Mutschler, Christopher and Philippsen, Michael},
+  booktitle={2018 IEEE Conference on Virtual Reality and 3D User Interfaces (VR)}, 
+  title={Human Compensation Strategies for Orientation Drifts}, 
+  year={2018},
+  volume={},
+  number={},
+  pages={409-414},
+  keywords={Magnetic heads;Head;Resists;Legged locomotion;Tracking;Accelerometers;Magnetometers;VR;orientation drift;head tracking;inertial sensors.: Computing methodologies [Perception] Human-centered computing [Virtual reality]},
+  doi={10.1109/VR.2018.8446300}}'''
+
+[links]
+Website = "https://ieeexplore.ieee.org/abstract/document/8446300"
+
+[image]
+src = "/wp-content/uploads/2020/04/Bildschirmfoto-2020-04-12-um-11.26.40-300x174.png"
+alt = ""
+width = 300
+height = 174
+sizes = "(max-width: 300px) 100vw, 300px"
+class = "attachment-medium size-medium"
+
+[image.sources]
+300w = "/wp-content/uploads/2020/04/Bildschirmfoto-2020-04-12-um-11.26.40-300x174.png"
+768w = "/wp-content/uploads/2020/04/Bildschirmfoto-2020-04-12-um-11.26.40-768x445.png"
+804w = "/wp-content/uploads/2020/04/Bildschirmfoto-2020-04-12-um-11.26.40.png"

@@ -1,0 +1,29 @@
+title = "Can You Trust Your Autonomous Car? Interpretable and Verifiably Safe Reinforcement Learning"
+authors = ["Lukas M Schmidt", "Georgios Kontes", "Axel Plinge", "Christopher Mutschler"]
+date = "2021-01-01"
+venue = "32nd IEEE Intelligent Vehicles Symposium"
+detail_url = "/publication/can-you-trust-your-autonomous-car-interpretable-and-verifiably-safe-reinforcement-learning/"
+profiles = ["christopher-mutschler"]
+doi = "https://doi.org/10.1109/IV48863.2021.9575328"
+abstract = "We introduce a novel pipeline that builds on recent advances in imitation learning and that can generate safe and efficient behavior policies. We combine an RL step that solves for safe behavior through the introduction of safety distances with a subsequent innovative safe extraction of decision tree policies. The resulting decision tree is not only easy to interpret, it is also safer than the neural network policy trained for safety. Additionally, we formally prove the safety of trained RL agents for linearized system dynamics, showing that the learned and extracted policy successfully avoids all catastrophic events."
+bibtex = '''
+@INPROCEEDINGS{9575328,
+  author={Schmidt, Lukas M. and Kontes, Georgios and Plinge, Axel and Mutschler, Christopher},
+  booktitle={2021 IEEE Intelligent Vehicles Symposium (IV)}, 
+  title={Can You Trust Your Autonomous Car? Interpretable and Verifiably Safe Reinforcement Learning}, 
+  year={2021},
+  volume={},
+  number={},
+  pages={171-178},
+  keywords={System dynamics;Pipelines;Neural networks;Reinforcement learning;Transforms;Safety;Decision trees},
+  doi={10.1109/IV48863.2021.9575328}}'''
+
+[links]
+Website = "https://ieeexplore.ieee.org/abstract/document/9575328"
+
+[image]
+src = "/wp-content/uploads/2021/08/IV2021.png"
+alt = ""
+width = 192
+height = 236
+class = "attachment-medium size-medium"

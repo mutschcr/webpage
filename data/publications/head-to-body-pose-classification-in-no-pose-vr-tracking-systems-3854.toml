@@ -1,0 +1,35 @@
+title = "Head-to-Body-Pose Classification in No-Pose VR Tracking Systems"
+authors = ["Tobias Feigl", "Christopher Mutschler", "Michael Philippsen"]
+date = "2018-01-01"
+venue = "25th IEEE Conference on Virtual Reality and 3D User Interfaces"
+detail_url = "/publication/head-to-body-pose-classification-in-no-pose-vr-tracking-systems/"
+profiles = ["christopher-mutschler"]
+doi = "https://doi.org/10.1109/VR.2018.8446495"
+abstract = "Pose tracking does not yet reliably work in large-scale interactive multi-user VR. Our novel head orientation estimation combines a single inertial sensor located at the user's head with inaccurate positional tracking. We exploit that users tend to walk in their viewing direction and classify head and body motion to estimate heading drift. This enables low-cost long-time stable head orientation. We evaluate our method and show that we sustain immersion."
+bibtex = '''
+@INPROCEEDINGS{8446495,
+  author={Feigl, Tobias and Mutschler, Christopher and Philippsen, Michael},
+  booktitle={2018 IEEE Conference on Virtual Reality and 3D User Interfaces (VR)}, 
+  title={Head-to-Body-Pose Classification in No-Pose VR Tracking Systems}, 
+  year={2018},
+  volume={},
+  number={},
+  pages={1-2},
+  keywords={Magnetic heads;Feature extraction;Head;Tracking;Legged locomotion;Reliability;Estimation;VR;head tracking;inertial sensor fusion;immersion;large-scale;machine learning;motion sickness;Computing methodologies [Supervised learning by classification] Human-centered computing [Virtual reality]},
+  doi={10.1109/VR.2018.8446495}}'''
+
+[links]
+Website = "https://ieeexplore.ieee.org/abstract/document/8446495"
+
+[image]
+src = "/wp-content/uploads/2026/09/545_546_feigl-fig-3-source-large-300x105.gif"
+alt = ""
+width = 300
+height = 105
+sizes = "(max-width: 300px) 100vw, 300px"
+class = "attachment-medium size-medium"
+
+[image.sources]
+300w = "/wp-content/uploads/2026/09/545_546_feigl-fig-3-source-large-300x105.gif"
+768w = "/wp-content/uploads/2026/09/545_546_feigl-fig-3-source-large-768x270.gif"
+820w = "/wp-content/uploads/2026/09/545_546_feigl-fig-3-source-large.gif"

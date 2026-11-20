@@ -1,0 +1,34 @@
+title = "Recurrent Neural Networks on Drifting Time-of-Flight Measurements"
+authors = ["Tobias Feigl", "Thorsten Nowak", "Michael Philippsen", "Thorsten Edelhäußer", "Christopher Mutschler"]
+date = "2018-01-01"
+venue = "9th International Conference on Indoor Positioning and Indoor Navigation (IPIN)"
+detail_url = "/publication/recurrent-neural-networks-on-drifting-time-of-flight-measurements/"
+profiles = ["christopher-mutschler"]
+doi = "https://doi.org/10.1109/IPIN.2018.8533813"
+abstract = "We train recurrent neural networks on ToFs both in simulation and reality that successfully processes noisy measurements that are not zero-mean Gaussian distributed. We show that our methods outperforms conventional methods based on Kalman filters that are currently considered to be state of the art."
+bibtex = '''
+@INPROCEEDINGS{8533813,
+  author={Feigl, Tobias and Nowak, Thorsten and Philippsen, Michael and Edelhäußer, Thorsten and Mutschler, Christopher},
+  booktitle={2018 International Conference on Indoor Positioning and Indoor Navigation (IPIN)}, 
+  title={Recurrent Neural Networks on Drifting Time-of-Flight Measurements}, 
+  year={2018},
+  volume={},
+  number={},
+  pages={206-212},
+  keywords={Trajectory;Hidden Markov models;Tracking;Measurement uncertainty;Neural networks;Position measurement;Dynamics},
+  doi={10.1109/IPIN.2018.8533813}}'''
+
+[links]
+Website = "https://ieeexplore.ieee.org/abstract/document/8533813"
+
+[image]
+src = "/wp-content/uploads/2020/04/Bildschirmfoto-2020-04-10-um-07.09.19-300x229.png"
+alt = ""
+width = 300
+height = 229
+sizes = "(max-width: 300px) 100vw, 300px"
+class = "attachment-medium size-medium"
+
+[image.sources]
+300w = "/wp-content/uploads/2020/04/Bildschirmfoto-2020-04-10-um-07.09.19-300x229.png"
+392w = "/wp-content/uploads/2020/04/Bildschirmfoto-2020-04-10-um-07.09.19.png"

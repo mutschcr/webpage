@@ -1,0 +1,34 @@
+title = "Off-line Evaluation of Indoor Positioning Systems in Different Scenarios: The Experiences from IPIN 2020 Competition"
+authors = ["Francesco Potorti", "Joaquín Torres-Sospedra", "Darwin Quezada-Gaibor", "Antonio Ramón Jiménez", "Fernando Seco", "Antoni Pérez-Navarro", "Miguel Ortiz", "Ni Zhu", "Valerie Renaudin", "Ryosuke Ichikari", "Ryo Shimomura", "Nozomu Ohta", "Satsuki Nagae", "Takeshi Kurata", "Dongyan Wei"]
+date = "2021-01-01"
+venue = "IEEE Sensors Journal"
+detail_url = "/publication/off-line-evaluation-of-indoor-positioning-systems-in-different-scenarios-the-experiences-from-ipin-2020-competition/"
+profiles = ["christopher-mutschler"]
+doi = "https://doi.org/10.1109/JSEN.2021.3083149"
+abstract = "The 2020 IPIN Competition included 5 diverse off-site off-site Tracks, each resembling real use cases and challenges for indoor positioning. The results in terms of participation and accuracy of the proposed systems have been encouraging. The best performing competitors obtained a third quartile of error of 1 m for the Smartphone Track and 0.5 m for the Foot-mounted IMU Track. While not running on physical systems, but only as algorithms, these results represent impressive achievements."
+bibtex = '''
+@ARTICLE{9439493,
+  author={Potortì, Francesco and Torres-Sospedra, Joaquín and Quezada-Gaibor, Darwin and Jiménez, Antonio Ramón and Seco, Fernando and Pérez-Navarro, Antoni and Ortiz, Miguel and Zhu, Ni and Renaudin, Valerie and Ichikari, Ryosuke and Shimomura, Ryo and Ohta, Nozomu and Nagae, Satsuki and Kurata, Takeshi and Wei, Dongyan and Ji, Xinchun and Zhang, Wenchao and Kram, Sebastian and Stahlke, Maximilian and Mutschler, Christopher and Crivello, Antonino and Barsocchi, Paolo and Girolami, Michele and Palumbo, Filippo and Chen, Ruizhi and Wu, Yuan and Li, Wei and Yu, Yue and Xu, Shihao and Huang, Lixiong and Liu, Tao and Kuang, Jian and Niu, Xiaoji and Yoshida, Takuto and Nagata, Yoshiteru and Fukushima, Yuto and Fukatani, Nobuya and Hayashida, Nozomi and Asai, Yusuke and Urano, Kenta and Ge, Wenfei and Lee, Nien-Ting and Fang, Shih-Hau and Jie, You-Cheng and Young, Shawn-Rong and Chien, Ying-Ren and Yu, Chih-Chieh and Ma, Chengqi and Wu, Bang and Zhang, Wei and Wang, Yankun and Fan, Yonglei and Poslad, Stefan and Selviah, David R. and Wang, Weixi and Yuan, Hong and Yonamoto, Yoshitomo and Yamaguchi, Masahiro and Kaichi, Tomoya and Zhou, Baoding and Liu, Xu and Gu, Zhining and Yang, Chengjing and Wu, Zhiqian and Xie, Doudou and Huang, Can and Zheng, Lingxiang and Peng, Ao and Jin, Ge and Wang, Qu and Luo, Haiyong and Xiong, Hao and Bao, Linfeng and Zhang, Pushuo and Zhao, Fang and Yu, Chia-An and Hung, Chun-Hao and Antsfeld, Leonid and Chidlovskii, Boris and Jiang, Haitao and Xia, Ming and Yan, Dayu and Li, Yuhang and Dong, Yitong and Silva, Ivo and Pendão, Cristiano and Meneses, Filipe and Nicolau, Maria João and Costa, António and Moreira, Adriano and De Cock, Cedric and Plets, David and Opiela, Miroslav and Džama, Jakub and Zhang, Liqiang and Li, Hu and Chen, Boxuan and Liu, Yu and Yean, Seanglidet and Lim, Bo Zhi and Teo, Wei Jie and Lee, Bu Sung and Oh, Hong Lye},
+  journal={IEEE Sensors Journal}, 
+  title={Off-Line Evaluation of Indoor Positioning Systems in Different Scenarios: The Experiences From IPIN 2020 Competition}, 
+  year={2022},
+  volume={22},
+  number={6},
+  pages={5011-5054},
+  keywords={Sensor phenomena and characterization;Indoor navigation;Testing;Standards;Satellite broadcasting;Recurrent neural networks;Received signal strength indicator;Indoor positioning and navigation;evaluation;smartphone-based positioning;foot-mounted IMU;positioning in industrial scenarios and factories;vehicle-positioning},
+  doi={10.1109/JSEN.2021.3083149}}'''
+
+[links]
+Website = "https://ieeexplore.ieee.org/abstract/document/9439493/"
+
+[image]
+src = "/wp-content/uploads/2021/08/IPIN-competition-300x173.png"
+alt = ""
+width = 300
+height = 173
+sizes = "(max-width: 300px) 100vw, 300px"
+class = "attachment-medium size-medium"
+
+[image.sources]
+300w = "/wp-content/uploads/2021/08/IPIN-competition-300x173.png"
+424w = "/wp-content/uploads/2021/08/IPIN-competition.png"

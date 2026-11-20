@@ -1,0 +1,35 @@
+title = "Just a Matter of Scale? Reevaluating Scale Equivariance in Convolutional Neural Networks"
+authors = ["Thomas Altstidl", "An Nguyen", "Leo Schwinn", "Franz Köferl", "Christopher Mutschler", "Björn Eskofier", "Dario Zanca"]
+date = "2023-01-01"
+venue = "2023 International Joint Conference on Neural Networks (IJCNN)"
+detail_url = "/publication/just-a-matter-of-scale-reevaluating-scale-equivariance-in-convolutional-neural-networks/"
+profiles = ["christopher-mutschler"]
+doi = "https://doi.org/10.1109/IJCNN54540.2023.10191724"
+abstract = "We propose the novel Scaled and Translated Image Recognition (STIR) benchmark based on four different domains. Additionally, we introduce a new family of models that applies many re-scaled kernels with shared weights in parallel and then selects the most appropriate one. Our experimental results on STIR show that both the existing and proposed approaches can improve generalization across scales compared to standard convolutions. We also demonstrate that our family of models is able to generalize well towards larger scales and improve scale equivariance. Moreover, due to their unique design we can validate that kernel selection is consistent with input scale. Even so, none of the evaluated models maintain their performance for large differences in scale, demonstrating that a general understanding of how scale equivariance can improve generalization and robustness is still lacking."
+bibtex = '''
+@INPROCEEDINGS{10191724,
+  author={Altstidl, Thomas and Nguyen, An and Schwinn, Leo and Köferl, Franz and Mutschler, Christopher and Eskofier, Björn and Zanca, Dario},
+  booktitle={2023 International Joint Conference on Neural Networks (IJCNN)}, 
+  title={Just a Matter of Scale? Reevaluating Scale Equivariance in Convolutional Neural Networks}, 
+  year={2023},
+  volume={},
+  number={},
+  pages={1-8},
+  keywords={Image recognition;Neural networks;Benchmark testing;Robustness;Convolutional neural networks;Kernel;Standards;convolution;scale;equivariance;invariance},
+  doi={10.1109/IJCNN54540.2023.10191724}}'''
+
+[links]
+Website = "https://ieeexplore.ieee.org/abstract/document/10191724"
+
+[image]
+src = "/wp-content/uploads/2026/09/10191724-fig-1-source-large-300x188.gif"
+alt = ""
+width = 300
+height = 188
+sizes = "(max-width: 300px) 100vw, 300px"
+class = "attachment-medium size-medium"
+
+[image.sources]
+300w = "/wp-content/uploads/2026/09/10191724-fig-1-source-large-300x188.gif"
+768w = "/wp-content/uploads/2026/09/10191724-fig-1-source-large-768x481.gif"
+820w = "/wp-content/uploads/2026/09/10191724-fig-1-source-large.gif"

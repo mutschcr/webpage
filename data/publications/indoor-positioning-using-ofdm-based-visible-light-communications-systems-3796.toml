@@ -1,0 +1,35 @@
+title = "Indoor Positioning using OFDM-based Visible Light Communications Systems"
+authors = ["Birendra Ghimire", "Jochen Seitz", "Christopher Mutschler"]
+date = "2018-01-01"
+venue = "9th International Conference on Indoor Positioning and Indoor Navigation (IPIN)"
+detail_url = "/publication/indoor-positioning-using-ofdm-based-visible-light-communications-systems/"
+profiles = ["christopher-mutschler"]
+doi = "https://doi.org/10.1109/IPIN.2018.8533834"
+abstract = "We propose a novel positioning system which uses the entities of visible light communication (VLC) system as anchors and tags. Our technique scales with the number of tags and the VLC network provides both positioning and communication capabilities. The anchor points transmit the OFDM-based VLC signals synchronously, and we estimate the time differences of arrival between anchor points and tags using positioning reference signals embedded into the air-interface of the VLC system. Simulation results show that positioning accuracy of 10 cm or better is possible for over 95% of users if the sampling clock offset is better that 10 ppm, clock jitter is below 1 ps, and a bit resolution of at least 16 bits is available."
+bibtex = '''
+@INPROCEEDINGS{8533834,
+  author={Ghimire, Birendra and Seitz, Jochen and Mutschler, Christopher},
+  booktitle={2018 International Conference on Indoor Positioning and Indoor Navigation (IPIN)}, 
+  title={Indoor Positioning Using OFDM-Based Visible Light Communication System}, 
+  year={2018},
+  volume={},
+  number={},
+  pages={1-8},
+  keywords={Light emitting diodes;OFDM;Optical receivers;Adaptive optics;Optical filters;Measurement uncertainty},
+  doi={10.1109/IPIN.2018.8533834}}'''
+
+[links]
+Website = "https://ieeexplore.ieee.org/abstract/document/8533834"
+
+[image]
+src = "/wp-content/uploads/2026/09/277-212013-fig-8-source-large-300x259.gif"
+alt = ""
+width = 300
+height = 259
+sizes = "(max-width: 300px) 100vw, 300px"
+class = "attachment-medium size-medium"
+
+[image.sources]
+300w = "/wp-content/uploads/2026/09/277-212013-fig-8-source-large-300x259.gif"
+768w = "/wp-content/uploads/2026/09/277-212013-fig-8-source-large-768x662.gif"
+820w = "/wp-content/uploads/2026/09/277-212013-fig-8-source-large.gif"

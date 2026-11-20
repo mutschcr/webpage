@@ -1,0 +1,35 @@
+title = "An Introduction to Multi-Agent Reinforcement Learning and Review of its Application to Autonomous Mobility"
+authors = ["Lukas M Schmidt", "Johanna Brosig", "Axel Plinge", "Bjoern M Eskofier", "Christopher Mutschler"]
+date = "2022-01-01"
+venue = "2022 IEEE 25th International Conference on Intelligent Transportation Systems (ITSC)"
+detail_url = "/publication/an-introduction-to-multi-agent-reinforcement-learning-and-review-of-its-application-to-autonomous-mobility/"
+profiles = ["christopher-mutschler"]
+doi = "https://doi.org/10.1109/ITSC55140.2022.9922205"
+abstract = "We give an overview of MARL to researchers in autonomous mobility. We first explain MARL and introduce important concepts. Then, we discuss the central paradigms that underlie MARL algorithms and give an overview of state-of-the-art methods and ideas in each paradigm. With this background, we survey applications of MARL in autonomous mobility scenarios and give an overview of existing scenarios and implementations."
+bibtex = '''
+@INPROCEEDINGS{9922205,
+  author={Schmidt, Lukas M. and Brosig, Johanna and Plinge, Axel and Eskofier, Bjoern M. and Mutschler, Christopher},
+  booktitle={2022 IEEE 25th International Conference on Intelligent Transportation Systems (ITSC)}, 
+  title={An Introduction to Multi-Agent Reinforcement Learning and Review of its Application to Autonomous Mobility}, 
+  year={2022},
+  volume={},
+  number={},
+  pages={1342-1349},
+  keywords={Training;Roads;Reinforcement learning;Traffic control;Performance gain;Safety;Behavioral sciences},
+  doi={10.1109/ITSC55140.2022.9922205}}'''
+
+[links]
+Website = "https://ieeexplore.ieee.org/abstract/document/9922205"
+
+[image]
+src = "/wp-content/uploads/2026/09/2022_MARL-300x200.png"
+alt = ""
+width = 300
+height = 200
+sizes = "(max-width: 300px) 100vw, 300px"
+class = "attachment-medium size-medium"
+
+[image.sources]
+300w = "/wp-content/uploads/2026/09/2022_MARL-300x200.png"
+768w = "/wp-content/uploads/2026/09/2022_MARL-768x512.png"
+846w = "/wp-content/uploads/2026/09/2022_MARL.png"

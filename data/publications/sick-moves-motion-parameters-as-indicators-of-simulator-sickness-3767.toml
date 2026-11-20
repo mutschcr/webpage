@@ -1,0 +1,34 @@
+title = "Sick Moves! Motion Parameters as Indicators of Simulator Sickness"
+authors = ["Tobias Feigl", "Daniel Roth", "Stefan Gradl", "Markus Wirth", "Marc Erich Latoschik", "Bjoern M Eskofier", "Michael Philippsen", "Christopher Mutschler"]
+date = "2019-01-01"
+venue = "IEEE Transactions on Visualization and Computer Graphics"
+detail_url = "/publication/sick-moves-motion-parameters-as-indicators-of-simulator-sickness/"
+profiles = ["christopher-mutschler"]
+doi = "https://doi.org/10.1109/TVCG.2019.2932224"
+abstract = "We explore motion parameters, more specifically gait parameters, as an objective indicator to assess simulator sickness in Virtual Reality (VR). We used two different camera pose (position and orientation) estimation methods for the evaluation of motion tasks in a large-scale VR environment: a simple model and an optimized model that allows for a more accurate and natural mapping of human senses. The subjective measures from participants  confirmed that the optimized pose estimation model reduces simulator sickness and increases the perceived presence. The results further show that both models affect the gait parameters and simulator sickness, which is why we further investigated a classification approach that deals with non-linear correlation dependencies between gait parameters and simulator sickness."
+bibtex = '''
+@ARTICLE{8798880,
+  author={Feigl, Tobias and Roth, Daniel and Gradl, Stefan and Wirth, Markus and Latoschik, Marc Erich and Eskofier, Bjoern M. and Philippsen, Michael and Mutschler, Christopher},
+  journal={IEEE Transactions on Visualization and Computer Graphics}, 
+  title={Sick Moves! Motion Parameters as Indicators of Simulator Sickness}, 
+  year={2019},
+  volume={25},
+  number={11},
+  pages={3146-3157},
+  keywords={Legged locomotion;Solid modeling;Atmospheric measurements;Particle measurements;Computational modeling;Reliability;Pose estimation;Human-centered computing;virtual reality;user studies;computing methodologies;perception;machine learning},
+  doi={10.1109/TVCG.2019.2932224}}'''
+
+[links]
+Website = "https://ieeexplore.ieee.org/abstract/document/8798880"
+
+[image]
+src = "/wp-content/uploads/2020/04/Bildschirmfoto-2020-04-10-um-07.37.07-6-300x173.png"
+alt = ""
+width = 300
+height = 173
+sizes = "(max-width: 300px) 100vw, 300px"
+class = "attachment-medium size-medium"
+
+[image.sources]
+300w = "/wp-content/uploads/2020/04/Bildschirmfoto-2020-04-10-um-07.37.07-6-300x173.png"
+667w = "/wp-content/uploads/2020/04/Bildschirmfoto-2020-04-10-um-07.37.07-6.png"

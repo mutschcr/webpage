@@ -1,0 +1,35 @@
+title = "A sense of quality for augmented reality assisted process guidance"
+authors = ["Anes Redžepagić", "Christoffer Löffler", "Tobias Feigl", "Christopher Mutschler"]
+date = "2020-01-01"
+venue = "2020 IEEE International Symposium on Mixed and Augmented Reality Adjunct (ISMAR-Adjunct)"
+detail_url = "/publication/a-sense-of-quality-for-augmented-reality-assisted-process-guidance/"
+profiles = ["christopher-mutschler"]
+doi = "https://doi.org/10.1109/ISMAR-Adjunct51615.2020.00046"
+abstract = "We develop a Machine Learning (ML) classifier that predicts quality metrics from a 9-degrees of freedom inertial measurement unit, while we simultaneously guide and track the work processes with a HoloLens AR system. In our user study, 6 test subjects perform typical assembly tasks with our system. We evaluate the tracking accuracy of the system based on a precise optical reference system and evaluate the classification of each work step quality based on the collected ground truth data. Our evaluation shows a tracking accuracy of fast dynamic movements of 4.92mm and our classifier predicts the actions carried out with mean F1 value of 93.8% on average."
+bibtex = '''
+@INPROCEEDINGS{9288435,
+  author={Redžepagić, Anes and Löffler, Christoffer and Feigl, Tobias and Mutschler, Christopher},
+  booktitle={2020 IEEE International Symposium on Mixed and Augmented Reality Adjunct (ISMAR-Adjunct)}, 
+  title={A Sense of Quality for Augmented Reality Assisted Process Guidance}, 
+  year={2020},
+  volume={},
+  number={},
+  pages={129-134},
+  keywords={Quality assurance;Measurement units;Tracking;Tools;Task analysis;Augmented reality;Monitoring;Human-centered computing;Human computer interaction (HCI);Interaction paradigms;Mixed / augmented reality},
+  doi={10.1109/ISMAR-Adjunct51615.2020.00046}}'''
+
+[links]
+Website = "https://ieeexplore.ieee.org/abstract/document/9288435"
+
+[image]
+src = "/wp-content/uploads/2026/09/red2-p6-red-large-300x124.gif"
+alt = ""
+width = 300
+height = 124
+sizes = "(max-width: 300px) 100vw, 300px"
+class = "attachment-medium size-medium"
+
+[image.sources]
+300w = "/wp-content/uploads/2026/09/red2-p6-red-large-300x124.gif"
+768w = "/wp-content/uploads/2026/09/red2-p6-red-large-768x318.gif"
+820w = "/wp-content/uploads/2026/09/red2-p6-red-large.gif"

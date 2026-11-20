@@ -1,0 +1,34 @@
+title = "NLOS Detection using UWB Channel Impulse Responses and Convolutional Neural Networks"
+authors = ["Maximilian Stahlke", "Sebastian Kram", "Christopher Mutschler", "Thomas Mahr"]
+date = "2020-01-01"
+venue = "2020 International Conference on Localization and GNSS (ICL-GNSS)"
+detail_url = "/publication/nlos-detection-using-uwb-channel-impulse-responses-and-convolutional-neural-networks/"
+profiles = ["christopher-mutschler"]
+abstract = "We apply different convolutional neural network architectures (ResNet, Encoder, FCN) to detect non line-of-sight (NLOS) channel conditions directly from the CIR raw data. A realistic measurement campaign is used to train and evaluate the algorithms. The proposed methods highly outperform the featurebased ML baselines while still using low network complexities. We also show that the models generalize well to unknown receivers and environments and that positioning filters benefit significantly from the identification of NLOS measurements."
+bibtex = '''
+@INPROCEEDINGS{9115498,
+  author={Stahlke, Maximilian and Kram, Sebastian and Mutschler, Christopher and Mahr, Thomas},
+  booktitle={2020 International Conference on Localization and GNSS (ICL-GNSS)}, 
+  title={NLOS Detection using UWB Channel Impulse Responses and Convolutional Neural Networks}, 
+  year={2020},
+  volume={},
+  number={},
+  pages={1-6},
+  keywords={Support vector machines;Estimation;Scattering;Receivers;Ray tracing;Position measurement;Reflection;NLOS detection;CNN;CIR;UWB;IIOT},
+  doi={10.1109/ICL-GNSS49876.2020.9115498}}'''
+
+[links]
+Website = "https://ieeexplore.ieee.org/abstract/document/9115498"
+
+[image]
+src = "/wp-content/uploads/2026/09/2020_NLOS-300x173.png"
+alt = ""
+width = 300
+height = 173
+sizes = "(max-width: 300px) 100vw, 300px"
+class = "attachment-medium size-medium"
+
+[image.sources]
+300w = "/wp-content/uploads/2026/09/2020_NLOS-300x173.png"
+768w = "/wp-content/uploads/2026/09/2020_NLOS-768x443.png"
+1016w = "/wp-content/uploads/2026/09/2020_NLOS.png"

@@ -1,0 +1,38 @@
+title = "Adaptive & Efficient Sample Selection for Domain Incremental 5G Indoor Localization in Dynamic Multipath Environments"
+authors = ["Nisha L Raichur", "Lucas Heublein", "Jaspar Pahl", "Dominik Seuß", "Christopher Mutschler", "Felix Ott"]
+date = "2026-01-01"
+venue = "IEEE Journal of Indoor and Seamless Positioning and Navigation (J-ISPIN)"
+detail_url = "/publication/adaptive-efficient-sample-selection-for-domain-incremental-5g-indoor-localization-in-dynamic-multipath-environments/"
+profiles = []
+pdf_url = "https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=11334035"
+doi = "https://doi.org/10.1109/JISPIN.2025.3648680"
+bibtex = '''
+@ARTICLE{11334035,
+  author={Raichur, Nisha L. and Heublein, Lucas and Pahl, Jaspar and Seuß, Dominik and Mutschler, Christopher and Ott, Felix},
+  journal={IEEE Journal of Indoor and Seamless Positioning and Navigation}, 
+  title={Adaptive and Efficient Sample Selection for Domain Incremental 5G Indoor Localization in Dynamic Multipath Environments}, 
+  year={2026},
+  volume={4},
+  number={},
+  pages={23-40},
+  keywords={Location awareness;5G mobile communication;Electronics packaging;Accuracy;Channel impulse response;Training;Incremental learning;Robustness;Continuing education;Adaptation models;5G indoor localization;domain incremental learning (DIL);efficient adaptation;environmental dynamics;multipath effects;sample selection;similarity search},
+  doi={10.1109/JISPIN.2025.3648680}}'''
+
+[links]
+Website = "https://ieeexplore.ieee.org/abstract/document/11334035"
+
+[image]
+src = "/wp-content/uploads/2026/10/jispin-gagraphic-3648680-300x99.jpg"
+alt = ""
+width = 300
+height = 99
+sizes = "(max-width: 300px) 100vw, 300px"
+class = "attachment-medium size-medium"
+
+[image.sources]
+1536w = "/wp-content/uploads/2026/10/jispin-gagraphic-3648680-1536x508.jpg"
+2048w = "/wp-content/uploads/2026/10/jispin-gagraphic-3648680-2048x677.jpg"
+300w = "/wp-content/uploads/2026/10/jispin-gagraphic-3648680-300x99.jpg"
+768w = "/wp-content/uploads/2026/10/jispin-gagraphic-3648680-768x254.jpg"
+1024w = "/wp-content/uploads/2026/10/jispin-gagraphic-3648680-1024x338.jpg"
+2560w = "/wp-content/uploads/2026/10/jispin-gagraphic-3648680-scaled.jpg"

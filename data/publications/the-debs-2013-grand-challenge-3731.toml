@@ -1,0 +1,45 @@
+title = "The DEBS 2013 Grand Challenge"
+authors = ["Christopher Mutschler", "Holger Ziekow", "Zbigniew Jerzak"]
+date = "2013-01-01"
+venue = "7th ACM International Conference on Distributed Event-Based Systems"
+detail_url = "/publication/the-debs-2013-grand-challenge/"
+profiles = ["christopher-mutschler"]
+doi = "https://doi.org/10.1145/2488222.2488283"
+abstract = "The 2013 edition of the Grand Challenge focuses on real-time, event-based sports analytics. The 2013 Grand Challenge data set was collected during a football match carried out at a Nuremberg Stadium in Germany and is complemented with a set of continuous analytical queries which provide detailed insight into the match statistics for both team managers and spectators."
+bibtex = '''
+@inproceedings{10.1145/2488222.2488283,
+author = {Mutschler, Christopher and Ziekow, Holger and Jerzak, Zbigniew},
+title = {The DEBS 2013 grand challenge},
+year = {2013},
+isbn = {9781450317580},
+publisher = {Association for Computing Machinery},
+address = {New York, NY, USA},
+url = {https://doi.org/10.1145/2488222.2488283},
+doi = {10.1145/2488222.2488283},
+abstract = {The ACM DEBS 2013 Grand Challenge is the third in a series of challenges which seek to provide a common ground and evaluation criteria for a competition aimed at both research and industrial event-based systems. The goal of the Grand Challenge competition is to implement a solution to a real-world problem provided by the Grand Challenge organizers. The 2013 edition of the Grand Challenge focuses on real-time, event-based sports analytics. The 2013 Grand Challenge data set was collected during a football match carried out at a Nuremberg Stadium in Germany and is complemented with a set of continuous analytical queries which provide detailed insight into the match statistics for both team managers and spectators.},
+booktitle = {Proceedings of the 7th ACM International Conference on Distributed Event-Based Systems},
+pages = {289–294},
+numpages = {6},
+keywords = {cep, event processing, streaming},
+location = {Arlington, Texas, USA},
+series = {DEBS '13}
+}'''
+
+[links]
+Website = "https://dl.acm.org/doi/abs/10.1145/2488222.2488283"
+
+[image]
+src = "/wp-content/uploads/2026/09/2488222.2488283-192x300.jpg"
+alt = ""
+width = 192
+height = 300
+sizes = "(max-width: 192px) 100vw, 192px"
+class = "attachment-medium size-medium"
+
+[image.sources]
+984w = "/wp-content/uploads/2026/09/2488222.2488283-984x1536.jpg"
+1312w = "/wp-content/uploads/2026/09/2488222.2488283-1312x2048.jpg"
+192w = "/wp-content/uploads/2026/09/2488222.2488283-192x300.jpg"
+768w = "/wp-content/uploads/2026/09/2488222.2488283-768x1199.jpg"
+656w = "/wp-content/uploads/2026/09/2488222.2488283-656x1024.jpg"
+1500w = "/wp-content/uploads/2026/09/2488222.2488283.jpg"

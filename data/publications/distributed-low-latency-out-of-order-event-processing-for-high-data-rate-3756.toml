@@ -1,0 +1,35 @@
+title = "Distributed Low-Latency Out-of-Order Event Processing for High Data Rate Sensor Streams"
+authors = ["Christopher Mutschler", "Michael Philippsen"]
+date = "2013-01-01"
+venue = "27th IEEE International Symposium on Parallel & Distributed Processing (IPDPS)"
+detail_url = "/publication/distributed-low-latency-out-of-order-event-processing-for-high-data-rate-sensor-streams/"
+profiles = ["christopher-mutschler"]
+doi = "https://doi.org/10.1109/IPDPS.2013.29"
+abstract = "We present a low-latency approach based on K-slack that achieves ordered event processing on high data rate sensor and event streams without a-priori knowledge. Slack buffers are dynamically adjusted to fit the disorder in the streams without using local or global clocks. The middleware transparently reorders the event input streams so that events can still be aggregated and processed to a granularity that satisfies the demands of the application. On a Realtime Locating System (RTLS) our system performs accurate low-latency event detection under the predominance of out-of-order event arrival and with a close to linear performance scale-up when the system is distributed over several threads and machines."
+bibtex = '''
+@INPROCEEDINGS{6569891,
+  author={Mutschler, Christopher and Philippsen, Michael},
+  booktitle={2013 IEEE 27th International Symposium on Parallel and Distributed Processing}, 
+  title={Distributed Low-Latency Out-of-Order Event Processing for High Data Rate Sensor Streams}, 
+  year={2013},
+  volume={},
+  number={},
+  pages={1133-1144},
+  keywords={Detectors;Delays;Out of order;Middleware;Clocks;Runtime;Synchronization;Event-based Processing;Message-oriented Middleware;Scalability and Performance;Publish/Subscribe},
+  doi={10.1109/IPDPS.2013.29}}'''
+
+[links]
+Website = "https://ieeexplore.ieee.org/abstract/document/6569891"
+
+[image]
+src = "/wp-content/uploads/2026/09/2013_debs-300x139.png"
+alt = ""
+width = 300
+height = 139
+sizes = "(max-width: 300px) 100vw, 300px"
+class = "attachment-medium size-medium"
+
+[image.sources]
+300w = "/wp-content/uploads/2026/09/2013_debs-300x139.png"
+768w = "/wp-content/uploads/2026/09/2013_debs-768x356.png"
+823w = "/wp-content/uploads/2026/09/2013_debs.png"

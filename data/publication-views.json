@@ -1,0 +1,54 @@
+{
+  "/christopher-mutschler/": {
+    "per_page": 25,
+    "top_pager": false,
+    "pagination": "advanced",
+    "profile": "christopher-mutschler"
+  },
+  "/publications/": {
+    "per_page": 15,
+    "top_pager": true,
+    "pagination": "default"
+  },
+  "/jonas-pirkl/": {
+    "per_page": 25,
+    "top_pager": false,
+    "pagination": "advanced",
+    "profile": "jonas-pirkl"
+  },
+  "/jonathan-ott/": {
+    "per_page": 25,
+    "top_pager": false,
+    "pagination": "advanced",
+    "profile": "jonathan-ott"
+  },
+  "/alexander-mattick/": {
+    "per_page": 25,
+    "top_pager": false,
+    "pagination": "advanced",
+    "profile": "alexander-mattick"
+  },
+  "/nico-meyer/": {
+    "per_page": 25,
+    "top_pager": false,
+    "pagination": "advanced",
+    "profile": "nico-meyer"
+  },
+  "/mark-deutel/": {
+    "per_page": 25,
+    "top_pager": false,
+    "pagination": "advanced",
+    "profile": "mark-deutel"
+  },
+  "/publications-new/": {
+    "per_page": 25,
+    "top_pager": false,
+    "pagination": "advanced"
+  },
+  "/christian-wielenberg/": {
+    "per_page": 25,
+    "top_pager": false,
+    "pagination": "advanced",
+    "profile": "christian-wielenberg"
+  }
+}

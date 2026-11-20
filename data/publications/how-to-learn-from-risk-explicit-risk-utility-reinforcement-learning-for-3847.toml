@@ -1,0 +1,35 @@
+title = "How to Learn from Risk: Explicit Risk-Utility Reinforcement Learning for Efficient and Safe Driving Strategies"
+authors = ["Lukas M Schmidt", "Sebastian Rietsch", "Axel Plinge", "Bjoern M Eskofier", "Christopher Mutschler"]
+date = "2022-01-01"
+venue = "2022 IEEE 25th International Conference on Intelligent Transportation Systems (ITSC)"
+detail_url = "/publication/how-to-learn-from-risk-explicit-risk-utility-reinforcement-learning-for-efficient-and-safe-driving-strategies/"
+profiles = ["christopher-mutschler"]
+doi = "https://doi.org/10.1109/ITSC55140.2022.9922345"
+abstract = "This work proposes SafeDQN, which allows making the behavior of autonomous vehicles safe and interpretable while still being efficient. SafeDQN offers an understandable, semantic trade-off between the expected risk and the utility of actions while being algorithmically transparent. We show that SafeDQN finds interpretable and safe driving policies for various scenarios and demonstrate how state-of-the-art saliency techniques can help assess risk and utility."
+bibtex = '''
+@INPROCEEDINGS{9922345,
+  author={Schmidt, Lukas M. and Rietsch, Sebastian and Plinge, Axel and Eskofier, Bjoern M. and Mutschler, Christopher},
+  booktitle={2022 IEEE 25th International Conference on Intelligent Transportation Systems (ITSC)}, 
+  title={How to Learn from Risk: Explicit Risk-Utility Reinforcement Learning for Efficient and Safe Driving Strategies}, 
+  year={2022},
+  volume={},
+  number={},
+  pages={1913-1920},
+  keywords={Machine learning algorithms;Semantics;Reinforcement learning;Manuals;Markov processes;Safety;Behavioral sciences},
+  doi={10.1109/ITSC55140.2022.9922345}}'''
+
+[links]
+Website = "https://ieeexplore.ieee.org/abstract/document/9922345"
+
+[image]
+src = "/wp-content/uploads/2026/09/9922345-fig-5-source-large-300x193.gif"
+alt = ""
+width = 300
+height = 193
+sizes = "(max-width: 300px) 100vw, 300px"
+class = "attachment-medium size-medium"
+
+[image.sources]
+300w = "/wp-content/uploads/2026/09/9922345-fig-5-source-large-300x193.gif"
+768w = "/wp-content/uploads/2026/09/9922345-fig-5-source-large-768x494.gif"
+820w = "/wp-content/uploads/2026/09/9922345-fig-5-source-large.gif"

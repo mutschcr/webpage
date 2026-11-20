@@ -1,0 +1,42 @@
+title = "RNN-aided Human Velocity Estimation from a Single IMU"
+authors = ["Tobias Feigl", "Sebastian Kram", "Philipp Woller", "Ramiz H Siddiqui", "Michael Philippsen", "Christopher Mutschler"]
+date = "2020-01-01"
+venue = "Sensors"
+detail_url = "/publication/rnn-aided-human-velocity-estimation-from-a-single-imu/"
+profiles = ["christopher-mutschler"]
+doi = "https://doi.org/10.3390/s20133656"
+abstract = "We propose a hybrid filter that combines a convolutional neural network (CNN) and a bidirectional recurrent neural network (BLSTM) (that extract spatial features from the sensor signals and track their temporal relationships) with a linear Kalman filter (LKF) that improves the velocity estimates. Our experiments show the robustness against different movement states and changes in orientation, even in highly dynamic situations. It also generalizes well to different and varying movement speeds and provides accurate and precise velocity estimates."
+bibtex = '''
+@Article{s20133656,
+AUTHOR = {Feigl, Tobias and Kram, Sebastian and Woller, Philipp and Siddiqui, Ramiz H. and Philippsen, Michael and Mutschler, Christopher},
+TITLE = {RNN-Aided Human Velocity Estimation from a Single IMU},
+JOURNAL = {Sensors},
+VOLUME = {20},
+YEAR = {2020},
+NUMBER = {13},
+ARTICLE-NUMBER = {3656},
+URL = {https://www.mdpi.com/1424-8220/20/13/3656},
+PubMedID = {32610668},
+ISSN = {1424-8220},
+ABSTRACT = {Pedestrian Dead Reckoning (PDR) uses inertial measurement units (IMUs) and combines velocity and orientation estimates to determine a position. The estimation of the velocity is still challenging, as the integration of noisy acceleration and angular speed signals over a long period of time causes large drifts. Classic approaches to estimate the velocity optimize for specific applications, sensor positions, and types of movement and require extensive parameter tuning. Our novel hybrid filter combines a convolutional neural network (CNN) and a bidirectional recurrent neural network (BLSTM) (that extract spatial features from the sensor signals and track their temporal relationships) with a linear Kalman filter (LKF) that improves the velocity estimates. Our experiments show the robustness against different movement states and changes in orientation, even in highly dynamic situations. We compare the new architecture with conventional, machine, and deep learning methods and show that from a single non-calibrated IMU, our novel architecture outperforms the state-of-the-art in terms of velocity (≤0.16 m/s) and traveled distance (≤3 m/km). It also generalizes well to different and varying movement speeds and provides accurate and precise velocity estimates.},
+DOI = {10.3390/s20133656}
+}'''
+
+[links]
+Website = "https://www.mdpi.com/1424-8220/20/13/3656"
+
+[image]
+src = "/wp-content/uploads/2020/06/RNNaided-300x114.png"
+alt = ""
+width = 300
+height = 114
+sizes = "(max-width: 300px) 100vw, 300px"
+class = "attachment-medium size-medium"
+
+[image.sources]
+300w = "/wp-content/uploads/2020/06/RNNaided-300x114.png"
+1024w = "/wp-content/uploads/2020/06/RNNaided-1024x390.png"
+768w = "/wp-content/uploads/2020/06/RNNaided-768x293.png"
+1536w = "/wp-content/uploads/2020/06/RNNaided-1536x585.png"
+2048w = "/wp-content/uploads/2020/06/RNNaided-2048x780.png"
+3244w = "/wp-content/uploads/2020/06/RNNaided.png"

@@ -1,0 +1,36 @@
+title = "Convolutional Neural Networks for Position Estimation in TDoA-based Locating Systems"
+authors = ["Arne Niitsoo", "Thorsten Edelhäußer", "Christopher Mutschler"]
+date = "2018-01-01"
+venue = "9th International Conference on Indoor Positioning and Indoor Navigation (IPIN)"
+detail_url = "/publication/convolutional-neural-networks-for-position-estimation-in-tdoa-based-locating-systems/"
+profiles = ["christopher-mutschler"]
+doi = "https://doi.org/10.1109/IPIN.2018.8533766"
+abstract = "We propose a signal processing method that uses deep learning to estimate the absolute tag position directly from the raw channel impulse response (CIR) data. We use the CIR together with ground truth positional data to train a convolutional neural network (CNN) that not only estimates non-linearities in the signal propagation space but also analyzes the signal for multipath effects. Our evaluation shows that our position estimation works in multipath environments and also outperforms classical signal processing in line-of-sight situations."
+bibtex = '''
+@INPROCEEDINGS{8533766,
+  author={Niitsoo, Arne and Edelhäußer, Thorsten and Mutschler, Christopher},
+  booktitle={2018 International Conference on Indoor Positioning and Indoor Navigation (IPIN)}, 
+  title={Convolutional Neural Networks for Position Estimation in TDoA-Based Locating Systems}, 
+  year={2018},
+  volume={},
+  number={},
+  pages={1-8},
+  keywords={Feature extraction;Neurons;Antennas;Estimation;Convolution;Convolutional neural networks},
+  doi={10.1109/IPIN.2018.8533766}}'''
+
+[links]
+Website = "https://ieeexplore.ieee.org/abstract/document/8533766/"
+
+[image]
+src = "/wp-content/uploads/2020/04/absorber-1-300x225.png"
+alt = ""
+width = 300
+height = 225
+sizes = "(max-width: 300px) 100vw, 300px"
+class = "attachment-medium size-medium"
+
+[image.sources]
+300w = "/wp-content/uploads/2020/04/absorber-1-300x225.png"
+1024w = "/wp-content/uploads/2020/04/absorber-1-1024x769.png"
+768w = "/wp-content/uploads/2020/04/absorber-1-768x576.png"
+1187w = "/wp-content/uploads/2020/04/absorber-1.png"

@@ -1,0 +1,39 @@
+title = "uYOLO: Towards Single-Shot Object Detection on Microcontrollers"
+authors = ["Mark Deutel", "Christopher Mutschler", "Jürgen Teich"]
+date = "2023-01-01"
+venue = "Joint European Conference on Machine Learning and Knowledge Discovery in Databases"
+detail_url = "/publication/uyolo-towards-single-shot-object-detection-on-microcontrollers/"
+profiles = ["christopher-mutschler", "mark-deutel"]
+doi = "https://doi.org/10.1007/978-3-031-74643-7_13"
+abstract = "This work-in-progress paper presents results on the feasibility of single-shot object detection on microcontrollers using YOLO. Single-shot object detectors like YOLO are widely used, however due to their complexity mainly on larger GPU-based platforms. We present YOLO, which can be used on Cortex-M based microcontrollers, such as the OpenMV H7 R2, achieving about 3.5 FPS when classifying 128128 RGB images while using less than 800 KB Flash and less than 350 KB RAM. Furthermore, we share experimental results for three different object detection tasks, analyzing the accuracy of YOLO on them."
+bibtex = '''
+@InProceedings{10.1007/978-3-031-74643-7_13,
+author="Deutel, Mark
+and Mutschler, Christopher
+and Teich, J{\"u}rgen",
+editor="Meo, Rosa
+and Silvestri, Fabrizio",
+title="{\$}{\$}{\backslash}mu {\$}{\$}YOLO: Towards Single-Shot Object Detection on Microcontrollers",
+booktitle="Machine Learning and Principles and Practice of Knowledge Discovery in Databases",
+year="2025",
+publisher="Springer Nature Switzerland",
+address="Cham",
+pages="163--169",
+abstract="This work-in-progress paper presents results on the feasibility of single-shot object detection on microcontrollers using YOLO. Single-shot object detectors like YOLO are widely used, however due to their complexity mainly on larger GPU-based platforms. We present {\$}{\$}{\backslash}mu {\$}{\$}$\mu$YOLO, which can be used on Cortex-M based microcontrollers, such as the OpenMV H7 R2, achieving about 3.5 FPS when classifying 128{\$}{\$}{\backslash},{\backslash}times {\backslash},{\$}{\$}{\texttimes}128 RGB images while using less than 800 KB Flash and less than 350 KB RAM. Furthermore, we share experimental results for three different object detection tasks, analyzing the accuracy of {\$}{\$}{\backslash}mu {\$}{\$}$\mu$YOLO on them.",
+isbn="978-3-031-74643-7"
+}'''
+
+[links]
+Website = "https://link.springer.com/chapter/10.1007/978-3-031-74643-7_13"
+
+[image]
+src = "/wp-content/uploads/2026/09/Bildschirmfoto-2026-09-22-um-18.06.40-300x194.png"
+alt = ""
+width = 300
+height = 194
+sizes = "(max-width: 300px) 100vw, 300px"
+class = "attachment-medium size-medium"
+
+[image.sources]
+300w = "/wp-content/uploads/2026/09/Bildschirmfoto-2026-09-22-um-18.06.40-300x194.png"
+505w = "/wp-content/uploads/2026/09/Bildschirmfoto-2026-09-22-um-18.06.40.png"

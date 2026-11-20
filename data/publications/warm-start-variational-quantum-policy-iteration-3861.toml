@@ -1,0 +1,35 @@
+title = "Warm-start variational quantum policy iteration"
+authors = ["Nico Meyer", "Jakob Murauer", "Alexander Popov", "Christian Ufrecht", "Axel Plinge", "Christopher Mutschler", "Daniel D Scherer"]
+date = "2024-01-01"
+venue = "2024 IEEE International Conference on Quantum Computing and Engineering (QCE)"
+detail_url = "/publication/warm-start-variational-quantum-policy-iteration/"
+profiles = ["christopher-mutschler"]
+doi = "https://doi.org/10.1109/QCE60285.2024.00172"
+abstract = "We propose the variational quantum policy iteration (VarQPI) algorithm, realizing this step with a NISQ-compatible quantum-enhanced subroutine. Its scalability is supported by an analysis of the structure of generic reinforcement learning environments' laying the foundation for potential quantum advantage with utility-scale quantum computers. Furthermore, we introduce the warm-start initialization variant (WS-VarQPI) that significantly reduces resource overhead. The algorithm solves a large FrozenLake environment with an underlying 256×256-dimensional linear system, indicating its practical robustness."
+bibtex = '''
+@INPROCEEDINGS{10821285,
+  author={Meyer, Nico and Murauer, Jakob and Popov, Alexander and Ufrecht, Christian and Plinge, Axel and Mutschler, Christopher and Scherer, Daniel D.},
+  booktitle={2024 IEEE International Conference on Quantum Computing and Engineering (QCE)}, 
+  title={Warm-Start Variational Quantum Policy Iteration}, 
+  year={2024},
+  volume={01},
+  number={},
+  pages={1458-1466},
+  keywords={Linear systems;Quantum advantage;Scalability;Decision making;Reinforcement learning;Linear algebra;Robustness;Hardware;Noise measurement;Matrix decomposition;quantum computing;quantum reinforcement learning;policy iteration;variational quantum algorithms;quantum linear algebra},
+  doi={10.1109/QCE60285.2024.00172}}'''
+
+[links]
+Website = "https://ieeexplore.ieee.org/abstract/document/10821285"
+
+[image]
+src = "/wp-content/uploads/2026/09/10821285-fig-1-source-large-300x192.gif"
+alt = ""
+width = 300
+height = 192
+sizes = "(max-width: 300px) 100vw, 300px"
+class = "attachment-medium size-medium"
+
+[image.sources]
+300w = "/wp-content/uploads/2026/09/10821285-fig-1-source-large-300x192.gif"
+768w = "/wp-content/uploads/2026/09/10821285-fig-1-source-large-768x491.gif"
+820w = "/wp-content/uploads/2026/09/10821285-fig-1-source-large.gif"

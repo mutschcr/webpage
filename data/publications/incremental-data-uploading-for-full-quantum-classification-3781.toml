@@ -1,0 +1,35 @@
+title = "Incremental Data-Uploading for Full-Quantum Classification"
+authors = ["Maniraman Periyasamy", "Nico Meyer", "Christian Ufrecht", "Daniel D Scherer", "Axel Plinge", "Christopher Mutschler"]
+date = "2022-01-01"
+venue = "IEEE International Conference on Quantum Computing and Engineering (QCE)"
+detail_url = "/publication/incremental-data-uploading-for-full-quantum-classification/"
+profiles = ["christopher-mutschler", "nico-meyer"]
+doi = "https://doi.org/10.1109/QCE53715.2022.00021"
+abstract = "This work proposes ‘incremental data-uploading’, a novel encoding pattern for high dimensional data that tackles these challenges. We spread the encoding gates for the feature vector of a given data point throughout the quantum circuit with parameterized gates in between them. This encoding pattern results in a better representation of data in the quantum circuit with a minimal pre-processing requirement. We show the efficiency of our encoding pattern on a classification task using the MNIST and Fashion-MNIST datasets, and compare different encoding methods via classification accuracy and the effective dimension of the model."
+bibtex = '''
+@INPROCEEDINGS{9951318,
+  author={Periyasamy, Maniraman and Meyer, Nico and Ufrecht, Christian and Scherer, Daniel D. and Plinge, Axel and Mutschler, Christopher},
+  booktitle={2022 IEEE International Conference on Quantum Computing and Engineering (QCE)}, 
+  title={Incremental Data-Uploading for Full-Quantum Classification}, 
+  year={2022},
+  volume={},
+  number={},
+  pages={31-37},
+  keywords={Performance evaluation;Qubit;Machine learning;Logic gates;Encoding;Data models;Noise measurement;image classification;variational quantum computing;data uploading},
+  doi={10.1109/QCE53715.2022.00021}}'''
+
+[links]
+Website = "https://ieeexplore.ieee.org/abstract/document/9951318"
+
+[image]
+src = "/wp-content/uploads/2026/09/periy1-p7-periy-large-300x118.gif"
+alt = ""
+width = 300
+height = 118
+sizes = "(max-width: 300px) 100vw, 300px"
+class = "attachment-medium size-medium"
+
+[image.sources]
+300w = "/wp-content/uploads/2026/09/periy1-p7-periy-large-300x118.gif"
+768w = "/wp-content/uploads/2026/09/periy1-p7-periy-large-768x303.gif"
+820w = "/wp-content/uploads/2026/09/periy1-p7-periy-large.gif"

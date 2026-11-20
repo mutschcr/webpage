@@ -1,0 +1,24 @@
+title = "Social Augmentations in Multi-User Virtual Reality: A Virtual Museum Experience"
+authors = ["Daniel Roth", "Constantin Kleinbeck", "Tobias Feigl", "Christopher Mutschler", "Marc Erich Latoschik"]
+date = "2017-01-01"
+venue = "2017 IEEE International Symposium on Mixed and Augmented Reality (ISMAR-Adjunct)"
+detail_url = "/publication/social-augmentations-in-multi-user-virtual-reality-a-virtual-museum-experience/"
+profiles = ["christopher-mutschler"]
+doi = "https://doi.ieeecomputersociety.org/10.1109/ISMAR-Adjunct.2017.28"
+abstract = "This work in progress report demonstrates a novel approach for behavioral augmentations in Virtual Reality (VR). Using a large scale tracking system, groups of five users explored a virtual museum. We investigated how augmenting social interactions impacts this experience, by designing behavioral transformations for behavioral phenomena in social interactions. Preliminary data indicate a reduction of perceived isolation, and a more thought-provoking experience with active behavioral augmentations."
+bibtex = '''
+@INPROCEEDINGS {8088445,
+author = { Roth, Daniel and Kleinbeck, Constantin and Feigl, Tobias and Mutschler, Christopher and Latoschik, Marc Erich },
+booktitle = { 2017 IEEE International Symposium on Mixed and Augmented Reality (ISMAR-Adjunct) },
+title = {{ [POSTER] Social Augmentations in Multi-User Virtual Reality: A Virtual Museum Experience }},
+year = {2017},
+volume = {},
+ISSN = {},
+pages = {42-43},
+abstract = { This work in progress report demonstrates a novel approach for behavioral augmentations in Virtual Reality (VR). Using a large scale tracking system, groups of five users explored a virtual museum. We investigated how augmenting social interactions impacts this experience, by designing behavioral transformations for behavioral phenomena in social interactions. Preliminary data indicate a reduction of perceived isolation, and a more thought-provoking experience with active behavioral augmentations. },
+keywords = {Electronic mail;Tracking;Solid modeling;Visualization;Dinosaurs;Virtual environments},
+doi = {10.1109/ISMAR-Adjunct.2017.28},
+url = {https://doi.ieeecomputersociety.org/10.1109/ISMAR-Adjunct.2017.28},
+publisher = {IEEE Computer Society},
+address = {Los Alamitos, CA, USA},
+month =Oct}'''

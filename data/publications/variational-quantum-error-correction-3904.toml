@@ -1,0 +1,22 @@
+title = "Variational Quantum Error Correction"
+authors = ["Nico Meyer", "Christopher Mutschler", "Andreas Maier", "Daniel D Scherer"]
+date = "2025-01-01"
+venue = "2025 IEEE International Conference on Quantum Computing and Engineering (QCE)"
+detail_url = "/publication/variational-quantum-error-correction/"
+profiles = ["nico-meyer", "christopher-mutschler"]
+doi = "https://doi.org/10.1109/QCE65121.2025.10393"
+abstract = "Quantum error correction is critical for protecting quantum computations from noise, yet standard protocols demand significant qubit overhead. To address this, we introduce a learning-based approach that allows tailoring encodings to specific noise channels. This approach is based on a novel loss function that maximizes the distinguishability of noisy quantum states. We thereby realize a variational quantum algorithm that discovers new resource-efficient codes, which empirically outperform standard quantum error correction schemes on various noise structures. We furthermore derive promising theoretical properties of these variational quantum error correction (VarQEC) codes and perform proof-of-concept experiments on quantum hardware."
+bibtex = '''
+@INPROCEEDINGS{11249827,
+  author={Meyer, Nico and Mutschler, Christopher and Maier, Andreas and Scherer, Daniel D.},
+  booktitle={2025 IEEE International Conference on Quantum Computing and Engineering (QCE)}, 
+  title={Variational Quantum Error Correction}, 
+  year={2025},
+  volume={02},
+  number={},
+  pages={456-457},
+  keywords={Quantum computing;Quantum algorithm;Protocols;Noise;Qubit;Quantum state;Error correction;Error correction codes;Noise measurement;Standards;quantum computing;quantum error correction;variational quantum algorithm;quantum machine learning},
+  doi={10.1109/QCE65121.2025.10393}}'''
+
+[links]
+Website = "https://ieeexplore.ieee.org/abstract/document/11249827"

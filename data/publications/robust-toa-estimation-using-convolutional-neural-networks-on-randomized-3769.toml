@@ -1,0 +1,26 @@
+title = "Robust ToA-Estimation using Convolutional Neural Networks on Randomized Channel Models"
+authors = ["Tobias Feigl", "Ernst Eberlein", "Sebastian Kram", "Christopher Mutschler"]
+date = "2021-01-01"
+venue = "11th International Conference on Indoor Positioning and Indoor Navigation (IPIN)"
+detail_url = "/publication/robust-toa-estimation-using-convolutional-neural-networks-on-randomized-channel-models/"
+profiles = ["christopher-mutschler"]
+doi = "https://doi.org/10.1109/IPIN51156.2021.9662625"
+abstract = "We propose a 1D Convolutional Neural Network to identify optimal FDPoAs as ToA directly from the raw CSI. We train our model with realistic 5G channel model data synthesized by QuaDRiGa. Metrics such as Delay Spread (DS), k-Factor (kF), and SNR are appropriate to cover most LoS-NLoS constellations. Our approach consistently outperforms the state of the art by about 17% for SNRs below -10 dB."
+bibtex = "Many radio-based positioning systems use time-of-arrival (ToA). We obtain it from the first and direct path of arrival (FDPoA) in a corresponding set of multipath components (MPC) of the underlying channel state information (CSI). While detection of the FDPoA under Line-of-Sight (LoS) is simple, it is prone to errors in environments with specular and diffuse reflections, as well as nonlinear diffraction, absorption, and transmission of a signal. Such Obstructed- or Non-Line-of-Sight (OLoS, NLoS) situations lead to incorrect FDPoA and consequently to incorrect ToA estimates and inaccurate positions. State-of-the-art estimators are computationally expensive and usually fail with O/NLoS at low signal-to-noise ratios (SNRs).We propose a deep learning (DL) approach to identify optimal FDPoAs as ToA directly from the raw CSI. Our 1D Convolutional Neural Network (CNN) learns the spatial distribution of MPCs of the CSI to predict correct estimates of the ToA. To train our DL model, we use QuaDRiGa to generate datasets with CIRs and ground truth ToAs for realistic 5G channel models. We found that Delay Spread (DS), k-Factor (kF), and SNR are appropriate metrics to cover most LoS-NLoS constellations in realistic datasets. We compare our DL model with state-of-the-art estimators such as threshold (PEAK), inflection point (IFP), and MUSIC and show that we consistently outperform them by about 17% for SNRs below -10 dB."
+
+[links]
+Website = "https://ieeexplore.ieee.org/abstract/document/9662625"
+
+[image]
+src = "/wp-content/uploads/2021/09/ML4CIR2TOA-300x222.png"
+alt = ""
+width = 300
+height = 222
+sizes = "(max-width: 300px) 100vw, 300px"
+class = "attachment-medium size-medium"
+
+[image.sources]
+300w = "/wp-content/uploads/2021/09/ML4CIR2TOA-300x222.png"
+1024w = "/wp-content/uploads/2021/09/ML4CIR2TOA-1024x759.png"
+768w = "/wp-content/uploads/2021/09/ML4CIR2TOA-768x569.png"
+1065w = "/wp-content/uploads/2021/09/ML4CIR2TOA.png"

@@ -1,0 +1,162 @@
+<!doctype html>
+<html lang="en-US">
+<head>
+<meta charset="utf-8">
+<title>Thorsten Bescher: Schedule-Net and Gumbel-Alpha-Zero Play-to-Plan: a Hybrid Approach for the Job-Shop Scheduling Problem (FAU Erlangen-Nürnberg, 2024) – Machine Learning and Positioning Systems</title>
+<meta name="robots" content="max-image-preview:large">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="../assets/css/wp-img-auto-sizes-contain-0356978c0eb0.css">
+<link rel="stylesheet" href="../assets/css/wp-emoji-styles-f1b2bed85457.css">
+<link rel="stylesheet" href="../assets/css/wp-block-library-9077cbb97de5.css">
+<link rel="stylesheet" href="../assets/css/wp-block-list-942b2302016e.css">
+<link rel="stylesheet" href="../assets/css/wp-block-paragraph-622f970d1229.css">
+<link rel="stylesheet" href="../assets/css/classic-theme-styles-dcd9f488bd62.css">
+<link rel="stylesheet" href="../assets/css/global-styles-ad322089e4f0.css">
+<link rel="stylesheet" href="../assets/theme/wp-content/plugins/show-hidecollapse-expand/assets/css/genericons/genericons.css" media="all">
+<link rel="stylesheet" href="../assets/theme/wp-content/plugins/show-hidecollapse-expand/assets/css/bg-show-hide.css" media="all">
+<link rel="stylesheet" href="../assets/theme/wp-content/plugins/wp-show-more/wpsm-style.css" media="all">
+<link rel="stylesheet" href="../assets/theme/wp-content/themes/sinatra/assets/css/style.min.css" media="all">
+<link rel="stylesheet" href="../assets/theme/wp-content/uploads/sinatra/dynamic-styles.css" media="all">
+<link rel="stylesheet" href="../assets/theme/wp-content/plugins/simple-social-icons/css/style.css" media="all">
+<link rel="stylesheet" href="../assets/theme/wp-content/plugins/a3-lazy-load/assets/css/jquery.lazyloadxt.spinner.css" media="all">
+<meta name="theme-color" content="#1df900">
+<link rel="icon" href="../wp-content/uploads/2026/06/cropped-cropped-mlps-logo_utn-scaled-1-32x32.png" sizes="32x32">
+<link rel="icon" href="../wp-content/uploads/2026/06/cropped-cropped-mlps-logo_utn-scaled-1-192x192.png" sizes="192x192">
+<link rel="apple-touch-icon" href="../wp-content/uploads/2026/06/cropped-cropped-mlps-logo_utn-scaled-1-180x180.png">
+<meta name="msapplication-TileImage" content="../wp-content/uploads/2026/06/cropped-cropped-mlps-logo_utn-scaled-1-270x270.png">
+<link rel="stylesheet" href="../assets/theme/wp-content/plugins/inline-text-popup/src/style.css" media="all">
+<link rel="canonical" href="https://mlps-lab.de/thorsten-bescher-schedule-net-and-gumbel-alpha-zero-play-to-plan-a-hybrid-approach-for-the-job-shop-scheduling-problem-fau-erlangen-nurnberg-2024/">
+<link rel="stylesheet" href="../assets/site.css">
+<script src="../assets/site.js" defer></script>
+</head>
+<body class="wp-singular post-template-default single single-post postid-2993 single-format-standard wp-custom-logo wp-embed-responsive wp-theme-sinatra sinatra-topbar__separators-regular sinatra-layout__fw-contained sinatra-header-layout-1 sinatra-menu-animation-underline sinatra-header__separators-none si-single-title-in-content narrow-content si-page-title-align-left sinatra-no-sidebar entry-media-hover-style-1 si-input-supported validate-comment-form si-menu-accessibility si-sticky-header">
+
+<div id="page" class="hfeed site">
+	<a class="skip-link screen-reader-text" href="#content">Skip to content</a>
+
+	<header id="masthead" class="site-header" role="banner" itemtype="https://schema.org/WPHeader" itemscope="itemscope">
+		<div id="sinatra-header">
+		<div id="sinatra-header-inner">
+	
+<div class="si-container si-header-container">
+
+<div class="sinatra-logo si-header-element" itemtype="https://schema.org/Organization" itemscope="itemscope">
+	<div class="logo-inner"><a href="../" rel="home" class="" itemprop="url">
+					<img src="../wp-content/uploads/2026/07/mlps-logo_utn.png" alt="Machine Learning and Positioning Systems" width="1642" height="230" srcset="../wp-content/uploads/2026/07/mlps-logo_utn.png 1x, ../wp-content/uploads/2026/07/mlps-logo_utn.png 2x" itemprop="logo">
+				</a></div>
+</div>
+<nav class="site-navigation main-navigation sinatra-primary-nav sinatra-nav si-header-element" role="navigation" itemtype="https://schema.org/SiteNavigationElement" itemscope="itemscope" aria-label="Site Navigation" aria-haspopup="true">
+<ul id="sinatra-primary-nav" class="menu">
+<li id="menu-item-3303" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-home menu-item-3303"><a href="../"><span>Home</span></a></li>
+<li id="menu-item-3074" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-3074"><a href="../team/"><span>Team</span></a></li>
+<li id="menu-item-2970" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2970"><a href="../publications/"><span>Publications</span></a></li>
+<li id="menu-item-4103" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-4103" aria-haspopup="true">
+<a href="../research/"><span>Research</span><svg class="si-icon" xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewbox="0 0 32 32"><path d="M24.958 10.483c-0.534-0.534-1.335-0.534-1.868 0l-7.074 7.074-7.074-7.074c-0.534-0.534-1.335-0.534-1.868 0s-0.534 1.335 0 1.868l8.008 8.008c0.267 0.267 0.667 0.4 0.934 0.4s0.667-0.133 0.934-0.4l8.008-8.008c0.534-0.534 0.534-1.335 0-1.868z"></path></svg></a>
+<ul class="sub-menu">
+	<li id="menu-item-3499" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-3499"><a href="../research-projects/"><span>Research Projects</span></a></li>
+	<li id="menu-item-3472" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-3472"><a href="../datasets/"><span>Datasets</span></a></li>
+</ul>
+</li>
+<li id="menu-item-4281" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-4281"><a href="../teaching/"><span>Teaching</span></a></li>
+<li id="menu-item-4298" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-4298"><a href="../theses/"><span>Theses &amp; Projects</span></a></li>
+</ul></nav><div class="si-header-widgets si-header-element sinatra-widget-location-right"></div>
+<span class="si-header-element si-mobile-nav">
+				<button class="si-hamburger hamburger--spin si-hamburger-sinatra-primary-nav" aria-label="Menu" aria-controls="sinatra-primary-nav" type="button">
+
+			<span class="hamburger-box">
+				<span class="hamburger-inner"></span>
+			</span>
+
+		</button>
+			</span>
+
+</div>
+</div>
+<div id="si-sticky-placeholder"></div>
+</div></header><div id="main" class="site-main">
+
+<div class="si-container">
+
+	<div id="primary" class="content-area">
+
+		<main id="content" class="site-content" role="main" itemscope="" itemtype="http://schema.org/Blog">
+
+<article id="post-2993" class="sinatra-article post-2993 post type-post status-publish format-standard hentry category-finished category-master-thesis category-student-projects" itemscope="" itemtype="https://schema.org/CreativeWork">
+
+<div class="post-category">
+
+	<span class="cat-links"><span class="screen-reader-text">Posted in</span><span><a href="../category/student-projects/status/finished/" rel="category tag">Finished</a> <a href="../category/student-projects/project-type/master-thesis/" rel="category tag">Master Thesis</a> <a href="../category/student-projects/" rel="category tag">Student-Projects</a></span></span>
+</div>
+
+<header class="entry-header">
+
+	<h1 class="entry-title" itemprop="headline">
+		Thorsten Bescher: Schedule-Net and Gumbel-Alpha-Zero Play-to-Plan: a Hybrid Approach for the Job-Shop Scheduling Problem (FAU Erlangen-Nürnberg, 2024)	</h1>
+
+</header>
+
+<div class="entry-content si-entry" itemprop="text">
+	
+<p class="wp-block-paragraph"><strong>Motivation / Related Work</strong></p>
+
+<p class="wp-block-paragraph">Recently, reinforcement learning (RL) is applied frequently for combinatorial optimization problems [1] with real world applications, e.g., the job-shop scheduling problem (JSSP) or the travelling salesman problem (TSP). Of special interest are RL approaches that solve the problems end-to-end, i.e., the agent is trained from scratch without any usage of heuristics or solver-generated solutions. </p>
+
+<p class="wp-block-paragraph">For example, ScheduleNet [2] enables to solve multi-agent scheduling problems based on a graph neural network (GNN) architecture. After the training procedure, the approach can be applied to problems of arbitrary size (also larger sizes than seen during training). It was shown that ScheduleNet can outperform many heuristics and other RL based approaches for the JSSP. </p>
+
+<p class="wp-block-paragraph">Another approach that shows promising results for the JSSP is Gumbel-Alpha-Zero Play-to-Plan (GAZ PTP) [3]. It addresses the issue that AlphaZero-type algorithms may stop improving on single-player tasks in case the value network guiding the tree search is unable to approximate the outcome of an episode sufficiently well. To overcome this, a historical baseline is incorporated into the planning process. Based on the recently introduced Gumbel AlphaZero [4], the agent learns to find strong trajectories by planning against possible strategies of its past self. Using a transformer architecture, it was shown that the approach outperforms various single-player variants based on [4].</p>
+
+<p class="wp-block-paragraph"><strong>Overall goal</strong></p>
+
+<p class="wp-block-paragraph">The overall goal of this thesis is to implement a hybrid approach based on ScheduleNet and <br>GAZ PTP. In particular, the costly transformer architecture of GAZ PTP should be replaced by the GNN architecture that is used for ScheduleNet. Therefore, the resulting framework will combine the scalability of ScheduleNet and the planning capabilities incorporated in GAZ PTP.</p>
+
+<p class="wp-block-paragraph">In a first step, the student will familiarize with [2] and implement a basic version of the approach that will be refined stepwise towards ScheduleNet. The resulting neural network architecture is then to be integrated in an existing code-base for GAZ PTP [3]. Using this framework, the student will run experiments to train an agent to solve JSSP problems of similar size as carried out in [2] and [3]. In a final step, the student will analyze and refine the framework regarding hyperparameters. Within this analysis, special attention should be paid to the influence of the tree search depth on the overall performance (since it is a known fact that GAZ approaches in general work already quite well using very few tree search simulations [4]).</p>
+
+<p class="wp-block-paragraph"><strong>Timetable (6 months, in 24 person weeks (PW))</strong></p>
+
+<p class="wp-block-paragraph">3 PW               Familiarization with relevant work in the subject areas and literature, especially [2] and [3].</p>
+
+<p class="wp-block-paragraph">7 PW               Implementation of the approach described in [2] in Python (starting from a basic GNN, improve stepwise towards the ScheduleNet architecture).</p>
+
+<p class="wp-block-paragraph">4 PW               Integration of the GNN architecture of the previous step into the existing codebase for GAZ PTP [3].</p>
+
+<p class="wp-block-paragraph">4 PW               Experiments and refinement of the method w.r.t hyperparameters (especially tree search depth).</p>
+
+<p class="wp-block-paragraph">6 PW               Writing of the final transcript.</p>
+
+<p class="wp-block-paragraph"><strong>Expected Results and Scientific Contributions</strong></p>
+
+<ul class="wp-block-list">
+<li>A Python implementation of the RL framework described in [2] that can be used to approach JSSPs of variable size. In particular, the implementation of the environment and the GNN should be modular so that that they can be used on top of the existing code-base for GAZ PTP [3].</li>
+
+<li>A Python implementation of a hybrid framework between ScheduleNet and GAZ PTP (code-base already exists).</li>
+
+<li>Evaluation report that analyzes and compares the performance of the resulting hybrid framework to the results described in [2] and [3]. Additionally, the report should contain an analysis regarding the influence of the tree search depth on the performance of the hybrid framework.</li>
+</ul>
+
+<p class="wp-block-paragraph"><strong>Supervisor</strong>: Dr. Christopher Mutschler (Fraunhofer IIS), Dr. Quirin Göttl (Fraunhofer IIS), Prof. Dr. Björn Eskofier (FAU)</p>
+
+<p class="wp-block-paragraph"><strong>References</strong></p>
+
+<p class="wp-block-paragraph">[1]       Mazyavkina, N., Sviridov, S., Ivanov, S., Burnaev, E.. 2021. Reinforcement learning for combinatorial optimization: A survey. <em>Comput. Oper. Res.</em>, 134, 105400.</p>
+
+<p class="wp-block-paragraph">[2]       Park, J., Bakhtiyar, S., Park, J.. 2021. ScheduleNet: Learn to solve multi-agent scheduling problems with reinforcement learning. <em>arXiv:2106.03051v1</em>.</p>
+
+<p class="wp-block-paragraph">[3]       Pirnay, J., Göttl, Q., Burger, J., Grimm, D.G.. 2023. Policy-Based Self-Competition for Planning Problems. <em>ICLR</em>.</p>
+
+<p class="wp-block-paragraph">[4]       Danihelka, I., Guez, A., Schrittwieser, J., Silver, D.. 2022. Policy improvement by planning with Gumbel. <em>ICLR</em>.</p>
+</div>
+
+</article></main>
+</div>
+</div>
+</div>
+</div>
+<a href="#" id="si-scroll-top" class="si-smooth-scroll" title="Scroll to Top">
+	<span class="si-scroll-icon" aria-hidden="true">
+		<svg class="si-icon top-icon" xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewbox="0 0 32 32"><path d="M24.958 18.491l-8.008-8.008c-0.534-0.534-1.335-0.534-1.868 0l-8.008 8.008c-0.534 0.534-0.534 1.335 0 1.868s1.335 0.534 1.868 0l7.074-7.074 7.074 7.074c0.267 0.267 0.667 0.4 0.934 0.4s0.667-0.133 0.934-0.4c0.534-0.534 0.534-1.335 0-1.868z"></path></svg>		<svg class="si-icon" xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewbox="0 0 32 32"><path d="M24.958 18.491l-8.008-8.008c-0.534-0.534-1.335-0.534-1.868 0l-8.008 8.008c-0.534 0.534-0.534 1.335 0 1.868s1.335 0.534 1.868 0l7.074-7.074 7.074 7.074c0.267 0.267 0.667 0.4 0.934 0.4s0.667-0.133 0.934-0.4c0.534-0.534 0.534-1.335 0-1.868z"></path></svg>	</span>
+	<span class="screen-reader-text">Scroll to Top</span>
+</a>
+
+</body>
+</html>
+

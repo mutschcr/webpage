@@ -1,0 +1,38 @@
+title = "Learning encodings by maximizing state distinguishability: Variational quantum error correction"
+authors = ["Nico Meyer", "Christopher Mutschler", "Andreas Maier", "Daniel D Scherer"]
+date = "2026-01-01"
+venue = "Quantum Science and Technology"
+detail_url = "/publication/learning-encodings-by-maximizing-state-distinguishability-variational-quantum-error-correction/"
+profiles = ["christopher-mutschler", "nico-meyer"]
+doi = "https://doi.org/10.1088/2058-9565/ae98b1"
+abstract = "We propose a novel objective function for tailoring error correction codes to specific noise structures by maximizing the distinguishability between quantum states after a noise channel, ensuring efficient recovery operations. We formalize this concept with the distinguishability loss function, serving as a machine learning objective to discover resource-efficient encoding circuits optimized for given noise characteristics. We implement this methodology using variational techniques, termed variational quantum error correction. Our approach yields codes with desirable theoretical and practical properties and surpasses standard codes of comparable size under structured noise. We also provide proof-of-concept demonstrations on IBM and IQM hardware devices, highlighting the practical relevance of our procedure."
+bibtex = '''
+@article{Meyer_2026,
+doi = {10.1088/2058-9565/ae98b1},
+url = {https://doi.org/10.1088/2058-9565/ae98b1},
+year = {2026},
+month = {sep},
+publisher = {IOP Publishing},
+volume = {11},
+number = {4},
+pages = {045036},
+author = {Meyer, Nico and Mutschler, Christopher and Maier, Andreas and Scherer, Daniel D},
+title = {Learning encodings by maximizing state distinguishability: variational quantum error correction},
+journal = {Quantum Science and Technology},
+abstract = {Quantum error correction is crucial for protecting quantum information against decoherence. Traditional codes like the surface code require substantial overhead, making them impractical for near-term, early fault-tolerant devices. We propose a novel objective function for tailoring error correction codes to specific noise structures by maximizing the distinguishability between quantum states after a noise channel, ensuring efficient recovery operations. We formalize this concept with the distinguishability loss function, serving as a machine learning objective to discover resource-efficient encoding circuits optimized for given noise characteristics. We implement this methodology using variational techniques, termed variational quantum error correction. Our approach yields codes with desirable theoretical and practical properties and surpasses standard codes of comparable size under structured noise. We also provide proof-of-concept demonstrations on IBM and IQM hardware devices, highlighting the practical relevance of our procedure.}
+}'''
+
+[links]
+Website = "https://iopscience.iop.org/article/10.1088/2058-9565/ae98b1/meta"
+
+[image]
+src = "/wp-content/uploads/2026/09/qstae98b1f1_lr-300x166.jpg"
+alt = ""
+width = 300
+height = 166
+sizes = "(max-width: 300px) 100vw, 300px"
+class = "attachment-medium size-medium"
+
+[image.sources]
+300w = "/wp-content/uploads/2026/09/qstae98b1f1_lr-300x166.jpg"
+375w = "/wp-content/uploads/2026/09/qstae98b1f1_lr.jpg"

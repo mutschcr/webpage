@@ -1,0 +1,35 @@
+title = "Comprehensive Library of Variational LSE Solvers"
+authors = ["Nico Meyer", "Martin Röhn", "Jakob Murauer", "Axel Plinge", "Christopher Mutschler", "Daniel D Scherer"]
+date = "2024-01-01"
+venue = "2024 IEEE International Conference on Quantum Computing and Engineering (QCE)"
+detail_url = "/publication/comprehensive-library-of-variational-lse-solvers/"
+profiles = ["christopher-mutschler", "nico-meyer"]
+doi = "https://doi.org/10.1109/QCE60285.2024.10242"
+abstract = "Linear systems of equations can be found in various mathematical domains, as well as in the field of machine learning. By employing noisy intermediate-scale quantum devices, variational solvers promise to accelerate finding solutions for large systems. Although there is a wealth of theoretical research on these algorithms, only fragmentary implementations exist. To fill this gap, we have developed the variational-lse-solver framework, which realizes existing approaches in literature, and introduces several enhancements. The user-friendly interface is designed for researchers that work at the abstraction level of identifying and developing end-to-end applications."
+bibtex = '''
+@INPROCEEDINGS{10821183,
+  author={Meyer, Nico and Röhn, Martin and Murauer, Jakob and Plinge, Axel and Mutschler, Christopher and Scherer, Daniel D.},
+  booktitle={2024 IEEE International Conference on Quantum Computing and Engineering (QCE)}, 
+  title={Comprehensive Library of Variational LSE Solvers}, 
+  year={2024},
+  volume={02},
+  number={},
+  pages={1-4},
+  keywords={Linear systems;Quantum computing;Machine learning algorithms;Software algorithms;Machine learning;Software;Libraries;Noise measurement;quantum computing;variational quantum algorithms;quantum machine learning;quantum software library;quantum linear algebra;linear system of equations},
+  doi={10.1109/QCE60285.2024.10242}}'''
+
+[links]
+Website = "https://ieeexplore.ieee.org/abstract/document/10821183"
+
+[image]
+src = "/wp-content/uploads/2026/09/10821183-fig-1-source-large-300x196.gif"
+alt = ""
+width = 300
+height = 196
+sizes = "(max-width: 300px) 100vw, 300px"
+class = "attachment-medium size-medium"
+
+[image.sources]
+300w = "/wp-content/uploads/2026/09/10821183-fig-1-source-large-300x196.gif"
+768w = "/wp-content/uploads/2026/09/10821183-fig-1-source-large-768x503.gif"
+820w = "/wp-content/uploads/2026/09/10821183-fig-1-source-large.gif"

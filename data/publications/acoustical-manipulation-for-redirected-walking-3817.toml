@@ -1,0 +1,43 @@
+title = "Acoustical Manipulation for Redirected Walking"
+authors = ["Tobias Feigl", "Eliise Kõre", "Christopher Mutschler", "Michael Philippsen"]
+date = "2017-01-01"
+venue = "23rd ACM Symposium on Virtual Reality Software and Technology (VRST '17)"
+detail_url = "/publication/acoustical-manipulation-for-redirected-walking/"
+profiles = ["christopher-mutschler"]
+doi = "https://doi.org/10.1145/3139131.3141205"
+abstract = '''
+Redirected Walking (RDW) manipulates a scene that is displayed to VR users so that they unknowingly compensate for scene motion and can thus explore a large virtual world on a limited space. So far, mostly visual manipulation techniques have been studied.
+This paper shows that users can also be manipulated by means of acoustical signals. In an experiment with a dynamically moving audio source we see deviations of up to 30% from a 20 m long straight-line walk for male participants and of up to 25% for females. Static audio has about two thirds of this impact.'''
+bibtex = '''
+@inproceedings{10.1145/3139131.3141205,
+author = {Feigl, Tobias and K{\~o}re, Eliise and Mutschler, Christopher and Philippsen, Michael},
+title = {Acoustical manipulation for redirected walking},
+year = {2017},
+isbn = {9781450355483},
+publisher = {Association for Computing Machinery},
+address = {New York, NY, USA},
+url = {https://doi.org/10.1145/3139131.3141205},
+doi = {10.1145/3139131.3141205},
+abstract = {Redirected Walking (RDW) manipulates a scene that is displayed to VR users so that they unknowingly compensate for scene motion and can thus explore a large virtual world on a limited space. So far, mostly visual manipulation techniques have been studied.This paper shows that users can also be manipulated by means of acoustical signals. In an experiment with a dynamically moving audio source we see deviations of up to 30\% from a 20 m long straight-line walk for male participants and of up to 25\% for females. Static audio has about two thirds of this impact.},
+booktitle = {Proceedings of the 23rd ACM Symposium on Virtual Reality Software and Technology},
+articleno = {45},
+numpages = {2},
+keywords = {motion perception, redirected walking, spatial audio, virtual locomotion, virtual reality},
+location = {Gothenburg, Sweden},
+series = {VRST '17}
+}'''
+
+[links]
+Website = "https://dl.acm.org/doi/abs/10.1145/3139131.3141205"
+
+[image]
+src = "/wp-content/uploads/2026/09/redirected_walking-300x150.png"
+alt = ""
+width = 300
+height = 150
+sizes = "(max-width: 300px) 100vw, 300px"
+class = "attachment-medium size-medium"
+
+[image.sources]
+300w = "/wp-content/uploads/2026/09/redirected_walking-300x150.png"
+681w = "/wp-content/uploads/2026/09/redirected_walking.png"

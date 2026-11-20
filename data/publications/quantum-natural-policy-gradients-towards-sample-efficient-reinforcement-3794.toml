@@ -1,0 +1,35 @@
+title = "Quantum Natural Policy Gradients: Towards Sample-Efficient Reinforcement Learning"
+authors = ["Nico Meyer", "Daniel D Scherer", "Axel Plinge", "Christopher Mutschler", "Michael J Hartmann"]
+date = "2023-01-01"
+venue = "2023 IEEE International Conference on Quantum Computing and Engineering (QCE)"
+detail_url = "/publication/quantum-natural-policy-gradients-towards-sample-efficient-reinforcement-learning/"
+profiles = ["nico-meyer", "christopher-mutschler"]
+doi = "https://doi.org/10.1109/QCE57702.2023.10181"
+abstract = "We propose the quantum natural policy gradient (QNPG) algorithm - a second-order gradient-based routine that takes advantage of an efficient approximation of the quantum Fisher information matrix. We experimentally demonstrate that QNPG outperforms first-order based training on different Contextual Bandits environments regarding convergence speed and stability and moreover reduces the sample complexity. Furthermore, we provide evidence for the practical feasibility of our approach by training on a 12-qubit hardware device."
+bibtex = '''
+@INPROCEEDINGS{10313784,
+  author={Meyer, Nico and Scherer, Daniel D. and Plinge, Axel and Mutschler, Christopher and Hartmann, Michael J.},
+  booktitle={2023 IEEE International Conference on Quantum Computing and Engineering (QCE)}, 
+  title={Quantum Natural Policy Gradients: Towards Sample-Efficient Reinforcement Learning}, 
+  year={2023},
+  volume={02},
+  number={},
+  pages={36-41},
+  keywords={Training;Machine learning algorithms;Quantum mechanics;Reinforcement learning;Approximation algorithms;Hardware;Stability analysis;reinforcement learning;variational quantum computing;policy gradient;natural gradient;contextual bandits},
+  doi={10.1109/QCE57702.2023.10181}}'''
+
+[links]
+Website = "https://ieeexplore.ieee.org/abstract/document/10313784"
+
+[image]
+src = "/wp-content/uploads/2026/09/10313784-fig-1-source-large-300x184.gif"
+alt = ""
+width = 300
+height = 184
+sizes = "(max-width: 300px) 100vw, 300px"
+class = "attachment-medium size-medium"
+
+[image.sources]
+300w = "/wp-content/uploads/2026/09/10313784-fig-1-source-large-300x184.gif"
+768w = "/wp-content/uploads/2026/09/10313784-fig-1-source-large-768x470.gif"
+820w = "/wp-content/uploads/2026/09/10313784-fig-1-source-large.gif"

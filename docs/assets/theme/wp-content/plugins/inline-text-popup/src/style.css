@@ -1,0 +1,11 @@
+.wps-inline-modal { display: none; position: fixed; z-index: 1; left: 0px; top: 0px; width: 100%; height: 100%; overflow: auto; background-color: rgba(0, 0, 0, 0.4); }
+.wps-inline-modal .wps-inline-modal-content { margin: 15% auto; width: 50%; position: relative; background-color: rgb(255, 255, 255); background-clip: padding-box; border: 1px solid rgba(0, 0, 0, 0.2); border-radius: 8px; outline: 0px; box-shadow: rgba(0, 0, 0, 0.5) 0px 3px 9px; }
+.wps-inline-modal .wps-inline-modal-header { padding: 15px; border-bottom: 1px solid rgb(229, 229, 229); }
+.wps-inline-modal .wps-inline-modal-body { padding: 15px; font-size: 12px; }
+.wps-inline-modal .wps-inline-modal-header .wps-inline-modal-title { margin: 1px 0px; font-size: 16px; padding-right: 20px; }
+.wps-inline-modal .wps-inline-modal-close { color: rgb(170, 170, 170); font-size: 28px; font-weight: bold; position: absolute; right: 10px; top: 0px; bottom: 0px; cursor: pointer; }
+.wps-inline-modal .wps-inline-modal-close:hover, .wps-inline-modal .wps-inline-modal-close:focus { color: black; text-decoration: none; cursor: pointer; }
+.inlinePopupForm { width: 100%; }
+@media only screen and (max-width: 500px) {
+  .wps-inline-modal .wps-inline-modal-content { width: 90%; }
+}

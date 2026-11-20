@@ -1,0 +1,19 @@
+title = "The S-ICDF Dataset: Sionna-Simulated Dynamic Interference Characterization and Direction Finding"
+authors = ["Christian Wielenberg", "Lucas Heublein", "Jonathan Ott", "Alexander Mattick", "Nisha L Raichur", "Jonas Pirkl", "Lukas Schelenz", "Tobias Feigl", "George Yammine", "Christopher Mutschler", "Felix Ott"]
+date = "2026-01-01"
+venue = "16th International Conference on Indoor Positioning and Indoor Navigation (IPIN)"
+detail_url = "/publication/the-s-icdf-dataset-sionna-simulated-dynamic-interference-characterization-and-direction-finding/"
+profiles = ["christopher-mutschler", "alexander-mattick", "jonathan-ott", "jonas-pirkl", "christian-wielenberg"]
+pdf_url = "https://arxiv.org/pdf/2607.03411"
+
+[image]
+src = "/wp-content/uploads/2026/10/Bildschirmfoto-2026-10-15-um-21.49.11-300x229.png"
+alt = ""
+width = 300
+height = 229
+sizes = "(max-width: 300px) 100vw, 300px"
+class = "attachment-medium size-medium"
+
+[image.sources]
+300w = "/wp-content/uploads/2026/10/Bildschirmfoto-2026-10-15-um-21.49.11-300x229.png"
+538w = "/wp-content/uploads/2026/10/Bildschirmfoto-2026-10-15-um-21.49.11.png"

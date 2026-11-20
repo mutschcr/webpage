@@ -1,0 +1,43 @@
+title = "Learning from Experience"
+authors = ["Christopher Mutschler", "Georgios Kontes", "Sebastian Rietsch"]
+date = "2024-01-01"
+venue = "Unlocking Artificial Intelligence: From Theory to Applications, Springer Nature"
+detail_url = "/publication/learning-from-experience/"
+profiles = ["christopher-mutschler"]
+pdf_url = "https://link.springer.com/content/pdf/10.1007/978-3-031-64832-8_3.pdf"
+doi = "https://doi.org/10.1007/978-3-031-64832-8_3"
+bibtex = '''
+@Inbook{Mutschler2024,
+author="Mutschler, Christopher
+and Kontes, Georgios
+and Rietsch, Sebastian",
+editor="Mutschler, Christopher
+and M{\"u}nzenmayer, Christian
+and Uhlmann, Norman
+and Martin, Alexander",
+title="Learning from Experience",
+bookTitle="Unlocking Artificial Intelligence: From Theory to Applications",
+year="2024",
+publisher="Springer Nature Switzerland",
+address="Cham",
+pages="49--76",
+abstract="Reinforcement Learning (RL) is one of the branches of Machine Learning (ML) that aims to learn from the interaction with an environment. In contrast to approaches such as supervised or unsupervised learning, where data samples usually are assigned to a ground truth label (supervised learning) or where they follow some stationary distribution (unsupervised learning), in RL, the agent is learning in direct interaction with the environment. This also defines what data is being collected as a result of which actions are being executed. The agent is hence learning from experience. While more traditionally, RL was focused purely on continuously arriving data, lately also approaches that resort to a given data pool of past environment interactions have gained more and more interest. This chapter covers the basics of RL and discusses the latest research in interactive environments, learning with available data or knowledge, and challenges that arise from the actual deployment of agents to the real world.",
+isbn="978-3-031-64832-8",
+doi="10.1007/978-3-031-64832-8_3",
+url="https://doi.org/10.1007/978-3-031-64832-8_3"
+}'''
+
+[links]
+Website = "https://link.springer.com/chapter/10.1007/978-3-031-64832-8_3"
+
+[image]
+src = "/wp-content/uploads/2026/10/Bildschirmfoto-2026-10-15-um-22.04.22-300x165.png"
+alt = ""
+width = 300
+height = 165
+sizes = "(max-width: 300px) 100vw, 300px"
+class = "attachment-medium size-medium"
+
+[image.sources]
+300w = "/wp-content/uploads/2026/10/Bildschirmfoto-2026-10-15-um-22.04.22-300x165.png"
+535w = "/wp-content/uploads/2026/10/Bildschirmfoto-2026-10-15-um-22.04.22.png"

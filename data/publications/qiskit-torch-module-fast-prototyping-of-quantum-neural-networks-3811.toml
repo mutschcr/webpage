@@ -1,0 +1,35 @@
+title = "Qiskit-torch-module: Fast prototyping of quantum neural networks"
+authors = ["Nico Meyer", "Christian Ufrecht", "Maniraman Periyasamy", "Axel Plinge", "Christopher Mutschler", "Daniel D Scherer", "Andreas Maier"]
+date = "2024-01-01"
+venue = "2024 IEEE International Conference on Quantum Computing and Engineering (QCE)"
+detail_url = "/publication/qiskit-torch-module-fast-prototyping-of-quantum-neural-networks/"
+profiles = ["christopher-mutschler", "nico-meyer"]
+doi = "https://doi.org/10.1109/QCE60285.2024.00101"
+abstract = "We develop the qiskit-torch-module, building on the widely used Qiskit software environment. It improves runtime performance by two orders of magnitude over comparable libraries, while facilitating low-overhead integration with existing code-bases. Moreover, the framework provides advanced tools for integrating quantum neural networks with PyTorch. The pipeline is tailored for single-machine compute systems, which constitute a widely employed setup in day-to-day research efforts."
+bibtex = '''
+@INPROCEEDINGS{10821318,
+  author={Meyer, Nico and Ufrecht, Christian and Periyasamy, Maniraman and Plinge, Axel and Mutschler, Christopher and Scherer, Daniel D. and Maier, Andreas},
+  booktitle={2024 IEEE International Conference on Quantum Computing and Engineering (QCE)}, 
+  title={Qiskit-Torch-Module: Fast Prototyping of Quantum Neural Networks}, 
+  year={2024},
+  volume={01},
+  number={},
+  pages={817-823},
+  keywords={Training;Quantum computing;Runtime;Quantum algorithm;Computer simulation;Neural networks;Pipelines;Focusing;Software;Libraries;quantum computing;variational quantum circuits;quantum machine learning;quantum simulation software},
+  doi={10.1109/QCE60285.2024.00101}}'''
+
+[links]
+Website = "https://ieeexplore.ieee.org/abstract/document/10821318"
+
+[image]
+src = "/wp-content/uploads/2026/09/10821318-fig-1-source-large-300x130.gif"
+alt = ""
+width = 300
+height = 130
+sizes = "(max-width: 300px) 100vw, 300px"
+class = "attachment-medium size-medium"
+
+[image.sources]
+300w = "/wp-content/uploads/2026/09/10821318-fig-1-source-large-300x130.gif"
+768w = "/wp-content/uploads/2026/09/10821318-fig-1-source-large-768x333.gif"
+785w = "/wp-content/uploads/2026/09/10821318-fig-1-source-large.gif"

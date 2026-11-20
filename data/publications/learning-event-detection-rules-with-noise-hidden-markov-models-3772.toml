@@ -1,0 +1,34 @@
+title = "Learning Event Detection Rules with Noise Hidden Markov Models"
+authors = ["Christopher Mutschler", "Michael Philippsen"]
+date = "2012-01-01"
+venue = "2012 NASA/ESA Conference on Adaptive Hardware and Systems (AHS)"
+detail_url = "/publication/learning-event-detection-rules-with-noise-hidden-markov-models/"
+profiles = ["christopher-mutschler"]
+doi = "https://doi.org/10.1109/AHS.2012.6268645"
+abstract = "We present a method, by which a domain expert can simply signal the occurrence of a significant incident at a specific point in time. The system then infers rules for automatically detecting such occurrences later on. At the core of our approach is an extension of hidden Markov models (HMM) called noise hidden Markov models (nHMM) that can be trained with existing, low-level event data. The nHMM can be applied online without any intervention of programming experts. An evaluation on both synthetic and real event data shows the efficiency of our approach even under the presence of highly frequent, insignificant events and uncertainty in the data."
+bibtex = '''
+@INPROCEEDINGS{6268645,
+  author={Mutschler, Christopher and Philippsen, Michael},
+  booktitle={2012 NASA/ESA Conference on Adaptive Hardware and Systems (AHS)}, 
+  title={Learning event detection rules with noise hidden Markov models}, 
+  year={2012},
+  volume={},
+  number={},
+  pages={159-166},
+  keywords={Hidden Markov models;Noise;Training;Adaptation models;Production;Computational modeling;NASA;Complex Event Processing;Hidden Markov Models;Event Streams;Knowledge Discovery},
+  doi={10.1109/AHS.2012.6268645}}'''
+
+[links]
+Website = "https://ieeexplore.ieee.org/abstract/document/6268645"
+
+[image]
+src = "/wp-content/uploads/2026/09/2012_nHMM-300x197.png"
+alt = ""
+width = 300
+height = 197
+sizes = "(max-width: 300px) 100vw, 300px"
+class = "attachment-medium size-medium"
+
+[image.sources]
+300w = "/wp-content/uploads/2026/09/2012_nHMM-300x197.png"
+607w = "/wp-content/uploads/2026/09/2012_nHMM.png"

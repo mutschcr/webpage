@@ -1,0 +1,35 @@
+title = "A Survey on Quantum Reinforcement Learning"
+authors = ["Nico Meyer", "Christian Ufrecht", "Maniraman Periyasamy", "Daniel D Scherer", "Axel Plinge", "Christopher Mutschler"]
+date = "2022-09-20"
+venue = "arXiv"
+detail_url = "/publication/3728/"
+profiles = ["nico-meyer", "christopher-mutschler"]
+abstract = "We intend to provide a broad overview of the literature on quantum reinforcement learning and put particular emphasis on recent developments. With a focus on already available noisy intermediate-scale quantum devices, these include variational quantum circuits acting as function approximators in an otherwise classical reinforcement learning setting. We provide both a birds-eye-view of the field, as well as summaries and reviews for selected parts of the literature."
+bibtex = '''
+@misc{meyer2024surveyquantumreinforcementlearning,
+      title={A Survey on Quantum Reinforcement Learning}, 
+      author={Nico Meyer and Christian Ufrecht and Maniraman Periyasamy and Daniel D. Scherer and Axel Plinge and Christopher Mutschler},
+      year={2024},
+      eprint={2211.03464},
+      archivePrefix={arXiv},
+      primaryClass={quant-ph},
+      url={https://arxiv.org/abs/2211.03464}, 
+}'''
+
+[links]
+Website = "https://arxiv.org/abs/2211.03464"
+
+[image]
+src = "/wp-content/uploads/2026/09/2022_qrl-300x107.png"
+alt = ""
+width = 300
+height = 107
+sizes = "(max-width: 300px) 100vw, 300px"
+class = "attachment-medium size-medium"
+
+[image.sources]
+1536w = "/wp-content/uploads/2026/09/2022_qrl-1536x547.png"
+300w = "/wp-content/uploads/2026/09/2022_qrl-300x107.png"
+768w = "/wp-content/uploads/2026/09/2022_qrl-768x273.png"
+1024w = "/wp-content/uploads/2026/09/2022_qrl-1024x364.png"
+1880w = "/wp-content/uploads/2026/09/2022_qrl.png"

@@ -1,0 +1,35 @@
+title = "Few-shot learning with uncertainty-based quadruplet selection for interference classification in GNSS data"
+authors = ["Felix Ott", "Lucas Heublein", "Nisha Lakshmana Raichur", "Tobias Feigl", "Jonathan Hansen", "Alexander Rügamer", "Christopher Mutschler"]
+date = "2024-01-01"
+venue = "2024 International Conference on Localization and GNSS (ICL-GNSS)"
+detail_url = "/publication/few-shot-learning-with-uncertainty-based-quadruplet-selection-for-interference-classification-in-gnss-data/"
+profiles = ["christopher-mutschler"]
+doi = "https://doi.org/10.1109/ICL-GNSS60721.2024.10578525"
+abstract = "We propose a few-shot learning (FSL) approach to adapt to new interference classes. Our method employs quadruplet selection for the model to learn representations using various positive and negative interference classes. Furthermore, our quadruplet vari-ant selects pairs based on the aleatoric and epistemic uncertainty to differentiate between similar classes. We recorded a dataset at a motorway with eight interference classes on which our FSL method with quadruplet loss outperforms other FSL techniques in jammer classification accuracy with 97.66%. https://gitlab.cc-asp.fraunhofer.de/darcy_gnsslFIOT_highway."
+bibtex = '''
+@INPROCEEDINGS{10578525,
+  author={Ott, Felix and Heublein, Lucas and Raichur, Nisha Lakshmana and Feigl, Tobias and Hansen, Jonathan and Rügamer, Alexander and Mutschler, Christopher},
+  booktitle={2024 International Conference on Localization and GNSS (ICL-GNSS)}, 
+  title={Few-Shot Learning with Uncertainty-Based Quadruplet Selection for Interference Classification in GNSS Data}, 
+  year={2024},
+  volume={},
+  number={},
+  pages={1-7},
+  keywords={Location awareness;Global navigation satellite system;Adaptation models;Accuracy;Uncertainty;Satellites;Interference;Interference Detection;Few-shot Learning;Pair-wise Learning;Triplet Loss;Quadruplet Loss;Uncertainty Quantification;Global Navigation Satellite System},
+  doi={10.1109/ICL-GNSS60721.2024.10578525}}'''
+
+[links]
+Website = "https://ieeexplore.ieee.org/abstract/document/10578525"
+
+[image]
+src = "/wp-content/uploads/2026/09/10578525-fig-1-source-large-300x111.gif"
+alt = ""
+width = 300
+height = 111
+sizes = "(max-width: 300px) 100vw, 300px"
+class = "attachment-medium size-medium"
+
+[image.sources]
+300w = "/wp-content/uploads/2026/09/10578525-fig-1-source-large-300x111.gif"
+768w = "/wp-content/uploads/2026/09/10578525-fig-1-source-large-768x285.gif"
+820w = "/wp-content/uploads/2026/09/10578525-fig-1-source-large.gif"

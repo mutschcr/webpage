@@ -1,0 +1,38 @@
+title = "Estimating Multipath Component Delays with Transformer Models"
+authors = ["Jonathan Ott", "Maximilian Stahlke", "Tobias Feigl", "Christopher Mutschler"]
+date = "2024-01-01"
+venue = "IEEE Journal of Indoor and Seamless Positioning and Navigation (J-ISPIN)"
+detail_url = "/publication/estimating-multipath-component-delays-with-transformer-models/"
+profiles = ["christopher-mutschler", "jonathan-ott"]
+doi = "https://doi.org/10.1109/JISPIN.2024.3422908"
+abstract = "We implicitly estimate the number of MPCs and achieve subsample accuracy without using computationally intensive super-resolution techniques. Our approach outperforms known methods in detection performance and accuracy at different bandwidths. Our ablation study shows exceptional results on simulated and real datasets and generalizes to unknown radio environments."
+bibtex = '''
+@ARTICLE{10584252,
+  author={Ott, Jonathan and Stahlke, Maximilian and Feigl, Tobias and Mutschler, Christopher},
+  journal={IEEE Journal of Indoor and Seamless Positioning and Navigation}, 
+  title={Estimating Multipath Component Delays With Transformer Models}, 
+  year={2024},
+  volume={2},
+  number={},
+  pages={219-229},
+  keywords={Accuracy;Decoding;Transformers;Delay estimation;Computer architecture;Channel estimation;Signal resolution;5G mobile communication;Location awareness;Ultra wideband technology;Wireless networks;Multipath channels;5G;attention;multipath (MP);radio localization;transformer (TF);ultrawideband (UWB);wireless channel estimation},
+  doi={10.1109/JISPIN.2024.3422908}}'''
+
+[links]
+Website = "https://ieeexplore.ieee.org/abstract/document/10584252"
+
+[image]
+src = "/wp-content/uploads/2026/09/jispin-gagraphic-3422908-300x112.jpg"
+alt = ""
+width = 300
+height = 112
+sizes = "(max-width: 300px) 100vw, 300px"
+class = "attachment-medium size-medium"
+
+[image.sources]
+1536w = "/wp-content/uploads/2026/09/jispin-gagraphic-3422908-1536x575.jpg"
+2048w = "/wp-content/uploads/2026/09/jispin-gagraphic-3422908-2048x767.jpg"
+300w = "/wp-content/uploads/2026/09/jispin-gagraphic-3422908-300x112.jpg"
+768w = "/wp-content/uploads/2026/09/jispin-gagraphic-3422908-768x288.jpg"
+1024w = "/wp-content/uploads/2026/09/jispin-gagraphic-3422908-1024x384.jpg"
+2560w = "/wp-content/uploads/2026/09/jispin-gagraphic-3422908-scaled.jpg"

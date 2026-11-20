@@ -1,0 +1,52 @@
+title = "Unitary Synthesis of Clifford+T Circuits with Reinforcement Learning"
+authors = ["Sebastian Rietsch", "Abhishek Y Dubey", "Christian Ufrecht", "Maniraman Periyasamy", "Axel Plinge", "Christopher Mutschler", "Daniel D Scherer"]
+date = "2024-01-01"
+venue = "2024 IEEE International Conference on Quantum Computing and Engineering (QCE)"
+detail_url = "/publication/unitary-synthesis-of-cliffordt-circuits-with-reinforcement-learning/"
+profiles = ["christopher-mutschler"]
+doi = "https://doi.org/10.1109/QCE60285.2024.00102"
+abstract = "In this study, we apply the tree-search method Gumbel AlphaZero to solve the problem for a subset of exactly synthesizable Clifford+T unitaries. Our method effectively synthesizes circuits for up to five qubits generated from randomized circuits with up to 60 gates, outperforming existing tools like QuantumCircuitOpt and MIN-T-SYNTH in terms of synthesis time for larger qubit counts. Furthermore, it surpasses Synthetiq in successfully synthesizing random, exactly synthesizable unitaries. These results establish a strong baseline for future unitary synthesis algorithms."
+bibtex = '''
+@INPROCEEDINGS{10821409,
+  author={Rietsch, Sebastian and Dubey, Abhishek Y. and Ufrecht, Christian and Periyasamy, Maniraman and Plinge, Axel and Mutschler, Christopher and Scherer, Daniel D.},
+  booktitle={2024 IEEE International Conference on Quantum Computing and Engineering (QCE)}, 
+  title={Unitary Synthesis of Clifford+T Circuits with Reinforcement Learning}, 
+  year={2024},
+  volume={01},
+  number={},
+  pages={824-835},
+  keywords={Training;Hands;Runtime;Costs;Qubit;Logic gates;Deep reinforcement learning;Inference algorithms;Quantum circuit;Time complexity;Unitary synthesis;Reinforcement learning;MCTS;AlphaZero},
+  doi={10.1109/QCE60285.2024.00102}}'''
+
+[links]
+Website = "https://ieeexplore.ieee.org/abstract/document/10821409"
+
+[image]
+src = "/wp-content/uploads/2026/03/mlps-clifford-300x201.webp"
+alt = ""
+width = 300
+height = 201
+sizes = "(max-width: 300px) 100vw, 300px"
+class = "attachment-medium size-medium"
+
+[image.sources]
+300w = "/wp-content/uploads/2026/03/mlps-clifford-300x201.webp"
+768w = "/wp-content/uploads/2026/03/mlps-clifford-768x515.webp"
+800w = "/wp-content/uploads/2026/03/mlps-clifford.webp"
+
+[highlight]
+position = 4
+citation = "IEEE QCE 2024"
+
+[highlight.image]
+src = "/wp-content/uploads/2026/03/mlps-clifford.webp"
+alt = ""
+width = 800
+height = 536
+sizes = "(max-width: 800px) 100vw, 800px"
+class = "wp-image-3121"
+
+[highlight.image.sources]
+300w = "/wp-content/uploads/2026/03/mlps-clifford-300x201.webp"
+768w = "/wp-content/uploads/2026/03/mlps-clifford-768x515.webp"
+800w = "/wp-content/uploads/2026/03/mlps-clifford.webp"

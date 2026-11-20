@@ -1,0 +1,35 @@
+title = "Radio Foundation Models: Pre-training Transformers for 5G-based Indoor Localization"
+authors = ["Jonathan Ott", "Jonas Pirkl", "Maximilian Stahlke", "Tobias Feigl", "Christopher Mutschler"]
+date = "2024-01-01"
+venue = "14th International Conference on Indoor Positioning and Indoor Navigation (IPIN)"
+detail_url = "/publication/radio-foundation-models-pre-training-transformers-for-5g-based-indoor-localization/"
+profiles = ["christopher-mutschler", "jonathan-ott", "jonas-pirkl"]
+doi = "https://doi.org/10.1109/IPIN62893.2024.10786154"
+abstract = "We propose a self-supervised learning framework that pre-trains a general transformer (TF) neural network on 5G channel measurements that we collect on-the-fly without expensive equipment. Our novel pretext task randomly masks and drops input information to learn to reconstruct it. So, it implicitly learns the spatiotemporal patterns and information of the propagation environment that enable FP-based localization. Most interestingly, when we optimize this pre-trained model for localization in a given environment, it achieves the accuracy of state-of-the-art methods but requires ten times less reference data and significantly reduces the time from training to operation."
+bibtex = '''
+@INPROCEEDINGS{10786154,
+  author={Ott, Jonathan and Pirkl, Jonas and Stahlke, Maximilian and Feigl, Tobias and Mutschler, Christopher},
+  booktitle={2024 14th International Conference on Indoor Positioning and Indoor Navigation (IPIN)}, 
+  title={Radio Foundation Models: Pre-training Transformers for 5G-based Indoor Localization}, 
+  year={2024},
+  volume={},
+  number={},
+  pages={1-6},
+  keywords={Location awareness;Training;Accuracy;5G mobile communication;Neural networks;Self-supervised learning;Fingerprint recognition;Transformers;Data models;Spatiotemporal phenomena;Channel Impulse Response;Deep Learning;Generative Pre-trained Transformer (GPT);Pre-training;Radio-based Localization;Self-Supervised;Transformer},
+  doi={10.1109/IPIN62893.2024.10786154}}'''
+
+[links]
+Website = "https://ieeexplore.ieee.org/abstract/document/10786154"
+
+[image]
+src = "/wp-content/uploads/2026/09/ott1-119_RP-large-300x80.gif"
+alt = ""
+width = 300
+height = 80
+sizes = "(max-width: 300px) 100vw, 300px"
+class = "attachment-medium size-medium"
+
+[image.sources]
+300w = "/wp-content/uploads/2026/09/ott1-119_RP-large-300x80.gif"
+768w = "/wp-content/uploads/2026/09/ott1-119_RP-large-768x204.gif"
+820w = "/wp-content/uploads/2026/09/ott1-119_RP-large.gif"

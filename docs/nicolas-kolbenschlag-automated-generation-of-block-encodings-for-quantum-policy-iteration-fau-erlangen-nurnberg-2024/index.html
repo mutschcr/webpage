@@ -1,0 +1,389 @@
+<!doctype html>
+<html lang="en-US">
+<head>
+<meta charset="utf-8">
+<title>Nicolas Kolbenschlag: Automated Generation of Block-Encodings for Quantum Policy Iteration (FAU Erlangen-Nürnberg, 2024) – Machine Learning and Positioning Systems</title>
+<meta name="robots" content="max-image-preview:large">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="../assets/css/wp-img-auto-sizes-contain-0356978c0eb0.css">
+<link rel="stylesheet" href="../assets/css/wp-emoji-styles-f1b2bed85457.css">
+<link rel="stylesheet" href="../assets/css/wp-block-library-9077cbb97de5.css">
+<link rel="stylesheet" href="../assets/css/wp-block-heading-187c2a0a016f.css">
+<link rel="stylesheet" href="../assets/css/wp-block-list-942b2302016e.css">
+<link rel="stylesheet" href="../assets/css/wp-block-paragraph-622f970d1229.css">
+<link rel="stylesheet" href="../assets/css/wp-block-table-2e7141bdd982.css">
+<link rel="stylesheet" href="../assets/css/classic-theme-styles-dcd9f488bd62.css">
+<link rel="stylesheet" href="../assets/css/global-styles-ad322089e4f0.css">
+<link rel="stylesheet" href="../assets/theme/wp-content/plugins/show-hidecollapse-expand/assets/css/genericons/genericons.css" media="all">
+<link rel="stylesheet" href="../assets/theme/wp-content/plugins/show-hidecollapse-expand/assets/css/bg-show-hide.css" media="all">
+<link rel="stylesheet" href="../assets/theme/wp-content/plugins/wp-show-more/wpsm-style.css" media="all">
+<link rel="stylesheet" href="../assets/theme/wp-content/themes/sinatra/assets/css/style.min.css" media="all">
+<link rel="stylesheet" href="../assets/theme/wp-content/uploads/sinatra/dynamic-styles.css" media="all">
+<link rel="stylesheet" href="../assets/theme/wp-content/plugins/simple-social-icons/css/style.css" media="all">
+<link rel="stylesheet" href="../assets/theme/wp-content/plugins/a3-lazy-load/assets/css/jquery.lazyloadxt.spinner.css" media="all">
+<meta name="theme-color" content="#1df900">
+<link rel="icon" href="../wp-content/uploads/2026/06/cropped-cropped-mlps-logo_utn-scaled-1-32x32.png" sizes="32x32">
+<link rel="icon" href="../wp-content/uploads/2026/06/cropped-cropped-mlps-logo_utn-scaled-1-192x192.png" sizes="192x192">
+<link rel="apple-touch-icon" href="../wp-content/uploads/2026/06/cropped-cropped-mlps-logo_utn-scaled-1-180x180.png">
+<meta name="msapplication-TileImage" content="../wp-content/uploads/2026/06/cropped-cropped-mlps-logo_utn-scaled-1-270x270.png">
+<link rel="stylesheet" href="../assets/theme/wp-content/plugins/inline-text-popup/src/style.css" media="all">
+<link rel="canonical" href="https://mlps-lab.de/nicolas-kolbenschlag-automated-generation-of-block-encodings-for-quantum-policy-iteration-fau-erlangen-nurnberg-2024/">
+<link rel="stylesheet" href="../assets/site.css">
+<script src="../assets/site.js" defer></script>
+</head>
+<body class="wp-singular post-template-default single single-post postid-2988 single-format-standard wp-custom-logo wp-embed-responsive wp-theme-sinatra sinatra-topbar__separators-regular sinatra-layout__fw-contained sinatra-header-layout-1 sinatra-menu-animation-underline sinatra-header__separators-none si-single-title-in-content narrow-content si-page-title-align-left sinatra-no-sidebar entry-media-hover-style-1 si-input-supported validate-comment-form si-menu-accessibility si-sticky-header">
+
+<div id="page" class="hfeed site">
+	<a class="skip-link screen-reader-text" href="#content">Skip to content</a>
+
+	<header id="masthead" class="site-header" role="banner" itemtype="https://schema.org/WPHeader" itemscope="itemscope">
+		<div id="sinatra-header">
+		<div id="sinatra-header-inner">
+	
+<div class="si-container si-header-container">
+
+<div class="sinatra-logo si-header-element" itemtype="https://schema.org/Organization" itemscope="itemscope">
+	<div class="logo-inner"><a href="../" rel="home" class="" itemprop="url">
+					<img src="../wp-content/uploads/2026/07/mlps-logo_utn.png" alt="Machine Learning and Positioning Systems" width="1642" height="230" srcset="../wp-content/uploads/2026/07/mlps-logo_utn.png 1x, ../wp-content/uploads/2026/07/mlps-logo_utn.png 2x" itemprop="logo">
+				</a></div>
+</div>
+<nav class="site-navigation main-navigation sinatra-primary-nav sinatra-nav si-header-element" role="navigation" itemtype="https://schema.org/SiteNavigationElement" itemscope="itemscope" aria-label="Site Navigation" aria-haspopup="true">
+<ul id="sinatra-primary-nav" class="menu">
+<li id="menu-item-3303" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-home menu-item-3303"><a href="../"><span>Home</span></a></li>
+<li id="menu-item-3074" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-3074"><a href="../team/"><span>Team</span></a></li>
+<li id="menu-item-2970" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2970"><a href="../publications/"><span>Publications</span></a></li>
+<li id="menu-item-4103" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-4103" aria-haspopup="true">
+<a href="../research/"><span>Research</span><svg class="si-icon" xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewbox="0 0 32 32"><path d="M24.958 10.483c-0.534-0.534-1.335-0.534-1.868 0l-7.074 7.074-7.074-7.074c-0.534-0.534-1.335-0.534-1.868 0s-0.534 1.335 0 1.868l8.008 8.008c0.267 0.267 0.667 0.4 0.934 0.4s0.667-0.133 0.934-0.4l8.008-8.008c0.534-0.534 0.534-1.335 0-1.868z"></path></svg></a>
+<ul class="sub-menu">
+	<li id="menu-item-3499" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-3499"><a href="../research-projects/"><span>Research Projects</span></a></li>
+	<li id="menu-item-3472" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-3472"><a href="../datasets/"><span>Datasets</span></a></li>
+</ul>
+</li>
+<li id="menu-item-4281" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-4281"><a href="../teaching/"><span>Teaching</span></a></li>
+<li id="menu-item-4298" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-4298"><a href="../theses/"><span>Theses &amp; Projects</span></a></li>
+</ul></nav><div class="si-header-widgets si-header-element sinatra-widget-location-right"></div>
+<span class="si-header-element si-mobile-nav">
+				<button class="si-hamburger hamburger--spin si-hamburger-sinatra-primary-nav" aria-label="Menu" aria-controls="sinatra-primary-nav" type="button">
+
+			<span class="hamburger-box">
+				<span class="hamburger-inner"></span>
+			</span>
+
+		</button>
+			</span>
+
+</div>
+</div>
+<div id="si-sticky-placeholder"></div>
+</div></header><div id="main" class="site-main">
+
+<div class="si-container">
+
+	<div id="primary" class="content-area">
+
+		<main id="content" class="site-content" role="main" itemscope="" itemtype="http://schema.org/Blog">
+
+<article id="post-2988" class="sinatra-article post-2988 post type-post status-publish format-standard hentry category-finished category-master-thesis category-student-projects" itemscope="" itemtype="https://schema.org/CreativeWork">
+
+<div class="post-category">
+
+	<span class="cat-links"><span class="screen-reader-text">Posted in</span><span><a href="../category/student-projects/status/finished/" rel="category tag">Finished</a> <a href="../category/student-projects/project-type/master-thesis/" rel="category tag">Master Thesis</a> <a href="../category/student-projects/" rel="category tag">Student-Projects</a></span></span>
+</div>
+
+<header class="entry-header">
+
+	<h1 class="entry-title" itemprop="headline">
+		Nicolas Kolbenschlag: Automated Generation of Block-Encodings for Quantum Policy Iteration (FAU Erlangen-Nürnberg, 2024)	</h1>
+
+</header>
+
+<div class="entry-content si-entry" itemprop="text">
+	
+<h2 class="wp-block-heading">Motivation</h2>
+
+<p class="wp-block-paragraph">The rise of quantum computing has offered new opportunities to achieve computational tasks that classical computers cannot. However, to achieve quantum advantage over classical algorithms, it is necessary to design algorithms that can be executed on quantum hardware. Many of these algorithms require performing arithmetic operations, such as policy iteration in reinforcement learning.</p>
+
+<p class="wp-block-paragraph">However, quantum computers can only execute unitary operations, which means that matrix operations can only be performed with matrices that are unitaries. Unfortunately, not all matrices are unitaries, which presents a significant challenge in quantum computing.</p>
+
+<p class="wp-block-paragraph">One option to address this issue is to use block-encodings to encode matrices into larger unitaries that then can be executed on quantum hardware. This approach allows us to reuse existing algorithms (or at least their main ideas) from the classical world in quantum computing, with the potential to speed up computations.</p>
+
+<p class="wp-block-paragraph">But the generation of block-encodings comes with a computational cost. When analyzing algorithms for  quantum advantage, this additional cost must be taken into account. While traditional approaches to generation of the required quantum circuits typically rely on a chosen heuristic, here we aim to explore machine-learning approaches, trading computational complexity for data availability.</p>
+
+<h2 class="wp-block-heading">
+<a></a>Related Work</h2>
+
+<p class="wp-block-paragraph">Until now, the existing literature does not provide the theoretical basis that is required to make easy use of block-encodings in reinforcement learning environments, let alone an implementation allowing for generation of appropriate quantum circuits for arbitrary environments. While a quantum algorithm for quantum policy iteration based on fast linear algebra with quantum computers was described [1], the quantum circuits required to realize block encodings for arithmetic operations have been hand-crafted for chosen toy environments. In order to leverage the full potential of block-encodings [2,3,4] for quantum-computing assisted reinforcement learning, the quantum circuit generation needs to be automated: For an input matrix or vector, an oracle-circuit for the corresponding block encoding needs to be output with as low a computational cost as possible. Automated generation procedures targeting block encodings have only recently received greater attention [5,6,7]. The proposed algorithms still feature unfavorable scaling in the problem dimension, calling for alternative approaches.</p>
+
+<h2 class="wp-block-heading">
+<a></a>Objective</h2>
+
+<p class="wp-block-paragraph">The main objective of the master thesis is to research approaches to the automated generation of quantum circuits for block-encoded matrices as they are required for the execution of the quantum policy iteration algorithm by Cherrat et al. [1]. The main outcomes will be a re-implementation of the quantum policy iteration algorithm and implementations for software tools capable of producing quantum circuits for block encodings as they are required for the quantum policy iteration algorithm for a given environment. From this objective, the following work packages have been derived.</p>
+
+<h2 class="wp-block-heading">
+<a></a>Work packages</h2>
+
+<figure class="wp-block-table"><table class="has-fixed-layout"><tbody>
+<tr>
+<td><strong>WP</strong></td>
+<td><strong>Description</strong></td>
+</tr>
+<tr>
+<td><strong>WP1</strong></td>
+<td>
+<strong>Linear-algebraic operations with block-encodings</strong>As a preparatory step for the implementation of the quantum policy iteration algorithm, a detailed understanding for the inner workings of block-encodings for the linear algebraic operations of multiplication, addition and inversion must be obtained. This requires both theoretical work, as well as practical implementations in a suitable SDK, such as IBM’s Quantum Information Science Kit (Qiskit). Using FABLE, quantum circuits can be generated to provide test cases to ensure the correctness of the performed implementations.</td>
+</tr>
+<tr>
+<td>WP1.1</td>
+<td>
+<strong>Investigation of the Quantum Singular Value Transform</strong>The realization of matrix inversion via block-encodings turns out to be more complicated than for the operations of matrix multiplication and addition. Here, the formalism of the Quantum Singular Value Transformation (QSVT) [8] will be employed in order to arrive at the required block-encoding of the inverse of a given matrix. To this end, an understanding of the abstract formalism behind the QSVT must be obtained. Further the elements of the abstract formalism have to be translated to appropriate quantum circuits.</td>
+</tr>
+<tr>
+<td>WP1.2</td>
+<td>
+<strong>Implementation of matrix multiplication, addition and matrix inversion </strong>After obtaining an understanding of how to realize block encodings for each  of the linear algebraic operations, including matrix inversion, implementations for the realization of the corresponding block encodings will be provided. While it is evident that FABLE can be employed for the generation of oracle quantum circuits as they are required for block encodings of matrix multiplication and addition, the potential use of FABLE for circuit generation in the context of the QSVT will be investigated. Existing software packages, e.g., for the optimization of the phase parameters of the so-called Quantum Signal Processing (QSP) operator entering QSVT will be integrated. The implementations will be tested for a range of matrix instances of varying size.</td>
+</tr>
+<tr>
+<td><strong>WP2</strong></td>
+<td>
+<strong>Quantum policy iteration algorithm</strong>This work package collects the tasks that are necessary in order to provide an implementation of the model-based quantum policy iteration algorithm a la Cherrat et al. [1]. Subroutines for the generation of block-encodings adapted to a given reinforcement learning environment will be provided. A particular class of reinforcement learning environments will be selected for testing the implementation in simulation. <strong></strong>
+</td>
+</tr>
+<tr>
+<td>WP2.1</td>
+<td>
+<strong>Implementation of the quantum policy iteration algorithm for a sandbox problem</strong>The model-based version of the quantum policy iteration algorithm as proposed in ref. [1] will be implemented and tested. Leveraging the implementations of block-encoding based arithmetic operations, the policy evaluation step will be carried out with a quantum subroutine. The FABLE algorithm [6] can serve as a baseline for the generation of quantum circuits in order to realize block encodings for simple test environments.</td>
+</tr>
+<tr>
+<td>WP2.2</td>
+<td>
+<strong> Testing and Convergence Study of the quantum policy iteration algorithm</strong>After implementing the algorithm, it can be executed. In this work package, a comparison between the convergence behavior of the classical policy iteration and the quantum version is made. The goal is to observe convergence of the quantum version of the algorithm in at most as many iterations of policy optimization as for the classical version. </td>
+</tr>
+<tr>
+<td><strong>WP3</strong></td>
+<td>
+<strong>Investigation of quantum advantages</strong>Just the fact that an algorithm is executed on a quantum computer does not necessarily mean that there has to be a quantum advantage. It would be interesting if the design and structure of this particular algorithm is suitable for leveraging quantum advantage and if there might be a method to generically derive “the amount of computation” in an algorithm that could not have been executed on classical hardware. (So the amount of entanglement for instance.) The objective will be fulfilled if a theoretical comparison of the quantum version of policy iteration and the classical version is delivered and the observations from the experimental setup match the expectations derived from theory.</td>
+</tr>
+<tr>
+<td>WP3.1</td>
+<td>
+<strong>Investigation of possible quantum advantages in this and analysis of the computational cost of constructing block-encodings with FABLE</strong>In this wokpackage the runtime complexity (in terms of quantum gates and classical operations) will be analyzed in greater detail.  The results from the previous work package will be taken into account to verify whether the observations from the experiment agree with the expectations. If they do not agree, this work package includes pointing out the differences between both approaches and explaining where the unexpected behavior might come from. Furthermore, it is crucial to investigate whether the amount of computation which is required to construct the FABLE-circuits for the block-encodings is as large or larger than the computational cost saved in the form of quantum advantage.</td>
+</tr>
+<tr>
+<td><strong>WP4</strong></td>
+<td>
+<strong>Block-encoding construction techniques</strong>The goal of this work package is to learn a machine learning model (classical or quantum) for the procedure of generating block-encodings from matrices. As mentioned above, the cost of constructing block-encodings could be a showstopper for its real world application if this initial cost evens the quantum advantage. That is why, it could be a promising research direction focusing on efficient techniques for constructing block-encodings.One approach might be to learn a machine learning model for this task. For this, a training dataset for matrices from a specific domain (matrices that occur in certain reinforcement learning environments, for instance) and a given block-encoding technique like FABLE will be needed. Afterwards, the mapping from matrix to block-encoding could be learned. The objective is considered as achieved when the question of whether the generation of block-encodings for arbitrary matrices or specific subset of matrices can be learned, can be answered.<strong></strong>
+</td>
+</tr>
+<tr>
+<td>WP4.1</td>
+<td>
+<strong>Literature review on generation of  block-encodings</strong>Before diving deeper into a particular direction, an exhaustive literature review will be done. Further, after an initial literature review on alternative methods to automatically construct block encodings (besides FABLE), a suitable research direction will be selected. Promising directions are machine-learning based approaches that leverage the inherent graph structure of quantum circuits or so-called variational quantum compilation techniques.</td>
+</tr>
+<tr>
+<td>WP4.2</td>
+<td>
+<strong>Implementation and experimentation for machine-learning based generation of block-encodings</strong>This work package will start with creating a dataset consisting of pairs of reinforcement learning environment-state matrices and its block-encodings that were collected during executing the quantum policy iteration algorithm as described above. Afterwards, one can try to fit a machine learning algorithm on the dataset. While synthesizing quantum circuits for arbitrary input unitaries seems to be a non-trivial task in the machine-learning setting [10,12], the task of constructing circuits for a given block encoding is believed to be much simpler due to its additional structure. A crucial aspect of the investigation will be how to encode knowledge about the problem structure in the machine-learning setting. Transformer [13,14] or graph-neural network [11] architectures lend themselves as promising models for the task at hand.</td>
+</tr>
+<tr>
+<td>WP4.3</td>
+<td>
+<strong>Evaluation of methods</strong>The performance of such a model on a testset will provide a good first indicator for the feasibility of learning such mapping. After that, the goal is to replace FABLE in the implementation of quantum policy iteration from work package 2 with this new approach for generating block-encodings. The objective is considered as fulfilled (in case that learning such a model is possible) if the policy iteration algorithm still converges as before and the cost for generating block-encodings with the model is smaller than with FABLE.<strong></strong>
+</td>
+</tr>
+<tr>
+<td><strong>WP5</strong></td>
+<td>
+<strong>Theses and defense</strong>The findings from literature review and experimental results are laid down in the thesis in written form. Best practices will be incorporated and constraints from regulations will be followed.</td>
+</tr>
+<tr>
+<td>WP5.1</td>
+<td>
+<strong>Thesis writing</strong>The thesis includes foundational background knowledge, theoretical explanations, a description of the experimental setup as well as the results.</td>
+</tr>
+<tr>
+<td>WP5.2</td>
+<td>
+<strong>Preparing for final presentation and thesis defense</strong>Besides in the written theses, a summary of findings from the thesis is provided as a presentation.</td>
+</tr>
+</tbody></table></figure>
+
+<h2 class="wp-block-heading">
+<a></a>Schedule</h2>
+
+<p class="wp-block-paragraph">Time schedule of work packages (WP):</p>
+
+<figure class="wp-block-table"><table class="has-fixed-layout"><tbody>
+<tr>
+<td>WP</td>
+<td>Aug. 23</td>
+<td>Sep. 23</td>
+<td>Nov. 23</td>
+<td>Dec. 23</td>
+<td>Jan. 24</td>
+<td>Feb. 24</td>
+</tr>
+<tr>
+<td>WP1.2</td>
+<td><strong>50</strong></td>
+<td><strong>30</strong></td>
+<td><strong> </strong></td>
+<td><strong> </strong></td>
+<td><strong> </strong></td>
+<td><strong> </strong></td>
+</tr>
+<tr>
+<td>WP1.2</td>
+<td><strong>50</strong></td>
+<td><strong>20</strong></td>
+<td><strong> </strong></td>
+<td><strong> </strong></td>
+<td><strong> </strong></td>
+<td><strong> </strong></td>
+</tr>
+<tr>
+<td>WP2.1</td>
+<td><strong>50</strong></td>
+<td><strong>60</strong></td>
+<td><strong>20</strong></td>
+<td><strong> </strong></td>
+<td><strong> </strong></td>
+<td><strong> </strong></td>
+</tr>
+<tr>
+<td>WP2.2</td>
+<td><strong> </strong></td>
+<td><strong>20</strong></td>
+<td><strong>40</strong></td>
+<td><strong> </strong></td>
+<td><strong> </strong></td>
+<td><strong> </strong></td>
+</tr>
+<tr>
+<td>WP3.1</td>
+<td><strong> </strong></td>
+<td><strong> </strong></td>
+<td><strong>20</strong></td>
+<td><strong>40</strong></td>
+<td><strong> </strong></td>
+<td><strong> </strong></td>
+</tr>
+<tr>
+<td>WP4.1</td>
+<td><strong> </strong></td>
+<td><strong>20</strong></td>
+<td><strong>40</strong></td>
+<td><strong> </strong></td>
+<td><strong> </strong></td>
+<td><strong> </strong></td>
+</tr>
+<tr>
+<td>WP4.2</td>
+<td><strong> </strong></td>
+<td><strong> </strong></td>
+<td><strong>30</strong></td>
+<td><strong>40</strong></td>
+<td><strong>20</strong></td>
+<td><strong> </strong></td>
+</tr>
+<tr>
+<td>WP4.3</td>
+<td><strong> </strong></td>
+<td><strong> </strong></td>
+<td><strong> </strong></td>
+<td><strong>30</strong></td>
+<td><strong>30</strong></td>
+<td><strong> </strong></td>
+</tr>
+<tr>
+<td>WP5.1</td>
+<td><strong> </strong></td>
+<td><strong> </strong></td>
+<td><strong> </strong></td>
+<td><strong>40</strong></td>
+<td><strong>60</strong></td>
+<td><strong>90</strong></td>
+</tr>
+<tr>
+<td>WP5.2</td>
+<td><strong> </strong></td>
+<td><strong> </strong></td>
+<td><strong> </strong></td>
+<td><strong> </strong></td>
+<td><strong>40</strong></td>
+<td><strong>60</strong></td>
+</tr>
+<tr>
+<td>∑</td>
+<td><strong>150</strong></td>
+<td><strong>150</strong></td>
+<td><strong>150</strong></td>
+<td><strong>150</strong></td>
+<td><strong>150</strong></td>
+<td><strong>150</strong></td>
+</tr>
+</tbody></table></figure>
+
+<p class="wp-block-paragraph">Workload in hours (total: 900 hours)</p>
+
+<h2 class="wp-block-heading">
+<a></a>Literature</h2>
+
+<ol start="1" class="wp-block-list">
+<li>E. A. Cherrat et al., Quantum Reinforcement Learning via Policy Iteration, <a href="https://arxiv.org/abs/2203.01889">https://arxiv.org/abs/2203.01889</a>
+</li>
+
+<li>S. Chakraborty et al., The power of block-encoded matrix powers: improved regression techniques via faster Hamiltonian simulation, <a href="https://arxiv.org/abs/1804.01973">https://arxiv.org/abs/1804.01973</a>
+</li>
+
+<li>A. Gilyen et al., Quantum singular value transformation and beyond: exponential improvements for quantum matrix arithmetics, <a href="https://dl.acm.org/doi/10.1145/3313276.3316366">https://dl.acm.org/doi/10.1145/3313276.3316366</a>
+</li>
+
+<li>A. Gilyen et al., Quantum singular value transformation and beyond: exponential improvements for quantum matrix arithmetics, <a href="https://arxiv.org/abs/1806.01838">https://arxiv.org/abs/1806.01838</a>
+</li>
+
+<li>D. Camps et al., Explicit Quantum Circuits for Block Encodings of Certain Sparse Matrices, <a href="https://arxiv.org/abs/2203.10236">https://arxiv.org/abs/2203.10236</a>
+</li>
+
+<li>D. Camps et al., FABLE: Fast Approximate Quantum Circuits for Block-Encodings, <a href="https://arxiv.org/abs/2205.00081">https://arxiv.org/abs/2205.00081</a>
+</li>
+
+<li>D. Camps et al., Approximate Quantum Circuit Synthesis using Block-Encodings, <a href="https://arxiv.org/abs/2007.01417">https://arxiv.org/abs/2007.01417</a>
+</li>
+
+<li>L. Lin, Lecture Notes on Quantum Algorithms for Scientific Computation, <a href="https://arxiv.org/abs/2201.08309">https://arxiv.org/abs/2201.08309</a>
+</li>
+
+<li>G. Brockman et al., Open AIGym, <a href="https://arxiv.org/abs/1606.01540">https://arxiv.org/abs/1606.01540</a>
+</li>
+
+<li>A. Paler  et al., Machine Learning Optimization of Quantum Circuit Layouts, <a href="https://doi.org/10.1145/3565271">https://doi.org/10.1145/3565271</a>
+</li>
+
+<li>I. Moflic et al., Graph Neural Network Autoencoders for Efficient Quantum Circuit Optimisation, <a href="https://arxiv.org/abs/2303.03280">https://arxiv.org/abs/2303.03280</a>
+</li>
+
+<li>H. Fan et al., Optimizing quantum circuit placement via machine learning, <a href="https://dl.acm.org/doi/10.1145/3489517.3530403">https://dl.acm.org/doi/10.1145/3489517.3530403</a>
+</li>
+
+<li>A. Vaswani et al., Attention Is All You Need, <a href="https://arxiv.org/abs/1706.03762">https://arxiv.org/abs/1706.03762</a>
+</li>
+
+<li>S. Yun et al., Graph Transformer Networks, <a href="https://arxiv.org/abs/1911.06455">https://arxiv.org/abs/1911.06455</a>
+</li>
+</ol>
+</div>
+
+</article></main>
+</div>
+</div>
+</div>
+</div>
+<a href="#" id="si-scroll-top" class="si-smooth-scroll" title="Scroll to Top">
+	<span class="si-scroll-icon" aria-hidden="true">
+		<svg class="si-icon top-icon" xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewbox="0 0 32 32"><path d="M24.958 18.491l-8.008-8.008c-0.534-0.534-1.335-0.534-1.868 0l-8.008 8.008c-0.534 0.534-0.534 1.335 0 1.868s1.335 0.534 1.868 0l7.074-7.074 7.074 7.074c0.267 0.267 0.667 0.4 0.934 0.4s0.667-0.133 0.934-0.4c0.534-0.534 0.534-1.335 0-1.868z"></path></svg>		<svg class="si-icon" xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewbox="0 0 32 32"><path d="M24.958 18.491l-8.008-8.008c-0.534-0.534-1.335-0.534-1.868 0l-8.008 8.008c-0.534 0.534-0.534 1.335 0 1.868s1.335 0.534 1.868 0l7.074-7.074 7.074 7.074c0.267 0.267 0.667 0.4 0.934 0.4s0.667-0.133 0.934-0.4c0.534-0.534 0.534-1.335 0-1.868z"></path></svg>	</span>
+	<span class="screen-reader-text">Scroll to Top</span>
+</a>
+
+</body>
+</html>
+

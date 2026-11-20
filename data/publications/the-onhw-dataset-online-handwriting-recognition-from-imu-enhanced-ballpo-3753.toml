@@ -1,0 +1,41 @@
+title = "The OnHW Dataset: Online Handwriting Recognition from IMU-Enhanced Ballpoint Pens with Machine Learning"
+authors = ["Felix Ott", "Mohamad Wehbi", "Tim Hamann", "Jens Barth", "Björn Eskofier", "Christopher Mutschler"]
+date = "2020-01-01"
+venue = "Proceedings of the ACM on Interactive, Mobile, Wearable and Ubiquitous Technologies"
+detail_url = "/publication/the-onhw-dataset-online-handwriting-recognition-from-imu-enhanced-ballpoint-pens-with-machine-learning/"
+profiles = ["christopher-mutschler"]
+doi = "https://doi.org/10.1145/3411842"
+abstract = "We propose a novel online handwriting dataset acquired from 119 writers consisting of 31,275 uppercase and lowercase English alphabet character recordings (52 classes) as part of the UbiComp 2020 Time Series Classification Challenge. Our novel OnHW-chars dataset allows for the evaluations of uppercase, lowercase and combined classification tasks, on both writer-dependent (WD) and writer-independent (WI) classes and we show that properly tuned machine learning pipelines as well as deep learning classifiers (such as CNNs, LSTMs, and BiLSTMs) yield accuracies up to 90 % for the WD task and 83 % for the WI task for uppercase characters."
+bibtex = '''
+@article{10.1145/3411842,
+author = {Ott, Felix and Wehbi, Mohamad and Hamann, Tim and Barth, Jens and Eskofier, Bj{\"o}rn and Mutschler, Christopher},
+title = {The OnHW Dataset: Online Handwriting Recognition from IMU-Enhanced Ballpoint Pens with Machine Learning},
+year = {2020},
+issue_date = {September 2020},
+publisher = {Association for Computing Machinery},
+address = {New York, NY, USA},
+volume = {4},
+number = {3},
+url = {https://doi.org/10.1145/3411842},
+doi = {10.1145/3411842},
+abstract = {This paper presents a handwriting recognition (HWR) system that deals with online character recognition in real-time. Our sensor-enhanced ballpoint pen delivers sensor data streams from triaxial acceleration, gyroscope, magnetometer and force signals at 100 Hz. As most existing datasets do not meet the requirements of online handwriting recognition and as they have been collected using specific equipment under constrained conditions, we propose a novel online handwriting dataset acquired from 119 writers consisting of 31,275 uppercase and lowercase English alphabet character recordings (52 classes) as part of the UbiComp 2020 Time Series Classification Challenge. Our novel OnHW-chars dataset allows for the evaluations of uppercase, lowercase and combined classification tasks, on both writer-dependent (WD) and writer-independent (WI) classes and we show that properly tuned machine learning pipelines as well as deep learning classifiers (such as CNNs, LSTMs, and BiLSTMs) yield accuracies up to 90 \% for the WD task and 83 \% for the WI task for uppercase characters. Our baseline implementations together with the rich and publicly available OnHW dataset serve as a baseline for future research in that area.},
+journal = {Proc. ACM Interact. Mob. Wearable Ubiquitous Technol.},
+month = sep,
+articleno = {92},
+numpages = {20},
+keywords = {writer-(in)dependent, time-series data, sensor-based pen, multi-stroke gestures, inertial measurement unit, embedded, character dataset, Online handwriting recognition}'''
+
+[links]
+Website = "https://dl.acm.org/doi/abs/10.1145/3411842"
+
+[image]
+src = "/wp-content/uploads/2020/07/Bildschirmfoto-2020-07-08-um-14.48.07-1-300x217.png"
+alt = ""
+width = 300
+height = 217
+sizes = "(max-width: 300px) 100vw, 300px"
+class = "attachment-medium size-medium"
+
+[image.sources]
+300w = "/wp-content/uploads/2020/07/Bildschirmfoto-2020-07-08-um-14.48.07-1-300x217.png"
+493w = "/wp-content/uploads/2020/07/Bildschirmfoto-2020-07-08-um-14.48.07-1.png"

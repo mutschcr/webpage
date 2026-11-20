@@ -1,0 +1,38 @@
+title = "Quantum Policy Gradient Algorithm with Optimized Action Decoding"
+authors = ["Nico Meyer", "Daniel Scherer", "Axel Plinge", "Christopher Mutschler", "Michael Hartmann"]
+date = "2023-09-20"
+venue = "40th International Conference on Machine Learning (ICML)"
+detail_url = "/publication/quantum-policy-gradient-algorithm-with-optimized-action-decoding/"
+profiles = ["christopher-mutschler", "nico-meyer"]
+abstract = "Quantum machine learning implemented by variational quantum circuits (VQCs) is considered a promising concept for the noisy intermediate-scale quantum computing era. Focusing on applications in quantum reinforcement learning, we propose an action decoding procedure for a quantum policy gradient approach. We introduce a quality measure that enables us to optimize the classical post-processing required for action selection, inspired by local and global quantum measurements. The resulting algorithm demonstrates a significant performance improvement in several benchmark environments."
+bibtex = '''
+@InProceedings{pmlr-v202-meyer23a,
+  title = 	 {Quantum Policy Gradient Algorithm with Optimized Action Decoding},
+  author =       {Meyer, Nico and Scherer, Daniel and Plinge, Axel and Mutschler, Christopher and Hartmann, Michael},
+  booktitle = 	 {Proceedings of the 40th International Conference on Machine Learning},
+  pages = 	 {24592--24613},
+  year = 	 {2023},
+  editor = 	 {Krause, Andreas and Brunskill, Emma and Cho, Kyunghyun and Engelhardt, Barbara and Sabato, Sivan and Scarlett, Jonathan},
+  volume = 	 {202},
+  series = 	 {Proceedings of Machine Learning Research},
+  month = 	 {23--29 Jul},
+  publisher =    {PMLR},
+  pdf = 	 {https://proceedings.mlr.press/v202/meyer23a/meyer23a.pdf},
+  url = 	 {https://proceedings.mlr.press/v202/meyer23a.html},
+  abstract = 	 {Quantum machine learning implemented by variational quantum circuits (VQCs) is considered a promising concept for the noisy intermediate-scale quantum computing era. Focusing on applications in quantum reinforcement learning, we propose an action decoding procedure for a quantum policy gradient approach. We introduce a quality measure that enables us to optimize the classical post-processing required for action selection, inspired by local and global quantum measurements. The resulting algorithm demonstrates a significant performance improvement in several benchmark environments. With this technique, we successfully execute a full training routine on a 5-qubit hardware device. Our method introduces only negligible classical overhead and has the potential to improve VQC-based algorithms beyond the field of quantum reinforcement learning.}
+}'''
+
+[links]
+Website = "https://proceedings.mlr.press/v202/meyer23a.html"
+
+[image]
+src = "/wp-content/uploads/2026/09/2023_icml_PG-300x212.png"
+alt = ""
+width = 300
+height = 212
+sizes = "(max-width: 300px) 100vw, 300px"
+class = "attachment-medium size-medium"
+
+[image.sources]
+300w = "/wp-content/uploads/2026/09/2023_icml_PG-300x212.png"
+683w = "/wp-content/uploads/2026/09/2023_icml_PG.png"

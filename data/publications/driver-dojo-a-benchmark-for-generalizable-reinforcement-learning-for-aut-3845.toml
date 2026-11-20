@@ -1,0 +1,35 @@
+title = "Driver Dojo: A Benchmark for Generalizable Reinforcement Learning for Autonomous Driving"
+authors = ["Sebastian Rietsch", "Shih-Yuan Huang", "Georgios Kontes", "Axel Plinge", "Christopher Mutschler"]
+date = "2022-01-01"
+venue = "arXiv"
+detail_url = "/publication/driver-dojo-a-benchmark-for-generalizable-reinforcement-learning-for-autonomous-driving/"
+profiles = ["christopher-mutschler"]
+abstract = '''
+We propose a challenging benchmark for generalizable RL for AD based on a configurable, flexible, and performant code base. Our benchmark uses a catalog of randomized scenario generators, including multiple mechanisms for road layout and traffic variations, different numerical and visual observation types, distinct action spaces, diverse vehicle models, and allows for use under static scenario definitions. In addition to purely algorithmic insights, our application-oriented benchmark also enables a better understanding of the impact of design decisions such as action and observation space on the generalizability of policies. Our benchmark aims to encourage researchers to propose solutions that are able to successfully generalize across scenarios, a task in which current RL methods fail. 
+
+Code available here: https://github.com/seawee1/driver-dojo'''
+bibtex = '''
+@misc{rietsch2022driverdojobenchmarkgeneralizable,
+      title={Driver Dojo: A Benchmark for Generalizable Reinforcement Learning for Autonomous Driving}, 
+      author={Sebastian Rietsch and Shih-Yuan Huang and Georgios Kontes and Axel Plinge and Christopher Mutschler},
+      year={2022},
+      eprint={2207.11432},
+      archivePrefix={arXiv},
+      primaryClass={cs.LG},
+      url={https://arxiv.org/abs/2207.11432}, 
+}'''
+
+[links]
+Website = "https://arxiv.org/abs/2207.11432"
+
+[image]
+src = "/wp-content/uploads/2026/09/driver-dojo-300x209.png"
+alt = ""
+width = 300
+height = 209
+sizes = "(max-width: 300px) 100vw, 300px"
+class = "attachment-medium size-medium"
+
+[image.sources]
+300w = "/wp-content/uploads/2026/09/driver-dojo-300x209.png"
+738w = "/wp-content/uploads/2026/09/driver-dojo.png"

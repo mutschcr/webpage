@@ -1,0 +1,57 @@
+title = "Benchmarking Quantum Reinforcement Learning"
+authors = ["Nico Meyer", "Christian Ufrecht", "George Yammine", "Georgios Kontes", "Christopher Mutschler", "Daniel D Scherer"]
+date = "2025-01-01"
+venue = "42nd International Conference on Machine Learning"
+detail_url = "/publication/benchmarking-quantum-reinforcement-learning/"
+profiles = ["christopher-mutschler", "nico-meyer"]
+abstract = "To enable valid performance comparisons and to streamline current research in this area, we propose a novel benchmarking methodology, which is based on a statistical estimator for sample complexity and a definition of statistical outperformance. Furthermore, considering QRL, our methodology casts doubt on some previous claims regarding its superiority. We conducted experiments on a novel benchmarking environment with flexible levels of complexity. While we still identify possible advantages, our findings are more nuanced overall. We discuss the potential limitations of these results and explore their implications for empirical research on quantum advantage in QRL."
+bibtex = '''
+@InProceedings{pmlr-v267-meyer25b,
+  title = 	 {Benchmarking Quantum Reinforcement Learning},
+  author =       {Meyer, Nico and Ufrecht, Christian and Yammine, George and Kontes, Georgios and Mutschler, Christopher and Scherer, Daniel},
+  booktitle = 	 {Proceedings of the 42nd International Conference on Machine Learning},
+  pages = 	 {43934--43964},
+  year = 	 {2025},
+  editor = 	 {Singh, Aarti and Fazel, Maryam and Hsu, Daniel and Lacoste-Julien, Simon and Berkenkamp, Felix and Maharaj, Tegan and Wagstaff, Kiri and Zhu, Jerry},
+  volume = 	 {267},
+  series = 	 {Proceedings of Machine Learning Research},
+  month = 	 {13--19 Jul},
+  publisher =    {PMLR},
+  pdf = 	 {https://raw.githubusercontent.com/mlresearch/v267/main/assets/meyer25b/meyer25b.pdf},
+  url = 	 {https://proceedings.mlr.press/v267/meyer25b.html},
+  abstract = 	 {Benchmarking and establishing proper statistical validation metrics for reinforcement learning (RL) remain ongoing challenges, where no consensus has been established yet. The emergence of quantum computing and its potential applications in quantum reinforcement learning (QRL) further complicate benchmarking efforts. To enable valid performance comparisons and to streamline current research in this area, we propose a novel benchmarking methodology, which is based on a statistical estimator for sample complexity and a definition of statistical outperformance. Furthermore, considering QRL, our methodology casts doubt on some previous claims regarding its superiority. We conducted experiments on a novel benchmarking environment with flexible levels of complexity. While we still identify possible advantages, our findings are more nuanced overall. We discuss the potential limitations of these results and explore their implications for empirical research on quantum advantage in QRL.}
+}'''
+
+[links]
+Website = "https://proceedings.mlr.press/v267/meyer25b.html"
+Code = "https://github.com/nicomeyer96/qrl-benchmark"
+
+[image]
+src = "/wp-content/uploads/2026/03/mlps-safe-mpo-300x201.webp"
+alt = ""
+width = 300
+height = 201
+sizes = "(max-width: 300px) 100vw, 300px"
+class = "attachment-medium size-medium"
+
+[image.sources]
+300w = "/wp-content/uploads/2026/03/mlps-safe-mpo-300x201.webp"
+768w = "/wp-content/uploads/2026/03/mlps-safe-mpo-768x514.webp"
+800w = "/wp-content/uploads/2026/03/mlps-safe-mpo.webp"
+
+[highlight]
+position = 2
+citation = "ICML, 2025"
+
+[highlight.image]
+src = "/wp-content/uploads/2026/03/mlps-safe-mpo-1.webp"
+alt = ""
+width = 800
+height = 535
+sizes = "(max-width: 800px) 100vw, 800px"
+class = "wp-image-3119"
+
+[highlight.image.sources]
+300w = "/wp-content/uploads/2026/03/mlps-safe-mpo-1-300x201.webp"
+768w = "/wp-content/uploads/2026/03/mlps-safe-mpo-1-768x514.webp"
+800w = "/wp-content/uploads/2026/03/mlps-safe-mpo-1.webp"

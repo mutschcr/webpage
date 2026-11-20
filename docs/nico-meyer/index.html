@@ -1,0 +1,442 @@
+<!doctype html>
+<html lang="en-US">
+<head>
+<meta charset="utf-8">
+<title>Nico Meyer – Machine Learning and Positioning Systems</title>
+<meta name="robots" content="max-image-preview:large">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="../assets/css/wp-img-auto-sizes-contain-0356978c0eb0.css">
+<link rel="stylesheet" href="../assets/css/wp-emoji-styles-f1b2bed85457.css">
+<link rel="stylesheet" href="../assets/css/wp-block-library-9077cbb97de5.css">
+<link rel="stylesheet" href="../assets/css/wp-block-heading-187c2a0a016f.css">
+<link rel="stylesheet" href="../assets/css/wp-block-image-9f7b39031856.css">
+<link rel="stylesheet" href="../assets/css/wp-block-columns-a86fcda3eac5.css">
+<link rel="stylesheet" href="../assets/css/wp-block-social-links-553d6c580370.css">
+<link rel="stylesheet" href="../assets/css/classic-theme-styles-dcd9f488bd62.css">
+<link rel="stylesheet" href="../assets/css/global-styles-cdfcce2b9c0f.css">
+<link rel="stylesheet" href="../assets/theme/wp-content/plugins/show-hidecollapse-expand/assets/css/genericons/genericons.css" media="all">
+<link rel="stylesheet" href="../assets/theme/wp-content/plugins/show-hidecollapse-expand/assets/css/bg-show-hide.css" media="all">
+<link rel="stylesheet" href="../assets/theme/wp-content/plugins/wp-show-more/wpsm-style.css" media="all">
+<link rel="stylesheet" href="../assets/theme/wp-content/themes/sinatra/assets/css/style.min.css" media="all">
+<link rel="stylesheet" href="../assets/theme/wp-content/uploads/sinatra/dynamic-styles.css" media="all">
+<link rel="stylesheet" href="../assets/theme/wp-content/plugins/simple-social-icons/css/style.css" media="all">
+<link rel="stylesheet" href="../assets/theme/wp-content/plugins/a3-lazy-load/assets/css/jquery.lazyloadxt.spinner.css" media="all">
+<meta name="theme-color" content="#1df900">
+<link rel="icon" href="../wp-content/uploads/2026/06/cropped-cropped-mlps-logo_utn-scaled-1-32x32.png" sizes="32x32">
+<link rel="icon" href="../wp-content/uploads/2026/06/cropped-cropped-mlps-logo_utn-scaled-1-192x192.png" sizes="192x192">
+<link rel="apple-touch-icon" href="../wp-content/uploads/2026/06/cropped-cropped-mlps-logo_utn-scaled-1-180x180.png">
+<meta name="msapplication-TileImage" content="../wp-content/uploads/2026/06/cropped-cropped-mlps-logo_utn-scaled-1-270x270.png">
+<link rel="stylesheet" href="../assets/css/simple-social-icons-block-styles-32c5e4e95baa.css">
+<link rel="stylesheet" href="../assets/css/core-block-supports-8f433a9ad800.css">
+<link rel="stylesheet" href="../assets/theme/wp-content/plugins/inline-text-popup/src/style.css" media="all">
+<link rel="canonical" href="https://mlps-lab.de/nico-meyer/">
+<link rel="stylesheet" href="../assets/site.css">
+<script src="../assets/site.js" defer></script>
+<meta name="mlps-publication-pages" content="1">
+</head>
+<body class="wp-singular page-template-default page page-id-3180 wp-custom-logo wp-embed-responsive wp-theme-sinatra sinatra-topbar__separators-regular sinatra-layout__fw-contained sinatra-header-layout-1 sinatra-menu-animation-underline sinatra-header__separators-none si-page-title-align-left sinatra-no-sidebar entry-media-hover-style-1 si-input-supported validate-comment-form si-menu-accessibility si-sticky-header">
+
+<div id="page" class="hfeed site">
+	<a class="skip-link screen-reader-text" href="#content">Skip to content</a>
+
+	<header id="masthead" class="site-header" role="banner" itemtype="https://schema.org/WPHeader" itemscope="itemscope">
+		<div id="sinatra-header">
+		<div id="sinatra-header-inner">
+	
+<div class="si-container si-header-container">
+
+<div class="sinatra-logo si-header-element" itemtype="https://schema.org/Organization" itemscope="itemscope">
+	<div class="logo-inner"><a href="../" rel="home" class="" itemprop="url">
+					<img src="../wp-content/uploads/2026/07/mlps-logo_utn.png" alt="Machine Learning and Positioning Systems" width="1642" height="230" srcset="../wp-content/uploads/2026/07/mlps-logo_utn.png 1x, ../wp-content/uploads/2026/07/mlps-logo_utn.png 2x" itemprop="logo">
+				</a></div>
+</div>
+<nav class="site-navigation main-navigation sinatra-primary-nav sinatra-nav si-header-element" role="navigation" itemtype="https://schema.org/SiteNavigationElement" itemscope="itemscope" aria-label="Site Navigation" aria-haspopup="true">
+<ul id="sinatra-primary-nav" class="menu">
+<li id="menu-item-3303" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-home menu-item-3303"><a href="../"><span>Home</span></a></li>
+<li id="menu-item-3074" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-3074"><a href="../team/"><span>Team</span></a></li>
+<li id="menu-item-2970" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2970"><a href="../publications/"><span>Publications</span></a></li>
+<li id="menu-item-4103" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-4103" aria-haspopup="true">
+<a href="../research/"><span>Research</span><svg class="si-icon" xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewbox="0 0 32 32"><path d="M24.958 10.483c-0.534-0.534-1.335-0.534-1.868 0l-7.074 7.074-7.074-7.074c-0.534-0.534-1.335-0.534-1.868 0s-0.534 1.335 0 1.868l8.008 8.008c0.267 0.267 0.667 0.4 0.934 0.4s0.667-0.133 0.934-0.4l8.008-8.008c0.534-0.534 0.534-1.335 0-1.868z"></path></svg></a>
+<ul class="sub-menu">
+	<li id="menu-item-3499" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-3499"><a href="../research-projects/"><span>Research Projects</span></a></li>
+	<li id="menu-item-3472" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-3472"><a href="../datasets/"><span>Datasets</span></a></li>
+</ul>
+</li>
+<li id="menu-item-4281" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-4281"><a href="../teaching/"><span>Teaching</span></a></li>
+<li id="menu-item-4298" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-4298"><a href="../theses/"><span>Theses &amp; Projects</span></a></li>
+</ul></nav><div class="si-header-widgets si-header-element sinatra-widget-location-right"></div>
+<span class="si-header-element si-mobile-nav">
+				<button class="si-hamburger hamburger--spin si-hamburger-sinatra-primary-nav" aria-label="Menu" aria-controls="sinatra-primary-nav" type="button">
+
+			<span class="hamburger-box">
+				<span class="hamburger-inner"></span>
+			</span>
+
+		</button>
+			</span>
+
+</div>
+</div>
+<div id="si-sticky-placeholder"></div>
+</div>
+<div class="page-header si-has-page-title">
+	<div class="si-container">
+
+		<div class="si-page-header-wrapper">
+
+			<div class="si-page-header-title">
+				<h1 class="page-title" itemprop="headline">Nico Meyer</h1>			</div>
+
+					</div>
+
+	</div>
+</div>
+	</header><div id="main" class="site-main">
+
+<div class="si-container">
+
+	<div id="primary" class="content-area">
+
+		<main id="content" class="site-content" role="main" itemtype="http://schema.org/WebPageElement" itemprop="mainContentOfPage">
+
+<article id="post-3180" class="post-3180 page type-page status-publish hentry" itemscope="" itemtype="https://schema.org/CreativeWork">
+
+<div class="entry-content si-entry">
+<div class="wp-block-columns is-layout-flex wp-block-columns-is-layout-flex">
+<div class="wp-block-column is-layout-flow wp-block-column-is-layout-flow" style="flex-basis:33.33%">
+<figure class="wp-block-image size-large"><img src="../wp-content/uploads/2023/04/foto_meyerno-scaled.jpg" alt="" class="wp-image-2720"></figure>
+</div>
+
+<div class="wp-block-column is-layout-flow wp-block-column-is-layout-flow" style="flex-basis:66.66%">
+<p style="text-align: justify;">Nico Meyer is a senior scientist in the Quantum Compilation Group of Fraunhofer IIS and pursues a PhD jointly supervised with the FAU Erlangen-Nuremberg. He works at the intersection of quantum computing and machine learning, with multiple publications in leading venues. Nico has received several awards and recognitions, most recently the Dieter Schwarz Award at the ML4QT Symposium in Heilbronn. He currently applies machine-learning methods, particularly variational approaches, to develop quantum middleware, focusing on quantum error correction and fault tolerance.</p>
+<p>Research interest:</p>
+<ul>
+<li>Machine Learning for Quantum Computing</li>
+<li>Quantum Error Correction &amp; Fault-Tolerance</li>
+<li>Quantum Reinforcement Learning</li>
+</ul>
+<p>You can also find me at <a href="https://lme.tf.fau.de/persons/nico-meyer/">Pattern Recognition Lab at FAU</a>.</p>
+
+<ul class="wp-block-social-links is-style-logos-only is-layout-flex wp-block-social-links-is-layout-flex is-content-justification-right">
+<li class="wp-social-link wp-social-link-googlescholar wp-block-social-link"><a href="https://github.com/nicomeyer96" class="wp-block-social-link-anchor"><svg width="24" height="24" viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false"><path d="M5.242 13.769L0 9.5 12 0l12 9.5-5.242 4.269C17.548 11.249 14.978 9.5 12 9.5c-2.977 0-5.548 1.748-6.758 4.269zM12 10a7 7 0 1 0 0 14 7 7 0 0 0 0-14z"></path></svg><span class="wp-block-social-link-label screen-reader-text">Google Scholar</span></a></li>
+
+<li class="wp-social-link wp-social-link-linkedin wp-block-social-link"><a href="https://www.linkedin.com/in/nicomeyer96" class="wp-block-social-link-anchor"><svg width="24" height="24" viewbox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false"><path d="M19.7,3H4.3C3.582,3,3,3.582,3,4.3v15.4C3,20.418,3.582,21,4.3,21h15.4c0.718,0,1.3-0.582,1.3-1.3V4.3 C21,3.582,20.418,3,19.7,3z M8.339,18.338H5.667v-8.59h2.672V18.338z M7.004,8.574c-0.857,0-1.549-0.694-1.549-1.548 c0-0.855,0.691-1.548,1.549-1.548c0.854,0,1.547,0.694,1.547,1.548C8.551,7.881,7.858,8.574,7.004,8.574z M18.339,18.338h-2.669 v-4.177c0-0.996-0.017-2.278-1.387-2.278c-1.389,0-1.601,1.086-1.601,2.206v4.249h-2.667v-8.59h2.559v1.174h0.037 c0.356-0.675,1.227-1.387,2.526-1.387c2.703,0,3.203,1.779,3.203,4.092V18.338z"></path></svg><span class="wp-block-social-link-label screen-reader-text">LinkedIn</span></a></li>
+
+<li class="wp-social-link wp-social-link-mail wp-block-social-link"><a href="mailto:nico.meyer@iis.fraunhofer.de" class="wp-block-social-link-anchor"><svg width="24" height="24" viewbox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false"><path d="M19,5H5c-1.1,0-2,.9-2,2v10c0,1.1.9,2,2,2h14c1.1,0,2-.9,2-2V7c0-1.1-.9-2-2-2zm.5,12c0,.3-.2.5-.5.5H5c-.3,0-.5-.2-.5-.5V9.8l7.5,5.6,7.5-5.6V17zm0-9.1L12,13.6,4.5,7.9V7c0-.3.2-.5.5-.5h14c.3,0,.5.2.5.5v.9z"></path></svg><span class="wp-block-social-link-label screen-reader-text">Mail</span></a></li>
+
+<li class="wp-social-link wp-social-link-github wp-block-social-link"><a href="https://github.com/nicomeyer96" class="wp-block-social-link-anchor"><svg width="24" height="24" viewbox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false"><path d="M12,2C6.477,2,2,6.477,2,12c0,4.419,2.865,8.166,6.839,9.489c0.5,0.09,0.682-0.218,0.682-0.484 c0-0.236-0.009-0.866-0.014-1.699c-2.782,0.602-3.369-1.34-3.369-1.34c-0.455-1.157-1.11-1.465-1.11-1.465 c-0.909-0.62,0.069-0.608,0.069-0.608c1.004,0.071,1.532,1.03,1.532,1.03c0.891,1.529,2.341,1.089,2.91,0.833 c0.091-0.647,0.349-1.086,0.635-1.337c-2.22-0.251-4.555-1.111-4.555-4.943c0-1.091,0.39-1.984,1.03-2.682 C6.546,8.54,6.202,7.524,6.746,6.148c0,0,0.84-0.269,2.75,1.025C10.295,6.95,11.15,6.84,12,6.836 c0.85,0.004,1.705,0.114,2.504,0.336c1.909-1.294,2.748-1.025,2.748-1.025c0.546,1.376,0.202,2.394,0.1,2.646 c0.64,0.699,1.026,1.591,1.026,2.682c0,3.841-2.337,4.687-4.565,4.935c0.359,0.307,0.679,0.917,0.679,1.852 c0,1.335-0.012,2.415-0.012,2.741c0,0.269,0.18,0.579,0.688,0.481C19.138,20.161,22,16.416,22,12C22,6.477,17.523,2,12,2z"></path></svg><span class="wp-block-social-link-label screen-reader-text">GitHub</span></a></li>
+</ul>
+</div>
+</div>
+
+<h2 class="wp-block-heading">Publications</h2>
+
+<!-- publications:start -->
+
+<article class="publication-card">
+  <div class="publication-image"><img src="../wp-content/uploads/2026/09/qstae98b1f1_lr-300x166.jpg" alt="" decoding="async" loading="lazy" width="300" height="166" class="attachment-medium size-medium" srcset="../wp-content/uploads/2026/09/qstae98b1f1_lr-300x166.jpg 300w, ../wp-content/uploads/2026/09/qstae98b1f1_lr.jpg 375w" sizes="(max-width: 300px) 100vw, 300px"></div>
+  <div class="publication-content">
+    <h3 class="publication-title"><a href="../publication/learning-encodings-by-maximizing-state-distinguishability-variational-quantum-error-correction/">Learning encodings by maximizing state distinguishability: Variational quantum error correction</a></h3>
+    <div class="publication-authors">Nico Meyer, Christopher Mutschler, Andreas Maier, Daniel D Scherer</div>
+    <div class="publication-meta"><span>Quantum Science and Technology</span><span>2026</span></div>
+    <div class="publication-description"><p>We propose a novel objective function for tailoring error correction codes to specific noise structures by maximizing the distinguishability between quantum states after a noise channel, ensuring efficient recovery operations. We formalize this concept with the distinguishability loss function, serving as a machine learning objective to discover resource-efficient encoding circuits optimized for given noise characteristics. We implement this methodology using variational techniques, termed variational quantum error correction. Our approach yields codes with desirable theoretical and practical properties and surpasses standard codes of comparable size under structured noise. We also provide proof-of-concept demonstrations on IBM and IQM hardware devices, highlighting the practical relevance of our procedure.</p></div>
+    <div class="publication-links">
+      <a class="publication-link" href="https://iopscience.iop.org/article/10.1088/2058-9565/ae98b1/meta" target="_blank" rel="noopener">Website</a>
+      <textarea class="publication-bibtex-source" hidden>@article{Meyer_2026,
+doi = {10.1088/2058-9565/ae98b1},
+url = {https://doi.org/10.1088/2058-9565/ae98b1},
+year = {2026},
+month = {sep},
+publisher = {IOP Publishing},
+volume = {11},
+number = {4},
+pages = {045036},
+author = {Meyer, Nico and Mutschler, Christopher and Maier, Andreas and Scherer, Daniel D},
+title = {Learning encodings by maximizing state distinguishability: variational quantum error correction},
+journal = {Quantum Science and Technology},
+abstract = {Quantum error correction is crucial for protecting quantum information against decoherence. Traditional codes like the surface code require substantial overhead, making them impractical for near-term, early fault-tolerant devices. We propose a novel objective function for tailoring error correction codes to specific noise structures by maximizing the distinguishability between quantum states after a noise channel, ensuring efficient recovery operations. We formalize this concept with the distinguishability loss function, serving as a machine learning objective to discover resource-efficient encoding circuits optimized for given noise characteristics. We implement this methodology using variational techniques, termed variational quantum error correction. Our approach yields codes with desirable theoretical and practical properties and surpasses standard codes of comparable size under structured noise. We also provide proof-of-concept demonstrations on IBM and IQM hardware devices, highlighting the practical relevance of our procedure.}
+}</textarea>
+      <button type="button" class="publication-link publication-bibtex-button">BibTeX</button>
+    </div>
+  </div>
+</article>
+<article class="publication-card">
+  <div class="publication-image"><img src="../wp-content/uploads/2026/10/Bildschirmfoto-2026-10-15-um-21.31.51-300x171.png" alt="" decoding="async" loading="lazy" width="300" height="171" class="attachment-medium size-medium" srcset="../wp-content/uploads/2026/10/Bildschirmfoto-2026-10-15-um-21.31.51-300x171.png 300w, ../wp-content/uploads/2026/10/Bildschirmfoto-2026-10-15-um-21.31.51.png 315w" sizes="(max-width: 300px) 100vw, 300px"></div>
+  <div class="publication-content">
+    <h3 class="publication-title"><a href="https://arxiv.org/pdf/2605.28162">Learning logical operations for arbitrary quantum error correction codes</a></h3>
+    <div class="publication-authors">Nico Meyer, Christopher Mutschler, Dominik Seuß, Andreas Maier, Daniel D Scherer</div>
+    <div class="publication-meta"><span>Physical Review A</span><span>2026</span></div>
+    <div class="publication-links">
+      <a class="publication-link" href="https://link.aps.org/doi/10.1103/qj2x-3l6n" target="_blank" rel="noopener">Website</a>
+      <textarea class="publication-bibtex-source" hidden>@article{qj2x-3l6n,
+  title = {Learning logical operations for arbitrary quantum error correction codes},
+  author = {Meyer, Nico and Mutschler, Christopher and Seu{\ss{}}, Dominik and Maier, Andreas and Scherer, Daniel D.},
+  journal = {Phys. Rev. A},
+  volume = {114},
+  issue = {3},
+  pages = {032424},
+  numpages = {22},
+  year = {2026},
+  month = {Sep},
+  publisher = {American Physical Society},
+  doi = {10.1103/qj2x-3l6n},
+  url = {https://link.aps.org/doi/10.1103/qj2x-3l6n}
+}</textarea>
+      <button type="button" class="publication-link publication-bibtex-button">BibTeX</button>
+    </div>
+  </div>
+</article>
+<article class="publication-card">
+  <div class="publication-image"><img src="../wp-content/uploads/2026/03/mlps-safe-mpo-300x201.webp" alt="" decoding="async" loading="lazy" width="300" height="201" class="attachment-medium size-medium" srcset="../wp-content/uploads/2026/03/mlps-safe-mpo-300x201.webp 300w, ../wp-content/uploads/2026/03/mlps-safe-mpo-300x201.webp 768w, ../wp-content/uploads/2026/03/mlps-safe-mpo-300x201.webp 800w" sizes="(max-width: 300px) 100vw, 300px"></div>
+  <div class="publication-content">
+    <h3 class="publication-title"><a href="../publication/benchmarking-quantum-reinforcement-learning/">Benchmarking Quantum Reinforcement Learning</a></h3>
+    <div class="publication-authors">Nico Meyer, Christian Ufrecht, George Yammine, Georgios Kontes, Christopher Mutschler, Daniel D Scherer</div>
+    <div class="publication-meta"><span>42nd International Conference on Machine Learning</span><span>2025</span></div>
+    <div class="publication-description"><p>To enable valid performance comparisons and to streamline current research in this area, we propose a novel benchmarking methodology, which is based on a statistical estimator for sample complexity and a definition of statistical outperformance. Furthermore, considering QRL, our methodology casts doubt on some previous claims regarding its superiority. We conducted experiments on a novel benchmarking environment with flexible levels of complexity. While we still identify possible advantages, our findings are more nuanced overall. We discuss the potential limitations of these results and explore their implications for empirical research on quantum advantage in QRL.</p></div>
+    <div class="publication-links">
+      <a class="publication-link" href="https://proceedings.mlr.press/v267/meyer25b.html" target="_blank" rel="noopener">Website</a>
+      <textarea class="publication-bibtex-source" hidden>@InProceedings{pmlr-v267-meyer25b,
+  title = 	 {Benchmarking Quantum Reinforcement Learning},
+  author =       {Meyer, Nico and Ufrecht, Christian and Yammine, George and Kontes, Georgios and Mutschler, Christopher and Scherer, Daniel},
+  booktitle = 	 {Proceedings of the 42nd International Conference on Machine Learning},
+  pages = 	 {43934--43964},
+  year = 	 {2025},
+  editor = 	 {Singh, Aarti and Fazel, Maryam and Hsu, Daniel and Lacoste-Julien, Simon and Berkenkamp, Felix and Maharaj, Tegan and Wagstaff, Kiri and Zhu, Jerry},
+  volume = 	 {267},
+  series = 	 {Proceedings of Machine Learning Research},
+  month = 	 {13--19 Jul},
+  publisher =    {PMLR},
+  pdf = 	 {https://raw.githubusercontent.com/mlresearch/v267/main/assets/meyer25b/meyer25b.pdf},
+  url = 	 {https://proceedings.mlr.press/v267/meyer25b.html},
+  abstract = 	 {Benchmarking and establishing proper statistical validation metrics for reinforcement learning (RL) remain ongoing challenges, where no consensus has been established yet. The emergence of quantum computing and its potential applications in quantum reinforcement learning (QRL) further complicate benchmarking efforts. To enable valid performance comparisons and to streamline current research in this area, we propose a novel benchmarking methodology, which is based on a statistical estimator for sample complexity and a definition of statistical outperformance. Furthermore, considering QRL, our methodology casts doubt on some previous claims regarding its superiority. We conducted experiments on a novel benchmarking environment with flexible levels of complexity. While we still identify possible advantages, our findings are more nuanced overall. We discuss the potential limitations of these results and explore their implications for empirical research on quantum advantage in QRL.}
+}</textarea>
+      <button type="button" class="publication-link publication-bibtex-button">BibTeX</button>
+      <a class="publication-link" href="https://github.com/nicomeyer96/qrl-benchmark" target="_blank" rel="noopener">Code</a>
+    </div>
+  </div>
+</article>
+<article class="publication-card">
+  <div class="publication-content">
+    <h3 class="publication-title"><a href="../publication/variational-quantum-error-correction/">Variational Quantum Error Correction</a></h3>
+    <div class="publication-authors">Nico Meyer, Christopher Mutschler, Andreas Maier, Daniel D Scherer</div>
+    <div class="publication-meta"><span>2025 IEEE International Conference on Quantum Computing and Engineering (QCE)</span><span>2025</span></div>
+    <div class="publication-description"><p>Quantum error correction is critical for protecting quantum computations from noise, yet standard protocols demand significant qubit overhead. To address this, we introduce a learning-based approach that allows tailoring encodings to specific noise channels. This approach is based on a novel loss function that maximizes the distinguishability of noisy quantum states. We thereby realize a variational quantum algorithm that discovers new resource-efficient codes, which empirically outperform standard quantum error correction schemes on various noise structures. We furthermore derive promising theoretical properties of these variational quantum error correction (VarQEC) codes and perform proof-of-concept experiments on quantum hardware.</p></div>
+    <div class="publication-links">
+      <a class="publication-link" href="https://ieeexplore.ieee.org/abstract/document/11249827" target="_blank" rel="noopener">Website</a>
+      <textarea class="publication-bibtex-source" hidden>@INPROCEEDINGS{11249827,
+  author={Meyer, Nico and Mutschler, Christopher and Maier, Andreas and Scherer, Daniel D.},
+  booktitle={2025 IEEE International Conference on Quantum Computing and Engineering (QCE)}, 
+  title={Variational Quantum Error Correction}, 
+  year={2025},
+  volume={02},
+  number={},
+  pages={456-457},
+  keywords={Quantum computing;Quantum algorithm;Protocols;Noise;Qubit;Quantum state;Error correction;Error correction codes;Noise measurement;Standards;quantum computing;quantum error correction;variational quantum algorithm;quantum machine learning},
+  doi={10.1109/QCE65121.2025.10393}}</textarea>
+      <button type="button" class="publication-link publication-bibtex-button">BibTeX</button>
+    </div>
+  </div>
+</article>
+<article class="publication-card">
+  <div class="publication-image"><img src="../wp-content/uploads/2026/09/10821183-fig-1-source-large-300x196.gif" alt="" decoding="async" loading="lazy" width="300" height="196" class="attachment-medium size-medium" srcset="../wp-content/uploads/2026/09/10821183-fig-1-source-large-300x196.gif 300w, ../wp-content/uploads/2026/09/10821183-fig-1-source-large-300x196.gif 768w, ../wp-content/uploads/2026/09/10821183-fig-1-source-large-300x196.gif 820w" sizes="(max-width: 300px) 100vw, 300px"></div>
+  <div class="publication-content">
+    <h3 class="publication-title"><a href="../publication/comprehensive-library-of-variational-lse-solvers/">Comprehensive Library of Variational LSE Solvers</a></h3>
+    <div class="publication-authors">Nico Meyer, Martin Röhn, Jakob Murauer, Axel Plinge, Christopher Mutschler, Daniel D Scherer</div>
+    <div class="publication-meta"><span>2024 IEEE International Conference on Quantum Computing and Engineering (QCE)</span><span>2024</span></div>
+    <div class="publication-description"><p>Linear systems of equations can be found in various mathematical domains, as well as in the field of machine learning. By employing noisy intermediate-scale quantum devices, variational solvers promise to accelerate finding solutions for large systems. Although there is a wealth of theoretical research on these algorithms, only fragmentary implementations exist. To fill this gap, we have developed the variational-lse-solver framework, which realizes existing approaches in literature, and introduces several enhancements. The user-friendly interface is designed for researchers that work at the abstraction level of identifying and developing end-to-end applications.</p></div>
+    <div class="publication-links">
+      <a class="publication-link" href="https://ieeexplore.ieee.org/abstract/document/10821183" target="_blank" rel="noopener">Website</a>
+      <textarea class="publication-bibtex-source" hidden>@INPROCEEDINGS{10821183,
+  author={Meyer, Nico and Röhn, Martin and Murauer, Jakob and Plinge, Axel and Mutschler, Christopher and Scherer, Daniel D.},
+  booktitle={2024 IEEE International Conference on Quantum Computing and Engineering (QCE)}, 
+  title={Comprehensive Library of Variational LSE Solvers}, 
+  year={2024},
+  volume={02},
+  number={},
+  pages={1-4},
+  keywords={Linear systems;Quantum computing;Machine learning algorithms;Software algorithms;Machine learning;Software;Libraries;Noise measurement;quantum computing;variational quantum algorithms;quantum machine learning;quantum software library;quantum linear algebra;linear system of equations},
+  doi={10.1109/QCE60285.2024.10242}}</textarea>
+      <button type="button" class="publication-link publication-bibtex-button">BibTeX</button>
+    </div>
+  </div>
+</article>
+<article class="publication-card">
+  <div class="publication-image"><img src="../wp-content/uploads/2026/09/10821318-fig-1-source-large-300x130.gif" alt="" decoding="async" loading="lazy" width="300" height="130" class="attachment-medium size-medium" srcset="../wp-content/uploads/2026/09/10821318-fig-1-source-large-300x130.gif 300w, ../wp-content/uploads/2026/09/10821318-fig-1-source-large-300x130.gif 768w, ../wp-content/uploads/2026/09/10821318-fig-1-source-large-300x130.gif 785w" sizes="(max-width: 300px) 100vw, 300px"></div>
+  <div class="publication-content">
+    <h3 class="publication-title"><a href="../publication/qiskit-torch-module-fast-prototyping-of-quantum-neural-networks/">Qiskit-torch-module: Fast prototyping of quantum neural networks</a></h3>
+    <div class="publication-authors">Nico Meyer, Christian Ufrecht, Maniraman Periyasamy, Axel Plinge, Christopher Mutschler, Daniel D Scherer, Andreas Maier</div>
+    <div class="publication-meta"><span>2024 IEEE International Conference on Quantum Computing and Engineering (QCE)</span><span>2024</span></div>
+    <div class="publication-description"><p>We develop the qiskit-torch-module, building on the widely used Qiskit software environment. It improves runtime performance by two orders of magnitude over comparable libraries, while facilitating low-overhead integration with existing code-bases. Moreover, the framework provides advanced tools for integrating quantum neural networks with PyTorch. The pipeline is tailored for single-machine compute systems, which constitute a widely employed setup in day-to-day research efforts.</p></div>
+    <div class="publication-links">
+      <a class="publication-link" href="https://ieeexplore.ieee.org/abstract/document/10821318" target="_blank" rel="noopener">Website</a>
+      <textarea class="publication-bibtex-source" hidden>@INPROCEEDINGS{10821318,
+  author={Meyer, Nico and Ufrecht, Christian and Periyasamy, Maniraman and Plinge, Axel and Mutschler, Christopher and Scherer, Daniel D. and Maier, Andreas},
+  booktitle={2024 IEEE International Conference on Quantum Computing and Engineering (QCE)}, 
+  title={Qiskit-Torch-Module: Fast Prototyping of Quantum Neural Networks}, 
+  year={2024},
+  volume={01},
+  number={},
+  pages={817-823},
+  keywords={Training;Quantum computing;Runtime;Quantum algorithm;Computer simulation;Neural networks;Pipelines;Focusing;Software;Libraries;quantum computing;variational quantum circuits;quantum machine learning;quantum simulation software},
+  doi={10.1109/QCE60285.2024.00101}}</textarea>
+      <button type="button" class="publication-link publication-bibtex-button">BibTeX</button>
+    </div>
+  </div>
+</article>
+<article class="publication-card">
+  <div class="publication-image"><img src="../wp-content/uploads/2026/09/Bildschirmfoto-2026-09-22-um-18.18.55-300x169.png" alt="" decoding="async" loading="lazy" width="300" height="169" class="attachment-medium size-medium" srcset="../wp-content/uploads/2026/09/Bildschirmfoto-2026-09-22-um-18.18.55-300x169.png 300w, ../wp-content/uploads/2026/09/Bildschirmfoto-2026-09-22-um-18.18.55-300x169.png 334w" sizes="(max-width: 300px) 100vw, 300px"></div>
+  <div class="publication-content">
+    <h3 class="publication-title"><a href="../publication/robustness-and-generalization-in-quantum-reinforcement-learning-via-lipschitz-regularization/">Robustness and generalization in quantum reinforcement learning via lipschitz regularization</a></h3>
+    <div class="publication-authors">Nico Meyer, Julian Berberich, Christopher Mutschler, Daniel D Scherer</div>
+    <div class="publication-meta"><span>arXiv</span><span>2024</span></div>
+    <div class="publication-description"><p>This paper addresses the robustness and generalization of quantum reinforcement learning by combining principles from quantum computing and control theory. Leveraging recent results on robust quantum machine learning, we utilize Lipschitz bounds to propose a regularized version of a quantum policy gradient approach, named the RegQPG algorithm. We show that training with RegQPG improves the robustness and generalization of the resulting policies. Furthermore, we introduce an algorithmic variant that incorporates curriculum learning, which minimizes failures during training. Our findings are validated through numerical experiments, demonstrating the practical benefits of our approach.</p></div>
+    <div class="publication-links">
+      <a class="publication-link" href="https://arxiv.org/abs/2410.21117" target="_blank" rel="noopener">Website</a>
+      <textarea class="publication-bibtex-source" hidden>@misc{meyer2024robustnessgeneralizationquantumreinforcement,
+      title={Robustness and Generalization in Quantum Reinforcement Learning via Lipschitz Regularization}, 
+      author={Nico Meyer and Julian Berberich and Christopher Mutschler and Daniel D. Scherer},
+      year={2024},
+      eprint={2410.21117},
+      archivePrefix={arXiv},
+      primaryClass={quant-ph},
+      url={https://arxiv.org/abs/2410.21117}, 
+}</textarea>
+      <button type="button" class="publication-link publication-bibtex-button">BibTeX</button>
+    </div>
+  </div>
+</article>
+<article class="publication-card">
+  <div class="publication-image"><img src="../wp-content/uploads/2026/09/2023_icml_PG.png" alt="" decoding="async" loading="lazy" width="300" height="212" class="attachment-medium size-medium" srcset="../wp-content/uploads/2026/09/2023_icml_PG.png 300w, ../wp-content/uploads/2026/09/2023_icml_PG.png 683w" sizes="(max-width: 300px) 100vw, 300px"></div>
+  <div class="publication-content">
+    <h3 class="publication-title"><a href="../publication/quantum-policy-gradient-algorithm-with-optimized-action-decoding/">Quantum Policy Gradient Algorithm with Optimized Action Decoding</a></h3>
+    <div class="publication-authors">Nico Meyer, Daniel Scherer, Axel Plinge, Christopher Mutschler, Michael Hartmann</div>
+    <div class="publication-meta"><span>40th International Conference on Machine Learning (ICML)</span><span>2023</span></div>
+    <div class="publication-description"><p>Quantum machine learning implemented by variational quantum circuits (VQCs) is considered a promising concept for the noisy intermediate-scale quantum computing era. Focusing on applications in quantum reinforcement learning, we propose an action decoding procedure for a quantum policy gradient approach. We introduce a quality measure that enables us to optimize the classical post-processing required for action selection, inspired by local and global quantum measurements. The resulting algorithm demonstrates a significant performance improvement in several benchmark environments.</p></div>
+    <div class="publication-links">
+      <a class="publication-link" href="https://proceedings.mlr.press/v202/meyer23a.html" target="_blank" rel="noopener">Website</a>
+      <textarea class="publication-bibtex-source" hidden>@InProceedings{pmlr-v202-meyer23a,
+  title = 	 {Quantum Policy Gradient Algorithm with Optimized Action Decoding},
+  author =       {Meyer, Nico and Scherer, Daniel and Plinge, Axel and Mutschler, Christopher and Hartmann, Michael},
+  booktitle = 	 {Proceedings of the 40th International Conference on Machine Learning},
+  pages = 	 {24592--24613},
+  year = 	 {2023},
+  editor = 	 {Krause, Andreas and Brunskill, Emma and Cho, Kyunghyun and Engelhardt, Barbara and Sabato, Sivan and Scarlett, Jonathan},
+  volume = 	 {202},
+  series = 	 {Proceedings of Machine Learning Research},
+  month = 	 {23--29 Jul},
+  publisher =    {PMLR},
+  pdf = 	 {https://proceedings.mlr.press/v202/meyer23a/meyer23a.pdf},
+  url = 	 {https://proceedings.mlr.press/v202/meyer23a.html},
+  abstract = 	 {Quantum machine learning implemented by variational quantum circuits (VQCs) is considered a promising concept for the noisy intermediate-scale quantum computing era. Focusing on applications in quantum reinforcement learning, we propose an action decoding procedure for a quantum policy gradient approach. We introduce a quality measure that enables us to optimize the classical post-processing required for action selection, inspired by local and global quantum measurements. The resulting algorithm demonstrates a significant performance improvement in several benchmark environments. With this technique, we successfully execute a full training routine on a 5-qubit hardware device. Our method introduces only negligible classical overhead and has the potential to improve VQC-based algorithms beyond the field of quantum reinforcement learning.}
+}</textarea>
+      <button type="button" class="publication-link publication-bibtex-button">BibTeX</button>
+    </div>
+  </div>
+</article>
+<article class="publication-card">
+  <div class="publication-image"><img src="../wp-content/uploads/2026/09/10313592-fig-2-source-large.gif" alt="" decoding="async" loading="lazy" width="300" height="235" class="attachment-medium size-medium" srcset="../wp-content/uploads/2026/09/10313592-fig-2-source-large.gif 300w, ../wp-content/uploads/2026/09/10313592-fig-2-source-large.gif 768w, ../wp-content/uploads/2026/09/10313592-fig-2-source-large.gif 816w" sizes="(max-width: 300px) 100vw, 300px"></div>
+  <div class="publication-content">
+    <h3 class="publication-title"><a href="../publication/an-empirical-comparison-of-optimizers-for-quantum-machine-learning-with-spsa-based-gradients/">An Empirical Comparison of Optimizers for Quantum Machine Learning with SPSA-based Gradients</a></h3>
+    <div class="publication-authors">Marco Wiedmann, Marc Hölle, Maniraman Periyasamy, Nico Meyer, Christian Ufrecht, Daniel D Scherer, Axel Plinge, Christopher Mutschler</div>
+    <div class="publication-meta"><span>2023 IEEE International Conference on Quantum Computing and Engineering (QCE)</span><span>2023</span></div>
+    <div class="publication-description"><p>We introduce a novel approach that uses the approximated gradient from SPSA in combination with state-of-the-art gradient-based classical optimizers. We demonstrate numerically that this out-performs both standard SPSA and the parameter-shift rule in terms of convergence rate and absolute error in simple regression tasks. The improvement of our novel approach over SPSA with stochastic gradient descent (SGD) is even amplified when shot- and hardware-noise are taken into account. We also demonstrate that error mitigation does not significantly affect our results.</p></div>
+    <div class="publication-links">
+      <a class="publication-link" href="https://ieeexplore.ieee.org/abstract/document/10313592" target="_blank" rel="noopener">Website</a>
+      <textarea class="publication-bibtex-source" hidden>@INPROCEEDINGS{10313592,
+  author={Wiedmann, Marco and Hölle, Marc and Periyasamy, Maniraman and Meyer, Nico and Ufrecht, Christian and Scherer, Daniel D. and Plinge, Axel and Mutschler, Christopher},
+  booktitle={2023 IEEE International Conference on Quantum Computing and Engineering (QCE)}, 
+  title={An Empirical Comparison of Optimizers for Quantum Machine Learning with SPSA-Based Gradients}, 
+  year={2023},
+  volume={01},
+  number={},
+  pages={450-456},
+  keywords={Training;Perturbation methods;Stochastic processes;Machine learning;Hardware;Quantum circuit;Task analysis;variational quantum computing;quantum error mitigation;SPSA;gradient free optimization;classical optimizers;quantum regression},
+  doi={10.1109/QCE57702.2023.00058}}</textarea>
+      <button type="button" class="publication-link publication-bibtex-button">BibTeX</button>
+    </div>
+  </div>
+</article>
+<article class="publication-card">
+  <div class="publication-image"><img src="../wp-content/uploads/2026/09/10313784-fig-1-source-large-300x184.gif" alt="" decoding="async" loading="lazy" width="300" height="184" class="attachment-medium size-medium" srcset="../wp-content/uploads/2026/09/10313784-fig-1-source-large-300x184.gif 300w, ../wp-content/uploads/2026/09/10313784-fig-1-source-large-300x184.gif 768w, ../wp-content/uploads/2026/09/10313784-fig-1-source-large-300x184.gif 820w" sizes="(max-width: 300px) 100vw, 300px"></div>
+  <div class="publication-content">
+    <h3 class="publication-title"><a href="../publication/quantum-natural-policy-gradients-towards-sample-efficient-reinforcement-learning/">Quantum Natural Policy Gradients: Towards Sample-Efficient Reinforcement Learning</a></h3>
+    <div class="publication-authors">Nico Meyer, Daniel D Scherer, Axel Plinge, Christopher Mutschler, Michael J Hartmann</div>
+    <div class="publication-meta"><span>2023 IEEE International Conference on Quantum Computing and Engineering (QCE)</span><span>2023</span></div>
+    <div class="publication-description"><p>We propose the quantum natural policy gradient (QNPG) algorithm - a second-order gradient-based routine that takes advantage of an efficient approximation of the quantum Fisher information matrix. We experimentally demonstrate that QNPG outperforms first-order based training on different Contextual Bandits environments regarding convergence speed and stability and moreover reduces the sample complexity. Furthermore, we provide evidence for the practical feasibility of our approach by training on a 12-qubit hardware device.</p></div>
+    <div class="publication-links">
+      <a class="publication-link" href="https://ieeexplore.ieee.org/abstract/document/10313784" target="_blank" rel="noopener">Website</a>
+      <textarea class="publication-bibtex-source" hidden>@INPROCEEDINGS{10313784,
+  author={Meyer, Nico and Scherer, Daniel D. and Plinge, Axel and Mutschler, Christopher and Hartmann, Michael J.},
+  booktitle={2023 IEEE International Conference on Quantum Computing and Engineering (QCE)}, 
+  title={Quantum Natural Policy Gradients: Towards Sample-Efficient Reinforcement Learning}, 
+  year={2023},
+  volume={02},
+  number={},
+  pages={36-41},
+  keywords={Training;Machine learning algorithms;Quantum mechanics;Reinforcement learning;Approximation algorithms;Hardware;Stability analysis;reinforcement learning;variational quantum computing;policy gradient;natural gradient;contextual bandits},
+  doi={10.1109/QCE57702.2023.10181}}</textarea>
+      <button type="button" class="publication-link publication-bibtex-button">BibTeX</button>
+    </div>
+  </div>
+</article>
+<article class="publication-card">
+  <div class="publication-image"><img src="../wp-content/uploads/2026/09/2022_qrl-1536x547.png" alt="" decoding="async" loading="lazy" width="300" height="107" class="attachment-medium size-medium" srcset="../wp-content/uploads/2026/09/2022_qrl-1536x547.png 1536w, ../wp-content/uploads/2026/09/2022_qrl-1536x547.png 300w, ../wp-content/uploads/2026/09/2022_qrl-1536x547.png 768w, ../wp-content/uploads/2026/09/2022_qrl-1536x547.png 1024w, ../wp-content/uploads/2026/09/2022_qrl.png 1880w" sizes="(max-width: 300px) 100vw, 300px"></div>
+  <div class="publication-content">
+    <h3 class="publication-title"><a href="../publication/3728/">A Survey on Quantum Reinforcement Learning</a></h3>
+    <div class="publication-authors">Nico Meyer, Christian Ufrecht, Maniraman Periyasamy, Daniel D Scherer, Axel Plinge, Christopher Mutschler</div>
+    <div class="publication-meta"><span>arXiv</span><span>2022</span></div>
+    <div class="publication-description"><p>We intend to provide a broad overview of the literature on quantum reinforcement learning and put particular emphasis on recent developments. With a focus on already available noisy intermediate-scale quantum devices, these include variational quantum circuits acting as function approximators in an otherwise classical reinforcement learning setting. We provide both a birds-eye-view of the field, as well as summaries and reviews for selected parts of the literature.</p></div>
+    <div class="publication-links">
+      <a class="publication-link" href="https://arxiv.org/abs/2211.03464" target="_blank" rel="noopener">Website</a>
+      <textarea class="publication-bibtex-source" hidden>@misc{meyer2024surveyquantumreinforcementlearning,
+      title={A Survey on Quantum Reinforcement Learning}, 
+      author={Nico Meyer and Christian Ufrecht and Maniraman Periyasamy and Daniel D. Scherer and Axel Plinge and Christopher Mutschler},
+      year={2024},
+      eprint={2211.03464},
+      archivePrefix={arXiv},
+      primaryClass={quant-ph},
+      url={https://arxiv.org/abs/2211.03464}, 
+}</textarea>
+      <button type="button" class="publication-link publication-bibtex-button">BibTeX</button>
+    </div>
+  </div>
+</article>
+<article class="publication-card">
+  <div class="publication-image"><img src="../wp-content/uploads/2026/09/periy1-p7-periy-large.gif" alt="" decoding="async" loading="lazy" width="300" height="118" class="attachment-medium size-medium" srcset="../wp-content/uploads/2026/09/periy1-p7-periy-large.gif 300w, ../wp-content/uploads/2026/09/periy1-p7-periy-large.gif 768w, ../wp-content/uploads/2026/09/periy1-p7-periy-large.gif 820w" sizes="(max-width: 300px) 100vw, 300px"></div>
+  <div class="publication-content">
+    <h3 class="publication-title"><a href="../publication/incremental-data-uploading-for-full-quantum-classification/">Incremental Data-Uploading for Full-Quantum Classification</a></h3>
+    <div class="publication-authors">Maniraman Periyasamy, Nico Meyer, Christian Ufrecht, Daniel D Scherer, Axel Plinge, Christopher Mutschler</div>
+    <div class="publication-meta"><span>IEEE International Conference on Quantum Computing and Engineering (QCE)</span><span>2022</span></div>
+    <div class="publication-description"><p>This work proposes ‘incremental data-uploading’, a novel encoding pattern for high dimensional data that tackles these challenges. We spread the encoding gates for the feature vector of a given data point throughout the quantum circuit with parameterized gates in between them. This encoding pattern results in a better representation of data in the quantum circuit with a minimal pre-processing requirement. We show the efficiency of our encoding pattern on a classification task using the MNIST and Fashion-MNIST datasets, and compare different encoding methods via classification accuracy and the effective dimension of the model.</p></div>
+    <div class="publication-links">
+      <a class="publication-link" href="https://ieeexplore.ieee.org/abstract/document/9951318" target="_blank" rel="noopener">Website</a>
+      <textarea class="publication-bibtex-source" hidden>@INPROCEEDINGS{9951318,
+  author={Periyasamy, Maniraman and Meyer, Nico and Ufrecht, Christian and Scherer, Daniel D. and Plinge, Axel and Mutschler, Christopher},
+  booktitle={2022 IEEE International Conference on Quantum Computing and Engineering (QCE)}, 
+  title={Incremental Data-Uploading for Full-Quantum Classification}, 
+  year={2022},
+  volume={},
+  number={},
+  pages={31-37},
+  keywords={Performance evaluation;Qubit;Machine learning;Logic gates;Encoding;Data models;Noise measurement;image classification;variational quantum computing;data uploading},
+  doi={10.1109/QCE53715.2022.00021}}</textarea>
+      <button type="button" class="publication-link publication-bibtex-button">BibTeX</button>
+    </div>
+  </div>
+</article>
+
+<!-- publications:end -->
+</div></article></main>
+</div>
+</div>
+</div>
+</div>
+<a href="#" id="si-scroll-top" class="si-smooth-scroll" title="Scroll to Top">
+	<span class="si-scroll-icon" aria-hidden="true">
+		<svg class="si-icon top-icon" xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewbox="0 0 32 32"><path d="M24.958 18.491l-8.008-8.008c-0.534-0.534-1.335-0.534-1.868 0l-8.008 8.008c-0.534 0.534-0.534 1.335 0 1.868s1.335 0.534 1.868 0l7.074-7.074 7.074 7.074c0.267 0.267 0.667 0.4 0.934 0.4s0.667-0.133 0.934-0.4c0.534-0.534 0.534-1.335 0-1.868z"></path></svg>		<svg class="si-icon" xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewbox="0 0 32 32"><path d="M24.958 18.491l-8.008-8.008c-0.534-0.534-1.335-0.534-1.868 0l-8.008 8.008c-0.534 0.534-0.534 1.335 0 1.868s1.335 0.534 1.868 0l7.074-7.074 7.074 7.074c0.267 0.267 0.667 0.4 0.934 0.4s0.667-0.133 0.934-0.4c0.534-0.534 0.534-1.335 0-1.868z"></path></svg>	</span>
+	<span class="screen-reader-text">Scroll to Top</span>
+</a>
+
+</body>
+</html>
+

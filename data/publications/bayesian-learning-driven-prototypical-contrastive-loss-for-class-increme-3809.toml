@@ -1,0 +1,35 @@
+title = "Bayesian Learning-driven Prototypical Contrastive Loss for Class-Incremental Learning"
+authors = ["Nisha L Raichur", "Lucas Heublein", "Tobias Feigl", "Alexander Rügamer", "Christopher Mutschler", "Felix Ott"]
+date = "2025-01-01"
+venue = "Transactions on Machine Learning Research (TMLR)"
+detail_url = "/publication/bayesian-learning-driven-prototypical-contrastive-loss-for-class-incremental-learning/"
+profiles = ["christopher-mutschler"]
+abstract = "This paper proposes a method to learn an effective representation between previous and newly encountered class prototypes. We propose a prototypical network with a Bayesian learning-driven contrastive loss (BLCL), tailored specifically for class-incremental learning scenarios. We introduce a contrastive loss that incorporates novel classes into the latent representation by reducing intra-class and increasing inter-class distance. Our approach dynamically adapts the balance between the cross-entropy and contrastive loss functions with a Bayesian learning technique."
+bibtex = '''
+@article{
+raichur2025bayesian,
+title={Bayesian Learning-driven Prototypical Contrastive Loss for Class-Incremental Learning},
+author={Nisha L. Raichur and Lucas Heublein and Tobias Feigl and Alexander R{\"u}gamer and Christopher Mutschler and Felix Ott},
+journal={Transactions on Machine Learning Research},
+issn={2835-8856},
+year={2025},
+url={https://openreview.net/forum?id=dNWaTuKV9M},
+note={}
+}'''
+
+[links]
+Website = "https://openreview.net/forum?id=dNWaTuKV9M"
+
+[image]
+src = "/wp-content/uploads/2026/09/2025_TMLR-300x105.png"
+alt = ""
+width = 300
+height = 105
+sizes = "(max-width: 300px) 100vw, 300px"
+class = "attachment-medium size-medium"
+
+[image.sources]
+300w = "/wp-content/uploads/2026/09/2025_TMLR-300x105.png"
+768w = "/wp-content/uploads/2026/09/2025_TMLR-768x269.png"
+1024w = "/wp-content/uploads/2026/09/2025_TMLR-1024x359.png"
+1351w = "/wp-content/uploads/2026/09/2025_TMLR.png"

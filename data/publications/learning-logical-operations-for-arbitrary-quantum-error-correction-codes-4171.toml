@@ -1,0 +1,38 @@
+title = "Learning logical operations for arbitrary quantum error correction codes"
+authors = ["Nico Meyer", "Christopher Mutschler", "Dominik Seuß", "Andreas Maier", "Daniel D Scherer"]
+date = "2026-01-01"
+venue = "Physical Review A"
+detail_url = "/publication/learning-logical-operations-for-arbitrary-quantum-error-correction-codes/"
+profiles = ["christopher-mutschler", "nico-meyer"]
+pdf_url = "https://arxiv.org/pdf/2605.28162"
+doi = "https://doi.org/10.1103/qj2x-3l6n"
+bibtex = '''
+@article{qj2x-3l6n,
+  title = {Learning logical operations for arbitrary quantum error correction codes},
+  author = {Meyer, Nico and Mutschler, Christopher and Seu{\ss{}}, Dominik and Maier, Andreas and Scherer, Daniel D.},
+  journal = {Phys. Rev. A},
+  volume = {114},
+  issue = {3},
+  pages = {032424},
+  numpages = {22},
+  year = {2026},
+  month = {Sep},
+  publisher = {American Physical Society},
+  doi = {10.1103/qj2x-3l6n},
+  url = {https://link.aps.org/doi/10.1103/qj2x-3l6n}
+}'''
+
+[links]
+Website = "https://link.aps.org/doi/10.1103/qj2x-3l6n"
+
+[image]
+src = "/wp-content/uploads/2026/10/Bildschirmfoto-2026-10-15-um-21.31.51-300x171.png"
+alt = ""
+width = 300
+height = 171
+sizes = "(max-width: 300px) 100vw, 300px"
+class = "attachment-medium size-medium"
+
+[image.sources]
+300w = "/wp-content/uploads/2026/10/Bildschirmfoto-2026-10-15-um-21.31.51-300x171.png"
+315w = "/wp-content/uploads/2026/10/Bildschirmfoto-2026-10-15-um-21.31.51.png"

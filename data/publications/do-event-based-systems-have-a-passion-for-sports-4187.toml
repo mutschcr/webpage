@@ -1,0 +1,41 @@
+title = "Do Event-based Systems have a Passion for Sports?"
+authors = ["Christopher Mutschler", "Nicolas Witt", "Michael Philippsen"]
+date = "2013-01-01"
+venue = "7th ACM International Conference on Distributed Event-Based Systems"
+detail_url = "/publication/do-event-based-systems-have-a-passion-for-sports/"
+profiles = ["christopher-mutschler"]
+pdf_url = "https://dl.acm.org/doi/pdf/10.1145/2488222.2488349"
+doi = "https://doi.org/10.1145/2488222.2488349"
+bibtex = '''
+@inproceedings{10.1145/2488222.2488349,
+author = {Mutschler, Christopher and Witt, Nicolas and Philippsen, Michael},
+title = {Demo: do event-based systems have a passion for sports?},
+year = {2013},
+isbn = {9781450317580},
+publisher = {Association for Computing Machinery},
+address = {New York, NY, USA},
+url = {https://doi.org/10.1145/2488222.2488349},
+doi = {10.1145/2488222.2488349},
+abstract = {The ubiquity of sensor data calls for automatic processing to extract valuable information. Realtime Locating Systems (RTLS) provide many parallel position data streams for interacting objects, and event-based systems are the method of choice to analyze them. We demonstrate a distributed event processing system for position stream data from a Realtime Locating System used for a soccer application. Our system can deal with the insufficient knowledge on object and system behavior, and thus the event data loads at runtime. To do so, it dynamically adapts to the variations in the observed environment: events are ordered with respect to their delays, event detectors are reconfigured and migrated between nodes at runtime, and the system is scalable as the number of trackable objects and sensors changes. We demonstrate the efficiency of our system architecture and provide tools to visualize data and to configure detection units at runtime.},
+booktitle = {Proceedings of the 7th ACM International Conference on Distributed Event-Based Systems},
+pages = {331–332},
+numpages = {2},
+keywords = {sensor streams, self-management, publish/subscribe, message-oriented middleware, distributed event processing},
+location = {Arlington, Texas, USA},
+series = {DEBS '13}
+}'''
+
+[links]
+Website = "https://dl.acm.org/doi/abs/10.1145/2488222.2488349"
+
+[image]
+src = "/wp-content/uploads/2026/10/Bildschirmfoto-2026-10-15-um-21.47.19-300x164.png"
+alt = ""
+width = 300
+height = 164
+sizes = "(max-width: 300px) 100vw, 300px"
+class = "attachment-medium size-medium"
+
+[image.sources]
+300w = "/wp-content/uploads/2026/10/Bildschirmfoto-2026-10-15-um-21.47.19-300x164.png"
+355w = "/wp-content/uploads/2026/10/Bildschirmfoto-2026-10-15-um-21.47.19.png"

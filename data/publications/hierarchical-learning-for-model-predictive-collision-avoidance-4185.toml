@@ -1,0 +1,39 @@
+title = "Hierarchical Learning for Model Predictive Collision Avoidance"
+authors = ["Daniel Landgraf", "Andreas Völz", "Georgios Kontes", "Christopher Mutschler", "Knut Graichen"]
+date = "2022-01-01"
+venue = "10th Vienna International Conference on Mathematical Modelling (IFAC-PapersOnLine)"
+detail_url = "/publication/hierarchical-learning-for-model-predictive-collision-avoidance/"
+profiles = ["christopher-mutschler"]
+pdf_url = "https://pdf.sciencedirectassets.com/313346/1-s2.0-S2405896322X00189/1-s2.0-S2405896322013155/main.pdf?X-Amz-Security-Token=IQoJb3JpZ2luX2VjEAwaCXVzLWVhc3QtMSJHMEUCIQCucFbp0ZK3zMenQIr0r3jmYvFpptGIKvCSQCt2%2FoBGGQIgGTPPGENzkJbxrAbtoggP3p%2BZVDHB06moSgP5Xvc"
+doi = "https://doi.org/10.1016/j.ifacol.2022.09.121"
+bibtex = '''
+@article{LANDGRAF2022355,
+title = {Hierarchical Learning for Model Predictive Collision Avoidance},
+journal = {IFAC-PapersOnLine},
+volume = {55},
+number = {20},
+pages = {355-360},
+year = {2022},
+note = {10th Vienna International Conference on Mathematical Modelling MATHMOD 2022},
+issn = {2405-8963},
+doi = {https://doi.org/10.1016/j.ifacol.2022.09.121},
+url = {https://www.sciencedirect.com/science/article/pii/S2405896322013155},
+author = {Daniel Landgraf and Andreas Völz and Georgios Kontes and Christopher Mutschler and Knut Graichen},
+keywords = {Predictive control, optimal control, learning control, Markov decision processes},
+abstract = {Recent progress in model predictive control (MPC) has shown great potential to control complex nonlinear systems in real-time. However, if parts of the controlled system cannot be modeled exactly by differential equations, the performance of MPC can decrease significantly. This paper approaches this problem by combining MPC with deep reinforcement learning (DRL) to a hierarchical control system, which is applied to control the motion of an autonomous vehicle. While the DRL algorithm is responsible for the decision-making with regard to obstacles on the street, the model predictive controller deals with the nonlinear dynamics of the vehicle. To this end, the vehicle dynamics are modeled by differential equations and the decision-making problem is modeled as a Markov decision process (MDP). The decisions are considered in the optimization problem of the controller, whose cost function, in turn, is considered in the reward function of the MDP. The performance of the hierarchical vehicle control is evaluated in scenarios with static and moving obstacles. Furthermore, it is examined whether adding information about the predicted trajectory to the state space of the MDP can increase the convergence speed.}
+}'''
+
+[links]
+Website = "https://www.sciencedirect.com/science/article/pii/S2405896322013155"
+
+[image]
+src = "/wp-content/uploads/2026/10/Bildschirmfoto-2026-10-15-um-21.45.19-300x134.png"
+alt = ""
+width = 300
+height = 134
+sizes = "(max-width: 300px) 100vw, 300px"
+class = "attachment-medium size-medium"
+
+[image.sources]
+300w = "/wp-content/uploads/2026/10/Bildschirmfoto-2026-10-15-um-21.45.19-300x134.png"
+744w = "/wp-content/uploads/2026/10/Bildschirmfoto-2026-10-15-um-21.45.19.png"

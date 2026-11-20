@@ -1,0 +1,34 @@
+title = "A Bidirectional LSTM for Estimating Dynamic Human Velocities from a Single IMU"
+authors = ["Tobias Feigl", "Sebastian Kram", "Philipp Woller", "Ramiz H Siddiqui", "Michael Philippsen", "Christopher Mutschler"]
+date = "2019-01-01"
+venue = "10th International Conference on Indoor Positioning and Indoor Navigation (IPIN)"
+detail_url = "/publication/a-bidirectional-lstm-for-estimating-dynamic-human-velocities-from-a-single-imu/"
+profiles = ["christopher-mutschler"]
+doi = "https://doi.org/10.1109/IPIN.2019.8911814"
+abstract = "We ML/DL to estimate a human velocity. Our approach is robust to varying motion states and orientation changes in dynamic situations. On data from a single un-calibrated IMU, our novel recurrent model not only outperforms the state-of-the-art on instantaneous velocity (≤0.10 m/s) and on traveled distance (≤29 m/km). It can also generalize to different and varying rates of motion and provides accurate and precise velocity estimates."
+bibtex = '''
+@INPROCEEDINGS{8911814,
+  author={Feigl, Tobias and Kram, Sebastian and Woller, Philipp and Siddiqui, Ramiz H. and Philippsen, Michael and Mutschler, Christopher},
+  booktitle={2019 International Conference on Indoor Positioning and Indoor Navigation (IPIN)}, 
+  title={A Bidirectional LSTM for Estimating Dynamic Human Velocities from a Single IMU}, 
+  year={2019},
+  volume={},
+  number={},
+  pages={1-8},
+  keywords={Microsoft Windows;Estimation;Acceleration;Legged locomotion;Feature extraction;Pipelines;Foot},
+  doi={10.1109/IPIN.2019.8911814}}'''
+
+[links]
+Website = "https://ieeexplore.ieee.org/abstract/document/8911814"
+
+[image]
+src = "/wp-content/uploads/2020/04/4-Figure2-1-e1586681735631-233x300.png"
+alt = ""
+width = 233
+height = 300
+sizes = "(max-width: 233px) 100vw, 233px"
+class = "attachment-medium size-medium"
+
+[image.sources]
+233w = "/wp-content/uploads/2020/04/4-Figure2-1-e1586681735631-233x300.png"
+696w = "/wp-content/uploads/2020/04/4-Figure2-1-e1586681735631.png"

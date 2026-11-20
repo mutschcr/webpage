@@ -1,0 +1,35 @@
+title = "Super-Resolution in RSS-based Direction-of-Arrival Estimation"
+authors = ["Thorsten Nowak", "Markus Hartmann", "Jörn Thielecke", "Niels Hadaschik", "Christopher Mutschler"]
+date = "2018-01-01"
+venue = "9th International Conference on Indoor Positioning and Indoor Navigation (IPIN)"
+detail_url = "/publication/super-resolution-in-rss-based-direction-of-arrival-estimation/"
+profiles = ["christopher-mutschler"]
+doi = "https://doi.org/10.1109/IPIN.2018.8533684"
+abstract = "In this paper, a subspace-based approach to frequency-domain multipath resolution is presented. Resolution of multipath components allows for a RSS-based DOA estimation considering the power of the line of sight (LOS) component only. The impact of the multipath channel is considerably reduced with our approach. In contrast to common broadband DOA estimation techniques, the presented approach does not need phase-coherent receive channels or a synchronized sensor network. Hence, the proposed super-resolution technique is applicable to low-power sensor networks and brings accurate positioning to small-sized and energy-efficient sensor nodes."
+bibtex = '''
+@INPROCEEDINGS{8533684,
+  author={Nowak, Thorsten and Hartmann, Markus and Thielecke, Jörn and Hadaschik, Niels and Mutschler, Christopher},
+  booktitle={2018 International Conference on Indoor Positioning and Indoor Navigation (IPIN)}, 
+  title={Super-Resolution in RSS-Based Direction-of-Arrival Estimation}, 
+  year={2018},
+  volume={},
+  number={},
+  pages={1-8},
+  keywords={Direction-of-arrival estimation;Estimation;Signal resolution;Antenna arrays;Wireless sensor networks;Delays;Eigenvalues and eigenfunctions},
+  doi={10.1109/IPIN.2018.8533684}}'''
+
+[links]
+Website = "https://ieeexplore.ieee.org/abstract/document/8533684"
+
+[image]
+src = "/wp-content/uploads/2026/09/300-212809-fig-1-source-large-300x181.gif"
+alt = ""
+width = 300
+height = 181
+sizes = "(max-width: 300px) 100vw, 300px"
+class = "attachment-medium size-medium"
+
+[image.sources]
+300w = "/wp-content/uploads/2026/09/300-212809-fig-1-source-large-300x181.gif"
+768w = "/wp-content/uploads/2026/09/300-212809-fig-1-source-large-768x465.gif"
+820w = "/wp-content/uploads/2026/09/300-212809-fig-1-source-large.gif"

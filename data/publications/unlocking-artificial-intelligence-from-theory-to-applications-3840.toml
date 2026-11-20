@@ -1,0 +1,33 @@
+title = "Unlocking Artificial Intelligence: From Theory to Applications"
+authors = ["Christopher Mutschler", "Alexander Martin", "Christian Münzenmayer", "Norman Uhlmann"]
+date = "2024-01-01"
+venue = "Springer Nature"
+detail_url = "/publication/unlocking-artificial-intelligence-from-theory-to-applications/"
+profiles = ["christopher-mutschler"]
+abstract = "This open access book provides a state-of-the-art overview of current machine learning research and its exploitation in various application areas. It has become apparent that the deep integration of artificial intelligence (AI) methods in products and services is essential for companies to stay competitive. The use of AI allows large volumes of data to be analyzed, patterns and trends to be identified, and well-founded decisions to be made on an informative basis. It also enables the optimization of workflows, the automation of processes and the development of new services, thus creating potential for new business models and significant competitive advantages."
+bibtex = '''
+@book{Mutschler2024UnlockingAI,
+  title     = {Unlocking Artificial Intelligence: From Theory to Applications},
+  editor    = {Christopher Mutschler and Christian M{\"u}nzenmayer and Norman Uhlmann and Alexander Martin},
+  publisher = {Springer Nature},
+  year      = {2024},
+  doi       = {10.1007/978-3-031-64832-8},
+  isbn      = {978-3-031-64832-8}
+}'''
+
+[links]
+Website = "https://link.springer.com/book/10.1007/978-3-031-64832-8"
+
+[image]
+src = "/wp-content/uploads/2026/09/978-3-031-64832-8-199x300.webp"
+alt = ""
+width = 199
+height = 300
+sizes = "(max-width: 199px) 100vw, 199px"
+class = "attachment-medium size-medium"
+
+[image.sources]
+199w = "/wp-content/uploads/2026/09/978-3-031-64832-8-199x300.webp"
+768w = "/wp-content/uploads/2026/09/978-3-031-64832-8-768x1157.webp"
+680w = "/wp-content/uploads/2026/09/978-3-031-64832-8-680x1024.webp"
+827w = "/wp-content/uploads/2026/09/978-3-031-64832-8.webp"

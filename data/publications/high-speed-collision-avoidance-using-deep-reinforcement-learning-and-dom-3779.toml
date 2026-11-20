@@ -1,0 +1,40 @@
+title = "High-Speed Collision Avoidance using Deep Reinforcement Learning and Domain Randomization for Autonomous Vehicles"
+authors = ["Georgios D Kontes", "Daniel D Scherer", "Tim Nisslbeck", "Janina Fischer", "Christopher Mutschler"]
+date = "2020-01-01"
+venue = "2020 IEEE 23rd International Conference on Intelligent Transportation Systems (ITSC)"
+detail_url = "/publication/high-speed-collision-avoidance-using-deep-reinforcement-learning-and-domain-randomization-for-autonomous-vehicles/"
+profiles = ["christopher-mutschler"]
+doi = "https://doi.org/10.1109/ITSC45102.2020.9294396"
+abstract = '''
+We use domain randomization to study simulation-to-reality transfer for a high-speed collision avoidance scenario. We train the policy not only on a single version of the setup but on several variations. Our experiments show that the resulting policy is able to generalize much better to different values for the vehicle speed and distance from the obstacle compared to policies trained in the non-randomized version of the setup.
+
+Video: https://download.cmutschler.de/publications/2020/ITSC/0703_VP.mp4
+Slides: https://download.cmutschler.de/publications/2020/ITSC/0703_PS.pdf'''
+bibtex = '''
+@INPROCEEDINGS{9294396,
+  author={Kontes, Georgios D. and Scherer, Daniel D. and Nisslbeck, Tim and Fischer, Janina and Mutschler, Christopher},
+  booktitle={2020 IEEE 23rd International Conference on Intelligent Transportation Systems (ITSC)}, 
+  title={High-Speed Collision Avoidance using Deep Reinforcement Learning and Domain Randomization for Autonomous Vehicles}, 
+  year={2020},
+  volume={},
+  number={},
+  pages={1-8},
+  keywords={Training;Autonomous vehicles;Reinforcement learning;Neural networks;Task analysis;Collision avoidance;Feature extraction},
+  doi={10.1109/ITSC45102.2020.9294396}}'''
+
+[links]
+Website = "https://ieeexplore.ieee.org/abstract/document/9294396"
+
+[image]
+src = "/wp-content/uploads/2020/06/Bildschirmfoto-2020-06-13-um-08.29.18-300x141.png"
+alt = ""
+width = 300
+height = 141
+sizes = "(max-width: 300px) 100vw, 300px"
+class = "attachment-medium size-medium"
+
+[image.sources]
+300w = "/wp-content/uploads/2020/06/Bildschirmfoto-2020-06-13-um-08.29.18-300x141.png"
+1024w = "/wp-content/uploads/2020/06/Bildschirmfoto-2020-06-13-um-08.29.18-1024x482.png"
+768w = "/wp-content/uploads/2020/06/Bildschirmfoto-2020-06-13-um-08.29.18-768x362.png"
+1051w = "/wp-content/uploads/2020/06/Bildschirmfoto-2020-06-13-um-08.29.18.png"

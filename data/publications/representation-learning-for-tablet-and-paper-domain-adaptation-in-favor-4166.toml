@@ -1,0 +1,28 @@
+title = "Representation Learning for Tablet and Paper Domain Adaptation in Favor of Online Handwriting Recognition"
+authors = ["Felix Ott", "David Rügamer", "Lucas Heublein", "Bernd Bischl", "Christopher Mutschler"]
+date = "2022-01-01"
+venue = "International Conference on Pattern Recognition (ICPR)"
+detail_url = "/publication/representation-learning-for-tablet-and-paper-domain-adaptation-in-favor-of-online-handwriting-recognition/"
+profiles = ["christopher-mutschler"]
+doi = "https://doi.org/10.1007/978-3-031-37660-3_26"
+bibtex = '''
+@InProceedings{10.1007/978-3-031-37660-3_26,
+author="Ott, Felix
+and R{\"u}gamer, David
+and Heublein, Lucas
+and Bischl, Bernd
+and Mutschler, Christopher",
+editor="Rousseau, Jean-Jacques
+and Kapralos, Bill",
+title="Representation Learning for Tablet and Paper Domain Adaptation in Favor of Online Handwriting Recognition",
+booktitle="Pattern Recognition, Computer Vision, and Image Processing. ICPR 2022 International Workshops and Challenges",
+year="2023",
+publisher="Springer Nature Switzerland",
+address="Cham",
+pages="373--383",
+abstract="The performance of a machine learning model degrades when it is applied to data from a similar but different domain than the data it has initially been trained on. The goal of domain adaptation (DA) is to mitigate this domain shift problem by searching for an optimal feature transformation to learn a domain-invariant representation. Such a domain shift can appear in handwriting recognition (HWR) applications where the motion pattern of the hand and with that the motion pattern of the pen is different for writing on paper and on tablet. This becomes visible in the sensor data for online handwriting (OnHW) from pens with integrated inertial measurement units. This paper proposes a supervised DA approach to enhance learning for OnHW recognition between tablet and paper data. Our method exploits loss functions such as maximum mean discrepancy and correlation alignment to learn a domain-invariant feature representation (i.e., similar covariances between tablet and paper features). We use a triplet loss that takes negative samples of the auxiliary domain (i.e., paper samples) to increase the amount of samples of the tablet dataset. We conduct an evaluation on novel sequence-based OnHW datasets (i.e., words) and show an improvement on the paper domain with an early fusion strategy by using pairwise learning.",
+isbn="978-3-031-37660-3"
+}'''
+
+[links]
+Website = "https://scholar.google.de/citations?hl=de&user=gKDSp8YAAAAJ&view_op=list_works"

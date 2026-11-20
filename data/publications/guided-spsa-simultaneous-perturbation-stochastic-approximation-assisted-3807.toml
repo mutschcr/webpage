@@ -1,0 +1,35 @@
+title = "Guided-SPSA: Simultaneous Perturbation Stochastic Approximation assisted by the Parameter Shift Rule"
+authors = ["Maniraman Periyasamy", "Axel Plinge", "Christopher Mutschler", "Daniel D Scherer", "Wolfgang Mauerer"]
+date = "2024-01-01"
+venue = "2024 IEEE International Conference on Quantum Computing and Engineering (QCE)"
+detail_url = "/publication/guided-spsa-simultaneous-perturbation-stochastic-approximation-assisted-by-the-parameter-shift-rule/"
+profiles = ["christopher-mutschler"]
+doi = "https://doi.org/10.1109/QCE60285.2024.00177"
+abstract = "We introduce a novel gradient estimation approach called Guided-SPSA, which meaningfully combines the parameter-shift rule and SPSA-based gradient approximation. We demonstrate numerically the performance of Guided-SPSA on different paradigms of quantum machine learning, such as regression, classification, and reinforcement learning."
+bibtex = '''
+@INPROCEEDINGS{10821406,
+  author={Periyasamy, Maniraman and Plinge, Axel and Mutschler, Christopher and Scherer, Daniel D. and Mauerer, Wolfgang},
+  booktitle={2024 IEEE International Conference on Quantum Computing and Engineering (QCE)}, 
+  title={Guided-SPSA: Simultaneous Perturbation Stochastic Approximation Assisted by the Parameter Shift Rule}, 
+  year={2024},
+  volume={01},
+  number={},
+  pages={1504-1515},
+  keywords={Training;Perturbation methods;Estimation;Stochastic processes;Reinforcement learning;Approximation algorithms;Classification algorithms;Noise measurement;Standards;Convergence;gradient estimation;SPSA;parameter-shift rule;variational quantum algorithms;quantum regression;quantum classification;quantum reinforcement learning},
+  doi={10.1109/QCE60285.2024.00177}}'''
+
+[links]
+Website = "https://ieeexplore.ieee.org/abstract/document/10821406"
+
+[image]
+src = "/wp-content/uploads/2026/09/10821406-fig-4-source-large-300x180.gif"
+alt = ""
+width = 300
+height = 180
+sizes = "(max-width: 300px) 100vw, 300px"
+class = "attachment-medium size-medium"
+
+[image.sources]
+300w = "/wp-content/uploads/2026/09/10821406-fig-4-source-large-300x180.gif"
+768w = "/wp-content/uploads/2026/09/10821406-fig-4-source-large-768x460.gif"
+820w = "/wp-content/uploads/2026/09/10821406-fig-4-source-large.gif"

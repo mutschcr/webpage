@@ -1,0 +1,34 @@
+title = "Deep Reinforcement Learning for Motion Planning of Mobile Robots"
+authors = ["Leonid Butyrev", "Thorsten Edelhäußer", "Christopher Mutschler"]
+date = "2019-01-01"
+venue = "arXiv"
+detail_url = "/publication/deep-reinforcement-learning-for-motion-planning-of-mobile-robots/"
+profiles = ["christopher-mutschler"]
+abstract = "We present a novel motion and trajectory planning algorithm for nonholonomic mobile robots that uses recent advances in deep reinforcement learning. Starting from a random initial state, i.e., position, velocity and orientation, the robot reaches an arbitrary target state while taking both kinematic and dynamic constraints into account. Our deep reinforcement learning agent not only processes a continuous state space it also executes continuous actions, i.e., the acceleration of wheels and the adaptation of the steering angle. We evaluate our motion and trajectory planning on a mobile robot with a differential drive in a simulation environment."
+bibtex = '''
+@misc{butyrev2019deepreinforcementlearningmotion,
+      title={Deep Reinforcement Learning for Motion Planning of Mobile Robots}, 
+      author={Leonid Butyrev and Thorsten Edelhäußer and Christopher Mutschler},
+      year={2019},
+      eprint={1912.09260},
+      archivePrefix={arXiv},
+      primaryClass={cs.RO},
+      url={https://arxiv.org/abs/1912.09260}, 
+}'''
+
+[links]
+Website = "https://arxiv.org/abs/1912.09260"
+
+[image]
+src = "/wp-content/uploads/2020/04/StateTransformation-300x225.png"
+alt = ""
+width = 300
+height = 225
+sizes = "(max-width: 300px) 100vw, 300px"
+class = "attachment-medium size-medium"
+
+[image.sources]
+300w = "/wp-content/uploads/2020/04/StateTransformation-300x225.png"
+1024w = "/wp-content/uploads/2020/04/StateTransformation-1024x767.png"
+768w = "/wp-content/uploads/2020/04/StateTransformation-768x576.png"
+1181w = "/wp-content/uploads/2020/04/StateTransformation.png"

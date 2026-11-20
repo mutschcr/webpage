@@ -1,0 +1,32 @@
+title = "Optimizing quantum circuits via zx diagrams using reinforcement learning and graph neural networks"
+authors = ["Alexander Mattick", "Maniraman Periyasamy", "Christian Ufrecht", "Abhishek Y Dubey", "Christopher Mutschler", "Axel Plinge", "Daniel D Scherer"]
+date = "2025-09-20"
+venue = "arXiv"
+detail_url = "/publication/optimizing-quantum-circuits-via-zx-diagrams-using-reinforcement-learning-and-graph-neural-networks/"
+profiles = ["christopher-mutschler", "alexander-mattick"]
+abstract = "We introduce a framework based on ZX calculus, graph-neural networks and reinforcement learning for quantum circuit optimization. By combining reinforcement learning and tree search, our method addresses the challenge of selecting optimal sequences of ZX calculus rewrite rules. Instead of relying on existing heuristic rules for minimizing circuits, our method trains a novel reinforcement learning policy that directly operates on ZX-graphs, therefore allowing us to search through the space of all possible circuit transformations to find a circuit significantly minimizing the number of CNOT gates. This way we can scale beyond hard-coded rules towards discovering arbitrary optimization rules. We demonstrate our method's competetiveness with state-of-the-art circuit optimizers and generalization capabilities on large sets of diverse random circuits."
+bibtex = '''
+@misc{mattick2025optimizingquantumcircuitszx,
+      title={Optimizing Quantum Circuits via ZX Diagrams using Reinforcement Learning and Graph Neural Networks}, 
+      author={Alexander Mattick and Maniraman Periyasamy and Christian Ufrecht and Abhishek Y. Dubey and Christopher Mutschler and Axel Plinge and Daniel D. Scherer},
+      year={2025},
+      eprint={2504.03429},
+      archivePrefix={arXiv},
+      primaryClass={cs.LG},
+      url={https://arxiv.org/abs/2504.03429}, 
+}'''
+
+[links]
+Website = "https://arxiv.org/abs/2504.03429"
+
+[image]
+src = "/wp-content/uploads/2026/09/Bildschirmfoto-2026-09-20-um-22.04.25-300x218.png"
+alt = ""
+width = 300
+height = 218
+sizes = "(max-width: 300px) 100vw, 300px"
+class = "attachment-medium size-medium"
+
+[image.sources]
+300w = "/wp-content/uploads/2026/09/Bildschirmfoto-2026-09-20-um-22.04.25-300x218.png"
+320w = "/wp-content/uploads/2026/09/Bildschirmfoto-2026-09-20-um-22.04.25.png"

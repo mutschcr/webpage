@@ -1,0 +1,37 @@
+title = "Federated learning with MMD-based early stopping for adaptive GNSS interference classification"
+authors = ["Nishant S Gaikwad", "Lucas Heublein", "Nisha L Raichur", "Tobias Feigl", "Christopher Mutschler", "Felix Ott"]
+date = "2025-01-01"
+venue = "NOMS 2025-2025 IEEE Network Operations and Management Symposium"
+detail_url = "/publication/federated-learning-with-mmd-based-early-stopping-for-adaptive-gnss-interference-classification/"
+profiles = ["christopher-mutschler"]
+doi = "https://doi.org/10.1109/NOMS57970.2025.11073735"
+abstract = '''
+We propose an FL approach using few-shot learning and aggregation of the model weights on a global server. We introduce a dynamic early stopping method to balance out-of-distribution classes based on representation learning, specifically utilizing the maximum mean discrepancy of feature embeddings between local and global models. An exemplary application of FL is to orchestrate machine learning models along highways for interference classification based on snapshots from global navigation satellite system (GNSS) receivers. 
+
+Dataset/Code: https://gitlab.cc-asp.fraunhofer.de/darcy_gnss/federated_learning'''
+bibtex = '''
+@INPROCEEDINGS{11073735,
+  author={Gaikwad, Nishant S. and Heublein, Lucas and Raichur, Nisha L. and Feigl, Tobias and Mutschler, Christopher and Ott, Felix},
+  booktitle={NOMS 2025-2025 IEEE Network Operations and Management Symposium}, 
+  title={Federated Learning with MMD-based Early Stopping for Adaptive GNSS Interference Classification}, 
+  year={2025},
+  volume={},
+  number={},
+  pages={01-10},
+  keywords={Road transportation;Representation learning;Global navigation satellite system;Adaptation models;Federated learning;Interference;Receivers;Servers;Few shot learning;Standards;Federated Learning;Few-Shot Learning;Representation Learning;Maximum Mean Discrepancy;GNSS Interference Classification;Sensor Orchestration},
+  doi={10.1109/NOMS57970.2025.11073735}}'''
+
+[links]
+Website = "https://ieeexplore.ieee.org/abstract/document/11073735"
+
+[image]
+src = "/wp-content/uploads/2026/09/11073735-fig-1-source-small-300x163.gif"
+alt = ""
+width = 300
+height = 163
+sizes = "(max-width: 300px) 100vw, 300px"
+class = "attachment-medium size-medium"
+
+[image.sources]
+300w = "/wp-content/uploads/2026/09/11073735-fig-1-source-small-300x163.gif"
+396w = "/wp-content/uploads/2026/09/11073735-fig-1-source-small.gif"

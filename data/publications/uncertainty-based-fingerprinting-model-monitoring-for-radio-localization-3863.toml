@@ -1,0 +1,35 @@
+title = "Uncertainty-based fingerprinting model monitoring for radio localization"
+authors = ["Maximilian Stahlke", "Tobias Feigl", "Sebastian Kram", "Bjoern M Eskofier", "Christopher Mutschler"]
+date = "2024-01-01"
+venue = "IEEE Journal of Indoor and Seamless Positioning and Navigation"
+detail_url = "/publication/uncertainty-based-fingerprinting-model-monitoring-for-radio-localization/"
+profiles = ["christopher-mutschler"]
+doi = "https://doi.org/10.1109/JISPIN.2024.3398568"
+abstract = "In this article, we propose methods for uncertainty estimation of AI-based fingerprinting to determine its spatial boundaries and validity. Our experiments show that we can successfully identify spatial boundaries of the fingerprinting models and detect corrupted areas. In contrast to the state-of-the-art, our approach employs an intrinsic identification through out-of-distribution (OOD) detection, rendering external detection approaches unnecessary."
+bibtex = '''
+@ARTICLE{10526425,
+  author={Stahlke, Maximilian and Feigl, Tobias and Kram, Sebastian and Eskofier, Bjoern M. and Mutschler, Christopher},
+  journal={IEEE Journal of Indoor and Seamless Positioning and Navigation}, 
+  title={Uncertainty-Based Fingerprinting Model Monitoring for Radio Localization}, 
+  year={2024},
+  volume={2},
+  number={},
+  pages={166-176},
+  keywords={Fingerprint recognition;Location awareness;Uncertainty;Neural networks;Estimation;Covariance matrices;Reliability;5G mobile communication;Ultra wideband technology;Indoor environment;Propagation;Rendering (computer graphics);Line-of-sight propagation;Indoor radio communication;Detection algorithms;5G;fingerprinting;hybrid localization;radio localization;ultra-wideband (UWB);uncertainty quantification},
+  doi={10.1109/JISPIN.2024.3398568}}'''
+
+[links]
+Website = "https://ieeexplore.ieee.org/abstract/document/10526425"
+
+[image]
+src = "/wp-content/uploads/2026/09/jispin-gagraphic-3398568-300x141.png"
+alt = ""
+width = 300
+height = 141
+sizes = "(max-width: 300px) 100vw, 300px"
+class = "attachment-medium size-medium"
+
+[image.sources]
+300w = "/wp-content/uploads/2026/09/jispin-gagraphic-3398568-300x141.png"
+768w = "/wp-content/uploads/2026/09/jispin-gagraphic-3398568-768x361.png"
+916w = "/wp-content/uploads/2026/09/jispin-gagraphic-3398568.png"

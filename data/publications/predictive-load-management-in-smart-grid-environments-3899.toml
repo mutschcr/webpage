@@ -1,0 +1,43 @@
+title = "Predictive Load Management in Smart Grid Environments"
+authors = ["Christopher Mutschler", "Christoffer Löffler", "Nicolas Witt", "Thorsten Edelhäußer", "Michael Philippsen"]
+date = "2014-01-01"
+venue = "8th ACM International Conference on Distributed Event-Based Systems"
+detail_url = "/publication/predictive-load-management-in-smart-grid-environments/"
+profiles = ["christopher-mutschler"]
+doi = "https://doi.org/10.1145/2611286.2611330"
+abstract = '''
+The DEBS 2014 Grand Challenge targets the monitoring and prediction of energy loads of smart plugs installed in private households. This paper presents details of our middleware solution and efficient median calculation, shows how we address data quality issues, and provides insights into our enhanced prediction based on hidden Markov models.
+The evaluation on the smart grid data set shows that we process up to 244k input events per second with an average detection latency of only 13.3ms, and that our system efficiently scales across nodes to increase throughput. Our prediction model significantly outperforms the median-based prediction as it deviates much less from the real load values, and as it consumes considerably less memory.'''
+bibtex = '''
+@inproceedings{10.1145/2611286.2611330,
+author = {Mutschler, Christopher and L{\"o}ffler, Christoffer and Witt, Nicolas and Edelh{\"a}u{\ss}er, Thorsten and Philippsen, Michael},
+title = {Predictive load management in smart grid environments},
+year = {2014},
+isbn = {9781450327374},
+publisher = {Association for Computing Machinery},
+address = {New York, NY, USA},
+url = {https://doi.org/10.1145/2611286.2611330},
+doi = {10.1145/2611286.2611330},
+abstract = {The DEBS 2014 Grand Challenge targets the monitoring and prediction of energy loads of smart plugs installed in private households. This paper presents details of our middleware solution and efficient median calculation, shows how we address data quality issues, and provides insights into our enhanced prediction based on hidden Markov models.The evaluation on the smart grid data set shows that we process up to 244k input events per second with an average detection latency of only 13.3ms, and that our system efficiently scales across nodes to increase throughput. Our prediction model significantly outperforms the median-based prediction as it deviates much less from the real load values, and as it consumes considerably less memory.},
+booktitle = {Proceedings of the 8th ACM International Conference on Distributed Event-Based Systems},
+pages = {282–287},
+numpages = {6},
+keywords = {distributed event processing, hidden Markov model},
+location = {Mumbai, India},
+series = {DEBS '14}
+}'''
+
+[links]
+Website = "https://dl.acm.org/doi/abs/10.1145/2611286.2611330"
+
+[image]
+src = "/wp-content/uploads/2026/09/Bildschirmfoto-2026-09-22-um-18.09.54-300x160.png"
+alt = ""
+width = 300
+height = 160
+sizes = "(max-width: 300px) 100vw, 300px"
+class = "attachment-medium size-medium"
+
+[image.sources]
+300w = "/wp-content/uploads/2026/09/Bildschirmfoto-2026-09-22-um-18.09.54-300x160.png"
+590w = "/wp-content/uploads/2026/09/Bildschirmfoto-2026-09-22-um-18.09.54.png"

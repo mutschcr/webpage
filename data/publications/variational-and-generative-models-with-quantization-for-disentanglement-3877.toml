@@ -1,0 +1,38 @@
+title = "Variational and Generative Models with Quantization for Disentanglement and Compressed Sensing of GNSS Spectrograms"
+authors = ["Lucas Heublein", "Tobias Feigl", "Alexander Rügamer", "Christopher Mutschler", "Felix Ott"]
+date = "2026-01-01"
+venue = "IEEE Journal of Indoor and Seamless Positioning and Navigation"
+detail_url = "/publication/variational-and-generative-models-with-quantization-for-disentanglement-and-compressed-sensing-of-gnss-spectrograms/"
+profiles = []
+doi = "https://doi.org/10.1109/JISPIN.2026.3655630"
+abstract = "We propose variational autoencoders (VAEs) for disentanglement to extract essential latent features that enable accurate classification of interferences. We demonstrate that the disentanglement approach can be leveraged for both data compression and data augmentation by interpolating the lower-dimensional latent representations of signal power. To validate our approach, we evaluate three VAE variants—vanilla, factorized, and conditional generative—and benchmark 19 state-of-the-art VAE and generative models on five distinct datasets, including three collected in controlled indoor environments and two real-world highway datasets. In addition, we conduct extensive hyperparameter searches to optimize performance. Our proposed VAE achieves a data compression rate ranging from 512 to 8192 and achieves an accuracy up to 99.92%. Quantizing our model from float32 to int8 results in a fourfold reduction in model weight size."
+bibtex = '''
+@ARTICLE{11358953,
+  author={Heublein, Lucas and Feigl, Tobias and Rügamer, Alexander and Mutschler, Christopher and Ott, Felix},
+  journal={IEEE Journal of Indoor and Seamless Positioning and Navigation}, 
+  title={Variational and Generative Models With Quantization for Disentanglement and Compressed Sensing of GNSS Spectrograms}, 
+  year={2026},
+  volume={4},
+  number={},
+  pages={65-81},
+  keywords={Global navigation satellite system;Interference;Feature extraction;Data models;Biological system modeling;Quantization (signal);Training;Monitoring;Computational modeling;Accuracy;Compressed sensing;data augmentation;disentanglement;Global Navigation Satellite System (GNSS) interference classification;generative model;quantization;variational autoencoder (VAE)},
+  doi={10.1109/JISPIN.2026.3655630}}'''
+
+[links]
+Website = "https://ieeexplore.ieee.org/abstract/document/11358953"
+
+[image]
+src = "/wp-content/uploads/2026/09/jispin-gagraphic-3655630-300x136.jpg"
+alt = ""
+width = 300
+height = 136
+sizes = "(max-width: 300px) 100vw, 300px"
+class = "attachment-medium size-medium"
+
+[image.sources]
+1536w = "/wp-content/uploads/2026/09/jispin-gagraphic-3655630-1536x696.jpg"
+2048w = "/wp-content/uploads/2026/09/jispin-gagraphic-3655630-2048x928.jpg"
+300w = "/wp-content/uploads/2026/09/jispin-gagraphic-3655630-300x136.jpg"
+768w = "/wp-content/uploads/2026/09/jispin-gagraphic-3655630-768x348.jpg"
+1024w = "/wp-content/uploads/2026/09/jispin-gagraphic-3655630-1024x464.jpg"
+2050w = "/wp-content/uploads/2026/09/jispin-gagraphic-3655630.jpg"

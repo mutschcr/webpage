@@ -1,0 +1,43 @@
+title = "Domain Adaptation for Time-Series Classification to Mitigate Covariate Shift"
+authors = ["Felix Ott", "David Rügamer", "Lucas Heublein", "Bernd Bischl", "Christopher Mutschler"]
+date = "2022-01-01"
+venue = "30th ACM International Conference on Multimedia"
+detail_url = "/publication/domain-adaptation-for-time-series-classification-to-mitigate-covariate-shift/"
+profiles = ["christopher-mutschler"]
+doi = "https://doi.org/10.1145/3503161.3548167"
+abstract = "We propose a novel supervised DA based on two steps. First, we search for an optimal class-dependent transformation from the source to the target domain from a few samples. We consider optimal transport methods such as the earth mover's distance, Sinkhorn transport and correlation alignment. Second, we use embedding similarity techniques to select the corresponding transformation at inference. We use correlation metrics and higher-order moment matching techniques."
+bibtex = '''
+@inproceedings{10.1145/3503161.3548167,
+author = {Ott, Felix and R{\"u}gamer, David and Heublein, Lucas and Bischl, Bernd and Mutschler, Christopher},
+title = {Domain Adaptation for Time-Series Classification to Mitigate Covariate Shift},
+year = {2022},
+isbn = {9781450392037},
+publisher = {Association for Computing Machinery},
+address = {New York, NY, USA},
+url = {https://doi.org/10.1145/3503161.3548167},
+doi = {10.1145/3503161.3548167},
+abstract = {The performance of a machine learning model degrades when it is applied to data from a similar but different domain than the data it has initially been trained on. To mitigate this domain shift problem, domain adaptation (DA) techniques search for an optimal transformation that converts the (current) input data from a source domain to a target domain to learn a domain-invariant representation that reduces domain discrepancy. This paper proposes a novel supervised DA based on two steps. First, we search for an optimal class-dependent transformation from the source to the target domain from a few samples. We consider optimal transport methods such as the earth mover's distance, Sinkhorn transport and correlation alignment. Second, we use embedding similarity techniques to select the corresponding transformation at inference. We use correlation metrics and higher-order moment matching techniques. We conduct an extensive evaluation on time-series datasets with domain shift including simulated and various online handwriting datasets to demonstrate the performance.},
+booktitle = {Proceedings of the 30th ACM International Conference on Multimedia},
+pages = {5934–5943},
+numpages = {10},
+keywords = {time-series classification, optimal transport, online handwriting recognition, embedding similarity, domain shift, domain adaptation},
+location = {Lisboa, Portugal},
+series = {MM '22}
+}'''
+
+[links]
+Website = "https://dl.acm.org/doi/abs/10.1145/3503161.3548167"
+
+[image]
+src = "/wp-content/uploads/2026/09/3503161.3548167-300x148.jpg"
+alt = ""
+width = 300
+height = 148
+sizes = "(max-width: 300px) 100vw, 300px"
+class = "attachment-medium size-medium"
+
+[image.sources]
+300w = "/wp-content/uploads/2026/09/3503161.3548167-300x148.jpg"
+768w = "/wp-content/uploads/2026/09/3503161.3548167-768x378.jpg"
+1024w = "/wp-content/uploads/2026/09/3503161.3548167-1024x504.jpg"
+1130w = "/wp-content/uploads/2026/09/3503161.3548167.jpg"
